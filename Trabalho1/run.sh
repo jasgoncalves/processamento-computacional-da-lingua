@@ -7,6 +7,8 @@ for i in sources/*.txt tests/*.txt; do
     fstcompile --isymbols=syms.txt --osymbols=syms.txt $i | fstarcsort > compiled/$(basename $i ".txt").fst
 done
 
+fstcompile compiled/d2dd1.fst | fstrmepsilon > compiled/d2dd3.fst
+
 # TODO
 echo "Testing the transducer 'converter' with the input 'tests/numeroR.txt' (generating pdf)"
 fstcompose compiled/numeroR.fst compiled/converter.fst | fstshortestpath > compiled/numeroA.fst
@@ -21,6 +23,8 @@ fstcompose compiled/test_d2dd_13.fst compiled/d2dd.fst | fstshortestpath > compi
 echo "Testing the transducer 'd2dd' with the input 'tests/test_d2dd.txt' (generating pdf)"
 fstcompose compiled/test_d2dd_46.fst compiled/d2dd.fst | fstshortestpath > compiled/resp_d2dd.fst
 echo "Testing the transducer 'd2dd' with the input 'tests/test_d2dd.txt' (generating pdf)"
+fstcompose compiled/test_d2dd_194.fst compiled/d2dd.fst | fstshortestpath > compiled/resp_d2dd.fst
+echo "Testing the transducer 'd2dd' with the input 'tests/test_d2dd.txt' (generating pdf)"
 fstcompose compiled/test_d2dd_2579.fst compiled/d2dd.fst | fstshortestpath > compiled/resp_d2dd.fst
 echo "Testing the transducer 'd2dd' with the input 'tests/test_d2dd.txt' (generating pdf)"
 fstcompose compiled/test_d2dd_0.fst compiled/d2dddd.fst | fstshortestpath > compiled/resp_d2dddd.fst
@@ -30,6 +34,8 @@ echo "Testing the transducer 'd2dd' with the input 'tests/test_d2dd.txt' (gener
 fstcompose compiled/test_d2dd_13.fst compiled/d2dddd.fst | fstshortestpath > compiled/resp_d2dddd.fst
 echo "Testing the transducer 'd2dd' with the input 'tests/test_d2dd.txt' (generating pdf)"
 fstcompose compiled/test_d2dd_46.fst compiled/d2dddd.fst | fstshortestpath > compiled/resp_d2dddd.fst
+echo "Testing the transducer 'd2dd' with the input 'tests/test_d2dd.txt' (generating pdf)"
+fstcompose compiled/test_d2dd_194.fst compiled/d2dddd.fst | fstshortestpath > compiled/resp_d2dddd.fst
 echo "Testing the transducer 'd2dd' with the input 'tests/test_d2dd.txt' (generating pdf)"
 fstcompose compiled/test_d2dd_2579.fst compiled/d2dddd.fst | fstshortestpath > compiled/resp_d2dddd.fst
 
@@ -54,6 +60,8 @@ fstcompose compiled/test_d2dd_13.fst compiled/d2dd.fst | fstshortestpath | fstpr
 echo "Testing the transducer 'd2dd' with the input 'tests/test_d2dd.txt' (stdout)"
 fstcompose compiled/test_d2dd_46.fst compiled/d2dd.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
 echo "Testing the transducer 'd2dd' with the input 'tests/test_d2dd.txt' (stdout)"
+fstcompose compiled/test_d2dd_194.fst compiled/d2dd.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
+echo "Testing the transducer 'd2dd' with the input 'tests/test_d2dd.txt' (stdout)"
 fstcompose compiled/test_d2dd_2579.fst compiled/d2dd.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
 echo "Testing the transducer 'd2dddd' with the input 'tests/test_d2dd.txt' (stdout)"
 fstcompose compiled/test_d2dd_0.fst compiled/d2dddd.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
@@ -64,4 +72,6 @@ fstcompose compiled/test_d2dd_13.fst compiled/d2dddd.fst | fstshortestpath | fst
 echo "Testing the transducer 'd2dddd' with the input 'tests/test_d2dd.txt' (stdout)"
 fstcompose compiled/test_d2dd_46.fst compiled/d2dddd.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
 echo "Testing the transducer 'd2dddd' with the input 'tests/test_d2dd.txt' (stdout)"
+fstcompose compiled/test_d2dd_194.fst compiled/d2dddd.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
+echo "Testing the transducer 'd2dd' with the input 'tests/test_d2dd.txt' (stdout)"
 fstcompose compiled/test_d2dd_2579.fst compiled/d2dddd.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
