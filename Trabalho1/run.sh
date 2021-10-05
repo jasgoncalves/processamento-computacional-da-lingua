@@ -22,9 +22,8 @@ fstconcat compiled/d2dd.fst compiled/dash.fst | fstconcat - compiled/mm2mmm.fst 
 # 3. b)
 fstconcat compiled/r2a.fst compiled/dash.fst | fstconcat - compiled/r2a.fst | fstconcat - compiled/dash.fst | fstconcat - compiled/r2a.fst > compiled/date_r2a.fst
 # 3. b)
-fstinvert compiled/mm2mmm.fst > compiled/mmm2mm.fst
-fstcompose compiled/mmm2mm.fst compiled/a2r.fst > compiled/abc.fst
-fstconcat compiled/a2r.fst compiled/dash.fst | fstconcat - compiled/abc.fst | fstconcat - compiled/dash.fst | fstconcat - compiled/a2r.fst > compiled/date_t2r.fst
+fstinvert compiled/mm2mmm.fst | fstcompose - compiled/a2r.fst > compiled/mmm2r.fst
+fstconcat compiled/a2r.fst compiled/dash.fst | fstconcat - compiled/mmm2r.fst | fstconcat - compiled/dash.fst | fstconcat - compiled/a2r.fst > compiled/date_t2r.fst
 
 # 1. a)
 echo "Testing the transducer 'mm2mmm' with the input 'tests/test_mm2mmm.txt' (generating pdf)"
@@ -82,17 +81,17 @@ echo "Testing the transducer 'date2year' with the input 'compiled/resp_date2nor
 fstcompose compiled/resp_date2norm.fst compiled/date2year.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
 
 # 2. a)
-echo "Testing the transducer 'r2a' with the input 'compiled/resp_r2a.fst' (stdout)"
+echo "Testing the transducer 'r2a' with the input 'tests/test_r2a.txt' (stdout)"
 fstcompose compiled/test_r2a.fst compiled/r2a.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
 # 2. b)
-echo "Testing the transducer 'a2r' with the input 'compiled/resp_a2r.fst' (stdout)"
+echo "Testing the transducer 'a2r' with the input 'tests/test_a2r.txt' (stdout)"
 fstcompose compiled/test_a2r.fst compiled/a2r.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
 
 # 3. a)
 echo "Testing the transducer 'date_a2t' with the input 'tests/date_a2t.txt' (stdout)"
 fstcompose compiled/95000a.fst compiled/date_a2t.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
 # 3. b)
-echo "Testing the transducer 'date_r2a' with the input 'tests/date_r2a.txt' (stdout)"
+echo "Testing the transducer 'date_r2a' with the input 'tests/test_a2r.txt' (stdout)"
 fstcompose compiled/95000b.fst compiled/date_r2a.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
 # 3. c)
 echo "Testing the transducer 'date_t2r' with the input 'tests/date_t2r.txt' (stdout)"
