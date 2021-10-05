@@ -9,7 +9,8 @@ done
 
 fstconcat compiled/d2dd.fst compiled/dash.fst | fstconcat - compiled/d2dd.fst  | fstconcat - compiled/dash.fst | fstconcat - compiled/d2dddd.fst | fstrmepsilon > compiled/date2norm.fst
 fstconcat compiled/skip.fst compiled/skip.fst | fstconcat - compiled/skip.fst  | fstconcat - compiled/skip.fst | fstconcat - compiled/skip.fst  | fstconcat - compiled/d2dddd.fst  > compiled/date2year.fst
-
+# 2. a)
+fstconcat compiled/r2a_milhares.fst compiled/r2a_centenas.fst | fstconcat - compiled/r2a_dezenas.fst | fstconcat - compiled/r2a_unidades.fst > compiled/r2a.fst
 
 # TODO
 echo "Testing the transducer 'converter' with the input 'tests/numeroR.txt' (generating pdf)"
@@ -50,6 +51,9 @@ echo "Testing the transducer 'date2norm' with the input 'tests/test_date2norm.t
 fstcompose compiled/test_date2norm_089900.fst compiled/date2norm.fst | fstshortestpath > compiled/resp_date2norm.fst
 echo "Testing the transducer 'date2year' with the input 'compiled/resp_date2norm.fst' (generating pdf)"
 fstcompose compiled/resp_date2norm.fst compiled/date2year.fst | fstshortestpath > compiled/resp_date2year.fst
+# 2. a)
+echo "Testing the transducer 'r2a' with the input 'tests/test_r2a.txt' (generating pdf)"
+fstcompose compiled/test_r2a.fst compiled/r2a.fst | fstshortestpath > compiled/resp_r2a.fst
 
 # Creating PDF versions of each transducer
 for i in compiled/*.fst; do
@@ -96,3 +100,6 @@ echo "Testing the transducer 'date2norm' with the input 'tests/test_date2norm_8
 fstcompose compiled/test_date2norm_892013.fst compiled/date2norm.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
 echo "Testing the transducer 'date2year' with the input 'compiled/resp_date2norm.fst' (stdout)"
 fstcompose compiled/resp_date2norm.fst compiled/date2year.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
+# 2. a)
+echo "Testing the transducer 'r2a' with the input 'compiled/resp_r2a.fst' (stdout)"
+fstcompose compiled/test_r2a.fst compiled/r2a.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt

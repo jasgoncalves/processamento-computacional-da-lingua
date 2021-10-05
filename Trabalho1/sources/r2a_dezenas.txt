@@ -1,0 +1,27 @@
+0   1   X   eps
+1   2   X   eps
+1   3   eps 1
+2   4   X   eps
+2   5   eps 2
+4   6   eps 3
+1   7   L   4
+0   8   L   eps
+8   9   X   eps
+8   10  eps 5
+9   11  X   eps
+9   12  eps 6
+11  13  X   eps
+11  14  eps 7
+13  15  eps 8
+1   16  C   9
+0   17  eps 0
+3
+5
+6
+7
+10
+12
+14
+15
+16
+17
