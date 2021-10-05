@@ -12,11 +12,10 @@ fstconcat compiled/skip.fst compiled/skip.fst | fstconcat - compiled/skip.fst  |
 # 2. a)
 fstconcat compiled/r2a_milhares.fst compiled/r2a_centenas.fst | fstconcat - compiled/r2a_dezenas.fst | fstconcat - compiled/r2a_unidades.fst > compiled/r2a.fst
 
-# TODO
-echo "Testing the transducer 'converter' with the input 'tests/numeroR.txt' (generating pdf)"
-fstcompose compiled/numeroR.fst compiled/converter.fst | fstshortestpath > compiled/numeroA.fst
+# 1. a)
 echo "Testing the transducer 'mm2mmm' with the input 'tests/test_mm2mmm.txt' (generating pdf)"
 fstcompose compiled/test_mm2mmm.fst compiled/mm2mmm.fst | fstshortestpath > compiled/resp_mm2mmm.fst
+# 1. b)
 echo "Testing the transducer 'd2dd' with the input 'tests/test_d2dd.txt' (generating pdf)"
 fstcompose compiled/test_d2dd_0.fst compiled/d2dd.fst | fstshortestpath > compiled/resp_d2dd.fst
 echo "Testing the transducer 'd2dd' with the input 'tests/test_d2dd.txt' (generating pdf)"
@@ -31,6 +30,7 @@ echo "Testing the transducer 'd2dd' with the input 'tests/test_d2dd.txt' (gener
 fstcompose compiled/test_d2dd_2579.fst compiled/d2dd.fst | fstshortestpath > compiled/resp_d2dd.fst
 echo "Testing the transducer 'd2dd' with the input 'tests/test_d2dd.txt' (generating pdf)"
 fstcompose compiled/test_d2dd_97531.fst compiled/d2dd.fst | fstshortestpath > compiled/resp_d2dd.fst
+# 1. c)
 echo "Testing the transducer 'd2dd' with the input 'tests/test_d2dd.txt' (generating pdf)"
 fstcompose compiled/test_d2dd_0.fst compiled/d2dddd.fst | fstshortestpath > compiled/resp_d2dddd.fst
 echo "Testing the transducer 'd2dd' with the input 'tests/test_d2dd.txt' (generating pdf)"
@@ -45,10 +45,12 @@ echo "Testing the transducer 'd2dd' with the input 'tests/test_d2dd.txt' (gener
 fstcompose compiled/test_d2dd_2579.fst compiled/d2dddd.fst | fstshortestpath > compiled/resp_d2dddd.fst
 echo "Testing the transducer 'd2dd' with the input 'tests/test_d2dd.txt' (generating pdf)"
 fstcompose compiled/test_d2dd_97531.fst compiled/d2dddd.fst | fstshortestpath > compiled/resp_d2dddd.fst
+# 1. e)
 echo "Testing the transducer 'date2norm' with the input 'tests/test_date2norm.txt' (generating pdf)"
 fstcompose compiled/test_date2norm_892013.fst compiled/date2norm.fst | fstshortestpath > compiled/resp_date2norm.fst
 echo "Testing the transducer 'date2norm' with the input 'tests/test_date2norm.txt' (generating pdf)"
 fstcompose compiled/test_date2norm_089900.fst compiled/date2norm.fst | fstshortestpath > compiled/resp_date2norm.fst
+# 1. d)
 echo "Testing the transducer 'date2year' with the input 'compiled/resp_date2norm.fst' (generating pdf)"
 fstcompose compiled/resp_date2norm.fst compiled/date2year.fst | fstshortestpath > compiled/resp_date2year.fst
 # 2. a)
@@ -61,11 +63,10 @@ for i in compiled/*.fst; do
     fstdraw --portrait --isymbols=syms.txt --osymbols=syms.txt $i | dot -Tpdf > images/$(basename $i '.fst').pdf
 done
 
-# Testing
-echo "Testing the transducer 'converter' with the input 'tests/numeroR.txt' (stdout)"
-fstcompose compiled/numeroR.fst compiled/converter.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
+# 1. a)
 echo "Testing the transducer 'mm2mmm' with the input 'tests/test_mm2mmm.txt' (stdout)"
 fstcompose compiled/test_mm2mmm.fst compiled/mm2mmm.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
+# 1. b)
 echo "Testing the transducer 'd2dd' with the input 'tests/test_d2dd.txt' (stdout)"
 fstcompose compiled/test_d2dd_0.fst compiled/d2dd.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
 echo "Testing the transducer 'd2dd' with the input 'tests/test_d2dd.txt' (stdout)"
@@ -80,6 +81,7 @@ echo "Testing the transducer 'd2dd' with the input 'tests/test_d2dd.txt' (stdou
 fstcompose compiled/test_d2dd_2579.fst compiled/d2dd.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
 echo "Testing the transducer 'd2dd' with the input 'tests/test_d2dd.txt' (stdout)"
 fstcompose compiled/test_d2dd_97531.fst compiled/d2dd.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
+# 1. c)
 echo "Testing the transducer 'd2dddd' with the input 'tests/test_d2dd.txt' (stdout)"
 fstcompose compiled/test_d2dd_0.fst compiled/d2dddd.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
 echo "Testing the transducer 'd2dddd' with the input 'tests/test_d2dd.txt' (stdout)"
@@ -94,10 +96,12 @@ echo "Testing the transducer 'd2dd' with the input 'tests/test_d2dd.txt' (stdou
 fstcompose compiled/test_d2dd_2579.fst compiled/d2dddd.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
 echo "Testing the transducer 'd2dd' with the input 'tests/test_d2dd.txt' (stdout)"
 fstcompose compiled/test_d2dd_97531.fst compiled/d2dddd.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
+# 1. e)
 echo "Testing the transducer 'date2norm' with the input 'tests/test_date2norm_089900.txt' (stdout)"
 fstcompose compiled/test_date2norm_089900.fst compiled/date2norm.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
 echo "Testing the transducer 'date2norm' with the input 'tests/test_date2norm_892013.txt' (stdout)"
 fstcompose compiled/test_date2norm_892013.fst compiled/date2norm.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
+# 1. d)
 echo "Testing the transducer 'date2year' with the input 'compiled/resp_date2norm.fst' (stdout)"
 fstcompose compiled/resp_date2norm.fst compiled/date2year.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
 # 2. a)
