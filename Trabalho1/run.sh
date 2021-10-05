@@ -21,8 +21,8 @@ fstcompose compiled/test_mm2mmm.fst compiled/mm2mmm.fst | fstshortestpath > comp
 echo "Testing the transducer 'd2dd' with the input 'tests/test_d2dd_8.txt' (generating pdf)"
 fstcompose compiled/test_d2dd_8.fst compiled/d2dd.fst | fstshortestpath > compiled/resp_d2dd.fst
 # 1. c)
-echo "Testing the transducer 'd2dddd' with the input 'tests/test_d2dd_97531.txt' (generating pdf)"
-fstcompose compiled/test_d2dd_97531.fst compiled/d2dddd.fst | fstshortestpath > compiled/resp_d2dddd.fst
+echo "Testing the transducer 'd2dddd' with the input 'tests/test_d2dd_8.txt' (generating pdf)"
+fstcompose compiled/test_d2dd_8.fst compiled/d2dddd.fst | fstshortestpath > compiled/resp_d2dddd.fst
 # 1. e)
 echo "Testing the transducer 'date2norm' with the input 'tests/test_date2norm_892013.txt' (generating pdf)"
 fstcompose compiled/test_date2norm_892013.fst compiled/date2norm.fst | fstshortestpath > compiled/resp_date2norm.fst
@@ -49,8 +49,8 @@ fstcompose compiled/test_mm2mmm.fst compiled/mm2mmm.fst | fstshortestpath | fstp
 echo "Testing the transducer 'd2dd' with the input 'tests/test_d2dd.txt' (stdout)"
 fstcompose compiled/test_d2dd_8.fst compiled/d2dd.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
 # 1. c)
-echo "Testing the transducer 'd2dddd' with the input 'tests/test_d2dd_97531.txt' (stdout)"
-fstcompose compiled/test_d2dd_97531.fst compiled/d2dddd.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
+echo "Testing the transducer 'd2dddd' with the input 'tests/test_d2dd_8.txt' (stdout)"
+fstcompose compiled/test_d2dd_8.fst compiled/d2dddd.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
 # 1. e)
 echo "Testing the transducer 'date2norm' with the input 'tests/test_date2norm_892013.txt' (stdout)"
 fstcompose compiled/test_date2norm_892013.fst compiled/date2norm.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
