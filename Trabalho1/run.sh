@@ -10,7 +10,7 @@ done
 # 1. e)
 fstconcat compiled/d2dd.fst compiled/dash.fst | fstconcat - compiled/d2dd.fst  | fstconcat - compiled/dash.fst | fstconcat - compiled/d2dddd.fst | fstrmepsilon > compiled/date2norm.fst
 # 1. d)
-fstconcat compiled/skip.fst compiled/skip.fst | fstconcat - compiled/skip.fst  | fstconcat - compiled/skip.fst | fstconcat - compiled/skip.fst  | fstconcat - compiled/d2dddd.fst  > compiled/date2year.fst
+fstconcat compiled/skip.fst compiled/skip.fst | fstconcat - compiled/skip.fst  | fstconcat - compiled/skip.fst | fstconcat - compiled/skip.fst | fstconcat - compiled/skip.fst | fstconcat - compiled/d2dddd.fst  > compiled/date2year.fst
 # 1. f)
 fstconcat compiled/bissexto_4multiplesupto99.fst compiled/bissexto_skipdoublezero.fst | fstconcat - compiled/bissexto_yes.fst | fstrmepsilon > compiled/bissexto_400multiples.fst
 fstconcat compiled/bissexto_skip.fst compiled/bissexto_skip.fst | fstconcat - compiled/bissexto_4multiplesupto99.fst | fstconcat - compiled/bissexto_yes.fst | fstrmepsilon > compiled/bissexto_4multiples.fst
@@ -19,7 +19,14 @@ fstconcat compiled/bissexto_skip.fst compiled/bissexto_skip.fst | fstconcat - co
 fstunion compiled/bissexto_400multiples.fst compiled/bissexto_4multiples.fst | fstunion - compiled/bissexto_non400multiples.fst | fstunion - compiled/bissexto_non4multiples.fst | fstrmepsilon > compiled/bissexto.fst
 
 # 2. a)
-fstconcat compiled/r2a_milhares.fst compiled/r2a_centenas.fst | fstconcat - compiled/r2a_dezenas.fst | fstconcat - compiled/r2a_unidades.fst > compiled/r2a.fst
+fstunion compiled/r2a_centenas.fst compiled/r2a_zero.fst | fstrmepsilon > compiled/r2a_centenas_zero.fst
+fstunion compiled/r2a_dezenas.fst compiled/r2a_zero.fst | fstrmepsilon > compiled/r2a_dezenas_zero.fst
+fstunion compiled/r2a_unidades.fst compiled/r2a_zero.fst | fstrmepsilon > compiled/r2a_unidades_zero.fst
+fstconcat compiled/r2a_milhares.fst compiled/r2a_centenas_zero.fst | fstconcat - compiled/r2a_dezenas_zero.fst | fstconcat - compiled/r2a_unidades_zero.fst | fstrmepsilon > compiled/r2a_trans_milhares.fst
+fstconcat compiled/r2a_centenas.fst compiled/r2a_dezenas_zero.fst | fstconcat - compiled/r2a_unidades_zero.fst | fstrmepsilon > compiled/r2a_trans_centenas.fst
+fstconcat compiled/r2a_dezenas.fst compiled/r2a_unidades_zero.fst | fstrmepsilon > compiled/r2a_trans_dezenas.fst
+fstunion compiled/r2a_trans_milhares.fst compiled/r2a_trans_centenas.fst | fstunion - compiled/r2a_trans_dezenas.fst  | fstunion - compiled/r2a_unidades.fst | fstrmepsilon > compiled/r2a.fst
+
 # 2. b)
 fstconcat compiled/a2r_milhares.fst compiled/a2r_centenas.fst | fstconcat - compiled/a2r_dezenas.fst | fstconcat - compiled/a2r_unidades.fst > compiled/a2r.fst
 
@@ -30,6 +37,11 @@ fstconcat compiled/r2a.fst compiled/dash.fst | fstconcat - compiled/r2a.fst | fs
 # 3. b)
 fstinvert compiled/mm2mmm.fst | fstcompose - compiled/a2r.fst > compiled/mmm2r.fst
 fstconcat compiled/a2r.fst compiled/dash.fst | fstconcat - compiled/mmm2r.fst | fstconcat - compiled/dash.fst | fstconcat - compiled/a2r.fst > compiled/date_t2r.fst
+
+# 3. d) 
+fstarcsort --sort_type=olabel compiled/date_r2a.fst compiled/date_r2a_sorted.fst
+fstarcsort --sort_type=olabel compiled/date2norm.fst compiled/date2norm_sorted.fst
+fstcompose compiled/date_r2a_sorted.fst compiled/date2norm_sorted.fst | fstcompose - compiled/date2year.fst | fstcompose - compiled/bissexto.fst > compiled/date_r2bissexto.fst
 
 # 1. a)
 echo "Testing the transducer 'mm2mmm' with the input 'tests/test_mm2mmm.txt' (generating pdf)"
@@ -69,6 +81,9 @@ fstcompose compiled/95000b.fst compiled/date_r2a.fst | fstshortestpath > compile
 # 3. c)
 echo "Testing the transducer 'date_t2r' with the input 'tests/date_t2r.txt' (generating pdf)"
 fstcompose compiled/95000c.fst compiled/date_t2r.fst | fstshortestpath > compiled/95000_date_t2r.fst
+# 3. d)
+echo "Testing the transducer 'date_t2r' with the input 'tests/95000c.txt' (generating pdf)"
+fstcompose compiled/95000d.fst compiled/date_r2bissexto.fst | fstshortestpath > compiled/95000_date_r2bissexto.fst
 
 # Creating PDF versions of each transducer
 for i in compiled/*.fst; do
@@ -90,7 +105,7 @@ echo "Testing the transducer 'date2norm' with the input 'tests/test_date2norm_8
 fstcompose compiled/test_date2norm_892013.fst compiled/date2norm.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
 # 1. d)
 echo "Testing the transducer 'date2year' with the input 'compiled/resp_date2norm.fst' (stdout)"
-fstcompose compiled/resp_date2norm.fst compiled/date2year.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
+fstcompose compiled/95000a.fst compiled/date2year.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
 # 1. f)
 echo "Testing the transducer 'bissexto' with the input 'compiled/test_bissexto_0000.fst' (stdout)"
 fstcompose compiled/test_bissexto_0001.fst compiled/bissexto.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
@@ -113,7 +128,10 @@ echo "Testing the transducer 'date_a2t' with the input 'tests/date_a2t.txt' (st
 fstcompose compiled/95000a.fst compiled/date_a2t.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
 # 3. b)
 echo "Testing the transducer 'date_r2a' with the input 'tests/test_a2r.txt' (stdout)"
-fstcompose compiled/95000b.fst compiled/date_r2a.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
+fstcompose compiled/95000d.fst compiled/date_r2a.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
 # 3. c)
 echo "Testing the transducer 'date_t2r' with the input 'tests/date_t2r.txt' (stdout)"
 fstcompose compiled/95000c.fst compiled/date_t2r.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
+# 3. c)
+echo "Testing the transducer 'date_r2bissexto' with the input 'tests/95000c.txt' (stdout)"
+fstcompose compiled/95000d.fst compiled/date_r2bissexto.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
