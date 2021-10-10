@@ -1,29 +1,5 @@
 Processamento Computacional Da Lingua - Relatorio Trabalho 1
 
-Diogo Fernandes - nº 95000
-Jorge Gonçalves - nº 96180
-
-Contribuiçao dos elementos:
-
-A contribuiçao dos elementos foi 50/50, inicialmente partilhamos tarefas/exercicios e depois de concluido todos os exercicios efetuamos 
-a revisao em conjunto dos mesmos e correcao de pequenos bugs que indentificamos durante a validacao.
-
-Exercicio 1 
-
-As alineas de "a" a "c" entendemos por criar transducers simples com os nos estipulados (m2mmm, d2dd e d2dddd) para obter os resultados pretendidos, 
-na alinea "d" , para a criacao do transducer date2year no formato binario recorremos a funcao fsconcat para concatenar os transducers skip e d2dddd. 
-Para a alinea "e" criamos comecamos por criar o transducer dash que verifica se o digito na transicao e um hifen e reutilizamos os transducers criados nas 
-alineas anteriores (d2dd e d2dddd), mais uma recorremos a funcao fsconcat para a concatenar os tres transducers descritos e gerar o binario date2norm.
-
-bissexto ....
-
-
-Exercicio 2
-
-r2a ....
-
-
-Exercicio 3
 Grupo:
     - Diogo Fernandes nº95000
     - Jorge Gonçalves nº96180
