@@ -48,7 +48,7 @@ fstconcat compiled/d2dd.fst compiled/dash.fst | fstconcat - compiled/mm2mmm.fst 
 echo "Creating date_r2a"
 fstconcat compiled/r2a.fst compiled/dash.fst | fstconcat - compiled/r2a.fst | fstconcat - compiled/dash.fst | fstconcat - compiled/r2a.fst > compiled/date_r2a.fst
 
-# 3. b) Creating date_t2r
+# 3. c) Creating date_t2r
 echo "Creating date_t2r"
 fstinvert compiled/mm2mmm.fst | fstcompose - compiled/a2r.fst > compiled/mmm2r.fst
 fstconcat compiled/a2r.fst compiled/dash.fst | fstconcat - compiled/mmm2r.fst | fstconcat - compiled/dash.fst | fstconcat - compiled/a2r.fst > compiled/date_t2r.fst
@@ -58,7 +58,6 @@ echo "Creating date_r2bissexto"
 fstarcsort --sort_type=olabel compiled/date_r2a.fst compiled/date_r2a_sorted.fst
 fstarcsort --sort_type=olabel compiled/date2norm.fst compiled/date2norm_sorted.fst
 fstcompose compiled/date_r2a_sorted.fst compiled/date2norm_sorted.fst | fstcompose - compiled/date2year.fst | fstcompose - compiled/bissexto.fst > compiled/date_r2bissexto.fst
-
 
 mkdir -p compiled/tests images/tests compiled/tests images/tests
 
