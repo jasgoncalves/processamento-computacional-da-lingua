@@ -35,10 +35,11 @@ fstunion compiled/r2a_trans_milhares.fst compiled/r2a_trans_centenas.fst | fstun
 
 # 2. b) Creating a2r
 echo "Creating a2r"
-fstconcat compiled/a2r_milhares.fst compiled/a2r_centenas.fst | fstconcat - compiled/a2r_dezenas.fst | fstconcat - compiled/a2r_unidades.fst > compiled/a2r_num_milhares.fst
-fstconcat compiled/a2r_centenas.fst compiled/a2r_dezenas.fst | fstconcat - compiled/a2r_unidades.fst > compiled/a2r_num_centenas.fst
-fstconcat compiled/a2r_dezenas.fst compiled/a2r_unidades.fst > compiled/a2r_num_dezenas.fst
-fstunion compiled/a2r_num_milhares.fst compiled/a2r_num_centenas.fst | fstunion - compiled/a2r_num_dezenas.fst > compiled/a2r.fst
+fstinvert compiled/r2a.fst > compiled/a2r.fst
+# fstconcat compiled/a2r_milhares.fst compiled/a2r_centenas.fst | fstconcat - compiled/a2r_dezenas.fst | fstconcat - compiled/a2r_unidades.fst > compiled/a2r_num_milhares.fst
+# fstconcat compiled/a2r_centenas.fst compiled/a2r_dezenas.fst | fstconcat - compiled/a2r_unidades.fst > compiled/a2r_num_centenas.fst
+# fstconcat compiled/a2r_dezenas.fst compiled/a2r_unidades.fst > compiled/a2r_num_dezenas.fst
+# fstunion compiled/a2r_num_milhares.fst compiled/a2r_num_centenas.fst | fstunion - compiled/a2r_num_dezenas.fst > compiled/a2r.fst
 
 # 3. a) Creating date_a2t
 echo "Creating date_a2t"
@@ -53,11 +54,11 @@ echo "Creating date_t2r"
 fstinvert compiled/mm2mmm.fst | fstcompose - compiled/a2r.fst > compiled/mmm2r.fst
 fstconcat compiled/a2r.fst compiled/dash.fst | fstconcat - compiled/mmm2r.fst | fstconcat - compiled/dash.fst | fstconcat - compiled/a2r.fst > compiled/date_t2r.fst
 
-# 3. d) Creating date_r2bissexto
-echo "Creating date_r2bissexto"
-fstarcsort --sort_type=olabel compiled/date_r2a.fst compiled/date_r2a_sorted.fst
-fstarcsort --sort_type=olabel compiled/date2norm.fst compiled/date2norm_sorted.fst
-fstcompose compiled/date_r2a_sorted.fst compiled/date2norm_sorted.fst | fstcompose - compiled/date2year.fst | fstcompose - compiled/bissexto.fst > compiled/date_r2bissexto.fst
+# # 3. d) Creating date_r2bissexto
+# echo "Creating date_r2bissexto"
+# fstarcsort --sort_type=olabel compiled/date_r2a.fst compiled/date_r2a_sorted.fst
+# fstarcsort --sort_type=olabel compiled/date2norm.fst compiled/date2norm_sorted.fst
+# fstcompose compiled/date_r2a_sorted.fst compiled/date2norm_sorted.fst | fstcompose - compiled/date2year.fst | fstcompose - compiled/bissexto.fst > compiled/date_r2bissexto.fst
 
 mkdir -p compiled/tests images/tests compiled/tests images/tests
 
