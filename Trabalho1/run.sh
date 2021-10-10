@@ -13,7 +13,7 @@ fstconcat compiled/skip.fst compiled/skip.fst | fstconcat - compiled/skip.fst  |
 
 # # 1. e) Creating date2norm
 echo "Creating date2norm"
-fstconcat compiled/d2dd.fst compiled/dash.fst | fstconcat - compiled/d2dd.fst  | fstconcat - compiled/dash.fst | fstconcat - compiled/d2dddd.fst | fstrmepsilon > compiled/date2norm.fst
+fstconcat compiled/d2dd.fst compiled/dash.fst | fstconcat - compiled/d2dd.fst  | fstconcat - compiled/dash.fst | fstconcat - compiled/d2dddd.fst | fstrmepsilon | fstarcsort --sort_type=olabel > compiled/date2norm.fst
 
 # 1. f) Creating bissexto
 echo "Creating bissexto"
@@ -46,7 +46,7 @@ fstconcat compiled/d2dd.fst compiled/dash.fst | fstconcat - compiled/mm2mmm.fst 
 
 # 3. b) Creating date_r2a
 echo "Creating date_r2a"
-fstconcat compiled/r2a.fst compiled/dash.fst | fstconcat - compiled/r2a.fst | fstconcat - compiled/dash.fst | fstconcat - compiled/r2a.fst > compiled/date_r2a.fst
+fstconcat compiled/r2a.fst compiled/dash.fst | fstconcat - compiled/r2a.fst | fstconcat - compiled/dash.fst | fstconcat - compiled/r2a.fst | fstarcsort --sort_type=olabel > compiled/date_r2a.fst
 
 # 3. c) Creating date_t2r
 echo "Creating date_t2r"
@@ -55,9 +55,7 @@ fstconcat compiled/a2r.fst compiled/dash.fst | fstconcat - compiled/mmm2r.fst | 
 
 # 3. d) Creating date_r2bissexto
 echo "Creating date_r2bissexto"
-fstarcsort --sort_type=olabel compiled/date_r2a.fst compiled/date_r2a_sorted.fst
-fstarcsort --sort_type=olabel compiled/date2norm.fst compiled/date2norm_sorted.fst
-fstcompose compiled/date_r2a_sorted.fst compiled/date2norm_sorted.fst | fstcompose - compiled/date2year.fst | fstcompose - compiled/bissexto.fst > compiled/date_r2bissexto.fst
+fstcompose compiled/date_r2a.fst compiled/date2norm.fst | fstcompose - compiled/date2year.fst | fstcompose - compiled/bissexto.fst > compiled/date_r2bissexto.fst
 
 # Creating PDF versions of each transducer
 for i in compiled/*.fst; do
