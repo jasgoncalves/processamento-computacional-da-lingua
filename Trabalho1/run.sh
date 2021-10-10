@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mkdir -p compiled images compiled/tests images/tests
+mkdir -p compiled images compiled/tests images/tests compiled/tests/group4 images/tests/group4
 
 for i in sources/*.txt; do
 	echo "Compiling: $i"
@@ -38,7 +38,7 @@ echo "Creating a2r"
 fstconcat compiled/a2r_milhares.fst compiled/a2r_centenas.fst | fstconcat - compiled/a2r_dezenas.fst | fstconcat - compiled/a2r_unidades.fst > compiled/a2r_num_milhares.fst
 fstconcat compiled/a2r_centenas.fst compiled/a2r_dezenas.fst | fstconcat - compiled/a2r_unidades.fst > compiled/a2r_num_centenas.fst
 fstconcat compiled/a2r_dezenas.fst compiled/a2r_unidades.fst > compiled/a2r_num_dezenas.fst
-fstunion compiled/a2r_num_milhares.fst compiled/a2r_num_centenas.fst | fstunion - compiled/a2r_num_dezenas.fst | fstunion - compiled/a2r_unidades.fst > compiled/a2r.fst
+fstunion compiled/a2r_num_milhares.fst compiled/a2r_num_centenas.fst | fstunion - compiled/a2r_num_dezenas.fst > compiled/a2r.fst
 
 # 3. a) Creating date_a2t
 echo "Creating date_a2t"
@@ -60,20 +60,24 @@ fstarcsort --sort_type=olabel compiled/date2norm.fst compiled/date2norm_sorted.f
 fstcompose compiled/date_r2a_sorted.fst compiled/date2norm_sorted.fst | fstcompose - compiled/date2year.fst | fstcompose - compiled/bissexto.fst > compiled/date_r2bissexto.fst
 
 
+mkdir -p compiled/tests images/tests compiled/tests images/tests
+
 for folder in $(dir tests); do
     mkdir -p compiled/tests/$folder
-	for i in  $(dir tests/$folder/*.txt); do
+    for i in  $(dir tests/$folder/*.txt); do
         echo "Compiling: $i"
         fstcompile --isymbols=syms.txt --osymbols=syms.txt $i | fstarcsort > compiled/tests/$folder/$(basename $i ".txt").fst
     done
 done
 
 for folder in $(dir compiled/tests); do
-    mkdir -p compiled/tests/$folder/results
-	for i in  $(dir compiled/tests/$folder/*.fst); do
-        echo "Testing the transducer '$folder' with the input 'tests/$(basename $i ".fst").txt' (generating pdf)"
-        fstcompose $i compiled/$folder.fst | fstshortestpath > compiled/tests/$folder/results/resp_$(basename $i ".txt").fst
-    done
+    if [ $folder != 'group4' ]; then
+        mkdir -p compiled/tests/$folder/results
+        for i in  $(dir compiled/tests/$folder/*.fst); do
+            echo "Testing the transducer '$folder' with the input 'tests/$(basename $i ".fst").txt' (generating pdf)"
+            fstcompose $i compiled/$folder.fst | fstshortestpath > compiled/tests/$folder/results/resp_$(basename $i ".txt").fst
+        done
+    fi
 done
 
 # Creating PDF versions of each transducer
@@ -83,36 +87,60 @@ for i in compiled/*.fst; do
 done
 
 for folder in $(dir compiled/tests); do
-    # Creating PDF versions of each transducer
-    mkdir -p images/tests/$folder
-	for i in  $(dir compiled/tests/$folder/*.fst); do
-        echo "Creating image: images/tests/$folder/$i"
-        fstdraw --portrait --isymbols=syms.txt --osymbols=syms.txt $i | dot -Tpdf > images/tests/$folder/$(basename $i '.fst').pdf
-    done
-    # Creating PDF versions of each transducer
-    mkdir -p images/tests/$folder/results
-    for i in  $(dir compiled/tests/$folder/results/*.fst); do
-        echo "Creating image: images/tests/$folder/$i"
-        fstdraw --portrait --isymbols=syms.txt --osymbols=syms.txt $i | dot -Tpdf > images/tests/$folder/results/$(basename $i '.fst').pdf
-    done
+    if [ $folder != 'group4' ]; then
+        # Creating PDF versions of each transducer
+        mkdir -p images/tests/$folder
+        for i in  $(dir compiled/tests/$folder/*.fst); do
+            echo "Creating image: images/tests/$folder/$i"
+            fstdraw --portrait --isymbols=syms.txt --osymbols=syms.txt $i | dot -Tpdf > images/tests/$folder/$(basename $i '.fst').pdf
+        done
+        # Creating PDF versions of each transducer
+        mkdir -p images/tests/$folder/results
+        for i in  $(dir compiled/tests/$folder/results/*.fst); do
+            echo "Creating image: images/tests/$folder/$i"
+            fstdraw --portrait --isymbols=syms.txt --osymbols=syms.txt $i | dot -Tpdf > images/tests/$folder/results/$(basename $i '.fst').pdf
+        done
+    fi
 done
 
 for folder in $(dir compiled/tests); do
-	for i in  $(dir compiled/tests/$folder/*.fst); do
-        echo "Testing the transducer '$folder' with the input 'tests/$(basename $i ".fst").txt' (stdout)"
-        fstcompose $i compiled/$folder.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
-    done
+    if [ $folder != 'group4' ]; then
+        for i in  $(dir compiled/tests/$folder/*.fst); do
+            echo "Testing the transducer '$folder' with the input 'tests/$(basename $i ".fst").txt' (stdout)"
+            fstcompose $i compiled/$folder.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
+        done
+    fi
 done
 
-# # 3. a)
-# echo "Testing the transducer 'date_a2t' with the input 'tests/date_a2t.txt' (stdout)"
-# fstcompose compiled/95000a.fst compiled/date_a2t.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
-# # 3. b)
-# echo "Testing the transducer 'date_r2a' with the input 'tests/test_a2r.txt' (stdout)"
-# fstcompose compiled/95000d.fst compiled/date_r2a.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
-# # 3. c)
-# echo "Testing the transducer 'date_t2r' with the input 'tests/date_t2r.txt' (stdout)"
-# fstcompose compiled/95000c.fst compiled/date_t2r.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
-# # 3. c)
-# echo "Testing the transducer 'date_r2bissexto' with the input 'tests/95000c.txt' (stdout)"
-# fstcompose compiled/95000d.fst compiled/date_r2bissexto.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
+# Tests Group4
+
+echo -e "\nStarting Tests Group 4"
+echo "----------------------"~
+
+mkdir -p compiled/tests/group4 images/tests/group4
+
+for i in  $(dir tests/group4/*.txt); do
+    echo -e "Compiling: $i"
+    fstcompile --isymbols=syms.txt --osymbols=syms.txt $i | fstarcsort > compiled/tests/group4/$(basename $i ".txt").fst
+    echo -e "Testing the transducer 'date_a2t' with the input 'tests/group4/$(basename $i ".txt").fst' (generating pdf)"
+    fstcompose compiled/tests/group4/$(basename $i ".txt").fst compiled/date_a2t.fst | fstshortestpath | fstrmepsilon | fsttopsort  > compiled/tests/group4/$(basename $i ".txt")_date_a2t.fst
+    # stdout
+    fstcompose compiled/tests/group4/$(basename $i ".txt").fst compiled/date_a2t.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
+    echo -e "Testing the transducer 'date_t2r' with the input 'tests/group4/$(basename $i ".txt")_date_a2t.fst' (generating pdf)"
+    fstcompose compiled/tests/group4/$(basename $i ".txt")_date_a2t.fst compiled/date_t2r.fst | fstshortestpath | fstrmepsilon | fsttopsort  > compiled/tests/group4/$(basename $i ".txt")_date_t2r.fst
+    # stdout
+    fstcompose compiled/tests/group4/$(basename $i ".txt")_date_a2t.fst compiled/date_t2r.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
+    echo -e "Testing the transducer 'date_r2a' with the input 'tests/group4/$(basename $i ".txt")_date_t2r.fst' (generating pdf)"
+    fstcompose compiled/tests/group4/$(basename $i ".txt")_date_t2r.fst compiled/date_r2a.fst | fstshortestpath | fstrmepsilon | fsttopsort  > compiled/tests/group4/$(basename $i ".txt")_date_r2a.fst 
+    # stdout
+    fstcompose compiled/tests/group4/$(basename $i ".txt")_date_t2r.fst compiled/date_r2a.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
+    echo -e "Testing the transducer 'date_r2bissexto' with the input 'tests/group4/$(basename $i ".txt")_date_date_t2r.fst' (generating pdf)"
+    fstcompose compiled/tests/group4/$(basename $i ".txt")_date_t2r.fst compiled/date_r2bissexto.fst | fstshortestpath | fstrmepsilon | fsttopsort > compiled/tests/group4/$(basename $i ".txt")_r2bissexto.fst
+    # stdout
+    fstcompose compiled/tests/group4/$(basename $i ".txt")_date_t2r.fst compiled/date_r2bissexto.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
+done
+
+for i in  $(dir compiled/tests/group4/*.fst); do
+    echo -e "Creating image: images/tests/group4/$(basename $i '.fst').pdf"
+    fstdraw --portrait --isymbols=syms.txt --osymbols=syms.txt $i | dot -Tpdf > images/tests/group4/$(basename $i '.fst').pdf
+done
