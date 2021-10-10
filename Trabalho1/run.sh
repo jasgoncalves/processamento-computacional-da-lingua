@@ -76,19 +76,19 @@ for i in  $(dir tests/*.txt); do
     echo -e "Compiling: $i"
     fstcompile --isymbols=syms.txt --osymbols=syms.txt $i | fstarcsort > compiled/tests/$(basename $i ".txt").fst
     echo -e "Testing the transducer 'date_a2t' with the input 'tests/$(basename $i ".txt").fst' (generating pdf)"
-    fstcompose compiled/tests/$(basename $i ".txt").fst compiled/date_a2t.fst | fstshortestpath | fstrmepsilon | fsttopsort  > compiled/tests/$(basename $i ".txt")_date_a2t.fst
+    fstcompose compiled/tests/$(basename $i ".txt").fst compiled/date_a2t.fst | fstshortestpath | fstrmepsilon > compiled/tests/$(basename $i ".txt")_date_a2t.fst
     # stdout
     fstcompose compiled/tests/$(basename $i ".txt").fst compiled/date_a2t.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
     echo -e "Testing the transducer 'date_t2r' with the input 'tests/$(basename $i ".txt")_date_a2t.fst' (generating pdf)"
-    fstcompose compiled/tests/$(basename $i ".txt")_date_a2t.fst compiled/date_t2r.fst | fstshortestpath | fstrmepsilon | fsttopsort  > compiled/tests/$(basename $i ".txt")_date_t2r.fst
+    fstcompose compiled/tests/$(basename $i ".txt")_date_a2t.fst compiled/date_t2r.fst | fstshortestpath | fstrmepsilon > compiled/tests/$(basename $i ".txt")_date_t2r.fst
     # stdout
     fstcompose compiled/tests/$(basename $i ".txt")_date_a2t.fst compiled/date_t2r.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
     echo -e "Testing the transducer 'date_r2a' with the input 'tests/$(basename $i ".txt")_date_t2r.fst' (generating pdf)"
-    fstcompose compiled/tests/$(basename $i ".txt")_date_t2r.fst compiled/date_r2a.fst | fstshortestpath | fstrmepsilon | fsttopsort  > compiled/tests/$(basename $i ".txt")_date_r2a.fst 
+    fstcompose compiled/tests/$(basename $i ".txt")_date_t2r.fst compiled/date_r2a.fst | fstshortestpath | fstrmepsilon > compiled/tests/$(basename $i ".txt")_date_r2a.fst 
     # stdout
     fstcompose compiled/tests/$(basename $i ".txt")_date_t2r.fst compiled/date_r2a.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
     echo -e "Testing the transducer 'date_r2bissexto' with the input 'tests/$(basename $i ".txt")_date_date_t2r.fst' (generating pdf)"
-    fstcompose compiled/tests/$(basename $i ".txt")_date_t2r.fst compiled/date_r2bissexto.fst | fstshortestpath | fstrmepsilon | fsttopsort > compiled/tests/$(basename $i ".txt")_r2bissexto.fst
+    fstcompose compiled/tests/$(basename $i ".txt")_date_t2r.fst compiled/date_r2bissexto.fst | fstshortestpath | fstrmepsilon > compiled/tests/$(basename $i ".txt")_r2bissexto.fst
     # stdout
     fstcompose compiled/tests/$(basename $i ".txt")_date_t2r.fst compiled/date_r2bissexto.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
 done
