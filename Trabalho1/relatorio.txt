@@ -1,0 +1,25 @@
+Grupo:
+    - Diogo Fernandes nº95000
+    - Jorge Gonçalves nº96180
+
+Contribuição dos elementos:
+    - Diogo: 50%
+    - Jorge: 50%
+    Pensamos que ambos os elementos contribuíram de igual forma para este trabalho. Realizando praticamente o mesmo número de alíneas e ajudando-se um ao outro. 
+
+Descrição das opções tomadas:
+1. 
+	a. Nesta primeira alínea procurou-se, em primeiro lugar, separar os meses pelo primeiro dígito e, de seguida mapear o segundo dígito ao mês respetivo.
+2. 
+	a. -
+	b. Para fazer transducer a2r, o primeiro pensamento foi dividir o processamento por cada dígito do número. Sabemos que temos números na ordem dos milhares, das centenas, das dezenas e das unidades.
+        Em cada um dos 4 tranducers iniciais, cada algarismo vai ser substituído pela letra correspondente à posição à qual o transducer se refere (e.g. a2r_milhares).
+        Neste sentido observamos uma combinação de dígitos em cada uma dessas posições que se vão traduzir em números romanos diferentes, ou seja, uma união dos vários tranducers:
+            - a2r_milhares + a2r_centenas + a2r_dezenas + a2r_unidades ou
+            - a2r_centenas + a2r_dezenas + a2r_unidades ou
+            - a2r_dezenas + a2r_unidades
+3. Em todas as alíneas do exercício 3 a lógica baseou-se em separar o dia, mês e ano usando o transducer "dash" e usar os transducers previamente criados para modificar ou manter cada uma dessas componentes da data:
+    a. Na primeira alínea foi usado o transducer d2dd no dia para apenas manter o dia com dois dígitos, seguido do mm2mmm para transformar o mês para o formato de três letras e, por fim, usou.se o d2dddd para retirar a data.
+    b. Na segunda alínea aplicou-se individualmente e a cada componente da data o transducer r2a para converter o numeral árabe em numeral romano.
+    c. Na terceira alínea foi necessário incialmente criar um transducer a partir do transducer mm2mmm invertido e do a2r que recebesse um mês em formato de três letras e que retornasse o seu equivalente em numeração romana.
+        Assim, foi possível aplicar este transducer ao mês da data de input e aplicar o a2r ao dia e ao ano.
