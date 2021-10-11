@@ -11,7 +11,7 @@ done
 echo "Creating date2year"
 fstconcat compiled/skip.fst compiled/skip.fst | fstconcat - compiled/skip.fst  | fstconcat - compiled/skip.fst | fstconcat - compiled/skip.fst | fstconcat - compiled/skip.fst | fstconcat - compiled/d2dddd.fst  > compiled/date2year.fst
 
-# # 1. e) Creating date2norm
+# 1. e) Creating date2norm
 echo "Creating date2norm"
 fstconcat compiled/d2dd.fst compiled/dash.fst | fstconcat - compiled/d2dd.fst  | fstconcat - compiled/dash.fst | fstconcat - compiled/d2dddd.fst | fstrmepsilon | fstarcsort --sort_type=olabel > compiled/date2norm.fst
 
@@ -69,25 +69,32 @@ mkdir -p compiled/tests images/tests
 for i in  $(dir tests/*.txt); do
     echo -e "Compiling: $i"
     fstcompile --isymbols=syms.txt --osymbols=syms.txt $i | fstarcsort > compiled/tests/$(basename $i ".txt").fst
+    #date_at2
     echo -e "Testing the transducer 'date_a2t' with the input 'tests/$(basename $i ".txt").fst' (generating pdf)"
     fstcompose compiled/tests/$(basename $i ".txt").fst compiled/date_a2t.fst | fstshortestpath | fstrmepsilon > compiled/tests/$(basename $i ".txt")_date_a2t.fst
+    echo -e "Creating image: images/tests/$(basename $i '.txt')_date_a2t.pdf"
+    fstdraw --portrait --isymbols=syms.txt --osymbols=syms.txt compiled/tests/$(basename $i ".txt")_date_a2t.fst | dot -Tpdf > images/tests/$(basename $i '.txt')_date_a2t.fst.pdf
     # stdout
     fstcompose compiled/tests/$(basename $i ".txt").fst compiled/date_a2t.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
+    #date_t2r
     echo -e "Testing the transducer 'date_t2r' with the input 'tests/$(basename $i ".txt")_date_a2t.fst' (generating pdf)"
     fstcompose compiled/tests/$(basename $i ".txt")_date_a2t.fst compiled/date_t2r.fst | fstshortestpath | fstrmepsilon > compiled/tests/$(basename $i ".txt")_date_t2r.fst
+    echo -e "Creating image: images/tests/$(basename $i '.txt')_date_t2r.pdf"
+    fstdraw --portrait --isymbols=syms.txt --osymbols=syms.txt compiled/tests/$(basename $i ".txt")_date_t2r.fst | dot -Tpdf > images/tests/$(basename $i '.txt')_date_t2r.fst.pdf
     # stdout
     fstcompose compiled/tests/$(basename $i ".txt")_date_a2t.fst compiled/date_t2r.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
+    # date_r2a
     echo -e "Testing the transducer 'date_r2a' with the input 'tests/$(basename $i ".txt")_date_t2r.fst' (generating pdf)"
     fstcompose compiled/tests/$(basename $i ".txt")_date_t2r.fst compiled/date_r2a.fst | fstshortestpath | fstrmepsilon > compiled/tests/$(basename $i ".txt")_date_r2a.fst 
+    echo -e "Creating image: images/tests/$(basename $i '.txt')_date_r2a.pdf"
+    fstdraw --portrait --isymbols=syms.txt --osymbols=syms.txt compiled/tests/$(basename $i ".txt")_date_r2a.fst | dot -Tpdf > images/tests/$(basename $i '.txt')_date_r2a.fst.pdf
     # stdout
     fstcompose compiled/tests/$(basename $i ".txt")_date_t2r.fst compiled/date_r2a.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
+    # date_r2bissexto
     echo -e "Testing the transducer 'date_r2bissexto' with the input 'tests/$(basename $i ".txt")_date_date_t2r.fst' (generating pdf)"
-    fstcompose compiled/tests/$(basename $i ".txt")_date_t2r.fst compiled/date_r2bissexto.fst | fstshortestpath | fstrmepsilon > compiled/tests/$(basename $i ".txt")_r2bissexto.fst
+    fstcompose compiled/tests/$(basename $i ".txt")_date_t2r.fst compiled/date_r2bissexto.fst | fstshortestpath | fstrmepsilon > compiled/tests/$(basename $i ".txt")_date_r2bissexto.fst
+    echo -e "Creating image: images/tests/$(basename $i '.txt')_date_r2bissexto.pdf"
+    fstdraw --portrait --isymbols=syms.txt --osymbols=syms.txt compiled/tests/$(basename $i ".txt")_date_r2bissexto.fst | dot -Tpdf > images/tests/$(basename $i '.txt')_date_r2bissexto.fst.pdf
     # stdout
     fstcompose compiled/tests/$(basename $i ".txt")_date_t2r.fst compiled/date_r2bissexto.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
-done
-
-for i in  $(dir compiled/tests/*.fst); do
-    echo -e "Creating image: images/tests/$(basename $i '.fst').pdf"
-    fstdraw --portrait --isymbols=syms.txt --osymbols=syms.txt $i | dot -Tpdf > images/tests/$(basename $i '.fst').pdf
 done
