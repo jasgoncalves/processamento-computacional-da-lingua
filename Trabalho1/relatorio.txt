@@ -44,11 +44,11 @@ Descrição das opções tomadas:
        outro para de 2 dígitos e finalmente um para o de 1 dígito. Para os caminhos que tem mais de um dígito com excepção da primeira transição todas deveriam lidar com o 
        épsilon e retornar zero, então criámos mais três transducer com recurso a função fstunion. Recorrendo a função fstconcat definimos criámos os binários para os 4 diferentes
        caminhos e por fim mais uma vez com recurso a função fstunion criámos o binário r2a.
-	b. Numa primeira versao, para fazer o transducer a2r, utilizando o mesmo raciocínio do exercício anterior, o primeiro pensamento foi dividir o processamento por cada dígito 
+	b. Numa primeira versão, para fazer o transducer a2r, utilizando o mesmo raciocínio do exercício anterior, o primeiro pensamento foi dividir o processamento por cada dígito 
        do número. Neste sentido observamos uma combinação de dígitos em cada uma dessas posições que se vão traduzir em números romanos diferentes, ou seja, uma união dos vários 
        tranducers.
-       Apos estarmos mais confortaveis com o OpenFST, percebemos que poderiamos simplificar a criação do transducer a2r recorrendo a funcao fstinverter sobre o binario
-       do transducer r2a, ficando assim a nossa versao final. 
+       Após estarmos mais confortáveis com o OpenFST, percebemos que poderiamos simplificar a criação do transducer a2r recorrendo à função fstinverter sobre o binário
+       do transducer r2a, ficando assim a nossa versão final. 
 3. Em todas as alíneas do exercício 3 a lógica baseou-se em separar o dia, mês e ano usando o transducer "dash" e usar os transducers previamente criados para modificar 
    ou manter cada uma dessas componentes da data:
     a. Na primeira alínea foi usado o transducer d2dd no dia para apenas manter o dia com dois dígitos, seguido do mm2mmm para transformar o mês para o formato de 
