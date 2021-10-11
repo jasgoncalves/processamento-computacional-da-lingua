@@ -11,17 +11,17 @@ Contribuição dos elementos:
 
 Descrição das opções tomadas:
 1. 
-	a. Nesta primeira alínea procurou-se, em primeiro lugar, separar os meses pelo primeiro dígito e, de seguida mapear o segundo dígito ao mês respetivo.
+   a. Nesta primeira alínea procurou-se, em primeiro lugar, separar os meses pelo primeiro dígito e, de seguida mapear o segundo dígito ao mês respetivo.
    b. Na criação do transducer d2dd a abordagem foi adicionar o zero a esquerda apenas quando temos um caracter caso contrário o caminho alternativo
       apenas é aceite caso o input tenha no mínimo 2 dígitos.
    c. Um pouco mais complexo que o anterior começamos por desenhar dois caminhos um com apenas 1 dígito e outro com pelo menos 4 dígitos. A partir desses dois caminhos
-       foram derivados os seguintes para pelo menos 2 dígitos e 3 dígitos.
+      foram derivados os seguintes para pelo menos 2 dígitos e 3 dígitos.
    d. Para a criação do transducer date2year criámos um transducer chamado skip que verifica se o caracter está contido no conjunto {-,0,1,2,3,4,5,6,7,8,9}, 
-       este transducer foi utilizado para verificar as 6 primeiras transições, para as últimas quatro transições reutilizamos o transducer d2dddd de forma a 
-       retornar o ano no formato de 4 dígitos. Para a criação do transducer date2year no formato binário recorremos à função fsconcat para concatenar os 
-       transducers skip e d2dddd. 
-   e. Para a alínea "e" começamos por criar o transducer dash que verifica se o dígito na transição e um hífen e reutilizamos os transducers criados nas 
-       alíneas anteriores (d2dd e d2dddd), mais uma vez recorremos a função fsconcat para a concatenar os três transducers descritos e gerar o binário date2norm.
+      este transducer foi utilizado para verificar as 6 primeiras transições, para as últimas quatro transições reutilizamos o transducer d2dddd de forma a 
+      retornar o ano no formato de 4 dígitos. Para a criação do transducer date2year no formato binário recorremos à função fsconcat para concatenar os 
+      transducers skip e d2dddd. 
+   e. Para a alínea "e" começamos por criar o transducer dash que verifica se o dígito na transição é um hífen e reutilizamos os transducers criados nas 
+      alíneas anteriores (d2dd e d2dddd), mais uma vez recorremos a função fsconcat para a concatenar os três transducers descritos e gerar o binário date2norm.
    f. Neste transducer o primeiro objetivo foi pensar como aplicar as regras do ano bissexto:
       - Anos múltiplos de 400 são bissextos
       - Anos múltiplos de 4 e não múltiplos de 100 são bissextos.
@@ -44,18 +44,17 @@ Descrição das opções tomadas:
        outro para de 2 dígitos e finalmente um para o de 1 dígito. Para os caminhos que tem mais de um dígito com excepção da primeira transição todas deveriam lidar com o 
        épsilon e retornar zero, então criámos mais três transducer com recurso a função fstunion. Recorrendo a função fstconcat definimos criámos os binários para os 4 diferentes
        caminhos e por fim mais uma vez com recurso a função fstunion criámos o binário r2a.
-	b. Para fazer transducer a2r, utilizando o mesmo raciocínio do exercício anterior, o primeiro pensamento foi dividir o processamento por cada dígito do número. 
-       Neste sentido observamos uma combinação de dígitos em cada uma dessas posições que se vão traduzir em números romanos diferentes, ou seja, uma união dos vários 
-       tranducers:
-            - a2r_milhares + a2r_centenas + a2r_dezenas + a2r_unidades ou
-            - a2r_centenas + a2r_dezenas + a2r_unidades ou
-            - a2r_dezenas + a2r_unidades
+	b. Numa primeira versao, para fazer o transducer a2r, utilizando o mesmo raciocínio do exercício anterior, o primeiro pensamento foi dividir o processamento por cada dígito 
+       do número. Neste sentido observamos uma combinação de dígitos em cada uma dessas posições que se vão traduzir em números romanos diferentes, ou seja, uma união dos vários 
+       tranducers.
+       Apos estarmos mais confortaveis com o OpenFST, percebemos que poderiamos simplificar a criação do transducer a2r recorrendo a funcao fstinverter sobre o binario
+       do transducer r2a, ficando assim a nossa versao final. 
 3. Em todas as alíneas do exercício 3 a lógica baseou-se em separar o dia, mês e ano usando o transducer "dash" e usar os transducers previamente criados para modificar 
    ou manter cada uma dessas componentes da data:
     a. Na primeira alínea foi usado o transducer d2dd no dia para apenas manter o dia com dois dígitos, seguido do mm2mmm para transformar o mês para o formato de 
-       três letras e, por fim, usou.se o d2dddd para retirar a data.
+       três letras e, por fim, usou.se o d2dddd para retirar a data. 
     b. Na segunda alínea aplicou-se individualmente e a cada componente da data o transducer r2a para converter o numeral árabe em numeral romano.
-    c. Na terceira alínea foi necessário inicialmente criar um transducer a partir do transducer mm2mmm invertido e do a2r que recebesse um mês em formato de três letras 
-       e que retornasse o seu equivalente em numeração romana. Assim, foi possível aplicar este transducer ao mês da data de input e aplicar o a2r ao dia e ao ano.
+    c. Na terceira alínea percebemos que o resultado pretentido seria a inversão do resultado da composição dos transducer date_r2a, date2norm e date_a2t. Para execução
+       do que idealizamos combinamos os comandos fstcompose e fstinvert para obtermos o resultado pretendido.
     d. Com recurso a função fstcompose combinamos os transducers date_r2a para conversão de um número romano para arábico, o transducer date2norm para normalizar o formato 
        da data, date2year para extrair o ano e finalmente o transducer bissexto que retornara o resultado pretendido, yes (se bissexto) ou no (se não). 
