@@ -1,9 +1,0 @@
-0   4   0   eps
-0   4   1   M
-0   1   2   M
-1   4   eps M
-0   2   3   M
-2   3   eps M
-3   4   eps M
-0   4   eps eps
-4
