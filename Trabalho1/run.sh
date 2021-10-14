@@ -9,7 +9,7 @@ done
 
 # 1. d) Creating date2year
 echo "Creating date2year"
-fstconcat compiled/skip.fst compiled/skip.fst | fstconcat - compiled/skip.fst  | fstconcat - compiled/skip.fst | fstconcat - compiled/skip.fst | fstconcat - compiled/skip.fst | fstconcat - compiled/d2dddd.fst  > compiled/date2year.fst
+fstconcat compiled/skip.fst compiled/d2dddd.fst | fstrmepsilon > compiled/date2year.fst
 
 # 1. e) Creating date2norm
 echo "Creating date2norm"
@@ -21,7 +21,7 @@ fstconcat compiled/bissexto_4multiplesupto99.fst compiled/bissexto_skipdoublezer
 fstconcat compiled/bissexto_skip.fst compiled/bissexto_skip.fst | fstconcat - compiled/bissexto_4multiplesupto99.fst | fstconcat - compiled/bissexto_yes.fst | fstrmepsilon > compiled/bissexto_4multiples.fst
 fstconcat compiled/bissexto_negative4multiplesupto99.fst compiled/bissexto_skipdoublezero.fst | fstconcat - compiled/bissexto_no.fst | fstrmepsilon > compiled/bissexto_non400multiples.fst
 fstconcat compiled/bissexto_skip.fst compiled/bissexto_skip.fst | fstconcat - compiled/bissexto_negative4multiplesupto99.fst | fstconcat - compiled/bissexto_no.fst | fstrmepsilon > compiled/bissexto_non4multiples.fst
-fstunion compiled/bissexto_400multiples.fst compiled/bissexto_4multiples.fst | fstunion - compiled/bissexto_non400multiples.fst | fstunion - compiled/bissexto_non4multiples.fst | fstrmepsilon > compiled/bissexto.fst
+fstunion compiled/bissexto_400multiples.fst compiled/bissexto_4multiples.fst | fstunion - compiled/bissexto_non400multiples.fst | fstunion - compiled/bissexto_non4multiples.fst | fstrmepsilon | fstminimize > compiled/bissexto.fst
 
 # 2. a) Creating r2a
 echo "Creating r2a"
@@ -49,9 +49,9 @@ fstconcat compiled/r2a.fst compiled/dash.fst | fstconcat - compiled/r2a.fst | fs
 echo "Creating date_t2r"
 fstcompose compiled/date_r2a.fst compiled/date2norm.fst | fstcompose - compiled/date_a2t.fst | fstinvert > compiled/date_t2r.fst
 
-# 3. d) Creating date_r2bissexto
-echo "Creating date_r2bissexto"
-fstcompose compiled/date_r2a.fst compiled/date2norm.fst | fstcompose - compiled/date2year.fst | fstcompose - compiled/bissexto.fst > compiled/date_r2bissexto.fst
+# # 3. d) Creating date_r2bissexto
+# echo "Creating date_r2bissexto"
+# fstcompose compiled/date_r2a.fst compiled/date2norm.fst | fstcompose - compiled/date2year.fst | fstcompose - compiled/bissexto.fst > compiled/date_r2bissexto.fst
 
 # Creating PDF versions of each transducer
 for i in compiled/*.fst; do
