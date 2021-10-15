@@ -13,10 +13,10 @@ Descrição das opções tomadas:
 1. 
    a. Nesta primeira alínea procurou-se, em primeiro lugar, separar os meses pelo primeiro dígito e, de seguida mapear o segundo dígito ao mês respetivo.
    b. Na criação do transducer d2dd a abordagem foi adicionar o zero a esquerda apenas quando temos um caracter caso contrário o caminho alternativo
-      apenas é aceite caso o input tenha no mínimo 2 dígitos.
+      apenas é aceite caso o input tenha no maximo 2 dígitos.
    c. Um pouco mais complexo que o anterior começamos por desenhar dois caminhos um com apenas 1 dígito e outro com pelo menos 4 dígitos. A partir desses dois caminhos
       foram derivados os seguintes para pelo menos 2 dígitos e 3 dígitos.
-   d. Para a criação do transducer date2year criámos um transducer chamado skip que verifica se o caracter está contido no conjunto {-,0,1,2,3,4,5,6,7,8,9}, 
+   d. Para a criação do transducer date2year criámos um transducer chamado skip que garante que uma sequencia contem dois digitos seguidos de um  hifen, 
       este transducer foi utilizado para verificar as 6 primeiras transições, para as últimas quatro transições reutilizamos o transducer d2dddd de forma a 
       retornar o ano no formato de 4 dígitos. Para a criação do transducer date2year no formato binário recorremos à função fsconcat para concatenar os 
       transducers skip e d2dddd. 
@@ -37,6 +37,7 @@ Descrição das opções tomadas:
       - Não Múltiplos de 400 (múltiplos de 100 incluídos) -> no : com recurso a função fstconcat e os transducers bissexto_negative4multiplesupto99, bissexto_skipdoublezero e bissexto_yes
       - Não Múltiplos de 4 -> no : com recurso a função fstconcat e os transducers bissexto_skip, bissexto_negative4multiplesupto99 e bissexto_yes
        Por fim com recurso à função fstunion criámos o transducer bissexto.
+       A range da validação do nosso transducer é para numeros de 4 digitos entre 0000 e 9999 
 2. 
 	a. Para a concepção do transducer r2a, começamos por criar quatro transducers um para a ordem dos milhares, outros para ordem das centenas, outro para a ordem das dezenas 
        e por fim um para ordem das unidades. Criámos também um transducer para lidar com os épsilones e retornar zero para alguns casos específicos. 
