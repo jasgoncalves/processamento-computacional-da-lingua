@@ -9,7 +9,7 @@ done
 
 # 1. d) Creating date2year
 echo "Creating date2year"
-fstconcat compiled/skip.fst compiled/skip.fst | fstconcat - compiled/skip.fst  | fstconcat - compiled/skip.fst | fstconcat - compiled/skip.fst | fstconcat - compiled/skip.fst | fstconcat - compiled/d2dddd.fst  > compiled/date2year.fst
+fstconcat compiled/skip.fst compiled/skip.fst | fstconcat - compiled/d2dddd.fst | fstrmepsilon | fstarcsort --sort_type=olabel > compiled/date2year.fst
 
 # 1. e) Creating date2norm
 echo "Creating date2norm"
