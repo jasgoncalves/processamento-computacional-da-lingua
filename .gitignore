@@ -130,3 +130,6 @@ dmypy.json
 
 # openfst
 /openfst
+
+#DS_Store
+**/.DS_Store
