@@ -19,7 +19,7 @@ def import_dataset(path : str, columns : str) -> DataFrame:
 def export_dataset(data_frame : DataFrame, columns : str, file_name : str):
     np.savetxt(fname = file_name, X = data_frame.filter(items=columns).values.tolist(), delimiter = DELIMITER, fmt = FMT)
 
-if __name__=="__main__":
-    evaluation_dataset = import_dataset(f'{DATA_PATH}{EVAL_FILE_NAME}', EVAL_COLUMNS)
+if __name__ == "__main__":
+    evaluation_dataset = import_dataset(f'{DATA_PATH}{EVAL_FILE_NAME}', EVAL_COLUMNS) # import file eval.txt
     export_dataset(evaluation_dataset, LABELS_COLUMNS, f'{DATA_PATH}{LABELS_FILE_NAME}') # create file eval-labels.txt
     export_dataset(evaluation_dataset, QUESTIONS_COLUMNS, f'{DATA_PATH}{QUESTIONS_FILE_NAME}') # create file eval-questions.txt
