@@ -135,3 +135,10 @@ dmypy.json
 **/.DS_Store
 
 *.zip
+/.idea/.gitignore
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/processamento-computacional-da-lingua.iml
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/vcs.xml
