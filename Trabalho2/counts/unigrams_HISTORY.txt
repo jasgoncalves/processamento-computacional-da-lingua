@@ -1,5 +1,4 @@
 the	2585
-,	1806
 this	1605
 of	1588
 in	1261
@@ -7,10 +6,6 @@ to	802
 a	743
 was	718
 In	687
-&	615
-'s	556
-''	485
-``	473
 The	400
 for	388
 This	292
@@ -24,9 +19,6 @@ country	216
 first	213
 it	185
 with	183
-(	174
-)	174
-.	170
 that	164
 these	153
 at	152
@@ -36,8 +28,6 @@ War	132
 an	132
 is	120
 city	120
-;	120
-U.S.	119
 were	114
 On	103
 had	101
@@ -57,9 +47,7 @@ when	78
 after	78
 Great	77
 war	75
-:	70
 century	69
-B.C	69
 but	66
 she	65
 named	64
@@ -76,7 +64,6 @@ II	59
 England	59
 began	58
 It	57
-n't	55
 which	54
 over	54
 island	54
@@ -105,7 +92,6 @@ After	44
 here	44
 World	43
 May	43
-'	43
 last	42
 died	42
 Congress	41
@@ -164,11 +150,9 @@ emperor	30
 world	29
 George	29
 not	29
-!	29
 seen	29
 between	29
 Queen	29
-St.	28
 most	28
 colony	28
 empire	28
@@ -230,7 +214,6 @@ all	22
 German	22
 Civil	22
 life	22
---	22
 League	22
 India	22
 family	22
@@ -238,7 +221,6 @@ more	22
 went	22
 future	22
 January	22
-$	22
 them	22
 Around	22
 Canada	22
@@ -264,7 +246,6 @@ governor	20
 Africa	20
 Greek	20
 Black	20
-B.C.	20
 Island	20
 political	20
 Mary	20
@@ -391,13 +372,11 @@ London	14
 book	14
 Bay	14
 are	14
-c.	14
 modern	14
 event	14
 late	14
 just	14
 still	14
-C.	14
 1954	14
 Revolution	14
 Virginia	14
@@ -419,17 +398,14 @@ then	13
 do	13
 once	13
 province	13
-'d	13
 where	13
 18	13
 Elizabeth	13
-U.S	13
 black	13
 1946	13
 1952	13
 end	13
 1979	13
-A.D.	13
 Caesar	13
 Japanese	13
 place	13
@@ -445,7 +421,6 @@ Khan	13
 husband	13
 Francisco	13
 Portugal	13
-...	13
 Columbus	13
 1964	12
 Central	12
@@ -476,8 +451,6 @@ teen	12
 1917	12
 13	12
 program	12
-<	12
->	12
 few	12
 1940	12
 conquered	12
@@ -505,7 +478,6 @@ Adams	11
 1920	11
 21	11
 day	11
-?	11
 Philadelphia	11
 claimed	11
 Dutch	11
@@ -533,9 +505,7 @@ miles	11
 period	11
 24	11
 members	11
-Jan.	11
 XIV	11
-Oct.	11
 Carolina	11
 original	11
 Brown	11
@@ -584,7 +554,6 @@ Nixon	10
 Aragon	10
 1977	10
 25	10
-%	10
 El	10
 An	10
 ship	10
@@ -667,7 +636,6 @@ included	9
 Mussolini	9
 agreed	9
 1960	9
-U.N.	9
 Persian	9
 1898	9
 1900	9
@@ -782,7 +750,6 @@ These	8
 Reagan	8
 20th	8
 bay	8
-Dec.	8
 Haiti	8
 Arc	8
 himself	8
@@ -802,7 +769,6 @@ Years	8
 Iran	8
 1870	7
 full	7
-'re	7
 each	7
 Harry	7
 Patrick	7
@@ -833,7 +799,6 @@ Holy	7
 oil	7
 By	7
 Antonio	7
-Feb.	7
 1911	7
 1847	7
 1861	7
@@ -887,7 +852,6 @@ Portuguese	7
 11	7
 Missouri	7
 returned	7
-Dr.	7
 1815	7
 justice	7
 Smith	7
@@ -920,7 +884,6 @@ central	7
 1956	7
 voyage	7
 1933	7
-B.	7
 Some	7
 church	7
 Arabia	7
@@ -962,7 +925,6 @@ Brazil	7
 Benito	7
 1868	6
 establish	6
-Sept.	6
 cause	6
 My	6
 short	6
@@ -985,7 +947,6 @@ Puerto	6
 slavery	6
 1903	6
 ago	6
-Aug.	6
 Justice	6
 1776	6
 using	6
@@ -1019,9 +980,7 @@ Boston	6
 split	6
 Hawaii	6
 Davis	6
-N.Y.	6
 1951	6
-Gen.	6
 Perry	6
 radio	6
 character	6
@@ -1049,7 +1008,6 @@ wounded	6
 really	6
 i	6
 plan	6
-/i	6
 best	6
 originally	6
 medieval	6
@@ -1198,7 +1156,6 @@ plane	5
 liquor	5
 greatest	5
 1777	5
-P.M.	5
 Jane	5
 good	5
 1925	5
@@ -1277,7 +1234,6 @@ jail	5
 Hudson	5
 change	5
 wanted	5
-N.	5
 cover	5
 NYC	5
 Al	5
@@ -1370,7 +1326,6 @@ Charlotte	5
 Syria	5
 Bismarck	5
 Maryland	5
-Mr.	5
 dog	5
 Aztecs	5
 colonies	5
@@ -1382,7 +1337,6 @@ Oklahoma	5
 Moscow	5
 heir	5
 Laws	5
-S.	5
 Purchase	5
 conqueror	5
 Lindbergh	5
@@ -1401,7 +1355,6 @@ Liberty	5
 Mayans	5
 Douglas	5
 Bastille	5
-Tse-tung	5
 Lenin	5
 Antoinette	5
 Yugoslavia	5
@@ -1412,7 +1365,6 @@ graduated	4
 58	4
 restored	4
 Latin	4
-'m	4
 Plato	4
 Solon	4
 discovered	4
@@ -1423,7 +1375,6 @@ playwright	4
 separate	4
 Way	4
 1980	4
-A.D	4
 another	4
 item	4
 square	4
@@ -1521,7 +1472,6 @@ ascended	4
 Convention	4
 Canterbury	4
 Channel	4
-Spanish-American	4
 holiday	4
 writing	4
 makes	4
@@ -1568,7 +1518,6 @@ Vegas	4
 saved	4
 Austrian	4
 Emmanuel	4
-Co.	4
 bill	4
 overthrew	4
 Protestants	4
@@ -1586,7 +1535,6 @@ Cup	4
 Royal	4
 main	4
 Ross	4
-____	4
 Terror	4
 complete	4
 accident	4
@@ -1630,7 +1578,6 @@ boat	4
 1906	4
 Moors	4
 painting	4
-dell'arte	4
 spoke	4
 storm	4
 Point	4
@@ -1682,8 +1629,6 @@ Robespierre	4
 events	4
 international	4
 elephant	4
-2-word	4
-4,000	4
 XV	4
 Nazis	4
 Seven	4
@@ -1695,7 +1640,6 @@ sail	4
 X	4
 Nightingale	4
 Trail	4
-'ll	4
 404	4
 wedding	4
 Built	4
@@ -1737,7 +1681,6 @@ Fillmore	4
 straight	4
 Ben	4
 sea	4
-'ve	4
 job	4
 Harbor	4
 Mau	4
@@ -1858,7 +1801,6 @@ motion	3
 1930	3
 police	3
 About	3
-20,000	3
 brothers	3
 Rio	3
 La	3
@@ -1891,7 +1833,6 @@ LBJ	3
 plague	3
 fall	3
 chancellor	3
-'70s	3
 Poor	3
 centuries	3
 nearby	3
@@ -1900,7 +1841,6 @@ Puritans	3
 beheaded	3
 kind	3
 Savoy	3
-30,000	3
 1854	3
 Belgian	3
 1400s	3
@@ -1954,7 +1894,6 @@ joint	3
 session	3
 duty	3
 light	3
-vs.	3
 duo	3
 immigrants	3
 martial	3
@@ -1975,7 +1914,6 @@ phrase	3
 bankruptcy	3
 Chilean	3
 arrested	3
-T.	3
 training	3
 camp	3
 urging	3
@@ -2017,7 +1955,6 @@ Harris	3
 1844	3
 anesthetic	3
 1970s	3
-18,000	3
 Cincinnati	3
 Dulles	3
 Allen	3
@@ -2100,7 +2037,6 @@ Cuban	3
 escaped	3
 claims	3
 ahead	3
-1,000	3
 fruit	3
 1791	3
 shared	3
@@ -2120,7 +2056,6 @@ product	3
 marched	3
 kid	3
 Mark	3
-D.C.	3
 1502	3
 Stonewall	3
 railroad	3
@@ -2181,11 +2116,9 @@ priest	3
 waterway	3
 Hippo	3
 Scandinavian	3
-U.N	3
 plays	3
 Bible	3
 call	3
-short-lived	3
 1765	3
 covered	3
 Guatemala	3
@@ -2220,7 +2153,6 @@ mayor	3
 Prussian	3
 paper	3
 1849	3
-Nov.	3
 Byron	3
 Le	3
 Babe	3
@@ -2280,7 +2212,6 @@ Persia	3
 track	3
 1829	3
 size	3
--	3
 guy	3
 doctors	3
 Mohammed	3
@@ -2372,7 +2303,6 @@ actress	3
 490	3
 walk	3
 Cleveland	3
-Mexican-American	3
 stars	3
 federal	3
 comes	3
@@ -2410,9 +2340,7 @@ Jr	3
 peoples	3
 Han	3
 funeral	3
-Franco-Prussian	3
 Madame	3
-African-American	3
 Benedict	3
 Plutarch	3
 finance	3
@@ -2453,7 +2381,6 @@ Talks	3
 attended	3
 completed	3
 Sevastopol	3
-F.	3
 Van	3
 Lopez	3
 rush	3
@@ -2508,7 +2435,6 @@ Hapsburgs	3
 Davy	3
 Crockett	3
 Easter	3
-\	3
 Pinochet	3
 Garibaldi	3
 Wall	3
@@ -2543,7 +2469,6 @@ Berlin	3
 Terrible	3
 Baby	3
 Millard	3
-*	3
 Fe	3
 Sedition	3
 Adolf	3
@@ -2554,7 +2479,6 @@ Savannah	2
 attacking	2
 Gustav	2
 autocratic	2
-U-20	2
 solo	2
 poison	2
 formally	2
@@ -2584,7 +2508,6 @@ abolitionist	2
 unpopular	2
 VMI	2
 Lysander	2
-city-state	2
 elective	2
 pounds	2
 wild	2
@@ -2633,7 +2556,6 @@ drug	2
 protect	2
 pioneer	2
 recluse	2
-8.4	2
 voice	2
 acres	2
 asked	2
@@ -2688,10 +2610,8 @@ Mormon	2
 limit	2
 hoped	2
 Known	2
-gen.	2
 1549	2
 volume	2
-Russo-Japanese	2
 steps	2
 Addams	2
 Peruvian	2
@@ -2706,7 +2626,6 @@ supported	2
 Columbia	2
 Nice	2
 nun	2
-Webster-Ashburton	2
 Protestant	2
 armies	2
 Veni	2
@@ -2789,7 +2708,6 @@ Netherland	2
 moving	2
 merger	2
 smaller	2
-1936-39	2
 Axis	2
 Powers	2
 USSR	2
@@ -2861,9 +2779,7 @@ Brussels	2
 buy	2
 mortally	2
 Simon	2
-1,300	2
 dozens	2
-200,000	2
 castles	2
 vetoed	2
 improved	2
@@ -2896,7 +2812,6 @@ filed	2
 divorce	2
 citing	2
 thing	2
-1.5	2
 Open	2
 Belle	2
 Ed	2
@@ -2913,7 +2828,6 @@ cartoon	2
 Neil	2
 Jutes	2
 wed	2
-P.T	2
 decision	2
 interstate	2
 commerce	2
@@ -2972,7 +2886,6 @@ pants	2
 partner	2
 folks	2
 Caudillo	2
-24-hour	2
 Pueblo	2
 sponsored	2
 themselves	2
@@ -3091,8 +3004,6 @@ Hosni	2
 2011	2
 Fred	2
 Vaughn	2
-Secretary-General	2
-French-speaking	2
 reportedly	2
 survive	2
 poem	2
@@ -3208,7 +3119,6 @@ dubbed	2
 potato	2
 dream	2
 estimated	2
-300,000	2
 Siegfried	2
 Soldier	2
 statesman	2
@@ -3222,7 +3132,6 @@ Signed	2
 Americas	2
 Norman	2
 1587	2
-W.	2
 widely	2
 Exodus	2
 1486	2
@@ -3262,7 +3171,6 @@ Zanzibar	2
 witches	2
 Cotton	2
 1897	2
-Six-Day	2
 unleashed	2
 Kent	2
 Pulitzer	2
@@ -3283,7 +3191,6 @@ Medina	2
 hospital	2
 ocean	2
 carry	2
-3,000	2
 Hellenistic	2
 awarded	2
 headline	2
@@ -3311,7 +3218,6 @@ institution	2
 learning	2
 1880s	2
 meetings	2
-N.Y	2
 ground	2
 Damascus	2
 guillotine	2
@@ -3399,11 +3305,9 @@ discussed	2
 Sullivan	2
 shows	2
 authorized	2
-K.	2
 juice	2
 Carnegie	2
 offer	2
-1,113	2
 supplies	2
 Year	2
 executive	2
@@ -3437,7 +3341,6 @@ Tiber	2
 dumped	2
 chests	2
 Boris	2
-Lion-Hearted	2
 youngest	2
 defensive	2
 Former	2
@@ -3521,7 +3424,6 @@ eliminate	2
 Peary	2
 charge	2
 1392	2
-40,000	2
 documentary	2
 politician	2
 pioneered	2
@@ -3548,7 +3450,6 @@ thanks	2
 perished	2
 feel	2
 mile	2
-E.	2
 Roger	2
 diplomat	2
 1907	2
@@ -3603,7 +3504,6 @@ adjective	2
 1688	2
 depicted	2
 goal	2
-d'etat	2
 Zealand	2
 Marshal	2
 consisted	2
@@ -3683,7 +3583,6 @@ mass	2
 Jonathan	2
 headlines	2
 forever	2
-commander-in-chief	2
 Juarez	2
 titles	2
 fifth	2
@@ -3696,7 +3595,6 @@ Soto	2
 1542	2
 Department	2
 Alaskan	2
-20-year	2
 siege	2
 performed	2
 1750	2
@@ -3726,7 +3624,6 @@ neutrality	2
 Braves	2
 absorbed	2
 Aryans	2
-Anti-Trust	2
 Frances	2
 Hi	2
 Minnesota	2
@@ -3778,7 +3675,6 @@ lawmaker	2
 steamship	2
 Nova	2
 Scotia	2
-half-brother	2
 Crimea	2
 instituted	2
 marshall	2
@@ -3799,7 +3695,6 @@ mutual	2
 step	2
 pickle	2
 Bruce	2
-R.	2
 flags	2
 Canary	2
 Zubov	2
@@ -3843,7 +3738,6 @@ Hands	2
 Bavaria	2
 sermon	2
 Dodgers	2
-Trans-Siberian	2
 promises	2
 lovers	2
 Edmund	2
@@ -3863,12 +3757,10 @@ Las	2
 fabric	2
 Pershing	2
 Giovanni	2
-2,000	2
 happened	2
 info	2
 feature	2
 Macbeth	2
-'50s	2
 Shakespeare	2
 dealt	2
 sheriff	2
@@ -3955,7 +3847,6 @@ Compact	2
 Pigs	2
 Tutankhamen	2
 Anna	2
-D.	2
 Labour	2
 OPEC	2
 Anwar	2
@@ -3994,7 +3885,6 @@ Punch	2
 Reformation	2
 Sputnik	2
 Somalia	2
-Baden-Powell	2
 Horn	2
 Memorial	2
 Trojan	2
@@ -4011,7 +3901,6 @@ Violeta	2
 Chamorro	2
 Falkland	2
 Dixon	2
-Iran-Contra	2
 Brooks	2
 Vatican	2
 Leif	2
@@ -4036,7 +3925,6 @@ Teapot	2
 Dome	2
 Thirty	2
 Mayo	2
-D.C	2
 Alexandra	2
 Betsy	2
 Rutherford	2
@@ -4053,10 +3941,8 @@ provided	1
 Besides	1
 Nancy	1
 hits	1
-Not-So-Fast	1
 Friend	1
 surprising	1
-2.2	1
 Monk	1
 conservatives	1
 shoot	1
@@ -4079,18 +3965,13 @@ kicking	1
 US	1
 1569	1
 marriages	1
-sister-in-law	1
 1509	1
 astrologer	1
 Goethe	1
 devilish	1
 Kuan	1
-Han-Ch'ing	1
-cost-of-living	1
 ranked	1
 expensive	1
-43-year	1
-1682-1725	1
 stakes	1
 peasant	1
 burnt	1
@@ -4101,7 +3982,6 @@ Demirel	1
 occasions	1
 Aerosmith	1
 Walk	1
-45-year	1
 total	1
 118	1
 Tudors	1
@@ -4123,7 +4003,6 @@ slain	1
 incorporated	1
 1347	1
 bubonic	1
-one-third	1
 perish	1
 removable	1
 inches	1
@@ -4140,7 +4019,6 @@ kitchen	1
 the18th	1
 elegant	1
 tribute	1
-2,100	1
 beast	1
 devouring	1
 scientists	1
@@ -4153,13 +4031,11 @@ ally	1
 Conquistador	1
 Initially	1
 secured	1
-post-Civil	1
 enforced	1
 Rican	1
 emporor	1
 exposition	1
 dial	1
-3-digit	1
 glorious	1
 hunters	1
 strait	1
@@ -4170,19 +4046,15 @@ Bam	1
 Dance	1
 honorees	1
 Fayard	1
-Italian-American	1
 Viceroyalty	1
 Plata	1
 marines	1
 Honor	1
-high-frequency	1
 transcontinentally	1
-Hay-Pauncefote	1
 1148	1
 fails	1
 horribly	1
 Syrian	1
-anti-American	1
 otherwise	1
 Amen	1
 aristocrat	1
@@ -4197,7 +4069,6 @@ pork	1
 processing	1
 facilities	1
 Porkopolis	1
-563-carat	1
 sapphire	1
 Jesuit	1
 1554	1
@@ -4218,13 +4089,11 @@ masked	1
 subcommander	1
 Zapatista	1
 innards	1
-600,000	1
 Shang	1
 982	1
 household	1
 livestock	1
 Dubcek	1
-Saxe-Coburg-Gotha	1
 please	1
 Paula	1
 Abdul	1
@@ -4248,7 +4117,6 @@ engineers	1
 partnership	1
 Midland	1
 intense	1
-Kiss-off	1
 Kicks	1
 HQ	1
 Ralph	1
@@ -4260,7 +4128,6 @@ tributary	1
 locale	1
 813	1
 Glassboro	1
-N.J.	1
 problems	1
 Woolsthorpe	1
 knot	1
@@ -4275,7 +4142,6 @@ prolific	1
 Statesman	1
 lightning	1
 kaiser	1
-limited-run	1
 dramatic	1
 format	1
 Petrovna	1
@@ -4308,7 +4174,6 @@ Flemish	1
 silting	1
 Zwyn	1
 destination	1
-'80s	1
 pathfinder	1
 exploratory	1
 Monterey	1
@@ -4326,10 +4191,8 @@ enticed	1
 previous	1
 acquittals	1
 reputed	1
-Mecklenburg-Schwerin	1
 Actium	1
 Agrippa	1
-highest-ranking	1
 Rwandan	1
 Habyarimana	1
 Ntaryamira	1
@@ -4342,11 +4205,9 @@ PRI	1
 lowest	1
 margin	1
 perfected	1
-7-man	1
 Iolani	1
 Honolulu	1
 Beatrice	1
-G.B	1
 Shaw	1
 Leipzig	1
 clash	1
@@ -4369,7 +4230,6 @@ intellectual	1
 parents	1
 immigrated	1
 Looking	1
-anti-Communism	1
 advice	1
 friends	1
 Piscine	1
@@ -4392,7 +4252,6 @@ shogungate	1
 allegedly	1
 conspiring	1
 Medicis	1
-63-year	1
 mutineers	1
 1611	1
 Arno	1
@@ -4414,18 +4273,13 @@ eulogy	1
 Michinomiya	1
 refugee	1
 migrations	1
-1947-1951	1
 Baath	1
-J.W	1
 cents	1
 swearing	1
-Ct.	1
 Eleazor	1
 Wheelock	1
 educate	1
 natives	1
-N.H.	1
-3-year-old	1
 Montreux	1
 fortify	1
 Dardanelles	1
@@ -4436,7 +4290,6 @@ Tales	1
 1410	1
 Bibles	1
 1455	1
-1904-1905	1
 narrator	1
 Seabiscuit	1
 Sardinians	1
@@ -4446,7 +4299,6 @@ Afonso	1
 1656	1
 Ryan	1
 true	1
-B.S	1
 triangular	1
 marks	1
 thinking	1
@@ -4471,9 +4323,7 @@ Sandford	1
 Cinderella	1
 expressly	1
 television	1
-water-bearer	1
 Zia	1
-ul-Haq	1
 administrator	1
 secede	1
 responsible	1
@@ -4491,13 +4341,11 @@ calculated	1
 fabled	1
 emerald	1
 rediscovered	1
-1945-46	1
 employees	1
 1480s	1
 studied	1
 Ton	1
 Thang	1
-vice-president	1
 Daylight	1
 Saving	1
 transitional	1
@@ -4527,7 +4375,6 @@ Rothstein	1
 photo	1
 Argonaut	1
 operation	1
-low-fare	1
 airline	1
 connection	1
 human	1
@@ -4536,11 +4383,9 @@ Carry	1
 wrecked	1
 establishments	1
 alumnus	1
-'60s	1
 okay	1
 grumpy	1
 Encouraged	1
-9-year	1
 monopolies	1
 Judge	1
 Raulston	1
@@ -4549,13 +4394,10 @@ engineering	1
 achievements	1
 Engelsism	1
 Catalina	1
-non-California	1
 Associated	1
 Press	1
-5-peso	1
 wound	1
 Calvi	1
-G.I	1
 veterans	1
 quest	1
 facelifts	1
@@ -4566,8 +4408,6 @@ Aegean	1
 Hyacinth	1
 Krakow	1
 apostle	1
-One-Legged	1
-E.H.	1
 Dunning	1
 HMS	1
 Furious	1
@@ -4580,14 +4420,12 @@ Nationalists	1
 backed	1
 Loyalists	1
 extremists	1
-400-year-old	1
 Yale	1
 Coit	1
 Gilman	1
 Leaders	1
 Kwame	1
 Nkrumah	1
-W.E.B	1
 Du	1
 Bois	1
 Harappan	1
@@ -4603,7 +4441,6 @@ Seminary	1
 alloy	1
 armor	1
 totalitarian	1
-Bryan-Chamorro	1
 Cormac	1
 MacCarthy	1
 1446	1
@@ -4615,7 +4452,6 @@ initiate	1
 Ashmolean	1
 Museum	1
 plea	1
-N.J	1
 volunteers	1
 living	1
 Norodom	1
@@ -4627,7 +4463,6 @@ print	1
 horde	1
 1227	1
 assembled	1
-240,000	1
 Susannah	1
 materiel	1
 Congressional	1
@@ -4638,9 +4473,7 @@ Grimaldi	1
 Mandraki	1
 guarded	1
 colossal	1
-120'-high	1
 Thucydides	1
-1/2	1
 consecutive	1
 Liverpool	1
 Martinique	1
@@ -4652,7 +4485,6 @@ Simpson	1
 oeuvre	1
 Same	1
 Twice	1
-Pulitzer-winning	1
 Color	1
 Purple	1
 opponents	1
@@ -4673,9 +4505,7 @@ bodacious	1
 Tata	1
 Janis	1
 Rev	1
-G.	1
 settler	1
-15-year	1
 stay	1
 proprietor	1
 1699	1
@@ -4687,9 +4517,7 @@ features	1
 onnagata	1
 roles	1
 Riviera	1
-nail-making	1
 Conservative	1
-m'lord	1
 disassemble	1
 artists	1
 Command	1
@@ -4701,7 +4529,6 @@ award	1
 scroll	1
 cigarette	1
 lighter	1
-57-show	1
 breaks	1
 existing	1
 attendance	1
@@ -4724,12 +4551,9 @@ Flanders	1
 Wallonia	1
 archduchess	1
 appionted	1
-Re-enactors	1
 hardtack	1
 crackers	1
-G.H	1
 Bent	1
-Mass.	1
 1199	1
 crusader	1
 besieging	1
@@ -4744,7 +4568,6 @@ circulation	1
 ruined	1
 digging	1
 1748	1
-1,669	1
 blacksmith	1
 Dimmit	1
 Somoza	1
@@ -4774,7 +4597,6 @@ vizier	1
 Hans	1
 Christiansen	1
 begin	1
-2-year	1
 musketeer	1
 1700	1
 Cry	1
@@ -4785,15 +4607,12 @@ regiment	1
 24th	1
 Jalisco	1
 distilling	1
-1/19/96	1
 fictionally	1
 Marlee	1
 Matlin	1
 duplicating	1
-1/19/53	1
 feat	1
 Israelite	1
-gun-totin	1
 girlfriends	1
 Catholicism	1
 stimulants	1
@@ -4808,7 +4627,6 @@ Opening	1
 Joliet	1
 Blizzard	1
 Wrote	1
-Tenn.	1
 publicity	1
 defendant	1
 1633	1
@@ -4824,25 +4642,19 @@ ejected	1
 headbutting	1
 player	1
 Jutland	1
-86.4	1
 Wheeling	1
 Leviticus	1
-20:21	1
 unclean	1
 Perot	1
 copies	1
 Deadly	1
-S.S.	1
 Ancon	1
 golfer	1
-near-fatal	1
 Longest	1
 Journey	1
 Mankind	1
 Behaim	1
 globe	1
-north-south	1
-east-west	1
 dividing	1
 Land	1
 Quarters	1
@@ -4870,7 +4682,6 @@ orchestra	1
 Merrie	1
 Melodies	1
 precedes	1
-Bunny-Part	1
 journalists	1
 report	1
 directly	1
@@ -4901,17 +4712,13 @@ cot	1
 Saracen	1
 pilgrims	1
 freely	1
-35-inch-tall	1
 millionaire	1
-32-inch-tall	1
 Lavinia	1
 Contras	1
-U.S.-backed	1
 battling	1
 Konabar	1
 coconut	1
 Samsung	1
-Byung-Chull	1
 proposals	1
 constitutional	1
 1629	1
@@ -4948,7 +4755,6 @@ punches	1
 jaw	1
 Intel	1
 chip	1
-3.1	1
 transistors	1
 mothers	1
 forcing	1
@@ -4979,11 +4785,8 @@ Provence	1
 beyond	1
 Etienne	1
 Brule	1
-second-largest	1
 Belleau	1
 Wood	1
-1503-1482	1
-'69	1
 Lookout	1
 Farm	1
 Finca	1
@@ -5014,7 +4817,6 @@ Emilio	1
 Pucci	1
 finished	1
 paying	1
-12.4-million	1
 separated	1
 mechanically	1
 Dominion	1
@@ -5041,11 +4843,9 @@ Leader	1
 auto	1
 birthplace	1
 1133	1
-U.S.S	1
 detained	1
 espionage	1
 animated	1
-One-A-Day	1
 vitamins	1
 cigarettes	1
 communists	1
@@ -5075,7 +4875,6 @@ CS	1
 Reza	1
 Pahlavi	1
 Kajars	1
-long-range	1
 radar	1
 warn	1
 Amanullah	1
@@ -5086,8 +4885,6 @@ Guerrilla	1
 daring	1
 raids	1
 marshes	1
-100,000	1
-government-in-exile	1
 resort	1
 lent	1
 moored	1
@@ -5106,8 +4903,6 @@ upheld	1
 achieve	1
 integration	1
 able	1
-10-month	1
-Y-line	1
 highlighted	1
 Trujillo	1
 Alden	1
@@ -5146,13 +4941,11 @@ navigate	1
 711	1
 engaged	1
 anchorman	1
-on-air	1
 shouting	1
 porcine	1
 Papago	1
 Pima	1
 Stalingrad	1
-1942-February	1
 workingmen	1
 Akkadians	1
 Divine	1
@@ -5198,8 +4991,6 @@ Provocative	1
 combing	1
 bouffant	1
 Wunderlich	1
-1898.6	1
-Austria-Hungary	1
 Bulgaria	1
 handsome	1
 Swede	1
@@ -5229,7 +5020,6 @@ lunch	1
 843	1
 Verdun	1
 Darnley	1
-'Ullo	1
 wording	1
 1752	1
 famously	1
@@ -5241,14 +5031,11 @@ comeback	1
 eulogized	1
 mentally	1
 prayed	1
-al-Aqsa	1
 Shays	1
 places	1
 berths	1
 Coe	1
 trace	1
-3,000-year	1
-golden-voiced	1
 clinched	1
 nomination	1
 Theodora	1
@@ -5284,7 +5071,6 @@ Lightning	1
 Deborah	1
 Read	1
 44	1
-deferred-payment	1
 instruments	1
 patron	1
 voodoo	1
@@ -5292,13 +5078,10 @@ fist	1
 1324	1
 Mansa	1
 Musa	1
-4,000-mile	1
 pilgrimage	1
-12,000	1
 Itzcoatl	1
 Novosibirsk	1
 Persepolis	1
-Serbo-Croat-Slovene	1
 farmer	1
 Octavian	1
 advances	1
@@ -5342,13 +5125,11 @@ Uriah	1
 1595	1
 maker	1
 punishable	1
-ex-president	1
 descendants	1
 Jolly	1
 Livingston	1
 Crosby	1
 Hope	1
-CBS-TV	1
 completion	1
 1570	1
 Job	1
@@ -5367,9 +5148,7 @@ Celtic	1
 Lutetia	1
 Parisii	1
 measuring	1
-6.7	1
 Kobe	1
-7.2	1
 Enrico	1
 Dandalo	1
 80s	1
@@ -5386,7 +5165,6 @@ hatched	1
 plots	1
 seduce	1
 interrruptions	1
-1438-1806	1
 Tikal	1
 Piedras	1
 Negras	1
@@ -5398,7 +5176,6 @@ Arab	1
 grain	1
 coastal	1
 lowlands	1
-Hun-y	1
 Berengaria	1
 Limassol	1
 Sostratus	1
@@ -5423,21 +5200,18 @@ mutiny	1
 Bounty	1
 Pony	1
 Express	1
-H.	1
 Agatha	1
 Christie	1
 staying	1
 Aswan	1
 assistant	1
 Peking	1
-5-star	1
 conferred	1
 noble	1
 traced	1
 descent	1
 counts	1
 Zollern	1
-mid-1930s	1
 noon	1
 bottomed	1
 Floridian	1
@@ -5483,12 +5257,10 @@ Canadians	1
 unfurled	1
 playoffs	1
 Koranic	1
-all-important	1
 illustrated	1
 1568	1
 martyrdom	1
 Comte	1
-d'Egmont	1
 degrees	1
 latitude	1
 Chimu	1
@@ -5496,7 +5268,6 @@ subdued	1
 Cornwallis	1
 Surrendered	1
 Yorktown	1
-7-2	1
 774	1
 Desiderius	1
 destiny	1
@@ -5521,7 +5292,6 @@ percent	1
 captures	1
 hemisphere	1
 1729	1
-one-year-old	1
 subscription	1
 herself	1
 Never	1
@@ -5538,12 +5308,10 @@ transaction	1
 calculations	1
 Hippias	1
 Elis	1
-4-year	1
 periods	1
 radical	1
 club	1
 yourself	1
-big-city	1
 bosses	1
 1337	1
 1579	1
@@ -5556,8 +5324,6 @@ pesticides	1
 Silent	1
 Spring	1
 environmental	1
-medium-sized	1
-mid-18th	1
 scans	1
 mummified	1
 mill	1
@@ -5597,7 +5363,6 @@ su	1
 technique	1
 paintings	1
 floating	1
-Austrian-Russian	1
 1250	1
 Kalisch	1
 journeying	1
@@ -5622,7 +5387,6 @@ reducing	1
 Lt	1
 commissioner	1
 hostilities	1
-German-born	1
 archaeologist	1
 fortune	1
 czarina	1
@@ -5643,12 +5407,10 @@ riches	1
 Zuni	1
 villages	1
 decline	1
-PT-109	1
 reality	1
 joystick	1
 Helene	1
 Curtis	1
-Inc.	1
 aerosol	1
 Ugandans	1
 regime	1
@@ -5662,7 +5424,6 @@ masters	1
 Troost	1
 torpedo	1
 torpedoed	1
-U-boat	1
 Exactly	1
 Executed	1
 Surname	1
@@ -5680,8 +5441,6 @@ explained	1
 ANC	1
 Boiphatong	1
 1302	1
-great-niece	1
-surgeon-apothecary	1
 poems	1
 Ode	1
 lighthouses	1
@@ -5704,7 +5463,6 @@ Sacheen	1
 143	1
 publication	1
 leaving	1
-mid-1800s	1
 Well	1
 monkey	1
 shocked	1
@@ -5712,7 +5470,6 @@ Origin	1
 Species	1
 Kathy	1
 Bates	1
-real-life	1
 Unsinkable	1
 Leonardo	1
 DiCaprio	1
@@ -5734,32 +5491,24 @@ plotted	1
 secrets	1
 Manchukuo	1
 conspirators	1
-Martinique-born	1
-emperor-to-be	1
 312	1
-50,000	1
-Ping-Ponged	1
 Oudong	1
 Preacher	1
 Theodor	1
 Herzl	1
 chapters	1
-1939-1940	1
 Winter	1
 1565	1
 parish	1
 reaction	1
 entering	1
 Mahabad	1
-447-438	1
 owner	1
 Stockings	1
 sex	1
 lacked	1
 oxymoronic	1
-Hell-bent	1
 Fer	1
-35,000	1
 volumes	1
 Physician	1
 Aurelius	1
@@ -5785,7 +5534,6 @@ carriers	1
 Luzon	1
 Engano	1
 Moose	1
-would-be-assassin	1
 lodged	1
 chest	1
 suggestion	1
@@ -5793,24 +5541,20 @@ Southwest	1
 Frontier	1
 105	1
 bears	1
-Berners-Lee	1
 CERN	1
 WWW	1
 connect	1
 documents	1
 overactive	1
 links	1
-21,000	1
 background	1
 internment	1
 Carranza	1
-U.S.-Mexico	1
 Basilica	1
 Epidauros	1
 Tsu	1
 Ecole	1
 des	1
-Beaux-Arts	1
 entrance	1
 exam	1
 think	1
@@ -5825,7 +5569,6 @@ wages	1
 Nanking	1
 watches	1
 repairman	1
-A.C.	1
 Roebuck	1
 mental	1
 ben	1
@@ -5844,7 +5587,6 @@ telegram	1
 telegrams	1
 sudden	1
 typhoon	1
-150,000	1
 aristocratic	1
 Boyar	1
 principles	1
@@ -5870,7 +5612,6 @@ Ukrainian	1
 Deriving	1
 fellow	1
 traveler	1
-Cie.	1
 Internationale	1
 Navigation	1
 Orient	1
@@ -5882,13 +5623,11 @@ northwest	1
 Mafeking	1
 Boy	1
 weighing	1
-lbs.	1
 Pork	1
 lovingly	1
 anchor	1
 apothecary	1
 Alton	1
-80-year-old	1
 Congo	1
 accept	1
 1539	1
@@ -5915,7 +5654,6 @@ excellent	1
 astronomers	1
 Flushing	1
 eyepatched	1
-all-time	1
 pitching	1
 category	1
 478	1
@@ -5939,7 +5677,6 @@ Notes	1
 Scarlet	1
 Letter	1
 retook	1
-top-selling	1
 spot	1
 violin	1
 arsonist	1
@@ -5963,7 +5700,6 @@ paralyzes	1
 needed	1
 differences	1
 ambassador	1
-2,962	1
 faith	1
 Iowa	1
 Utah	1
@@ -5986,12 +5722,10 @@ prone	1
 anger	1
 subordinates	1
 changes	1
-counter-this	1
 breakaway	1
 quell	1
 boycotted	1
 demand	1
-co-host	1
 Roberts	1
 Rinehart	1
 blaming	1
@@ -6002,9 +5736,7 @@ Romanovs	1
 Up	1
 victim	1
 1484	1
-Anti-Vacks	1
 Jenner	1
-anti-smallpox	1
 quite	1
 fashionable	1
 Champlain	1
@@ -6016,7 +5748,6 @@ SCLC	1
 Hostilities	1
 Merritt	1
 146	1
-20-minute	1
 Tunis	1
 Tunisia	1
 holiest	1
@@ -6063,7 +5794,6 @@ fungi	1
 Chase	1
 comments	1
 critical	1
-100-year	1
 268	1
 below	1
 flows	1
@@ -6085,12 +5815,8 @@ Fits	1
 threatened	1
 Sidra	1
 Palmerston	1
-'40s	1
-1852-55	1
-117-138	1
 lords	1
 vassals	1
-mid-1500s	1
 Akbar	1
 Humayun	1
 destroyers	1
@@ -6107,9 +5833,7 @@ Parliamentary	1
 Practice	1
 landowners	1
 overlooking	1
-cruel-lovely	1
 Carlyle	1
-tie-breaking	1
 Oceanus	1
 pilgrim	1
 1137	1
@@ -6125,10 +5849,8 @@ snow	1
 mixed	1
 honey	1
 bored	1
-fiddle-playing	1
 Longfellow	1
 Stalwarts	1
-Half-Breeds	1
 Ethopia	1
 Stamford	1
 Raffles	1
@@ -6140,7 +5862,6 @@ absence	1
 Dane	1
 campaigning	1
 Laurel	1
-Md.	1
 paralyzed	1
 Bremer	1
 FCC	1
@@ -6158,14 +5879,12 @@ Drebbel	1
 demonstrated	1
 workable	1
 Decembrists	1
-longest-serving	1
 Following	1
 Neva	1
 phone	1
 traffic	1
 adhesive	1
 backs	1
-Reggae-rap	1
 popularity	1
 Lauren	1
 album	1
@@ -6189,14 +5908,11 @@ citrus	1
 Pittsburgh	1
 degree	1
 Scarlett	1
-O'Hara	1
 slow	1
 POWs	1
 mil	1
 visitors	1
-1954-1962	1
 struggle	1
-Glass-Steagall	1
 Banking	1
 guarantees	1
 accounts	1
@@ -6221,13 +5937,11 @@ tunnel	1
 Crossing	1
 Enosis	1
 desire	1
-3500-square-mile	1
 unti	1
 Umberto	1
 rats	1
 artifact	1
 Newseum	1
-3,200-year-old	1
 Sumerian	1
 brick	1
 prizes	1
@@ -6265,10 +5979,7 @@ tallest	1
 barreled	1
 temples	1
 downgrades	1
-long-term	1
 rating	1
-AA+	1
-6,000	1
 rushed	1
 taxicabs	1
 dessert	1
@@ -6359,8 +6070,6 @@ conservative	1
 1760s	1
 milestones	1
 Missile	1
-Arab-Israeli	1
-'63	1
 marchers	1
 leadership	1
 Privatization	1
@@ -6368,13 +6077,11 @@ Also	1
 Rapa	1
 Nui	1
 strange	1
-rongo-rongo	1
 hieroglyphs	1
 Armand	1
 Plessis	1
 1624	1
 Englishman	1
-anti-Jackson	1
 grim	1
 Calamity	1
 memoirs	1
@@ -6383,7 +6090,6 @@ torrid	1
 romance	1
 westerner	1
 dressed	1
-U.K.	1
 Iles	1
 Normandes	1
 Enemy	1
@@ -6392,9 +6098,7 @@ Midwestern	1
 done	1
 traces	1
 origins	1
-fur-trading	1
 certain	1
-anti-Communists	1
 colorful	1
 fungus	1
 angered	1
@@ -6409,7 +6113,6 @@ advance	1
 Palenque	1
 Gabon	1
 Babinga	1
-small-in-stature	1
 1663	1
 Eliot	1
 Algonquin	1
@@ -6423,27 +6126,21 @@ sensibility	1
 sleuth	1
 Memorable	1
 implicated	1
-aggressive-aggressive	1
-'So	1
 automobile	1
 Jean	1
 Stapleton	1
 towering	1
 Coined	1
-9-year-old	1
 zeros	1
 bobbed	1
 dresses	1
 strings	1
 beads	1
-ex-British	1
 pure	1
 food	1
 pertaining	1
 1516	1
 percentage	1
-1990-91	1
-100-passenger	1
 Date	1
 Overlord	1
 Amorite	1
@@ -6459,7 +6156,6 @@ Briefly	1
 Doenitz	1
 lustful	1
 liaisons	1
-nearly-nude	1
 dancing	1
 spying	1
 Herb	1
@@ -6471,7 +6167,6 @@ oasis	1
 labor	1
 forge	1
 Fords	1
-AFL-CIO	1
 rejoined	1
 NKVD	1
 liquidated	1
@@ -6481,7 +6176,6 @@ Jaruzelski	1
 organizational	1
 Texans	1
 gunned	1
-good-looking	1
 Faye	1
 Russwurm	1
 abolitionism	1
@@ -6494,9 +6188,7 @@ sapling	1
 90th	1
 Cajuns	1
 migrated	1
-3-letter	1
 differing	1
-St.-Domingue	1
 Brent	1
 barrister	1
 executor	1
@@ -6504,11 +6196,9 @@ Elisha	1
 News	1
 Lise	1
 Meitner	1
-co-discovery	1
 Drusilla	1
 deified	1
 previously	1
-Daimler-Benz	1
 Volkswagen	1
 cortisone	1
 tar	1
@@ -6531,10 +6221,8 @@ Cerdic	1
 Cynric	1
 beaming	1
 1265	1
-Jean-Jacque	1
 Dessalines	1
 Jacque	1
-1804-1806	1
 Inspired	1
 glass	1
 Donald	1
@@ -6553,7 +6241,6 @@ Corinthians	1
 founders	1
 Social	1
 Register	1
-ex-child	1
 Frenchmen	1
 hungry	1
 ate	1
@@ -6588,11 +6275,8 @@ cabbage	1
 Drunk	1
 sober	1
 dared	1
-hatchet-wielding	1
 smasher	1
-Hatchet-Face	1
 financial	1
-1700-1721	1
 Crusaders	1
 1734	1
 Vesuvius	1
@@ -6605,8 +6289,6 @@ Pythian	1
 Games	1
 proposal	1
 ban	1
-medium-	1
-short-range	1
 economy	1
 successfully	1
 Perfect	1
@@ -6623,8 +6305,6 @@ Montserrat	1
 Indies	1
 Jonas	1
 Scheele	1
-mid-1940s	1
-10,000	1
 electronic	1
 devices	1
 40	1
@@ -6640,13 +6320,10 @@ rounding	1
 spotted	1
 Tissue	1
 study	1
-high-toned	1
 Shawl	1
 Roses	1
 Warwick	1
 choosing	1
-85,000	1
-614,000	1
 downfall	1
 la	1
 Cosa	1
@@ -6669,7 +6346,6 @@ Saxony	1
 1100s	1
 Ulrich	1
 Tiger	1
-231-foot	1
 embroidery	1
 Bergh	1
 Prevention	1
@@ -6692,7 +6368,6 @@ Carroll	1
 sucking	1
 defined	1
 shrank	1
-present-day	1
 55	1
 deputies	1
 unanimously	1
@@ -6706,7 +6381,6 @@ univ	1
 Dramatic	1
 Derry	1
 MPPDA	1
-1922-45	1
 moral	1
 blacklist	1
 cancer	1
@@ -6725,7 +6399,6 @@ cat	1
 wishes	1
 Chartwell	1
 Renaissance	1
-Rhys-Jones	1
 pearl	1
 earrings	1
 bridegroom	1
@@ -6737,8 +6410,6 @@ librarian	1
 Sunday	1
 issues	1
 crucial	1
-up-to-date	1
-A.	1
 Watson	1
 Patricians	1
 Miltiades	1
@@ -6752,7 +6423,6 @@ easily	1
 squelched	1
 patriot	1
 Burgesses	1
-500,000	1
 Total	1
 625	1
 Chaldeans	1
@@ -6760,17 +6430,11 @@ revived	1
 Local	1
 bakers	1
 Donuts	1
-1,100	1
 doppelmonarchie	1
 Maori	1
 marshal	1
 Bazaine	1
-court-martialed	1
 surrendering	1
-140,000	1
-R.I.	1
-O'Sullivan	1
-27-year-long	1
 Serbs	1
 Croats	1
 Slovenes	1
@@ -6784,7 +6448,6 @@ enlightened	1
 Treatise	1
 Human	1
 flop	1
-Dead-born	1
 Treason	1
 Antonia	1
 Fraser	1
@@ -6793,19 +6456,16 @@ Horseshoe	1
 Bend	1
 Flagler	1
 stockholders	1
-Ohio-based	1
 Exxon	1
 Valdez	1
 tanker	1
 spilled	1
-260,000	1
 crude	1
 blockade	1
 Playbill	1
 green	1
 edition	1
 marking	1
--ing	1
 caves	1
 portal	1
 Xibalba	1
@@ -6829,11 +6489,9 @@ modernize	1
 IBM	1
 engineer	1
 Dave	1
-multi-key	1
 combination	1
 Speaker	1
 1668	1
-2-wheeled	1
 vehicle	1
 Suddhodana	1
 563	1
@@ -6928,7 +6586,6 @@ tablets	1
 hour	1
 grave	1
 lies	1
-a-mouldering	1
 wave	1
 immigration	1
 chiton	1
@@ -6940,7 +6597,6 @@ mighty	1
 Rhodesia	1
 CREEP	1
 Core	1
-sit-ins	1
 protests	1
 biz	1
 substitutes	1
@@ -6955,7 +6611,6 @@ Solway	1
 Firth	1
 freed	1
 Catalan	1
-6:42:08	1
 Harroun	1
 seceded	1
 Okies	1
@@ -6975,7 +6630,6 @@ riots	1
 spurred	1
 buildings	1
 abdication	1
-year-old	1
 Kathryn	1
 Johnston	1
 sports	1
@@ -6984,7 +6638,6 @@ Quezon	1
 Tintoretto	1
 colors	1
 scientist	1
-X-rays	1
 newsmakers	1
 Quemoy	1
 Taiwan	1
@@ -6995,13 +6648,11 @@ Wurttemburg	1
 Brumaire	1
 consul	1
 Anschluss	1
-Col.	1
 Lubbock	1
 Tyler	1
 offered	1
 Miskito	1
 1725	1
-11:40	1
 knots	1
 cum	1
 laude	1
@@ -7010,7 +6661,6 @@ militants	1
 Isitt	1
 signature	1
 monument	1
-19-foot	1
 seated	1
 dedicated	1
 guard	1
@@ -7038,7 +6688,6 @@ transported	1
 Angolans	1
 synonymous	1
 copying	1
-hand-held	1
 mouse	1
 zealots	1
 73	1
@@ -7065,7 +6714,6 @@ highest	1
 Selkirk	1
 highlanders	1
 868	1
-block-printed	1
 391	1
 ordained	1
 396	1
@@ -7099,7 +6747,6 @@ absentee	1
 towns	1
 Armstrong	1
 Ahmose	1
-1554-1525	1
 linking	1
 entities	1
 Danbury	1
@@ -7107,8 +6754,6 @@ Baptists	1
 elaborating	1
 Scotsman	1
 brave	1
-Calif.	1
-N.C.	1
 amidst	1
 fears	1
 scholars	1
@@ -7149,7 +6794,6 @@ airlift	1
 falashas	1
 Tangier	1
 33	1
-600,000-man	1
 limped	1
 Andre	1
 ineligible	1
@@ -7175,9 +6819,7 @@ exploring	1
 gov	1
 brand	1
 Agnes	1
-co-founded	1
 grabbed	1
-40-year	1
 Chao	1
 Phraya	1
 Chakri	1
@@ -7208,7 +6850,6 @@ promoted	1
 frigate	1
 overthrown	1
 disunity	1
-left-wing	1
 Laotian	1
 Laos	1
 financier	1
@@ -7220,29 +6861,23 @@ host	1
 duel	1
 hefty	1
 Jumbo	1
-VA.	1
 statute	1
 lieutenant	1
 Corsican	1
-2,200	1
 tired	1
 reformers	1
-L.	1
 Garrison	1
 Trinidad	1
-J.L	1
 Petit	1
 screw	1
 bleeding	1
 1718	1
 dental	1
 floss	1
-would-be	1
 assassins	1
 epitaph	1
 maintained	1
 stance	1
-1934-35	1
 6000	1
 2007	1
 socialist	1
@@ -7262,7 +6897,6 @@ Vincennes	1
 synonym	1
 seductive	1
 1631	1
-decades-long	1
 Treat	1
 prosecuted	1
 indicted	1
@@ -7278,7 +6912,6 @@ Had	1
 trousers	1
 Jenkses	1
 1400	1
-Tsong-kha-pa	1
 Tibetan	1
 Anatomy	1
 Wesel	1
@@ -7287,8 +6920,6 @@ postmaster	1
 picture	1
 Clans	1
 patterns	1
-Alsace-Lorraine	1
-1870-71	1
 1795	1
 partitioned	1
 eliminating	1
@@ -7310,7 +6941,6 @@ declaring	1
 1613	1
 module	1
 Ruling	1
-1792-1750	1
 block	1
 Connolly	1
 Klem	1
@@ -7355,12 +6985,10 @@ shares	1
 hardliners	1
 Ulster	1
 Vesey	1
-co-ruled	1
 younger	1
 Pipeline	1
 Wladyslaw	1
 Gomulka	1
-1956-1970	1
 Baldwin	1
 presumptive	1
 Dukedom	1
@@ -7372,9 +7000,7 @@ Eracleon	1
 Mexicans	1
 Zaragoza	1
 fiesta	1
-L.A.	1
 Olvera	1
-mid-800s	1
 naming	1
 pool	1
 Liffey	1
@@ -7382,7 +7008,6 @@ bathtub	1
 Rockets	1
 opening	1
 Noted	1
-1643-1715	1
 Promulgated	1
 Nepali	1
 insurance	1
@@ -7395,11 +7020,9 @@ hostage	1
 dealing	1
 loans	1
 debts	1
-man-eaters	1
 ink	1
 sensationalist	1
 reporting	1
-75,000	1
 goddess	1
 Cretan	1
 holding	1
@@ -7422,7 +7045,6 @@ Chat	1
 interior	1
 Producer	1
 Selznick	1
-5,000	1
 censors	1
 sell	1
 1676	1
@@ -7460,7 +7082,6 @@ occasion	1
 1085	1
 Fyodor	1
 murdered	1
-Code-named	1
 Valkyrie	1
 chronicled	1
 Graves	1
@@ -7475,14 +7096,12 @@ Bartolomeu	1
 Dias	1
 constructed	1
 outfitted	1
-1497-1498	1
 hope	1
 glory	1
 Fairbanks	1
 Coronado	1
 Alarcon	1
 Yuma	1
-Ariz.	1
 OK	1
 chums	1
 Deathwing	1
@@ -7496,7 +7115,6 @@ Imperial	1
 1472	1
 pony	1
 sheepdog	1
-4,500	1
 wind	1
 coinage	1
 570	1
@@ -7517,7 +7135,6 @@ mysteries	1
 Beast	1
 1209	1
 punished	1
-self-governing	1
 outlying	1
 Evening	1
 Female	1
@@ -7535,7 +7152,6 @@ Fez	1
 Rafael	1
 Furcal	1
 MLB	1
-single-handedly	1
 Towns	1
 patriotic	1
 1520s	1
@@ -7554,9 +7170,7 @@ finest	1
 Stone	1
 Carlone	1
 victims	1
-6,000-mile	1
 Jiangxi	1
-Yan'an	1
 Gary	1
 Thuerk	1
 irritating	1
@@ -7577,9 +7191,7 @@ Willard	1
 WCTU	1
 Capitol	1
 Platt	1
-[	1
 Calabro	1
-]	1
 clinic	1
 Rochester	1
 Attu	1
@@ -7591,12 +7203,10 @@ Eyes	1
 cavalry	1
 Gettysburg	1
 Panmunjon	1
-re-unify	1
 malt	1
 reference	1
 1409	1
 Pisa	1
-mid-1400s	1
 lease	1
 Wyoming	1
 implies	1
@@ -7615,7 +7225,6 @@ needlework	1
 rebellious	1
 merciless	1
 1368	1
-4-letter	1
 medal	1
 breathed	1
 liberator	1
@@ -7630,8 +7239,6 @@ Democrats	1
 GOP	1
 symbols	1
 Wilfred	1
-Silver-Tongued	1
-6-letter	1
 entertainment	1
 1243	1
 1254	1
@@ -7645,7 +7252,6 @@ sorts	1
 flattery	1
 Marcello	1
 Caetano	1
-67-year	1
 projects	1
 Karnak	1
 Rubicon	1
@@ -7658,7 +7264,6 @@ Geronimo	1
 unfinished	1
 Irving	1
 Thalberg	1
-quasi-war	1
 Uruguay	1
 graf	1
 Falklands	1
@@ -7673,7 +7278,6 @@ Flamingo	1
 1760	1
 factories	1
 165	1
-re-entered	1
 repurified	1
 rededicated	1
 precious	1
@@ -7689,13 +7293,11 @@ magicians	1
 speaks	1
 Having	1
 whil	1
-15,000	1
 Gauls	1
 garden	1
 hung	1
 Monument	1
 honors	1
-ex-	1
 stadium	1
 addressed	1
 Resolutions	1
@@ -7707,7 +7309,6 @@ Santos	1
 shrine	1
 Laurence	1
 Olivier	1
-Button-Moulder	1
 revival	1
 Peer	1
 Gynt	1
@@ -7728,7 +7329,6 @@ Cavaliers	1
 1644	1
 Primetime	1
 none	1
-16-year-old	1
 1346	1
 Indochina	1
 homeland	1
@@ -7746,7 +7346,6 @@ NFB	1
 animation	1
 department	1
 Springsteen	1
-U.S.A	1
 required	1
 Pence	1
 Antipater	1
@@ -7772,7 +7371,6 @@ lungs	1
 necessary	1
 watched	1
 relief	1
-1762-1796	1
 caught	1
 madness	1
 doom	1
@@ -7821,7 +7419,6 @@ Evel	1
 Knievel	1
 fountains	1
 Giving	1
-1,000,000	1
 Audience	1
 Participation	1
 Series	1
@@ -7831,7 +7428,6 @@ Blanco	1
 Caracas	1
 chapel	1
 Valero	1
-Irish-American	1
 active	1
 nat	1
 l	1
@@ -7840,12 +7436,10 @@ Moroccan	1
 Sioux	1
 Calder	1
 consummate	1
-1-day	1
 teammate	1
 Ty	1
 Cobb	1
 replacements	1
-24-2	1
 devised	1
 alphabet	1
 Farouk	1
@@ -7858,13 +7452,11 @@ crust	1
 Surus	1
 Bueno	1
 superlative	1
-sailor-style	1
 midshipman	1
 Perkins	1
 working	1
 1910s	1
 Kathie	1
-'90s	1
 tsar	1
 despotic	1
 printing	1
@@ -7878,7 +7470,6 @@ Pol	1
 Pot	1
 Inca	1
 puts	1
-spear-throwing	1
 Formed	1
 taxing	1
 dollar	1
@@ -7894,7 +7485,6 @@ Ionian	1
 Mughal	1
 Agra	1
 Panipat	1
-1961-65	1
 Industry	1
 Danish	1
 Dipendra	1
@@ -7907,7 +7497,6 @@ Croat	1
 bishopric	1
 Working	1
 chorus	1
-goat-men	1
 Strub	1
 Pickles	1
 per	1
@@ -7915,7 +7504,6 @@ Controversial	1
 Biddle	1
 Granville	1
 reaching	1
-27,300	1
 Unbought	1
 unbossed	1
 Delany	1
@@ -7924,7 +7512,6 @@ rode	1
 Batavia	1
 debated	1
 removing	1
-X-shaped	1
 amputated	1
 impeded	1
 Papal	1
@@ -7938,9 +7525,6 @@ taught	1
 NASA	1
 publicly	1
 introduces	1
-Messrs.	1
-1787-88	1
-Anti-Federalists	1
 Good	1
 Augustus	1
 Marcoses	1
@@ -7957,7 +7541,6 @@ Leafs	1
 Demonstrators	1
 kicked	1
 violence	1
-O'Donnell	1
 Starsky	1
 devoted	1
 pediatric	1
@@ -7966,10 +7549,7 @@ outfits	1
 lounging	1
 sleepwear	1
 Langley	1
-engine-powered	1
 houseboat	1
-1795-99	1
-five-man	1
 Dolley	1
 Madisons	1
 yields	1
@@ -7993,7 +7573,6 @@ laureate	1
 1341	1
 ruin	1
 Birth	1
-30-year	1
 dictatorship	1
 Porfiriato	1
 FEMA	1
@@ -8009,7 +7588,6 @@ Athenians	1
 foreigners	1
 bloody	1
 governess	1
-out-of-wedlock	1
 Osmanli	1
 Opened	1
 rail	1
@@ -8043,7 +7621,6 @@ withdraw	1
 remaining	1
 rump	1
 Delegates	1
-800,000	1
 statement	1
 deliberately	1
 illustrator	1
@@ -8056,7 +7633,6 @@ Berger	1
 1660	1
 Briton	1
 loves	1
-Kansas-Nebraska	1
 Petropolis	1
 erased	1
 resource	1
@@ -8067,7 +7643,6 @@ papal	1
 remit	1
 penalty	1
 sins	1
-fund-raising	1
 memorial	1
 marine	1
 Tien	1
@@ -8089,8 +7664,6 @@ muslin	1
 Harlem	1
 literary	1
 rebirths	1
-'20s	1
-'30s	1
 Laurens	1
 Mifflin	1
 warship	1
@@ -8098,7 +7671,6 @@ friendly	1
 wash	1
 wooden	1
 peole	1
-4-day	1
 returning	1
 railroads	1
 billionaire	1
@@ -8133,11 +7705,9 @@ negotiator	1
 severed	1
 ties	1
 brutal	1
-governor-general	1
 Muravyov	1
 rushing	1
 inherent	1
-'72	1
 Copan	1
 thrived	1
 Mesoamerican	1
@@ -8151,7 +7721,6 @@ restoration	1
 featuring	1
 Toby	1
 Alex	1
-Waldorf-Astoria	1
 adjourned	1
 Waldorf	1
 1606	1
@@ -8184,9 +7753,7 @@ bey	1
 nobility	1
 deadline	1
 elapsed	1
-double-named	1
 opens	1
-family-friendly	1
 Mattie	1
 Silks	1
 Mirrors	1
@@ -8194,15 +7761,12 @@ Marino	1
 Faliero	1
 nobles	1
 1355	1
-Swedish-born	1
 Ericsson	1
 ironclads	1
 revolving	1
 turret	1
 Trotsky	1
 struggled	1
-12:01	1
-A.M.	1
 Lack	1
 Ladies	1
 gentlemen	1
@@ -8241,7 +7805,6 @@ Award	1
 shook	1
 Hell	1
 Steal	1
-14-letter	1
 readjustment	1
 rebuilding	1
 Endowment	1
@@ -8252,28 +7815,23 @@ Adjective	1
 Ludwig	1
 spear	1
 auction	1
-400,000	1
 dominion	1
 Gaelic	1
 uninhabited	1
 terr	1
-'92	1
 consolidated	1
 Sadducees	1
 Torah	1
 evolve	1
 1697	1
 Rijswijk	1
-Dutch-born	1
 brigs	1
 schooners	1
 sloop	1
 definitely	1
 largely	1
-home-schooled	1
 railway	1
 McNamara	1
-1961-68	1
 sultan	1
 freight	1
 rates	1
@@ -8282,11 +7840,9 @@ calm	1
 Sinners	1
 Angry	1
 Stettinius	1
-Jr.	1
 Ghosts	1
 premiere	1
 Peninsular	1
-1808-1814	1
 managers	1
 Alston	1
 Rough	1
@@ -8311,10 +7867,8 @@ Republicans	1
 remove	1
 characters	1
 faces	1
-Q.	1
 Len	1
 Deighton	1
-SS-GB	1
 Nautilus	1
 Djoser	1
 entombed	1
@@ -8343,7 +7897,6 @@ Software	1
 hardcore	1
 PC	1
 mainstream	1
-fatal-sounding	1
 protege	1
 playful	1
 poodle	1
@@ -8354,16 +7907,12 @@ balloon	1
 Declaring	1
 roses	1
 draw	1
-Hindu-Arabic	1
 Fulke	1
 Greville	1
 stabbed	1
 servant	1
 1628	1
-22-year	1
 walked	1
-then-record	1
-2,056	1
 admfited	1
 guerrillas	1
 plagues	1
@@ -8381,10 +7930,8 @@ skirmish	1
 theft	1
 boats	1
 Fingers	1
-ex-P.M.	1
 Golf	1
 Fences	1
-10-play	1
 cycle	1
 experience	1
 chains	1
@@ -8393,7 +7940,6 @@ quarter	1
 maid	1
 794	1
 Kammu	1
-Heian-Kyo	1
 Gaspe	1
 pad	1
 Chaffee	1
@@ -8426,10 +7972,7 @@ parachute	1
 employed	1
 shuttles	1
 aloft	1
-Post-Impressionist	1
-anti-Communist	1
 Albany	1
-thirty-two	1
 covering	1
 tear	1
 stuck	1
@@ -8437,7 +7980,6 @@ adornment	1
 Duma	1
 shove	1
 pursuit	1
-'Town	1
 Down	1
 stir	1
 isolated	1
@@ -8474,7 +8016,6 @@ natural	1
 Sahel	1
 Alfredo	1
 Stroessner	1
-1954-1989	1
 Barbara	1
 blinked	1
 open	1
@@ -8486,11 +8027,9 @@ referendum	1
 autonomy	1
 Dinosaurs	1
 Marsh	1
-better-preserved	1
 specimen	1
 plates	1
 spine	1
-al-Qaddafi	1
 Idris	1
 Tarja	1
 Halonen	1
@@ -8514,12 +8053,10 @@ Munich	1
 hill	1
 remains	1
 Wei	1
-Chung-Hsien	1
 1620s	1
 Irgun	1
 underground	1
 Given	1
-part-French	1
 waited	1
 clear	1
 Cathy	1
@@ -8529,7 +8066,6 @@ commit	1
 Brush	1
 unlike	1
 condemnation	1
-British-French	1
 Harvest	1
 Shame	1
 plight	1
@@ -8544,13 +8080,11 @@ silver	1
 brigadier	1
 1449	1
 hopefully	1
-non-evil	1
 1155	1
 bull	1
 Arditi	1
 vets	1
 shirts	1
-get-together	1
 reorganize	1
 manager	1
 Cox	1
@@ -8564,7 +8098,6 @@ Third	1
 extraterrestrial	1
 warlike	1
 Delian	1
-city-states	1
 Gelosi	1
 troupe	1
 performing	1
@@ -8577,7 +8110,6 @@ completing	1
 Buena	1
 Vista	1
 Monterrey	1
-17-ton	1
 hull	1
 wreckage	1
 Bailey	1
@@ -8615,9 +8147,6 @@ blames	1
 irresponsible	1
 lending	1
 practices	1
-panic-selling	1
-13-year	1
-L'Aiglon	1
 Holland	1
 Spencer	1
 Tracy	1
@@ -8625,11 +8154,9 @@ Cedric	1
 Hardwicke	1
 classics	1
 840s	1
-Wu-Tsung	1
 fanatical	1
 Taoist	1
 laicized	1
-radio-carbon	1
 testing	1
 cloth	1
 1497	1
@@ -8653,13 +8180,11 @@ oxfords	1
 Polynesians	1
 rafts	1
 wood	1
-v.	1
 Education	1
 unconstitutional	1
 printer	1
 Philadelphische	1
 Zeitung	1
-German-language	1
 Nippon	1
 brush	1
 artistic	1
@@ -8675,32 +8200,26 @@ corner	1
 Witt	1
 funds	1
 ditch	1
-1777-78	1
 Schleswig	1
 Theodoros	1
 Pangalos	1
 census	1
 conducted	1
-692,000	1
 1571	1
 Lepanto	1
 Jansz	1
-secy.-general	1
 guest	1
 Shawls	1
 demure	1
 fashions	1
-H-bomb	1
 Lob	1
 Nor	1
 Sinkiang	1
-father-in-law	1
 Eberhard	1
 Anheuser	1
 brewing	1
 Matty	1
 gunfight	1
-O.K	1
 Corral	1
 Earp	1
 theologian	1
@@ -8728,7 +8247,6 @@ Follow	1
 Drinking	1
 Gourd	1
 guided	1
-mid-1970s	1
 Adopted	1
 Enticed	1
 uttered	1
@@ -8751,7 +8269,6 @@ Hattusas	1
 Anatolia	1
 buying	1
 Sauk	1
-double-dealing	1
 aided	1
 seizure	1
 Mariamne	1
@@ -8791,7 +8308,6 @@ Khayyam	1
 believes	1
 pagan	1
 inquisitor	1
-1483-1498	1
 47th	1
 Julia	1
 Ward	1
@@ -8802,7 +8318,6 @@ tune	1
 wreck	1
 ironclad	1
 Hatteras	1
-N.C	1
 Crouchback	1
 Plantagenets	1
 Yorks	1
@@ -8818,8 +8333,6 @@ shamrock	1
 explain	1
 Trinity	1
 arrow	1
-46-year	1
-Brandenburg-Prussia	1
 hunted	1
 sustenance	1
 extinct	1
@@ -8838,7 +8351,6 @@ contributed	1
 intact	1
 composer	1
 Hamblen	1
-anti-liquor	1
 settle	1
 Penns	1
 Calverts	1
@@ -8874,28 +8386,21 @@ contiguous	1
 join	1
 1589	1
 Doric	1
-16-20	1
 grooves	1
 slender	1
 Erechtheum	1
 Liberal	1
 NBC	1
 Lamb	1
-Play-Along	1
-write-in	1
 800s	1
-Hindu-Buddhist	1
 appearance	1
 flooding	1
 evened	1
 score	1
 Woodhull	1
 medium	1
-fortune-teller	1
 exonerated	1
 213	1
-Ch'in	1
-Huang-ti	1
 imperial	1
 detonated	1
 Taylor	1
@@ -8923,7 +8428,6 @@ mustache	1
 fit	1
 1086	1
 caretaker	1
-1,500-mile-long	1
 1483	1
 Ruthless	1
 Grab	1
@@ -8938,18 +8442,15 @@ flavors	1
 76er	1
 Larry	1
 Bird	1
-one-on-one	1
 standardized	1
 alliterative	1
 Phillips	1
 liquid	1
 laxative	1
 1774	1
-great-grandson	1
 conclusion	1
 mottes	1
 baileys	1
-1916-1923	1
 Hamlet	1
 attribute	1
 proceedings	1
@@ -8971,7 +8472,6 @@ Against	1
 sympathizer	1
 wand	1
 Aesculapius	1
-ex-heads	1
 duchess	1
 faint	1
 afternoon	1
@@ -8990,7 +8490,6 @@ Tale	1
 thrones	1
 rugby	1
 Faust	1
-Run-D.M.C	1
 Burma	1
 Visigoths	1
 Eritrea	1
@@ -8998,7 +8497,6 @@ floppy	1
 disk	1
 apron	1
 dramamine	1
-Macedon/Philip	1
 Cortés	1
 Married	1
 Selassie	1
@@ -9020,7 +8518,6 @@ Subcomandante	1
 guts	1
 Curie	1
 Barbary	1
-States/Coast	1
 Rolls	1
 Royce	1
 Homestead	1
@@ -9049,7 +8546,6 @@ Burundi	1
 UNIVAC	1
 benedictine	1
 Wallendas	1
-Five-O	1
 Fabian	1
 Nauvoo	1
 Burgoyne	1
@@ -9074,16 +8570,13 @@ Rodgers	1
 Hammerstein	1
 Prospero	1
 Armed	1
-Forces/Servicemen	1
 Michelangelo	1
-Anatomy\	1
 Bataan	1
 Jason	1
 Laker	1
 Augusto	1
 Grouch	1
 Sesame	1
-Street\	1
 Saddam	1
 Marxism	1
 Cubs	1
@@ -9091,7 +8584,6 @@ Hiroshima	1
 dropping	1
 Cosmopolitan	1
 Likud	1
-Pan-Africanism	1
 Indus	1
 suffrage	1
 Fascism	1
@@ -9099,7 +8591,6 @@ Blarney	1
 Windsor	1
 Guy	1
 Fawkes	1
-Lend-Lease	1
 tank	1
 Wing	1
 Alice	1
@@ -9137,13 +8628,11 @@ Bermuda	1
 Triangle	1
 Juneteenth	1
 Sophocles	1
-Arab-Israel	1
 tequila	1
 Lucille	1
 Ball	1
 Saul	1
 molls	1
-Vatican/Vatican	1
 Kola	1
 Capone	1
 Dairy	1
@@ -9162,7 +8651,6 @@ Gate	1
 Bridge	1
 Montgomery	1
 rocks	1
-Wu-Tang	1
 Clan	1
 Saladin	1
 Brunswick	1
@@ -9177,7 +8665,6 @@ Hardy	1
 Pentium	1
 Budapest	1
 chicken	1
-Netherlands/Holland	1
 Gaul	1
 Edwin	1
 Buzz	1
@@ -9208,9 +8695,7 @@ Dreyfus	1
 Rations	1
 Nigeria	1
 busing	1
-L'Enfant	1
 Run	1
-Cro-Magnon	1
 lambda	1
 Impressionism	1
 Vidkun	1
@@ -9218,8 +8703,6 @@ Quisling	1
 Mesopotamia	1
 Aloha	1
 Archie	1
-V.I	1
-Anti-Masonic	1
 Aeneid	1
 Fontaine	1
 Olivia	1
@@ -9236,7 +8719,6 @@ Valentine	1
 Monmouth	1
 Baffin	1
 Padua	1
-Light-Horse	1
 arsenal	1
 Pullman	1
 Hale	1
@@ -9254,13 +8736,11 @@ Knights	1
 Tarir	1
 brandy	1
 Becket	1
-no-hitter	1
 Trygve	1
 Lie	1
 Cervantes	1
 Draconian	1
 Code	1
-'T	1
 Poverty	1
 Simón	1
 Bolívar	1
@@ -9350,7 +8830,6 @@ Halsey	1
 camels	1
 smallpox	1
 hyperlinks	1
-Japanese-Canadians	1
 Rodin	1
 gliders	1
 indentured	1
@@ -9362,7 +8841,6 @@ Josephus	1
 Strategic	1
 Arms	1
 Limitation	1
-H.W	1
 Fourteen	1
 Points	1
 Theory	1
@@ -9378,7 +8856,6 @@ Dayan	1
 saves	1
 Hole	1
 Kosovo	1
-1984\	1
 Castille	1
 Hapsburg	1
 tariffs	1
@@ -9412,7 +8889,6 @@ Billboard	1
 producer	1
 Wexler	1
 Po	1
-Yat-sen	1
 Jazz	1
 Singer	1
 Inc	1
@@ -9422,7 +8898,6 @@ feudalism	1
 Sorbonne	1
 Sellasie	1
 Worlds	1
-’	1
 Oyly	1
 Carte	1
 Postage	1
@@ -9491,7 +8966,6 @@ USS	1
 googol	1
 flappers	1
 Concorde	1
-D-Day	1
 vacuum	1
 tubes	1
 UAW	1
@@ -9502,17 +8976,14 @@ Barrow	1
 Gallipoli	1
 dry	1
 wet	1
-Port-au-Prince	1
 Nuclear	1
 fission	1
 Porsche	1
 Dandruff	1
-Linsey-Woolsey	1
 Wessex	1
 bubble	1
 Baked	1
 Philistines	1
-Xerography/Xeroxy	1
 Three	1
 Mile	1
 Pantalone	1
@@ -9536,7 +9007,6 @@ Eagleton	1
 Londonderry	1
 Dunkirk	1
 Laughing	1
-gas/nitrous	1
 Lucrezia	1
 Borgia	1
 Snow	1
@@ -9553,9 +9023,7 @@ Venus	1
 Milo	1
 Peppermint	1
 Patties	1
-Control-Alt-Delete	1
 Tip	1
-O'Neill	1
 Nikita	1
 Chariot	1
 Costa	1
@@ -9574,7 +9042,6 @@ Show	1
 Airplanes	1
 rabbi	1
 Chiang	1
-Kai-shek	1
 Yitzhak	1
 Rabin	1
 Quebec	1
@@ -9585,7 +9052,6 @@ Vivaldi	1
 Dean	1
 Acheson	1
 Zimbabwe	1
-stand-in	1
 Sims	1
 Indianapolis	1
 Dominicans	1
@@ -9618,7 +9084,6 @@ Disco	1
 Aleutian	1
 Bette	1
 Grosset	1
-Mongols/Tartars/Golden	1
 separation	1
 Bangladesh	1
 Gaddafi	1
@@ -9637,7 +9102,6 @@ Meriwether	1
 Oprah	1
 Winfrey	1
 Bangkok	1
-open-door	1
 Ernie	1
 Pyle	1
 MCI	1
@@ -9646,7 +9110,6 @@ Tucson	1
 Villas	1
 Pathet	1
 Lao	1
-Great/Frederick	1
 Abolitionists	1
 Tourniquet	1
 Brigham	1
@@ -9686,7 +9149,6 @@ Yahtzee	1
 damn	1
 Hispaniola	1
 forecast	1
-Anglican/Episcopalian/Church	1
 ballet	1
 dancer	1
 Andersonville	1
@@ -9722,7 +9184,6 @@ Jeb	1
 Falange	1
 whiskey	1
 Popes	1
-Counter-Reformation	1
 Madras	1
 Friendship	1
 Gnosticism	1
@@ -9768,7 +9229,6 @@ Booth	1
 Fraunces	1
 Tavern	1
 Caesars	1
-64,000	1
 Question	1
 Peru	1
 Maguires	1
@@ -9828,8 +9288,6 @@ Sinking	1
 Clavell	1
 Zoroastrianism	1
 renaissance	1
-co-wrote	1
-Loco-Motion	1
 Brill	1
 soap	1
 Biscay	1
@@ -9843,11 +9301,9 @@ Maya	1
 Rogers	1
 Judy	1
 turkey	1
-Half-penny	1
 cars	1
 Vancouver	1
 coffee	1
-O'Keeffe	1
 Scottsboro	1
 Boys	1
 ERA	1
@@ -9877,8 +9333,6 @@ Lasorda	1
 Vladivostok	1
 tyrant	1
 opium	1
-Mrs.	1
-O'Leary	1
 Arctic	1
 worm	1
 Wellington	1
@@ -9917,7 +9371,6 @@ Nefertiti	1
 McKay	1
 Dunsinane	1
 eunuch	1
-Jacques-Louis	1
 migrant	1
 corn	1
 Tiffany	1
@@ -9926,9 +9379,7 @@ Fascists	1
 bonds	1
 Martian	1
 Ringling	1
-Austro-Hungarian	1
 Bernardo	1
-O'Higgins	1
 Butch	1
 Cassidy	1
 Sundance	1
@@ -9966,12 +9417,10 @@ Lancasters	1
 Derby	1
 Astaire	1
 subway	1
-Buffalo/bison	1
 Lillie	1
 Langtry	1
 Celeste	1
 Scrabble	1
-Anti-macassars	1
 Chiapas	1
 Ionic	1
 Shari	1
@@ -9980,7 +9429,6 @@ Thurmond	1
 Sirius	1
 Carlotta	1
 Halloween	1
-Union/U.S.S.R./Russia	1
 Burton	1
 Eddie	1
 Fisher	1
