@@ -1,55 +1,59 @@
-import itertools
+from typing import List
+
 import nltk
+import pandas as pd
+from pandas import DataFrame
 
 nltk.download('punkt')
 
-
-def get_words_by_tag(file):
-    tags = dict()
-
-    with open(file) as reader:
-        lines = reader.readlines()
-        for line in lines:
-            line_split = line.split("\t")
-            category = line_split[0]
-            words = list(itertools.chain.from_iterable([nltk.word_tokenize(sentence) for sentence in line_split[1:]]))
-            if category not in tags.keys():
-                tags[category] = []
-            tags[category].extend(words)
-
-    return tags
+DATA_PATH = "data/"
+OUTPUT_PATH = "counts/"
+DELIMITER = '\t'
+TRAIN_FILE_NAME = "train.txt"
+TRAIN_COLUMNS = ['labels', 'questions', 'answers']
 
 
-words_by_tag = get_words_by_tag("data/train.txt")
+def import_dataset(path: str, columns: List[str]) -> DataFrame:
+    return pd.read_csv(path, sep=DELIMITER, names=columns)  # '\t' for tab delimiter (.tsv)
 
 
-def generate_unigrams(file, output_folder="counts"):
-    global words_by_tag
-    if not words_by_tag:
-        words_by_tag = get_words_by_tag(file)
+def get_words_by_tag(df: DataFrame):
+    label_words = dict()
+    unique_labels = df.labels.unique()
 
-    for tag in words_by_tag.keys():
-        unigrams = nltk.ngrams(words_by_tag[tag], 1, pad_left=True, pad_right=True, left_pad_symbol='<s>',
-                                    right_pad_symbol='</s>')
-        freq = nltk.FreqDist(unigrams)
-        with open("{0}/unigrams_{1}.txt".format(output_folder, tag), "a") as writer:
-            for entry in freq:
-                writer.write(entry[0] + " " + str(freq[entry]) + "\n")
+    for label in unique_labels:
+        label_words[label] = []
+        label_lines = df[df.labels == label]
+        for question in label_lines.questions:
+            label_words[label].extend(nltk.word_tokenize(question))
+        for answer in label_lines.answers:
+            label_words[label].extend(nltk.word_tokenize(answer))
 
-
-def generate_bigrams(file, output_folder="counts"):
-    global words_by_tag
-    if not words_by_tag:
-        words_by_tag = get_words_by_tag(file)
-
-    for tag in words_by_tag.keys():
-        bigrams = nltk.ngrams(words_by_tag[tag], 2, pad_left=True, pad_right=True, left_pad_symbol='<s>',
-                                    right_pad_symbol='</s>')
-        freq = nltk.FreqDist(bigrams)
-        with open("{0}/bigrams_{1}.txt".format(output_folder, tag), "a") as writer:
-            for entry in freq:
-                writer.write(entry[0] + " " + entry[1] + " " + str(freq[entry]) + "\n")
+    return label_words
 
 
-generate_unigrams("data/train.txt")
-generate_bigrams("data/train.txt")
+def generate_ngrams(words_dict, ngram_order: int):
+    if ngram_order == 1:
+        output_file = "unigrams"
+    elif ngram_order == 2:
+        output_file = "bigrams"
+    else:
+        output_file = "unigrams"
+
+    for tag in words_dict.keys():
+        ngrams = nltk.ngrams(words_dict[tag], ngram_order, pad_left=True, pad_right=True, left_pad_symbol='<s>',
+                             right_pad_symbol='</s>')
+        freq_dist = nltk.FreqDist(ngrams)
+
+        with open("{0}/{1}_{2}.txt".format(OUTPUT_PATH, output_file, tag), "a") as writer:
+            for entry in freq_dist:
+                for word in entry:
+                    writer.write(word + "\t")
+                writer.write(str(freq_dist[entry]) + "\n")
+
+
+if __name__ == "__main__":
+    training_dataset = import_dataset(f'{DATA_PATH}{TRAIN_FILE_NAME}', TRAIN_COLUMNS)  # import file train.txt
+    label_words_dict = get_words_by_tag(training_dataset)
+    generate_ngrams(label_words_dict, 1)
+    generate_ngrams(label_words_dict, 2)
