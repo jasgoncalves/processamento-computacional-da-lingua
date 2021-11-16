@@ -6,8 +6,8 @@ from pandas import DataFrame
 
 nltk.download('punkt')
 
-DATA_PATH = "data/"
-OUTPUT_PATH = "counts/"
+DATA_PATH = "Trabalho2/data/"
+OUTPUT_PATH = "Trabalho2/counts/"
 DELIMITER = '\t'
 TRAIN_FILE_NAME = "train.txt"
 TRAIN_COLUMNS = ['labels', 'questions', 'answers']
@@ -15,7 +15,6 @@ TRAIN_COLUMNS = ['labels', 'questions', 'answers']
 
 def import_dataset(path: str, columns: List[str]) -> DataFrame:
     return pd.read_csv(path, sep=DELIMITER, names=columns)  # '\t' for tab delimiter (.tsv)
-
 
 def get_words_by_tag(df: DataFrame):
     label_words = dict()
@@ -41,15 +40,13 @@ def generate_ngrams(words_dict, ngram_order: int):
         output_file = "unigrams"
 
     for tag in words_dict.keys():
-        ngrams = nltk.ngrams(words_dict[tag], ngram_order, pad_left=True, pad_right=True, left_pad_symbol='<s>',
-                             right_pad_symbol='</s>')
+        ngrams = nltk.ngrams(words_dict[tag], ngram_order, pad_left=True, pad_right=True, left_pad_symbol='<s>', right_pad_symbol='</s>')
         freq_dist = nltk.FreqDist(ngrams)
 
-        with open("{0}/{1}_{2}.txt".format(OUTPUT_PATH, output_file, tag), "a") as writer:
+        with open(f"{OUTPUT_PATH}/{output_file}_{tag}.txt", "a", encoding="utf-8") as writer:
             for entry in freq_dist:
-                for word in entry:
-                    writer.write(word + "\t")
-                writer.write(str(freq_dist[entry]) + "\n")
+                writer.write(' '.join(list(entry)))
+                writer.write(f'{DELIMITER}{str(freq_dist[entry])}\n')
 
 
 if __name__ == "__main__":
