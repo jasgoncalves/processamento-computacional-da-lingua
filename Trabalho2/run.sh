@@ -1,0 +1,1 @@
+python3 classifier.py > result.txt
