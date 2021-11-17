@@ -5,7 +5,8 @@ from numpy import log10
 import pandas as pd
 from pandas import DataFrame
 
-from Trabalho2.utils import DELIMITER, BIGRAM_FILE_NAME, UNIGRAM_FILE_NAME, EXTENSION, OUTPUT_PATH
+from Trabalho2.utils import BIGRAM_FILE_NAME, UNIGRAM_FILE_NAME, EXTENSION, OUTPUT_PATH_TASK1, \
+    import_dataset, nltk_ngrams
 
 
 class Label(enum.Enum):
@@ -38,17 +39,13 @@ __music_bigram = None
 __science_bigram = None
 
 
-def import_dataset(path: str, columns: str) -> DataFrame:
-    return pd.read_csv(path, sep=DELIMITER, names=columns)  # '\t' for tab delimiter (.tsv)
-
-
 def ngram_load_data(file_name: str) -> DataFrame:
     return \
-        import_dataset(f'{OUTPUT_PATH}{file_name}{Label.GEOGRAPHY.name}{EXTENSION}', COLUMNS), \
-        import_dataset(f'{OUTPUT_PATH}{file_name}{Label.HISTORY.name}{EXTENSION}', COLUMNS), \
-        import_dataset(f'{OUTPUT_PATH}{file_name}{Label.LITERATURE.name}{EXTENSION}', COLUMNS), \
-        import_dataset(f'{OUTPUT_PATH}{file_name}{Label.MUSIC.name}{EXTENSION}', COLUMNS), \
-        import_dataset(f'{OUTPUT_PATH}{file_name}{Label.SCIENCE.name}{EXTENSION}', COLUMNS)
+        import_dataset(f'{OUTPUT_PATH_TASK1}{file_name}{Label.GEOGRAPHY.name}{EXTENSION}', COLUMNS), \
+        import_dataset(f'{OUTPUT_PATH_TASK1}{file_name}{Label.HISTORY.name}{EXTENSION}', COLUMNS), \
+        import_dataset(f'{OUTPUT_PATH_TASK1}{file_name}{Label.LITERATURE.name}{EXTENSION}', COLUMNS), \
+        import_dataset(f'{OUTPUT_PATH_TASK1}{file_name}{Label.MUSIC.name}{EXTENSION}', COLUMNS), \
+        import_dataset(f'{OUTPUT_PATH_TASK1}{file_name}{Label.SCIENCE.name}{EXTENSION}', COLUMNS)
 
 
 def ngram_classification(sentence: str, ngram: Ngram) -> str:
@@ -167,8 +164,7 @@ def bigram_calculation(sentence: str, label: Label, smooth: bool = True) -> floa
 
 def rebuil_matrix(sentence: str, unigram_dataset: DataFrame, bigram_dataset: DataFrame):
     words_count = len(unigram_dataset)
-    for bigram in nltk.ngrams(nltk.word_tokenize(sentence), 2, pad_left=True, pad_right=True, left_pad_symbol='<s>',
-                              right_pad_symbol='</s>'):
+    for bigram in nltk_ngrams(nltk.word_tokenize(sentence), 2):
         df = unigram_dataset[unigram_dataset.word == bigram[0]]
         if df.empty:
             words_count += 1
