@@ -1,11 +1,10 @@
 import argparse
 from ctypes import ArgumentError
 import enum
-import logging
 import chardet
 from pandas import DataFrame
 from pandas import read_csv
-from numpy import log10, timedelta64
+from numpy import log10
 from nltk import word_tokenize, ngrams, download
 
 download('punkt')
