@@ -1,7 +1,7 @@
 from typing import Dict, Any, List
 
-from Trabalho2.task1 import get_words_by_label, generate_ngrams
-from Trabalho2.utils import import_dataset, OUTPUT_PATH_TASK3, DATA_PATH, TRAIN_FILE_NAME, EXTENSION, INITIAL_COLUMNS
+from task1 import get_words_by_label, generate_ngrams
+from utils import import_dataset, OUTPUT_PATH_TASK3, DATA_PATH, TRAIN_FILE_NAME, EXTENSION, INITIAL_COLUMNS
 
 
 def to_underscore(word: str) -> str: return word.lower()

@@ -18,10 +18,10 @@ UNIGRAM_FILE_NAME = 'unigrams_'
 BIGRAM_FILE_NAME = 'bigrams_'
 
 
-def import_dataset(path : str, columns : str) -> pd.DataFrame:
+def import_dataset(path: str, columns: str) -> pd.DataFrame:
     with open(path, 'rb') as f:
         enc = chardet.detect(f.read())
-    return pd.read_csv(path, sep = DELIMITER, names = columns, encoding = enc['encoding']) # '\t' for tab delimiter (.tsv)
+    return pd.read_csv(path, sep=DELIMITER, names=columns, encoding=enc['encoding'])  # '\t' for tab delimiter (.tsv)
 
 
 def nltk_ngrams(tokens_list: List[str], ngram_order: int):

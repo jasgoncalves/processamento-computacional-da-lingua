@@ -1,16 +1,14 @@
 import argparse
 from ctypes import ArgumentError
 import enum
-import chardet
 from pandas import DataFrame
-from pandas import read_csv
 from numpy import log10
-from nltk import word_tokenize, ngrams, download
+from nltk import word_tokenize, download
 
 download('punkt')
 
-from Trabalho2.utils import BIGRAM_FILE_NAME, UNIGRAM_FILE_NAME, EXTENSION, OUTPUT_PATH_TASK1, \
-    import_dataset, nltk_ngrams, DATA_COLUMNS
+from utils import BIGRAM_FILE_NAME, UNIGRAM_FILE_NAME, EXTENSION, OUTPUT_PATH_TASK1, \
+    import_dataset, nltk_ngrams, DATA_COLUMNS, DATA_PATH
 
 
 class Label(enum.Enum):
@@ -75,7 +73,7 @@ def get_calculation(sentence: str, label: Label, ngram: Ngram):
         return unigram_calculation(sentence, label)
     elif (ngram == ngram.BIGRAM):
         return bigram_calculation(sentence, label)
-    elif(ngram == ngram.BIGRAM_SMOOTHING):
+    elif (ngram == ngram.BIGRAM_SMOOTHING):
         return bigram_calculation(sentence, label, True)
     else:
         raise ArgumentError(f"Invalid arument value {ngram.name}")
@@ -84,22 +82,22 @@ def get_calculation(sentence: str, label: Label, ngram: Ngram):
 def get_dataframe(label: Label, ngram: Ngram):
     if (ngram == ngram.UNIGRAM):
         return get_unigram_dataframe(label)
-    elif(ngram == ngram.BIGRAM or ngram == ngram.BIGRAM_SMOOTHING):
+    elif (ngram == ngram.BIGRAM or ngram == ngram.BIGRAM_SMOOTHING):
         return get_bigram_dataframe(label)
     else:
         raise ArgumentError(f"Invalid arument value {ngram.name}")
 
 
 def get_unigram_dataframe(label: Label):
-    if (label == label.GEOGRAPHY):
+    if label == label.GEOGRAPHY:
         return __geography_unigram
-    if (label == label.HISTORY):
+    if label == label.HISTORY:
         return __history_unigram
-    if (label == label.SCIENCE):
+    if label == label.SCIENCE:
         return __science_unigram
-    if (label == label.LITERATURE):
+    if label == label.LITERATURE:
         return __literature_unigram
-    if (label == label.MUSIC):
+    if label == label.MUSIC:
         return __music_unigram
     else:
         raise ArgumentError(f"Invalid arument value {label.name}")
@@ -126,12 +124,14 @@ def unigram_likehood(unigram_count: int, words_count: int, threshold: float = 0)
         ((threshold * unigram_count / words_count) + ((1 - threshold) / words_count) if words_count != 0 else 0))
 
 
-def bigram_likehood(unigram_count : int, bigram_count : int, smooth : bool, vocabulary : int ) -> float:
-    value = log10(((bigram_count + 1) / (unigram_count + vocabulary) if unigram_count + vocabulary != 0 else 0) if smooth\
-         else (bigram_count / unigram_count if unigram_count != 0 else 0))
+def bigram_likehood(unigram_count: int, bigram_count: int, smooth: bool, vocabulary: int) -> float:
+    value = log10(
+        ((bigram_count + 1) / (unigram_count + vocabulary) if unigram_count + vocabulary != 0 else 0) if smooth \
+            else (bigram_count / unigram_count if unigram_count != 0 else 0))
     return value
 
-def unigram_calculation(sentence : str, label : Label) -> float:
+
+def unigram_calculation(sentence: str, label: Label) -> float:
     unigram_dataframe = get_dataframe(label, Ngram.UNIGRAM)
     calculation = 0
     for word in word_tokenize(sentence):
@@ -139,44 +139,51 @@ def unigram_calculation(sentence : str, label : Label) -> float:
         calculation += unigram_likehood(word_count, len(unigram_dataframe), UNIGRAM_THRESHOLD)
     return calculation
 
-def bigram_calculation(sentence : str, label : Label, smooth : bool = False) -> float:
+
+def bigram_calculation(sentence: str, label: Label, smooth: bool = False) -> float:
     unigram_dataframe = get_dataframe(label, Ngram.UNIGRAM)
     bigram_dataframe = get_dataframe(label, Ngram.BIGRAM)
     vocabulary = get_vocabulary_size() if smooth else len(unigram_dataframe)
     calculation = 0
-    for bigram in ngrams(word_tokenize(sentence), 2, pad_left=True, pad_right=True, left_pad_symbol='<s>', right_pad_symbol='</s>'):
+    for bigram in nltk_ngrams(word_tokenize(sentence), 2):
         unigram_count = get_word_count(bigram[0], unigram_dataframe)
         bigram_count = get_word_count(' '.join(bigram), bigram_dataframe)
         calculation += bigram_likehood(unigram_count, bigram_count, smooth, vocabulary)
     return calculation
 
-def get_word_count(word : str, dataframe : DataFrame) -> int:
+
+def get_word_count(word: str, dataframe: DataFrame) -> int:
     row = dataframe[dataframe.word == word]
     return row.freq.iloc[0] if not row.empty else 0
 
+
 def get_vocabulary_size():
-    return len(__geography_unigram.merge(__history_unigram, how='outer', on='word')\
-        .merge(__literature_unigram, how='outer', on='word')\
-            .merge(__music_unigram, how='outer', on='word')\
-                .merge(__science_unigram, how='outer', on='word'))
+    return len(__geography_unigram.merge(__history_unigram, how='outer', on='word') \
+               .merge(__literature_unigram, how='outer', on='word') \
+               .merge(__music_unigram, how='outer', on='word') \
+               .merge(__science_unigram, how='outer', on='word'))
 
-def unigram_load_data(counts_folder : str) -> DataFrame:
-    return ngram_load_data(UNIGRAM_FILE_NAME, counts_folder)
 
-def bigram_load_data(counts_folder : str) -> DataFrame:
-    return ngram_load_data(BIGRAM_FILE_NAME, counts_folder)
+def unigram_load_data(counts_folder: str) -> DataFrame:
+    return ngram_load_data(UNIGRAM_FILE_NAME)
+
+
+def bigram_load_data(counts_folder: str) -> DataFrame:
+    return ngram_load_data(BIGRAM_FILE_NAME)
 
 
 if __name__ == "__main__":
-
     PARSER = argparse.ArgumentParser(description="Bla bla bla bla ...")
     PARSER.add_argument("classification_type", default=Ngram.UNIGRAM, help="UNIGRAM, BIGRAM, BIGRAM_SMOOTHING")
     PARSER.add_argument('counts_folder', help='Counts files folder')
     PARSER.add_argument('test_file', help='Test dataset file')
     args = PARSER.parse_args()
 
-    __geography_unigram, __history_unigram, __literature_unigram, __music_unigram, __science_unigram = unigram_load_data(args.counts_folder)
-    __geography_bigram, __history_bigram, __literature_bigram, __music_bigram, __science_bigram = bigram_load_data(args.counts_folder)
+    __geography_unigram, __history_unigram, __literature_unigram, __music_unigram, __science_unigram = unigram_load_data(
+        args.counts_folder)
+    __geography_bigram, __history_bigram, __literature_bigram, __music_bigram, __science_bigram = bigram_load_data(
+        args.counts_folder)
 
     evaluation_dataframe = import_dataset(f'{DATA_PATH}{args.test_file}', DATA_COLUMNS)
-    evaluation_dataframe.questions.apply(lambda question: print(ngram_classification(question, Ngram[args.classification_type])))
+    evaluation_dataframe.questions.apply(
+        lambda question: print(ngram_classification(question, Ngram[args.classification_type])))

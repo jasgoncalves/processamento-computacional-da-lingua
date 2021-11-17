@@ -1,7 +1,7 @@
 from pandas import DataFrame
 import numpy as np
 
-from Trabalho2.utils import DATA_PATH, DELIMITER, EXTENSION, INITIAL_COLUMNS, import_dataset
+from utils import DATA_PATH, DELIMITER, EXTENSION, INITIAL_COLUMNS, import_dataset
 
 EVAL_FILE_NAME = 'eval'
 FMT = '% s'
