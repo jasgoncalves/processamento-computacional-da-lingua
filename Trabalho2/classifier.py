@@ -1,12 +1,16 @@
+import argparse
 from ctypes import ArgumentError
-import nltk
 import enum
-from numpy import log10
-import pandas as pd
+import chardet
 from pandas import DataFrame
+from pandas import read_csv
+from numpy import log10
+from nltk import word_tokenize, ngrams, download
+
+download('punkt')
 
 from Trabalho2.utils import BIGRAM_FILE_NAME, UNIGRAM_FILE_NAME, EXTENSION, OUTPUT_PATH_TASK1, \
-    import_dataset, nltk_ngrams
+    import_dataset, nltk_ngrams, DATA_COLUMNS
 
 
 class Label(enum.Enum):
@@ -20,6 +24,7 @@ class Label(enum.Enum):
 class Ngram(enum.Enum):
     UNIGRAM = 0,
     BIGRAM = 1,
+    BIGRAM_SMOOTHING = 2
 
 
 COLUMNS = ['word', 'freq']
@@ -51,20 +56,15 @@ def ngram_load_data(file_name: str) -> DataFrame:
 def ngram_classification(sentence: str, ngram: Ngram) -> str:
     value, label, new_value = get_calculation(sentence, Label.GEOGRAPHY, ngram), Label.GEOGRAPHY.name, get_calculation(
         sentence, Label.HISTORY, ngram)
-    # print(f'{Label.GEOGRAPHY.name}:{value}') 
-    # print(f'{Label.HISTORY.name}:{new_value}') 
     if new_value > value:
         value, label = new_value, Label.HISTORY.name
     new_value = get_calculation(sentence, Label.LITERATURE, ngram)
-    # print(f'{Label.LITERATURE.name}:{new_value}') 
     if new_value > value:
         value, label = new_value, Label.LITERATURE.name
     new_value = get_calculation(sentence, Label.MUSIC, ngram)
-    # print(f'{Label.MUSIC.name}:{new_value}') 
     if new_value > value:
         value, label = new_value, Label.MUSIC.name
     new_value = get_calculation(sentence, Label.SCIENCE, ngram)
-    # print(f'{Label.SCIENCE.name}:{new_value}') 
     if new_value > value:
         value, label = new_value, Label.SCIENCE.name
     return label
@@ -75,6 +75,8 @@ def get_calculation(sentence: str, label: Label, ngram: Ngram):
         return unigram_calculation(sentence, label)
     elif (ngram == ngram.BIGRAM):
         return bigram_calculation(sentence, label)
+    elif(ngram == ngram.BIGRAM_SMOOTHING):
+        return bigram_calculation(sentence, label, True)
     else:
         raise ArgumentError(f"Invalid arument value {ngram.name}")
 
@@ -82,7 +84,7 @@ def get_calculation(sentence: str, label: Label, ngram: Ngram):
 def get_dataframe(label: Label, ngram: Ngram):
     if (ngram == ngram.UNIGRAM):
         return get_unigram_dataframe(label)
-    elif (ngram == ngram.BIGRAM):
+    elif(ngram == ngram.BIGRAM or ngram == ngram.BIGRAM_SMOOTHING):
         return get_bigram_dataframe(label)
     else:
         raise ArgumentError(f"Invalid arument value {ngram.name}")
@@ -124,96 +126,57 @@ def unigram_likehood(unigram_count: int, words_count: int, threshold: float = 0)
         ((threshold * unigram_count / words_count) + ((1 - threshold) / words_count) if words_count != 0 else 0))
 
 
-def bigram_likehood(unigram_count: int, bigram_count: int, smooth: bool, words_count: int) -> float:
-    value = log10(bigram_count / unigram_count if unigram_count != 0 else 0)
+def bigram_likehood(unigram_count : int, bigram_count : int, smooth : bool, vocabulary : int ) -> float:
+    value = log10(((bigram_count + 1) / (unigram_count + vocabulary) if unigram_count + vocabulary != 0 else 0) if smooth\
+         else (bigram_count / unigram_count if unigram_count != 0 else 0))
     return value
 
-
-def unigram_calculation(sentence: str, label: Label) -> float:
-    dataset = get_dataframe(label, Ngram.UNIGRAM)
-    words_count = len(dataset)
-    calculation = 1
-    for word in nltk.word_tokenize(sentence):
-        try:
-            value = dataset[dataset.word == word].freq.iloc[0]
-        except:
-            value = 0
-        calculation += unigram_likehood(value, words_count, UNIGRAM_THRESHOLD)
+def unigram_calculation(sentence : str, label : Label) -> float:
+    unigram_dataframe = get_dataframe(label, Ngram.UNIGRAM)
+    calculation = 0
+    for word in word_tokenize(sentence):
+        word_count = get_word_count(word, unigram_dataframe)
+        calculation += unigram_likehood(word_count, len(unigram_dataframe), UNIGRAM_THRESHOLD)
     return calculation
 
-
-def bigram_calculation(sentence: str, label: Label, smooth: bool = True) -> float:
-    unigram_dataset = get_dataframe(label, Ngram.UNIGRAM)
-    bigram_dataset = get_dataframe(label, Ngram.BIGRAM)
-    unigram_dataset, bigram_dataset = rebuil_matrix(sentence, unigram_dataset, bigram_dataset)
-    words_count = len(unigram_dataset)
-    calculation = 1
-    for bigram in nltk.ngrams(nltk.word_tokenize(sentence), 2, pad_left=True, pad_right=True, left_pad_symbol='<s>',
-                              right_pad_symbol='</s>'):
-        try:
-            unigram_value = unigram_dataset[unigram_dataset.word == bigram[0]].freq.iloc[0]
-        except:
-            unigram_value = 0
-        try:
-            bigram_value = bigram_dataset[bigram_dataset.word == ' '.join(bigram)].freq.iloc[0]
-        except:
-            bigram_value = 0
-        calculation += bigram_likehood(unigram_value, bigram_value, smooth, words_count)
+def bigram_calculation(sentence : str, label : Label, smooth : bool = False) -> float:
+    unigram_dataframe = get_dataframe(label, Ngram.UNIGRAM)
+    bigram_dataframe = get_dataframe(label, Ngram.BIGRAM)
+    vocabulary = get_vocabulary_size() if smooth else len(unigram_dataframe)
+    calculation = 0
+    for bigram in ngrams(word_tokenize(sentence), 2, pad_left=True, pad_right=True, left_pad_symbol='<s>', right_pad_symbol='</s>'):
+        unigram_count = get_word_count(bigram[0], unigram_dataframe)
+        bigram_count = get_word_count(' '.join(bigram), bigram_dataframe)
+        calculation += bigram_likehood(unigram_count, bigram_count, smooth, vocabulary)
     return calculation
 
+def get_word_count(word : str, dataframe : DataFrame) -> int:
+    row = dataframe[dataframe.word == word]
+    return row.freq.iloc[0] if not row.empty else 0
 
-def rebuil_matrix(sentence: str, unigram_dataset: DataFrame, bigram_dataset: DataFrame):
-    words_count = len(unigram_dataset)
-    for bigram in nltk_ngrams(nltk.word_tokenize(sentence), 2):
-        df = unigram_dataset[unigram_dataset.word == bigram[0]]
-        if df.empty:
-            words_count += 1
-            unigram_dataset.loc[len(unigram_dataset.index)] = [bigram[0], 0]
-        df = unigram_dataset[unigram_dataset.word == bigram[0]]
-        if df.empty:
-            words_count += 1
-            unigram_dataset.loc[len(unigram_dataset.index)] = [bigram[1], 0]
-        df = bigram_dataset[bigram_dataset.word == ' '.join(bigram)]
-        if df.empty:
-            bigram_dataset.loc[len(bigram_dataset.index)] = [' '.join(bigram), 0]
-            bigram_dataset.freq = bigram_dataset.freq.apply(lambda freq: freq + 1)
-    unigram_dataset.freq = unigram_dataset.freq.apply(lambda freq: freq + words_count)
+def get_vocabulary_size():
+    return len(__geography_unigram.merge(__history_unigram, how='outer', on='word')\
+        .merge(__literature_unigram, how='outer', on='word')\
+            .merge(__music_unigram, how='outer', on='word')\
+                .merge(__science_unigram, how='outer', on='word'))
 
-    return unigram_dataset, bigram_dataset
+def unigram_load_data(counts_folder : str) -> DataFrame:
+    return ngram_load_data(UNIGRAM_FILE_NAME, counts_folder)
 
-
-def unigram_classification(sentence: str) -> str:
-    return ngram_classification(sentence, Ngram.UNIGRAM)
-
-
-def bigram_classification(sentence: str) -> str:
-    return ngram_classification(sentence, Ngram.BIGRAM)
-
-
-def unigram_load_data() -> DataFrame:
-    return ngram_load_data(UNIGRAM_FILE_NAME)
-
-
-def bigram_load_data() -> DataFrame:
-    return ngram_load_data(BIGRAM_FILE_NAME)
+def bigram_load_data(counts_folder : str) -> DataFrame:
+    return ngram_load_data(BIGRAM_FILE_NAME, counts_folder)
 
 
 if __name__ == "__main__":
-    __geography_unigram, __history_unigram, __literature_unigram, __music_unigram, __science_unigram = unigram_load_data()
 
-    print(unigram_classification('This book by Virginia Woolf inspired Michael Cunningham''s novel ""The Hours""')) ## LITERATURE
-    print(unigram_classification('The ""amiable"" former name of the Tongan archipelago')) ## GEOGRAPHY
-    print(unigram_classification('PBS fans know that ""Evening at Pops"" refers to this city''s Pops')) ## MUSIC
-    print(unigram_classification('According to Chuck Jones, whenever possible, this force of nature was to be Wile E. Coyote''s greatest enemy')) ## SCIENCE
-    print(unigram_classification('In 1843 Congress allocated $30,000 to string one between Baltimore & Washington; it was completed in 1844')) ## HISTORY
+    PARSER = argparse.ArgumentParser(description="Bla bla bla bla ...")
+    PARSER.add_argument("classification_type", default=Ngram.UNIGRAM, help="UNIGRAM, BIGRAM, BIGRAM_SMOOTHING")
+    PARSER.add_argument('counts_folder', help='Counts files folder')
+    PARSER.add_argument('test_file', help='Test dataset file')
+    args = PARSER.parse_args()
 
-    __geography_bigram, __history_bigram, __literature_bigram, __music_bigram, __science_bigram = bigram_load_data()
+    __geography_unigram, __history_unigram, __literature_unigram, __music_unigram, __science_unigram = unigram_load_data(args.counts_folder)
+    __geography_bigram, __history_bigram, __literature_bigram, __music_bigram, __science_bigram = bigram_load_data(args.counts_folder)
 
-    print(bigram_classification(
-        "This book by Virginia Woolf inspired Michael Cunningham's novel ""The Hours"""))  ## LITERATURE
-    print(bigram_classification("The ""amiable"" former name of the Tongan archipelago"))  ## GEOGRAPHY
-    print(bigram_classification("PBS fans know that ""Evening at Pops"" refers to this city's Pops"))  ## MUSIC
-    print(bigram_classification(
-        "According to Chuck Jones, whenever possible, this force of nature was to be Wile E. Coyote's greatest enemy"))  ## SCIENCE
-    print(bigram_classification(
-        "This state's been ""on my mind"" since it entered the Union 3 times, in 1788, 1868 & 1870"))  ## HISTORY
+    evaluation_dataframe = import_dataset(f'{DATA_PATH}{args.test_file}', DATA_COLUMNS)
+    evaluation_dataframe.questions.apply(lambda question: print(ngram_classification(question, Ngram[args.classification_type])))
