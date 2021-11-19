@@ -1,24 +1,13 @@
 from typing import Dict, Any, List
 
 from task1 import get_words_by_label, generate_ngrams
-from utils import import_dataset, OUTPUT_PATH_TASK3, DATA_PATH, TRAIN_FILE_NAME, EXTENSION, INITIAL_COLUMNS
-
-
-def to_underscore(word: str) -> str: return word.lower()
-
-
-def to_year(word: str) -> str: return "_YEAR_" if word.isnumeric() and len(word) == 4 else word
-
-
-def apply_functions(word: str, *args) -> str:
-    for func in args:
-        word = func(word)
-    return word
+from utils import import_dataset, OUTPUT_PATH_TASK3, DATA_PATH, TRAIN_FILE_NAME, EXTENSION, INITIAL_COLUMNS, \
+    apply_transform_functions
 
 
 def data_pre_processing(words_dict: Dict[Any, List]) -> Dict[Any, List]:
     for label in words_dict.keys():
-        words_dict[label] = list(map(lambda word: apply_functions(word, to_underscore, to_year), words_dict[label]))
+        words_dict[label] = list(map(lambda word: apply_transform_functions(word), words_dict[label]))
 
     return words_dict
 

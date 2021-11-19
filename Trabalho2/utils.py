@@ -18,6 +18,13 @@ UNIGRAM_FILE_NAME = 'unigrams_'
 BIGRAM_FILE_NAME = 'bigrams_'
 
 
+def to_underscore(word: str) -> str: return word.lower()
+def to_year(word: str) -> str: return "_YEAR_" if word.isnumeric() and len(word) == 4 else word
+
+
+MAPPER_FUNCTIONS = [to_underscore, to_year]
+
+
 def import_dataset(path: str, columns: str) -> pd.DataFrame:
     with open(path, 'rb') as f:
         enc = chardet.detect(f.read())
@@ -27,3 +34,9 @@ def import_dataset(path: str, columns: str) -> pd.DataFrame:
 def nltk_ngrams(tokens_list: List[str], ngram_order: int):
     return nltk.ngrams(tokens_list, ngram_order, pad_left=True, pad_right=True, left_pad_symbol='<s>',
                        right_pad_symbol='</s>')
+
+
+def apply_transform_functions(word: str) -> str:
+    for func in MAPPER_FUNCTIONS:
+        word = func(word)
+    return word
