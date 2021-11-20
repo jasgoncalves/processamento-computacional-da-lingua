@@ -70,7 +70,7 @@ def ngram_classification(sentence: str, ngram: Ngram, vocabulary_size: int = 0) 
     new_value = get_calculation(sentence, Label.MUSIC, ngram, vocabulary_size)
     if new_value > value:
         value, label = new_value, Label.MUSIC.name
-    new_value = get_calculation(sentence, Label.SCIENCE, ngram)
+    new_value = get_calculation(sentence, Label.SCIENCE, ngram, vocabulary_size)
     if new_value > value:
         value, label = new_value, Label.SCIENCE.name
     return label
