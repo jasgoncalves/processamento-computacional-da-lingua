@@ -18,11 +18,12 @@ UNIGRAM_FILE_NAME = 'unigrams_'
 BIGRAM_FILE_NAME = 'bigrams_'
 
 
-def to_underscore(word: str) -> str: return word.lower()
-def to_year(word: str) -> str: return "_YEAR_" if word.isnumeric() and len(word) == 4 else word
+def clean_words(words: List[str]) -> List[str]: return [word for word in words if word.isalnum()]
+def to_underscore(words: List[str]) -> List[str]: return [word.lower() for word in words]
+def to_year(words: List[str]) -> List[str]: return ["__YEAR__" if word.isnumeric() and len(word) == 4 else word for word in words ]
 
 
-MAPPER_FUNCTIONS = [to_underscore, to_year]
+MAPPER_FUNCTIONS = [clean_words, to_underscore, to_year]
 
 
 def import_dataset(path: str, columns: str) -> pd.DataFrame:
@@ -36,7 +37,7 @@ def nltk_ngrams(tokens_list: List[str], ngram_order: int):
                        right_pad_symbol='</s>')
 
 
-def apply_transform_functions(word: str) -> str:
+def apply_transform_functions(words: List[str]) -> List[str]:
     for func in MAPPER_FUNCTIONS:
-        word = func(word)
-    return word
+        words = func(words)
+    return words
