@@ -8,12 +8,10 @@ from utils import DELIMITER, OUTPUT_PATH_TASK1, DATA_PATH, INITIAL_COLUMNS, EXTE
 
 nltk.download('punkt')
 
-
-def clean_words(words: List[str]) -> List[str]:
+def clean_words(words: list[str]) -> list[str]:
     return [word for word in words if word.isalnum()]
 
-
-def get_words_by_label(df: DataFrame) -> Dict[Any, list]:
+def get_words_by_label(df: DataFrame) -> dict[Any, list]:
     label_words = dict()
     unique_labels = df.labels.unique()
 
@@ -22,15 +20,14 @@ def get_words_by_label(df: DataFrame) -> Dict[Any, list]:
         label_lines = df[df.labels == label]
         for question in label_lines.questions:
             question_words = nltk.word_tokenize(question, language='english')
-            label_words[label].extend(clean_words(question_words))
+            label_words[label].extend(question_words)
         for answer in label_lines.answers:
-            answer_words = nltk.word_tokenize(answer, language='english')
-            label_words[label].extend(clean_words(answer_words))
+            answer_words = nltk.word_tokenize(clean_words(answer), language='english')
+            label_words[label].extend(answer_words)
 
     return label_words
 
-
-def generate_ngrams(words_dict: Dict[Any, list], ngram_order: int, output_path: str = OUTPUT_PATH_TASK1):
+def generate_ngrams(words_dict: dict[Any, list], ngram_order: int, output_path: str = OUTPUT_PATH_TASK1):
     if ngram_order == 1:
         output_file = UNIGRAM_FILE_NAME
     elif ngram_order == 2:

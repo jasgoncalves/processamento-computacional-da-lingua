@@ -17,12 +17,15 @@ TRAIN_FILE_NAME = "train"
 UNIGRAM_FILE_NAME = 'unigrams_'
 BIGRAM_FILE_NAME = 'bigrams_'
 
+def to_lemma(word : str) -> str: 
+    lemmatizer = nltk.WordNetLemmatizer()
+    return lemmatizer.lemmatize(word, pos='v')
 
-def to_underscore(word: str) -> str: return word.lower()
+def to_lower(word: str) -> str: return word.lower()
 def to_year(word: str) -> str: return "_YEAR_" if word.isnumeric() and len(word) == 4 else word
 
 
-MAPPER_FUNCTIONS = [to_underscore, to_year]
+MAPPER_FUNCTIONS = [to_lower, to_year, to_lemma]
 
 
 def import_dataset(path: str, columns: str) -> pd.DataFrame:
