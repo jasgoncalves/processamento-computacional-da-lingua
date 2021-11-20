@@ -6,9 +6,14 @@ a	734
 be	675
 in	673
 to	415
+<<<<<<< HEAD
 &	356
 's	314
 _YEAR_	287
+=======
+is	371
+__YEAR__	287
+>>>>>>> origin/refactor_ngram_gen
 for	276
 ``	259
 ''	258

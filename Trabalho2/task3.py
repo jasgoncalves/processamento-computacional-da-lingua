@@ -10,7 +10,7 @@ OUTPUT_FOLDER = os.path.join(PROJECT_PATH, "data-processed/")
 
 def data_pre_processing(words_dict: Dict[Any, List]) -> Dict[Any, List]:
     for label in words_dict.keys():
-        words_dict[label] = list(map(lambda word: apply_transform_functions(word), words_dict[label]))
+        words_dict[label] = list(map(lambda sentence: apply_transform_functions(sentence), words_dict[label]))
 
     return words_dict
 
@@ -18,8 +18,8 @@ def data_pre_processing(words_dict: Dict[Any, List]) -> Dict[Any, List]:
 def write_pre_processing(words_dict: Dict[Any, List]) -> None:
     with open(f"{OUTPUT_FOLDER}/words_by_tag.txt", "w", encoding="utf-8") as writer:
         for label in words_dict.keys():
-            for word in words_dict[label]:
-                writer.write(label + "\t" + word + "\n")
+            for sentence in words_dict[label]:
+                writer.write(label + "\t" + " ".join(sentence) + "\n")
 
 
 if __name__ == "__main__":

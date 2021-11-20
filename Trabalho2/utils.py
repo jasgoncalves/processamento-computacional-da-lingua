@@ -29,11 +29,20 @@ def to_lemma(word : str) -> str:
 def to_lower(word: str) -> str: 
     return word.lower()
 
+<<<<<<< HEAD
 def to_year(word: str) -> str: 
     return "_YEAR_" if word.isnumeric() and len(word) == 4 else word
 
 
 MAPPER_FUNCTIONS = [to_lower, to_year, to_lemma]
+=======
+def clean_words(words: List[str]) -> List[str]: return [word for word in words if word.isalnum()]
+def to_underscore(words: List[str]) -> List[str]: return [word.lower() for word in words]
+def to_year(words: List[str]) -> List[str]: return ["__YEAR__" if word.isnumeric() and len(word) == 4 else word for word in words ]
+
+
+MAPPER_FUNCTIONS = [clean_words, to_underscore, to_year]
+>>>>>>> origin/refactor_ngram_gen
 
 
 def import_dataset(path: str, columns: str) -> pd.DataFrame:
@@ -47,7 +56,7 @@ def nltk_ngrams(tokens_list: List[str], ngram_order: int):
     # , pad_left=True, pad_right=True, left_pad_symbol='<s>', right_pad_symbol='</s>')
 
 
-def apply_transform_functions(word: str) -> str:
+def apply_transform_functions(words: List[str]) -> List[str]:
     for func in MAPPER_FUNCTIONS:
-        word = func(word)
-    return word
+        words = func(words)
+    return words

@@ -7,8 +7,12 @@ this	1296
 in	1211
 be	982
 a	973
+<<<<<<< HEAD
 's	690
 _YEAR_	658
+=======
+__YEAR__	658
+>>>>>>> origin/refactor_ngram_gen
 his	542
 &	464
 to	446

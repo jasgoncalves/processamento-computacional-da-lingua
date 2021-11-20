@@ -20,7 +20,12 @@ name	125
 island	124
 for	104
 sea	99
+<<<<<<< HEAD
 _YEAR_	95
+=======
+was	98
+__YEAR__	95
+>>>>>>> origin/refactor_ngram_gen
 lake	95
 from	83
 capital	83

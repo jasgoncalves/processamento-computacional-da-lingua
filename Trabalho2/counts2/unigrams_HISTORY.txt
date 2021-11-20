@@ -1,8 +1,12 @@
 the	2985
 in	1948
 this	1897
+<<<<<<< HEAD
 ,	1806
 _YEAR_	1632
+=======
+__YEAR__	1632
+>>>>>>> origin/refactor_ngram_gen
 of	1592
 be	1064
 to	810

@@ -6,10 +6,14 @@ this	1342
 a	1040
 in	1015
 of	967
+<<<<<<< HEAD
 be	863
 _YEAR_	654
 's	594
 &	520
+=======
+__YEAR__	654
+>>>>>>> origin/refactor_ngram_gen
 for	405
 to	391
 on	331
