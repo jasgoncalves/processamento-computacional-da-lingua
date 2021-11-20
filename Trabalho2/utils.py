@@ -13,8 +13,8 @@ try:
     nltk.data.find('corpora/stopwords')
     nltk.data.find('tokenize/punkt')
 except:
-    nltk.download('punkt')
-    nltk.download('stopwords')
+    nltk.download('punkt', quiet=True)
+    nltk.download('stopwords', quiet=True)
 
 PROJECT_PATH = os.path.dirname("Trabalho2")
 DATA_PATH = os.path.join(PROJECT_PATH, "data/")

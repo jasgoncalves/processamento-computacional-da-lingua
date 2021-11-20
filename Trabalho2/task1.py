@@ -1,13 +1,18 @@
 from typing import Dict, Any
 
-from nltk import download, word_tokenize, FreqDist
+from nltk import download, word_tokenize, FreqDist, data
 from nltk.lm.preprocessing import flatten
 
 from pandas import DataFrame, isna
 from utils import DELIMITER, OUTPUT_PATH_TASK1, DATA_PATH, INITIAL_COLUMNS, EXTENSION, TRAIN_FILE_NAME, \
-    UNIGRAM_FILE_NAME, BIGRAM_FILE_NAME, import_dataset, nltk_ngrams, EVAL_FILE_NAME
+    UNIGRAM_FILE_NAME, BIGRAM_FILE_NAME, import_dataset, nltk_ngrams
 
-download('punkt')
+try:
+    data.find('corpora/stopwords')
+    data.find('tokenize/punkt')
+except:
+    download('punkt', quiet=True)
+    download('stopwords', quiet=True)
 
 
 def get_words_by_label(df: DataFrame) -> Dict[Any, list]:
@@ -27,6 +32,7 @@ def get_words_by_label(df: DataFrame) -> Dict[Any, list]:
                 label_words[label].append(answer_words)
 
     return label_words
+
 
 def generate_ngrams(words_dict: dict, ngram_order: int, output_path: str = OUTPUT_PATH_TASK1):
     if ngram_order == 1:
@@ -48,7 +54,8 @@ def generate_ngrams(words_dict: dict, ngram_order: int, output_path: str = OUTPU
 
 
 if __name__ == "__main__":
-    training_dataset = import_dataset(f'{DATA_PATH}{TRAIN_FILE_NAME}{EXTENSION}', INITIAL_COLUMNS)  # import file train.txt
+    training_dataset = import_dataset(f'{DATA_PATH}{TRAIN_FILE_NAME}{EXTENSION}',
+                                      INITIAL_COLUMNS)  # import file train.txt
     label_words_dict = get_words_by_label(training_dataset)
     generate_ngrams(label_words_dict, 1)
     generate_ngrams(label_words_dict, 2)

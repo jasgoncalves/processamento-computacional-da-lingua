@@ -1,6 +1,5 @@
 import argparse
 from ctypes import ArgumentError
-import enum
 from typing import Tuple, List
 
 from numpy import log10
@@ -12,9 +11,11 @@ from utils import BIGRAM_FILE_NAME, UNIGRAM_FILE_NAME, EXTENSION, \
 try:
     data.find('copora/stopwords')
     data.find('tokenizer/punkt')
+    data.find('corpora/wordnet')
 except:
-    download('punkt')
-    download('stopwords')
+    download('punkt', quiet=True)
+    download('stopwords', quiet=True)
+    download('wordnet', quiet=True)
 
 
 COLUMNS = ['word', 'freq']
