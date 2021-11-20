@@ -1,9 +1,9 @@
 import os
 from typing import Dict, Any, List
-
+import pandas as pd
 from task1 import get_words_by_label, generate_ngrams
 from utils import import_dataset, OUTPUT_PATH_TASK3, DATA_PATH, TRAIN_FILE_NAME, EXTENSION, INITIAL_COLUMNS, \
-    apply_transform_functions, PROJECT_PATH
+    apply_transform_functions, PROJECT_PATH, EVAL_FILE_NAME
 
 OUTPUT_FOLDER = os.path.join(PROJECT_PATH, "data-processed/")
 
@@ -23,9 +23,10 @@ def write_pre_processing(words_dict: Dict[Any, List]) -> None:
 
 
 if __name__ == "__main__":
-    training_dataset = import_dataset(f'{DATA_PATH}{TRAIN_FILE_NAME}{EXTENSION}',
-                                      INITIAL_COLUMNS)  # import file train.txt
-    label_words_dict = get_words_by_label(training_dataset)
+    training_dataset = import_dataset(f'{DATA_PATH}{TRAIN_FILE_NAME}{EXTENSION}', INITIAL_COLUMNS)  # import file train.txt
+    evaluation_dataset = import_dataset(f'{DATA_PATH}{EVAL_FILE_NAME}{EXTENSION}', INITIAL_COLUMNS)  # import file train.txt
+    dataset = pd.concat([training_dataset, evaluation_dataset])
+    label_words_dict = get_words_by_label(dataset)
     label_words_dict = data_pre_processing(label_words_dict)
     write_pre_processing(label_words_dict)
     generate_ngrams(label_words_dict, 1, OUTPUT_PATH_TASK3)

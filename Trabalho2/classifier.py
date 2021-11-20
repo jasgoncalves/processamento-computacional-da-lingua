@@ -4,27 +4,23 @@ import enum
 from typing import Tuple, List
 
 from numpy import log10
-from nltk import word_tokenize, download
+from nltk import word_tokenize, download, data
 
 from utils import BIGRAM_FILE_NAME, UNIGRAM_FILE_NAME, EXTENSION, \
-    import_dataset, nltk_ngrams, DATA_COLUMNS, DATA_PATH, apply_transform_functions, Ngram
+    import_dataset, nltk_ngrams, DATA_COLUMNS, DATA_PATH, apply_transform_functions, Ngram, Label
 
-download('punkt')
-download('stopwords')
-
-
-class Label(enum.Enum):
-    GEOGRAPHY = 0,
-    HISTORY = 1,
-    LITERATURE = 2,
-    MUSIC = 3,
-    SCIENCE = 4
+try:
+    data.find('copora/stopwords')
+    data.find('tokenizer/punkt')
+except:
+    download('punkt')
+    download('stopwords')
 
 
 COLUMNS = ['word', 'freq']
 LABELS = [Label.GEOGRAPHY, Label.HISTORY, Label.LITERATURE, Label.MUSIC, Label.SCIENCE]
 UNIGRAM_THRESHOLD = .95
-BIGRAM_THRESHOLD = .1
+BIGRAM_THRESHOLD = .05
 
 __geography_unigram = None
 __history_unigram = None
@@ -78,7 +74,7 @@ def get_calculation(sentence: str, label: Label, ngram: Ngram, vocabulary_size: 
     elif ngram == ngram.BIGRAM:
         return bigram_calculation(sentence, label, normalize)
     elif ngram == ngram.BIGRAM_SMOOTHING:
-        return bigram_calculation(sentence, label, True, vocabulary_size, normalize)
+        return bigram_calculation(sentence, label, normalize, True, vocabulary_size)
     else:
         raise ArgumentError(f"Invalid argument value {ngram.name}")
 
@@ -125,13 +121,13 @@ def get_bigram_set(label: Label):
 ## handling unknown words
 def unigram_likelihood(unigram_count: int, words_count: int, threshold: float = 0) -> float:
     return log10(
-        ((threshold * unigram_count / words_count) + ((1 - threshold) / words_count) if words_count != 0 else 0))
+        ((threshold * unigram_count / words_count) + ((1 - threshold) / words_count) if words_count != 0 else 1))
 
 
 def bigram_likelihood(unigram_count: int, bigram_count: int, smooth: bool, vocabulary: int, threshold) -> float:
     value = log10(
-        ((bigram_count + threshold) / (unigram_count + (vocabulary * threshold)) if unigram_count + vocabulary != 0 else 0) if smooth else
-        (bigram_count / unigram_count if unigram_count != 0 else 0))
+        ((bigram_count + threshold) / (unigram_count + (vocabulary * threshold)) if unigram_count + vocabulary != 0 else 1) if smooth else
+        (bigram_count / unigram_count if unigram_count != 0 else 1))
     return value
 
 def transform_sentence(sentence: List[str]) -> List[str]:
@@ -151,7 +147,7 @@ def unigram_calculation(sentence: str, label: Label, normalize : bool = False) -
     return calculation
 
 
-def bigram_calculation(sentence: str, label: Label, smooth: bool = False, vocabulary_size: int = 0, normalize : bool = False) -> float:
+def bigram_calculation(sentence: str, label: Label, normalize : bool = False, smooth: bool = False, vocabulary_size: int = 0) -> float:
     unigram_dataframe = get_set(label, Ngram.UNIGRAM)
     bigram_dataframe = get_set(label, Ngram.BIGRAM)
     vocabulary = vocabulary_size if smooth else len(unigram_dataframe)
@@ -195,8 +191,8 @@ if __name__ == "__main__":
     classification_type = args.classification_type
 
     # counts_folder = 'counts2'
-    # test_file = 'eval-questions.txt'
-    # classification_type = 'UNIGRAM'
+    # test_file = 'test-questions.txt'
+    # classification_type = 'BIGRAM_SMOOTHING'
 
     __geography_unigram, __history_unigram, __literature_unigram, __music_unigram, __science_unigram = unigram_load_data(counts_folder)
     __geography_bigram, __history_bigram, __literature_bigram, __music_bigram, __science_bigram = bigram_load_data(counts_folder)
