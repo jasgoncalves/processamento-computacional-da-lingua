@@ -18,6 +18,7 @@ EXTENSION = '.txt'
 INITIAL_COLUMNS = ['labels', 'questions', 'answers']
 DATA_COLUMNS = ['questions', 'answers']
 TRAIN_FILE_NAME = "train"
+EVAL_FILE_NAME = "eval"
 UNIGRAM_FILE_NAME = 'unigrams_'
 BIGRAM_FILE_NAME = 'bigrams_'
 
