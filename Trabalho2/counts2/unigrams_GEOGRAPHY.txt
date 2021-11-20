@@ -1,3 +1,5 @@
+<s>	2022
+</s>	2022
 the	1205
 this	803
 of	684
@@ -20,12 +22,6 @@ name	125
 island	124
 for	104
 sea	99
-<<<<<<< HEAD
-_YEAR_	95
-=======
-was	98
-__YEAR__	95
->>>>>>> origin/refactor_ngram_gen
 lake	95
 from	83
 capital	83
@@ -595,6 +591,7 @@ malaysia	3
 bismarck	3
 iraq	3
 bothnia	3
+1972	3
 team	3
 sakhalin	3
 enter	3
@@ -632,6 +629,7 @@ wisconsin	3
 worth	3
 they	3
 actually	3
+1980	3
 indonesian	3
 contain	3
 dam	3
@@ -686,6 +684,7 @@ cold	3
 bottom	3
 smaller	3
 syria	3
+1923	3
 ukraine	3
 any	3
 circle	3
@@ -724,6 +723,7 @@ vancouver	3
 belgian	3
 congo	3
 poland	3
+1861	3
 he	3
 village	3
 southeast	3
@@ -848,6 +848,7 @@ total	2
 175	2
 u.k.	2
 w.	2
+1962	2
 several	2
 associate	2
 shakespeare	2
@@ -917,10 +918,12 @@ shawmut	2
 20th	2
 view	2
 elbert	2
+1887	2
 last	2
 tip	2
 opposite	2
 effect	2
+1998	2
 smoke	2
 bar	2
 straddle	2
@@ -932,6 +935,7 @@ wellington	2
 jut	2
 look	2
 sail	2
+1960	2
 abu	2
 dhabi	2
 dubai	2
@@ -1043,6 +1047,7 @@ jefferson	2
 qatar	2
 uttar	2
 80	2
+1860	2
 railroad	2
 deal	2
 spell	2
@@ -1062,6 +1067,7 @@ zanzibar	2
 haven	2
 federal	2
 government	2
+1949	2
 ainu	2
 sweden	2
 1,000	2
@@ -1085,6 +1091,7 @@ grenada	2
 platte	2
 canyon	2
 nfl	2
+1992	2
 olympics	2
 piazza	2
 light	2
@@ -1107,6 +1114,7 @@ northward	2
 wyoming	2
 international	2
 jose	2
+1968	2
 aboriginal	2
 sweep	2
 arabic	2
@@ -1149,6 +1157,7 @@ djibouti	2
 rain	2
 underground	2
 kotte	2
+1776	2
 space	2
 cultural	2
 real	2
@@ -1262,6 +1271,7 @@ hanseatic	1
 commonwealth	1
 outside	1
 beach	1
+1756	1
 voltaire	1
 political	1
 entity	1
@@ -1305,6 +1315,7 @@ alphabetical	1
 list	1
 immediately	1
 ottoman	1
+1921	1
 gwynedd	1
 clwyd	1
 kemijoki	1
@@ -1327,6 +1338,7 @@ lek	1
 ijssel	1
 bilbao	1
 bayonne	1
+1624	1
 lisan	1
 saltiest	1
 seacoast	1
@@ -1360,6 +1372,7 @@ spire	1
 settlement	1
 netherland	1
 1,980-mile	1
+1969	1
 300,000	1
 violent	1
 conflict	1
@@ -1394,11 +1407,13 @@ hall	1
 fame	1
 observatory	1
 stockade	1
+1794	1
 mad	1
 paso	1
 monument	1
 cork	1
 honor	1
+1798	1
 scant	1
 7,100	1
 slovakia	1
@@ -1438,6 +1453,7 @@ whitefish	1
 well-known	1
 1885-mile	1
 cede	1
+1783	1
 horeb	1
 experts	1
 serbal	1
@@ -1468,6 +1484,7 @@ moluccas	1
 cloves	1
 mace	1
 nutmeg	1
+1830	1
 catholic	1
 ordain	1
 obtain	1
@@ -1512,9 +1529,11 @@ drop	1
 1,600	1
 percent	1
 congolese	1
+1880	1
 kingson	1
 consider	1
 aqueduct	1
+1951	1
 allow	1
 nato	1
 airbase	1
@@ -1525,6 +1544,8 @@ inhabitants	1
 boer	1
 paul	1
 kruger	1
+1889	1
+1961	1
 kaiser-wilhelm-spitze	1
 avernus	1
 campania	1
@@ -1575,6 +1596,7 @@ gulfs	1
 sawatch	1
 ranchers	1
 cimarron	1
+1890	1
 balaklava	1
 yalta	1
 statewide	1
@@ -1587,6 +1609,7 @@ climax	1
 gunfight	1
 shorelines	1
 mongolian	1
+1644	1
 aquidneck	1
 retirement	1
 retire	1
@@ -1621,6 +1644,8 @@ comedy	1
 errors	1
 hang	1
 reduce	1
+9677	1
+8300	1
 katowice	1
 cooperative	1
 4-mile-wide	1
@@ -1642,6 +1667,7 @@ songbird	1
 wexford	1
 north-northwest	1
 soldier	1
+1957	1
 seminole	1
 apalachicola	1
 puerta	1
@@ -1653,13 +1679,16 @@ turnpike	1
 seychelles	1
 turkish	1
 modern	1
+1829	1
 noah	1
+1840	1
 lambton	1
 harbour	1
 extreme	1
 chap	1
 horse-chestnut	1
 bloom	1
+1976	1
 manila	1
 quezon	1
 metropolitan	1
@@ -1740,6 +1769,7 @@ ankara	1
 succeed	1
 yaroslav	1
 wise	1
+1833	1
 arise	1
 consolidation	1
 vistula	1
@@ -1782,6 +1812,7 @@ french-spanish	1
 bluegrass	1
 gently	1
 roll	1
+1903	1
 wilbur	1
 orville	1
 fly	1
@@ -1789,6 +1820,7 @@ fly	1
 para	1
 pernambuco	1
 amazonas	1
+1997	1
 crown	1
 will	1
 malebo	1
@@ -1877,11 +1909,13 @@ till	1
 incan	1
 'bleak	1
 750	1
+1875	1
 ernest	1
 giles	1
 monarch	1
 imply	1
 greatness	1
+1876	1
 carleton	1
 foil	1
 raid	1
@@ -1898,6 +1932,7 @@ travel	1
 guide	1
 naples	1
 academy	1
+1871	1
 fountain	1
 tall	1
 bolshaya	1
@@ -1907,6 +1942,7 @@ origins	1
 bangalore	1
 mud	1
 erect	1
+1537	1
 heavily	1
 suomi	1
 battlefield	1
@@ -2007,6 +2043,7 @@ daisy	1
 miller	1
 metropolis	1
 calvinism	1
+1995	1
 reunification	1
 restore	1
 diplomatic	1
@@ -2024,6 +2061,7 @@ jima	1
 extinct	1
 swedish	1
 gotland	1
+1990	1
 expel	1
 relocate	1
 ortega	1
@@ -2033,6 +2071,7 @@ north-south	1
 darius	1
 pasargadae	1
 persepolis	1
+1330	1
 nordkapp	1
 mageroya	1
 acarai	1
@@ -2049,6 +2088,7 @@ pilgrims	1
 '80s	1
 9,300-square-mile	1
 cartier	1
+1535	1
 uzbekistan	1
 aral	1
 stan	1
@@ -2077,6 +2117,7 @@ kaaba	1
 hangzhou	1
 10,000	1
 republics	1
+1964	1
 tanzania	1
 cristoforo	1
 colombo	1
@@ -2086,6 +2127,7 @@ busiest	1
 manaus	1
 battle	1
 july	1
+1862	1
 bern	1
 bernese	1
 road	1
@@ -2131,6 +2173,7 @@ romantic	1
 arno	1
 cotswold	1
 gloucester	1
+1937	1
 aside	1
 parish	1
 soloi	1
@@ -2140,6 +2183,7 @@ statement	1
 monastery	1
 6th	1
 d.h.	1
+1922	1
 hispaniola	1
 comprise	1
 haiti	1
@@ -2159,6 +2203,7 @@ neutral	1
 fonseca	1
 direct	1
 access	1
+1952	1
 winter	1
 113-mile	1
 fulton	1
@@ -2177,6 +2222,7 @@ hittite	1
 bogazkoy	1
 anatolia	1
 coastlines	1
+1874	1
 rail	1
 eads	1
 complete	1
@@ -2196,6 +2242,7 @@ descent	1
 antelope	1
 bison	1
 ca	1
+1869	1
 rutgers	1
 beat	1
 princeton	1
@@ -2221,6 +2268,7 @@ sharp	1
 formations	1
 breakup	1
 prussia	1
+2007	1
 cotton	1
 bowl	1
 champion	1
@@ -2300,6 +2348,7 @@ damascus	1
 approx	1
 1,247,000	1
 korea	1
+1886	1
 congress	1
 close	1
 due	1
@@ -2308,6 +2357,7 @@ fur-sealing	1
 practice	1
 brownsville	1
 ignite	1
+1989	1
 fipke	1
 barren	1
 skopje	1
@@ -2340,6 +2390,7 @@ egyptian	1
 peninsulas	1
 zamboanga	1
 bataan	1
+1958	1
 bombard	1
 quemoy	1
 nationalist	1
@@ -2355,6 +2406,7 @@ quinnipiac	1
 saugatuck	1
 protectorate	1
 somaliland	1
+1977	1
 devil	1
 suburb	1
 library	1
@@ -2363,6 +2415,7 @@ overlook	1
 sugarloaf	1
 ]	1
 montego	1
+1000	1
 b.c.	1
 robin	1
 represent	1
@@ -2394,6 +2447,7 @@ gem	1
 20-mile-wide	1
 macao	1
 explore	1
+1974	1
 53	1
 numidia	1
 third-largest	1
@@ -2425,6 +2479,7 @@ haltia	1
 feline-filled	1
 incarceration	1
 scale	1
+1953	1
 annapurna	1
 6,800	1
 bayern	1
@@ -2440,6 +2495,7 @@ windy	1
 valdez	1
 aliquippa	1
 louisville	1
+1940	1
 ladoga	1
 kuwait	1
 bubiyan	1
@@ -2452,6 +2508,7 @@ kalaallit	1
 nunaat	1
 seneca	1
 oneida	1
+1991	1
 construction	1
 abuja	1
 seaboard	1
@@ -2481,12 +2538,14 @@ nizhny	1
 novgorod	1
 writer	1
 neva	1
+1703	1
 oea	1
 sabrata	1
 leptis	1
 suir	1
 crystal	1
 paramaribo	1
+1815	1
 golly	1
 malawi	1
 190	1
@@ -2579,6 +2638,7 @@ thon	1
 buri	1
 incorporate	1
 thai	1
+1971	1
 bigler	1
 warren	1
 g.	1
@@ -2651,6 +2711,7 @@ lick	1
 chop	1
 kit	1
 mapmakers	1
+1806	1
 discoverer	1
 waterfalls	1
 cuquenan	1
@@ -2658,11 +2719,13 @@ mideastern	1
 bekaa	1
 farm	1
 april	1
+1945	1
 ryukyu	1
 capricorn	1
 stay	1
 cool	1
 estonian	1
+1219	1
 urga	1
 tarabulus	1
 love	1
@@ -2677,6 +2740,7 @@ tonle	1
 sap	1
 flood	1
 luckily	1
+1947	1
 alan	1
 ladd	1
 hole	1
@@ -2684,6 +2748,7 @@ career	1
 macarthur	1
 troop	1
 september	1
+1950	1
 break	1
 consent	1
 dagestan	1
@@ -2693,6 +2758,7 @@ color	1
 shin	1
 laurentian	1
 70,000	1
+1967	1
 d.c	1
 ownership	1
 faithful	1
@@ -2740,6 +2806,7 @@ think	1
 should	1
 mind	1
 waimea	1
+1884	1
 lose	1
 atacama	1
 40-mile-wide	1
@@ -2768,6 +2835,8 @@ locality	1
 whidbey	1
 calf	1
 incorporation	1
+1813	1
+1901	1
 sing-sing	1
 lilly	1
 p.d	1
@@ -2783,6 +2852,7 @@ joao	1
 belo	1
 xai-xai	1
 bernardino	1
+1893	1
 riverside	1
 recreation	1
 fictional	1
@@ -2822,9 +2892,11 @@ bomb	1
 visitor	1
 pedro	1
 mendoza	1
+1536	1
 holiest	1
 third-longest	1
 inaugurate	1
+1931	1
 cree	1
 win	1
 nipee	1
@@ -2841,6 +2913,7 @@ pariñas	1
 talara	1
 station	1
 convict	1
+1824	1
 emirate	1
 liberator	1
 antipoverty	1
@@ -2929,6 +3002,7 @@ iii	1
 merrimac	1
 balaton	1
 budapest	1
+1973	1
 galesburg	1
 knox	1
 lincoln-douglas	1

@@ -10,6 +10,7 @@ from utils import BIGRAM_FILE_NAME, UNIGRAM_FILE_NAME, EXTENSION, \
     import_dataset, nltk_ngrams, DATA_COLUMNS, DATA_PATH, apply_transform_functions, Ngram
 
 download('punkt')
+download('stopwords')
 
 
 class Label(enum.Enum):
@@ -23,6 +24,7 @@ class Label(enum.Enum):
 COLUMNS = ['word', 'freq']
 LABELS = [Label.GEOGRAPHY, Label.HISTORY, Label.LITERATURE, Label.MUSIC, Label.SCIENCE]
 UNIGRAM_THRESHOLD = .95
+BIGRAM_THRESHOLD = .1
 
 __geography_unigram = None
 __history_unigram = None
@@ -126,9 +128,9 @@ def unigram_likelihood(unigram_count: int, words_count: int, threshold: float = 
         ((threshold * unigram_count / words_count) + ((1 - threshold) / words_count) if words_count != 0 else 0))
 
 
-def bigram_likelihood(unigram_count: int, bigram_count: int, smooth: bool, vocabulary: int) -> float:
+def bigram_likelihood(unigram_count: int, bigram_count: int, smooth: bool, vocabulary: int, threshold) -> float:
     value = log10(
-        ((bigram_count + 1) / (unigram_count + vocabulary) if unigram_count + vocabulary != 0 else 0) if smooth else
+        ((bigram_count + threshold) / (unigram_count + (vocabulary * threshold)) if unigram_count + vocabulary != 0 else 0) if smooth else
         (bigram_count / unigram_count if unigram_count != 0 else 0))
     return value
 
@@ -160,7 +162,7 @@ def bigram_calculation(sentence: str, label: Label, smooth: bool = False, vocabu
     for bigram in nltk_ngrams(tokenized_sentence, 2):
         unigram_count = unigram_dataframe.get(bigram[0], 0)
         bigram_count = bigram_dataframe.get(' '.join(bigram), 0)
-        calculation += bigram_likelihood(unigram_count, bigram_count, smooth, vocabulary)
+        calculation += bigram_likelihood(unigram_count, bigram_count, smooth, vocabulary, BIGRAM_THRESHOLD)
     return calculation
 
 
@@ -182,16 +184,24 @@ def bigram_load_data(count_folder : str):
 
 
 if __name__ == "__main__":
-    # PARSER = argparse.ArgumentParser(description="Bla bla bla bla ...")
-    # PARSER.add_argument("classification_type", default=Ngram.UNIGRAM, help="UNIGRAM, BIGRAM, BIGRAM_SMOOTHING")
-    # PARSER.add_argument('counts_folder', help='Counts files folder')
-    # PARSER.add_argument('test_file', help='Test dataset file')
-    # args = PARSER.parse_args()
+    PARSER = argparse.ArgumentParser(description="Bla bla bla bla ...")
+    PARSER.add_argument("classification_type", default=Ngram.UNIGRAM, help="UNIGRAM, BIGRAM, BIGRAM_SMOOTHING")
+    PARSER.add_argument('counts_folder', help='Counts files folder')
+    PARSER.add_argument('test_file', help='Test dataset file')
+    args = PARSER.parse_args()
 
-    __geography_unigram, __history_unigram, __literature_unigram, __music_unigram, __science_unigram = unigram_load_data(args.counts_folder)
-    __geography_bigram, __history_bigram, __literature_bigram, __music_bigram, __science_bigram = bigram_load_data(args.counts_folder)
+    counts_folder = args.counts_folder
+    test_file = args.test_file
+    classification_type = args.classification_type
+
+    # counts_folder = 'counts2'
+    # test_file = 'eval-questions.txt'
+    # classification_type = 'UNIGRAM'
+
+    __geography_unigram, __history_unigram, __literature_unigram, __music_unigram, __science_unigram = unigram_load_data(counts_folder)
+    __geography_bigram, __history_bigram, __literature_bigram, __music_bigram, __science_bigram = bigram_load_data(counts_folder)
     vocabulary_size = get_vocabulary_size()
 
-    evaluation_dataframe = import_dataset(f'{DATA_PATH}{args.test_file}', DATA_COLUMNS)
+    evaluation_dataframe = import_dataset(f'{DATA_PATH}{test_file}', DATA_COLUMNS)
     evaluation_dataframe.questions.apply(
-        lambda question: print(ngram_classification(question, Ngram[args.classification_type], vocabulary_size, True if args.counts_folder == 'count2' else False)))
+        lambda question: print(ngram_classification(question, Ngram[classification_type], vocabulary_size, True if counts_folder == 'counts2' else False)))

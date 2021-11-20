@@ -1,3 +1,5 @@
+<s>	4372
+</s>	4372
 the	1944
 ''	1481
 ``	1472
@@ -6,14 +8,9 @@ this	1342
 a	1040
 in	1015
 of	967
-<<<<<<< HEAD
 be	863
-_YEAR_	654
 's	594
 &	520
-=======
-__YEAR__	654
->>>>>>> origin/refactor_ngram_gen
 for	405
 to	391
 on	331
@@ -238,6 +235,7 @@ tour	19
 metal	19
 day	19
 trio	19
+2002	19
 guitar	19
 10	18
 among	18
@@ -266,6 +264,7 @@ long	17
 two	17
 chicago	17
 son	17
+1997	17
 franz	17
 u.s.	17
 under	17
@@ -302,6 +301,7 @@ york	15
 reach	15
 roof	15
 6	15
+1996	15
 off	15
 organ	15
 house	15
@@ -309,13 +309,16 @@ south	15
 queen	15
 kid	14
 will	14
+1985	14
 david	14
 die	14
 haydn	14
 major	14
 de	14
+1998	14
 beatles	14
 ca	14
+1990	14
 number	14
 mary	14
 way	14
@@ -345,6 +348,7 @@ inspire	13
 sun	13
 need	13
 hot	13
+1978	13
 horn	13
 1st	13
 boy	13
@@ -371,9 +375,11 @@ wife	12
 mendelssohn	12
 wed	12
 director	12
+2006	12
 miss	12
 revival	12
 kiss	12
+2000	12
 guitarist	12
 latin	12
 '60s	12
@@ -386,9 +392,12 @@ audio	12
 later	12
 female	12
 soundtrack	12
+1970	12
+1992	12
 member	12
 quartet	12
 robert	12
+1993	12
 start	12
 prince	12
 peter	12
@@ -418,6 +427,7 @@ men	11
 still	11
 career	11
 billboard	11
+1999	11
 dolly	11
 well	11
 suite	11
@@ -442,12 +452,15 @@ england	10
 away	10
 production	10
 team	10
+1979	10
 million	10
+1994	10
 happy	10
 move	10
 ludwig	10
 miller	10
 them	10
+1981	10
 ii	10
 series	10
 mr.	10
@@ -462,6 +475,7 @@ refer	10
 street	10
 lyric	10
 meet	10
+1972	10
 california	10
 premier	10
 b	10
@@ -471,16 +485,19 @@ british	10
 tone	10
 better	10
 smash	10
+2001	10
 waltz	10
 same	10
 radio	10
 [	10
 ]	10
 percussion	10
+1989	10
 --	10
 duo	10
 platinum	10
 look	10
+1969	10
 strauss	10
 sullivan	10
 7	10
@@ -495,6 +512,7 @@ operas	9
 remember	9
 jimmy	9
 oh	9
+1962	9
 right	9
 wagner	9
 must	9
@@ -507,6 +525,7 @@ henry	9
 put	9
 award	9
 real	9
+1975	9
 roger	9
 traditional	9
 late	9
@@ -528,7 +547,9 @@ game	9
 appear	9
 strip	9
 share	9
+1973	9
 ricky	9
+1968	9
 bow	9
 e	9
 subtitle	9
@@ -542,12 +563,15 @@ wind	9
 louis	9
 joseph	9
 dead	9
+1971	9
 rodgers	9
+1984	9
 park	9
 hold	9
 brahms	9
 really	9
 child	9
+1995	9
 schubert	9
 middle	9
 les	9
@@ -566,19 +590,24 @@ since	8
 leader	8
 train	8
 duet	8
+1977	8
 players	8
 performer	8
+1928	8
 musicians	8
 key	8
 short	8
 father	8
 himself	8
+1983	8
 poem	8
+2009	8
 talk	8
 weeks	8
 body	8
 ”	8
 irish	8
+1967	8
 bring	8
 orchestral	8
 daily	8
@@ -588,9 +617,11 @@ fool	8
 week	8
 mrs.	8
 associate	8
+1991	8
 rhapsody	8
 maria	8
 usually	8
+1963	8
 jerry	8
 days	8
 bruce	8
@@ -601,6 +632,7 @@ viola	8
 girls	8
 hi	8
 berlin	8
+1982	8
 folk	8
 tales	8
 try	8
@@ -660,6 +692,7 @@ moon	7
 holly	7
 cole	7
 porter	7
+1961	7
 every	7
 woody	7
 police	7
@@ -667,6 +700,7 @@ ukulele	7
 originate	7
 springsteen	7
 contain	7
+1960	7
 beat	7
 several	7
 dr.	7
@@ -753,6 +787,7 @@ scene	6
 members	6
 official	6
 pearl	6
+1958	6
 wynton	6
 marsalis	6
 water	6
@@ -781,6 +816,7 @@ celebrate	6
 recent	6
 camelot	6
 songwriter	6
+1980	6
 sister	6
 legendary	6
 wait	6
@@ -801,6 +837,7 @@ rich	6
 true	6
 size	6
 f	6
+1829	6
 houston	6
 raise	6
 teen	6
@@ -832,6 +869,7 @@ mountain	6
 teach	6
 though	6
 captain	6
+1965	6
 stay	6
 tommy	6
 r	6
@@ -840,6 +878,7 @@ frank	6
 brian	6
 carousel	6
 12	6
+2005	6
 because	6
 spanish	6
 murder	6
@@ -847,6 +886,7 @@ loud	6
 san	6
 things	6
 variations	6
+1987	6
 gee	6
 festival	6
 benny	6
@@ -908,6 +948,7 @@ l.a.	5
 near	5
 dvorak	5
 mia	5
+2010	5
 reed	5
 why	5
 crazy	5
@@ -925,6 +966,7 @@ sousa	5
 birthday	5
 vocalist	5
 mclean	5
+1959	5
 buddy	5
 twice	5
 gilbert	5
@@ -950,15 +992,19 @@ herman	5
 entertainer	5
 comic	5
 probably	5
+1966	5
 matthew	5
 chicken	5
 tribute	5
+1986	5
 special	5
 each	5
 czech	5
+1935	5
 grieg	5
 trapp	5
 space	5
+1988	5
 phil	5
 art	5
 kingston	5
@@ -1094,11 +1140,13 @@ conservatory	4
 bo	4
 bridge	4
 derive	4
+2004	4
 11	4
 dawn	4
 knock	4
 __	4
 ancient	4
+1976	4
 tevye	4
 plant	4
 concern	4
@@ -1127,13 +1175,16 @@ announce	4
 notation	4
 carpenter	4
 present	4
+1957	4
 <	4
 >	4
 jack	4
 duets	4
 chubby	4
 checker	4
+1974	4
 replace	4
+1776	4
 moment	4
 aaron	4
 common	4
@@ -1151,12 +1202,14 @@ rush	4
 war	4
 blood	4
 credit	4
+1955	4
 despite	4
 betty	4
 simba	4
 verdi	4
 public	4
 ones	4
+1952	4
 moonlight	4
 bird	4
 nick	4
@@ -1176,7 +1229,9 @@ leann	4
 rim	4
 lot	4
 date	4
+1892	4
 libretto	4
+1956	4
 indicate	4
 jaw	4
 clash	4
@@ -1262,6 +1317,7 @@ block	4
 mexico	4
 musicals	4
 13	4
+1964	4
 minstrel	4
 discover	4
 operetta	4
@@ -1288,6 +1344,7 @@ very	4
 person	4
 wave	4
 harpsichord	4
+1933	4
 color	4
 lp	4
 $	4
@@ -1373,6 +1430,7 @@ christ	4
 celine	3
 belle	3
 walter	3
+1897	3
 court	3
 famed	3
 manilow	3
@@ -1404,6 +1462,7 @@ ex	3
 slim	3
 choral	3
 establish	3
+1894	3
 prelude	3
 wieck	3
 ferdinand	3
@@ -1419,6 +1478,7 @@ cast	3
 fellow	3
 natasha	3
 kaye	3
+2007	3
 tropical	3
 belong	3
 susanna	3
@@ -1441,7 +1501,9 @@ baltimore	3
 janis	3
 emp	3
 sport	3
+1939	3
 question	3
+1742	3
 oughta	3
 ann	3
 gong	3
@@ -1510,6 +1572,7 @@ frequency	3
 hertz	3
 pulitzer	3
 stories	3
+1948	3
 consecutive	3
 15	3
 dee	3
@@ -1530,6 +1593,7 @@ nellie	3
 landmark	3
 fast	3
 pain	3
+1950	3
 cable	3
 costello	3
 abbreviate	3
@@ -1567,6 +1631,7 @@ proud	3
 cowbell	3
 florence	3
 success	3
+1924	3
 knife	3
 counterpoint	3
 esther	3
@@ -1678,6 +1743,7 @@ everly	3
 highway	3
 outlaw	3
 tap	3
+1741	3
 orpheus	3
 whistle	3
 mouthpiece	3
@@ -1692,6 +1758,7 @@ merle	3
 haggard	3
 steppenwolf	3
 twain	3
+1954	3
 maker	3
 chili	3
 bestselling	3
@@ -1708,6 +1775,7 @@ sleepwear	3
 speak	3
 dickens	3
 guide	3
+1798	3
 involve	3
 reunite	3
 '90s	3
@@ -1734,7 +1802,9 @@ lewis	3
 barber	3
 service	3
 crawford	3
+1949	3
 burton	3
+2003	3
 25	3
 mind	3
 parade	3
@@ -1887,6 +1957,7 @@ substitute	2
 gayane	2
 tenors	2
 commonly	2
+1874	2
 robbins	2
 website	2
 inform	2
@@ -1989,6 +2060,7 @@ petrushka	2
 vince	2
 gill	2
 adjective	2
+1920	2
 method	2
 iii	2
 peron	2
@@ -2045,6 +2117,7 @@ passion	2
 razzle	2
 conrad	2
 expose	2
+1910	2
 conga	2
 effect	2
 tilt	2
@@ -2052,6 +2125,7 @@ w.	2
 lay	2
 bus	2
 typical	2
+1913	2
 grandfather	2
 ibsen	2
 epic	2
@@ -2071,6 +2145,8 @@ ancestor	2
 concertos	2
 pear-shaped	2
 jamaica	2
+1868	2
+1890	2
 bela	2
 next	2
 push	2
@@ -2081,6 +2157,7 @@ assume	2
 pig	2
 sadie	2
 final	2
+1791	2
 forbush	2
 canine	2
 baha	2
@@ -2102,6 +2179,7 @@ award-winning	2
 memoir	2
 timberlake	2
 chim	2
+1940	2
 board	2
 denner	2
 general	2
@@ -2146,6 +2224,7 @@ anything	2
 revue	2
 coolio	2
 henderson	2
+1925	2
 reform	2
 curly	2
 cents	2
@@ -2163,6 +2242,7 @@ rubinstein	2
 cop	2
 constant	2
 sorrow	2
+1893	2
 praise	2
 revolutionary	2
 scherzo	2
@@ -2170,6 +2250,7 @@ sorcier	2
 fortune	2
 impromptu	2
 surf	2
+1942	2
 edit	2
 cut	2
 doctor	2
@@ -2215,6 +2296,7 @@ important	2
 1500s	2
 bergman	2
 although	2
+1929	2
 larson	2
 crack	2
 split	2
@@ -2316,6 +2398,7 @@ sax	2
 stolzel	2
 allow	2
 shake	2
+1945	2
 berry	2
 yours	2
 truly	2
@@ -2401,10 +2484,12 @@ delight	2
 christopher	2
 revolve	2
 astaire	2
+1937	2
 yale	2
 rudy	2
 whip	2
 ceiling	2
+1951	2
 frey	2
 drug	2
 pickpocket	2
@@ -2418,6 +2503,7 @@ itself	2
 fiedler	2
 bandleader	2
 basic	2
+1726	2
 spamalot	2
 foster	2
 conway	2
@@ -2457,6 +2543,7 @@ haley	2
 blister	2
 pizzicato	2
 aberdeen	2
+1903	2
 60	2
 lerner	2
 loewe	2
@@ -2484,6 +2571,7 @@ shield	2
 gantry	2
 wander	2
 misty	2
+2011	2
 doggy	2
 dogg	2
 six	2
@@ -2549,6 +2637,7 @@ f.	2
 ninth	2
 joke	2
 103	2
+1802	2
 bangles	2
 well-tempered	2
 divide	2
@@ -2576,6 +2665,7 @@ workin	2
 natalie	2
 kennedy	2
 enchant	2
+1931	2
 nbc	2
 draft	2
 ida	2
@@ -2609,6 +2699,7 @@ u.k.	2
 circular	2
 mangione	2
 julia	2
+2008	2
 fill	2
 islamic	2
 lovers	2
@@ -2617,6 +2708,7 @@ tennis	2
 religious	2
 p	2
 3rd	2
+1934	2
 technicolor	2
 threaten	2
 vie	2
@@ -2666,6 +2758,7 @@ romeo	2
 bless	2
 taylor	2
 swift	2
+1936	2
 teenager	2
 hugo	2
 quite	2
@@ -2890,10 +2983,12 @@ smeezingtons	1
 mirrorball	1
 adia	1
 prometheus	1
+1846	1
 goethe	1
 customers	1
 bosendorfer	1
 firm	1
+1828	1
 woodchoppers	1
 21-year-old	1
 vandellas	1
@@ -2939,12 +3034,15 @@ spanglish	1
 philipp	1
 harpsichordist	1
 prussia	1
+1810	1
+1927	1
 hermann	1
 hesse	1
 cry-baby	1
 unconventional	1
 tonality	1
 site	1
+1896	1
 reorchestrated	1
 boris	1
 godunov	1
@@ -2966,11 +3064,14 @@ tnn	1
 tintinnabula	1
 tintinnabulate	1
 op'ni	1
+1189	1
+1199	1
 lionhearted	1
 expel	1
 editor	1
 socialist	1
 avanti	1
+1914	1
 fascist	1
 oriental	1
 abrupt	1
@@ -2978,6 +3079,7 @@ grovers	1
 musicalized	1
 prize-winning	1
 paean	1
+1782	1
 abduction	1
 seraglio	1
 k.	1
@@ -2989,6 +3091,7 @@ clothe	1
 kiedis	1
 infestation	1
 tennille	1
+1498	1
 wealthily	1
 padua	1
 hate	1
@@ -3018,6 +3121,7 @@ worldwide	1
 blond	1
 ambition	1
 breathless	1
+1858	1
 iv	1
 govern	1
 ungrammatical	1
@@ -3034,6 +3138,7 @@ protégé	1
 etheridge	1
 finally	1
 restaurant	1
+1901	1
 feuersnot	1
 salome	1
 music/maxi-single	1
@@ -3071,6 +3176,7 @@ omit	1
 becuase	1
 flashbacks	1
 23	1
+1849	1
 relate	1
 typically	1
 goya	1
@@ -3081,10 +3187,13 @@ buena	1
 vista	1
 willkomen	1
 escamillo	1
+1938	1
 solar	1
+1916	1
 searchers	1
 potion	1
 phans	1
+1888	1
 play-within-a-play	1
 saucer	1
 secrets	1
@@ -3098,6 +3207,7 @@ d'arezzo	1
 uninvited	1
 karen	1
 collaborate	1
+1946	1
 adaptation	1
 globe-trotting	1
 jules	1
@@ -3178,6 +3288,8 @@ doubt	1
 cairo	1
 khedive	1
 stockholm	1
+1820	1
+1883	1
 divisions	1
 swell	1
 positive	1
@@ -3211,6 +3323,7 @@ plus	1
 quaff	1
 prefix	1
 forte	1
+1872	1
 potomac	1
 dana	1
 moniker	1
@@ -3258,6 +3371,7 @@ ineptly	1
 private	1
 dobbs	1
 troop	1
+1750	1
 ta-ta	1
 crusade	1
 darken	1
@@ -3280,10 +3394,12 @@ friction	1
 37	1
 demetrio	1
 polibio	1
+1806	1
 harmonic	1
 curve	1
 lengthen	1
 barcarolle	1
+1881	1
 grit	1
 cowboy	1
 rhinestone	1
@@ -3299,6 +3415,7 @@ wasabi	1
 bust	1
 levant	1
 modernist	1
+1895	1
 salman	1
 rushdie	1
 grind	1
@@ -3338,6 +3455,7 @@ hummel	1
 guitarlike	1
 stately	1
 owen	1
+1772	1
 k-129	1
 ska	1
 steady	1
@@ -3517,6 +3635,7 @@ rainbows	1
 thom	1
 yorke	1
 pump	1
+1793	1
 glinka	1
 mazurs	1
 eastern	1
@@ -3618,6 +3737,7 @@ blind	1
 1937-1945	1
 procession	1
 canon	1
+1953	1
 bigger	1
 uncut	1
 fairies	1
@@ -3717,6 +3837,7 @@ bjornstjerne	1
 bjornson	1
 fractional	1
 semiquaver	1
+1841	1
 amati	1
 branagh	1
 dedicate	1
@@ -3730,6 +3851,7 @@ prevail	1
 crowd-pleasing	1
 esplanade	1
 mephisto	1
+1886	1
 iranian	1
 hostage	1
 crisis	1
@@ -3777,6 +3899,7 @@ heywoods	1
 sessions	1
 aboard	1
 coach	1
+1598	1
 dafne	1
 dramas	1
 copa	1
@@ -3791,6 +3914,7 @@ vincente	1
 minnelli	1
 garland	1
 missouri-set	1
+1944	1
 actor-rapper	1
 gettin	1
 jiggy	1
@@ -3880,6 +4004,7 @@ mcbeal	1
 documentary	1
 irate	1
 spiky	1
+1908	1
 playwright	1
 chocolate	1
 motivate	1
@@ -3962,6 +4087,7 @@ dauphin	1
 dallas	1
 matricalis	1
 attach	1
+1870	1
 solemnly	1
 sub	1
 maelstrom	1
@@ -4035,6 +4161,7 @@ foe	1
 control	1
 smart	1
 redhead	1
+1818	1
 heinrich	1
 improvement	1
 sci	1
@@ -4091,15 +4218,18 @@ synth-snazzy	1
 repopularized	1
 sensual	1
 mystical	1
+1815	1
 custody	1
 karl	1
 confidence	1
 glimpse	1
+1692	1
 purcell	1
 select	1
 merrill	1
 utah	1
 verona	1
+1743	1
 buffas	1
 revolution	1
 pia	1
@@ -4194,6 +4324,7 @@ polyphonic	1
 sheet	1
 ff	1
 kedis	1
+1856	1
 scholarship	1
 bridal	1
 trench	1
@@ -4208,8 +4339,10 @@ ex-beatle	1
 tubeway	1
 dooley	1
 goode	1
+1709	1
 cristofori	1
 nomination	1
+1922	1
 orchestrate	1
 exhibition	1
 foreigner	1
@@ -4349,6 +4482,7 @@ red-headed	1
 stranger	1
 idea	1
 ontario	1
+1739	1
 insist	1
 collar	1
 whiskas	1
@@ -4483,6 +4617,7 @@ vs.	1
 mercedes	1
 mccambridge	1
 vogues	1
+1824	1
 l.h	1
 soon-to-depart	1
 gene	1
@@ -4520,6 +4655,7 @@ twirl	1
 whats	1
 whys	1
 handheld	1
+1795	1
 germanotta	1
 extraordinaire	1
 andre	1
@@ -4552,6 +4688,7 @@ immigrants	1
 phoebe	1
 knuckle	1
 druten	1
+1786	1
 nuptials	1
 isle	1
 'riting	1
@@ -4635,6 +4772,7 @@ wizards	1
 waverly	1
 shave	1
 haircut	1
+1816	1
 apres-midi	1
 un	1
 faune	1
@@ -4654,6 +4792,7 @@ goose	1
 perrault	1
 ted	1
 nugent	1
+1878	1
 reproduction	1
 quarterdeck	1
 flagship	1
@@ -4664,6 +4803,7 @@ press	1
 correspondents	1
 dinner	1
 pres	1
+1906	1
 flag	1
 salt-n-pepa	1
 pepa	1
@@ -4760,7 +4900,10 @@ byrd	1
 tequila	1
 margaritaville	1
 formal	1
+1722	1
+1867	1
 suit	1
+1717	1
 chandos	1
 mechanism	1
 strand	1
@@ -4791,6 +4934,7 @@ rosada	1
 oddly	1
 shadow	1
 supervise	1
+1907	1
 structure	1
 ambient	1
 tech	1
@@ -4914,6 +5058,8 @@ shannon	1
 abbreviation	1
 op.	1
 transcribe	1
+1909	1
+1664	1
 balance	1
 typify	1
 cool	1
@@ -4959,6 +5105,7 @@ easy	1
 browne	1
 hatley	1
 ogre	1
+1904	1
 piff	1
 paff	1
 pouf	1
@@ -5036,6 +5183,7 @@ lade	1
 cotton	1
 blossom	1
 dat	1
+1930	1
 non-german	1
 purr-fectly	1
 croon	1
@@ -5105,8 +5253,10 @@ egyptian	1
 inane	1
 object	1
 rinaldo	1
+1711	1
 deidamia	1
 resign	1
+1840	1
 peg	1
 embraceable	1
 taxis	1
@@ -5183,6 +5333,7 @@ cor	1
 anglais	1
 double-reed	1
 arkin	1
+1866	1
 homeland	1
 wiener	1
 sangerknaben	1
@@ -5319,6 +5470,7 @@ miseducation	1
 satisfy	1
 jumpin	1
 aumont	1
+1947	1
 narrative	1
 provencal	1
 dancing-song	1
@@ -5331,6 +5483,7 @@ suede	1
 longest-running	1
 cameron	1
 mackintosh	1
+1761	1
 pennsylvania	1
 statesman	1
 fixture	1
@@ -5350,6 +5503,7 @@ attack	1
 juliet	1
 gourd	1
 alter	1
+1831	1
 djali	1
 parisians	1
 dominos	1
@@ -5382,6 +5536,7 @@ scotsman	1
 barrie	1
 bleat	1
 slickers	1
+1727	1
 taint	1
 contrapuntal	1
 adjectival	1
@@ -5456,6 +5611,7 @@ gale	1
 sayers	1
 interracial	1
 roommates	1
+1606	1
 doth	1
 probst	1
 report	1
@@ -5510,6 +5666,7 @@ friedrich	1
 penillion	1
 welsh	1
 grammy-winning	1
+1898	1
 adversaries	1
 chumbawamba	1
 basses	1
@@ -5526,6 +5683,7 @@ siberian-born	1
 baline	1
 coal	1
 miner	1
+1787	1
 brantley	1
 turandot	1
 tussle	1
@@ -5555,6 +5713,7 @@ terrible	1
 prodigue	1
 afoot	1
 indians	1
+1905	1
 sonatina	1
 keyboardless	1
 accordionis	1
@@ -5660,6 +5819,7 @@ tourism	1
 lulu	1
 romanian	1
 reincarnation	1
+1864	1
 homage	1
 midori	1
 boobams	1
@@ -5690,6 +5850,7 @@ brasil	1
 '66	1
 torture	1
 reichmusikkammer	1
+1891	1
 marche	1
 solennelle	1
 quip	1
@@ -5769,6 +5930,7 @@ umbrella	1
 occasional	1
 manson	1
 decrescendo	1
+1832	1
 stoltzman	1
 dixieland	1
 impressions	1
@@ -5807,6 +5969,7 @@ jasmine	1
 genie	1
 mclonergan	1
 oom-papas	1
+1835	1
 farrow	1
 cricket	1
 atv	1
@@ -6372,6 +6535,7 @@ rivera	1
 kansas	1
 macbeth	1
 runner	1
+1812	1
 satin	1
 omaha	1
 sherman	1

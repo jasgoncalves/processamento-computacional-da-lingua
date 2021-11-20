@@ -5,6 +5,9 @@ from nltk.util import pad_sequence
 import chardet
 import pandas as pd
 import enum
+from nltk.corpus import stopwords
+
+# nltk.download('stopwords')
 
 PROJECT_PATH = os.path.dirname("Trabalho2")
 DATA_PATH = os.path.join(PROJECT_PATH, "data/")
@@ -23,19 +26,19 @@ class Ngram(enum.Enum):
     BIGRAM = 1,
     BIGRAM_SMOOTHING = 2
 
-def to_lemma(word : str) -> str: 
+def to_lemma(sentence : list) -> str: 
     lemmatizer = nltk.WordNetLemmatizer()
-    return lemmatizer.lemmatize(word, pos='v')
+    return [lemmatizer.lemmatize(word, pos='v') for word in sentence]
 
-def to_lower(word: str) -> str: 
-    return word.lower()
+def remove_stopwords(sentence : list) -> str: 
+    return [word for word in sentence if word not in stopwords.words('english')]
 
 def clean_words(words: List[str]) -> List[str]: return [word for word in words if word.isalnum()]
-def to_underscore(words: List[str]) -> List[str]: return [word.lower() for word in words]
+def to_lower(words: List[str]) -> List[str]: return [word.lower() for word in words]
 def to_year(words: List[str]) -> List[str]: return ["__YEAR__" if word.isnumeric() and len(word) == 4 else word for word in words ]
 
 
-MAPPER_FUNCTIONS = [clean_words, to_underscore, to_year]
+MAPPER_FUNCTIONS = [to_lower, to_lemma]
 
 
 def import_dataset(path: str, columns: str) -> pd.DataFrame:
