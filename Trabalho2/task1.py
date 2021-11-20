@@ -1,14 +1,17 @@
-import nltk
+from typing import List, Dict, Any
+
+from nltk import download, word_tokenize, FreqDist
+from nltk.lm.preprocessing import pad_both_ends, flatten
+from nltk.util import ngrams
+
 from pandas import DataFrame
 from utils import DELIMITER, OUTPUT_PATH_TASK1, DATA_PATH, INITIAL_COLUMNS, EXTENSION, TRAIN_FILE_NAME, \
     UNIGRAM_FILE_NAME, BIGRAM_FILE_NAME, import_dataset, nltk_ngrams
 
-try:
-    nltk.data.find('tokenizers\punkt')
-except:
-    nltk.download('punkt')
+download('punkt')
 
-def get_words_by_label(df: DataFrame) -> dict:
+
+def get_words_by_label(df: DataFrame) -> Dict[Any, list]:
     label_words = dict()
     unique_labels = df.labels.unique()
 
@@ -16,11 +19,11 @@ def get_words_by_label(df: DataFrame) -> dict:
         label_words[label] = []
         label_lines = df[df.labels == label]
         for question in label_lines.questions:
-            question_words = nltk.word_tokenize(question, language='english')
-            label_words[label].extend(question_words)
+            question_words = word_tokenize(question, language='english')
+            label_words[label].append(question_words)
         for answer in label_lines.answers:
-            answer_words = nltk.word_tokenize(answer, language='english')
-            label_words[label].extend(answer_words)
+            answer_words = word_tokenize(answer, language='english')
+            label_words[label].append(answer_words)
 
     return label_words
 
@@ -33,8 +36,9 @@ def generate_ngrams(words_dict: dict, ngram_order: int, output_path: str = OUTPU
         output_file = UNIGRAM_FILE_NAME
 
     for tag in words_dict.keys():
-        ngrams = nltk_ngrams(words_dict[tag], ngram_order)
-        freq_dist = nltk.FreqDist(ngrams)
+        tag_ngrams = [list(nltk_ngrams(sentence, ngram_order)) for sentence in words_dict[tag]]
+        tag_ngrams = list(flatten(sentence_ngrams for sentence_ngrams in tag_ngrams))
+        freq_dist = FreqDist(tag_ngrams)
 
         with open(f"{output_path}{output_file}{tag}{EXTENSION}", "w", encoding="utf-8") as writer:
             for entry in freq_dist:

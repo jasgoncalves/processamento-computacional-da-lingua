@@ -1,6 +1,7 @@
 import os
 from typing import List
 import nltk
+from nltk.util import pad_sequence
 import chardet
 import pandas as pd
 import enum
@@ -29,20 +30,12 @@ def to_lemma(word : str) -> str:
 def to_lower(word: str) -> str: 
     return word.lower()
 
-<<<<<<< HEAD
-def to_year(word: str) -> str: 
-    return "_YEAR_" if word.isnumeric() and len(word) == 4 else word
-
-
-MAPPER_FUNCTIONS = [to_lower, to_year, to_lemma]
-=======
 def clean_words(words: List[str]) -> List[str]: return [word for word in words if word.isalnum()]
 def to_underscore(words: List[str]) -> List[str]: return [word.lower() for word in words]
 def to_year(words: List[str]) -> List[str]: return ["__YEAR__" if word.isnumeric() and len(word) == 4 else word for word in words ]
 
 
 MAPPER_FUNCTIONS = [clean_words, to_underscore, to_year]
->>>>>>> origin/refactor_ngram_gen
 
 
 def import_dataset(path: str, columns: str) -> pd.DataFrame:
@@ -52,8 +45,7 @@ def import_dataset(path: str, columns: str) -> pd.DataFrame:
 
 
 def nltk_ngrams(tokens_list: List[str], ngram_order: int):
-    return nltk.ngrams(tokens_list, ngram_order)
-    # , pad_left=True, pad_right=True, left_pad_symbol='<s>', right_pad_symbol='</s>')
+    return nltk.ngrams(pad_sequence(tokens_list, n= 2, pad_left=True, pad_right=True, left_pad_symbol='<s>', right_pad_symbol='</s>'), ngram_order)
 
 
 def apply_transform_functions(words: List[str]) -> List[str]:

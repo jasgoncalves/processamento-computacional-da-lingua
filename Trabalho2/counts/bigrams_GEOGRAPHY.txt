@@ -1,58 +1,45 @@
-<<<<<<< HEAD
+<s> The	198
+<s> This	191
 of the	140
 of this	138
 in this	137
-=======
-<s> The	198
-<s> This	191
-of this	142
-of the	141
-in this	138
-<s> the	123
->>>>>>> origin/refactor_ngram_gen
+<s> the	122
 in the	92
 this country	86
 is the	64
 on this	60
-<<<<<<< HEAD
+<s> In	59
 , the	55
+'' </s>	54
 , this	50
 country 's	49
 on the	48
-'s the	47
+<s> It	46
+'s the	46
+country </s>	46
 named for	45
 this state	43
 It 's	41
 , it	40
-, is	35
-=======
-<s> In	59
-on the	48
-<s> It	46
-country </s>	46
-named for	45
-this state	44
 Sea </s>	39
->>>>>>> origin/refactor_ngram_gen
+, is	35
 part of	35
 it 's	34
 capital of	33
-<<<<<<< HEAD
 & the	30
-=======
-<s> Lake	30
 <s> New	30
->>>>>>> origin/refactor_ngram_gen
+<s> Lake	29
 to the	28
 's largest	27
 the world	26
-River </s>	26
 Gulf of	26
 & this	26
+River </s>	25
 state 's	24
 this river	24
 this city	24
 , a	23
+) </s>	23
 known as	22
 the capital	22
 is a	21
@@ -65,33 +52,22 @@ river </s>	19
 This country	19
 to this	19
 from this	18
-<<<<<<< HEAD
-=======
-city is	18
 island </s>	18
->>>>>>> origin/refactor_ngram_gen
 name of	18
 lies in	18
 state </s>	18
 by the	17
 the only	17
-<<<<<<< HEAD
 world 's	17
 city is	17
-=======
 <s> Mount	17
->>>>>>> origin/refactor_ngram_gen
 was named	17
 for the	16
 <s> A	16
 from the	16
 this sea	16
-<<<<<<< HEAD
 , was	16
-=======
 Peninsula </s>	16
-this island	16
->>>>>>> origin/refactor_ngram_gen
 for this	16
 2 of	16
 is located	16
@@ -100,24 +76,17 @@ Bay </s>	16
 sea </s>	15
 New York	15
 the highest	15
-<<<<<<< HEAD
 this island	15
+Island </s>	15
 '' ,	14
 's highest	14
-=======
-Island </s>	15
->>>>>>> origin/refactor_ngram_gen
 into the	14
 as the	14
 city in	14
 highest point	14
-<<<<<<< HEAD
 this ``	14
-'' This	13
-=======
 Africa </s>	14
 Mountains </s>	14
->>>>>>> origin/refactor_ngram_gen
 these 2	13
 center of	13
 Canada 's	13
@@ -129,37 +98,28 @@ South American	13
 is in	13
 , in	13
 was the	13
-<<<<<<< HEAD
+<s> (	13
 , or	12
 , which	12
-`` The	12
-=======
 peninsula </s>	12
->>>>>>> origin/refactor_ngram_gen
+`` The	12
 largest city	12
-city </s>	12
 into this	12
 for its	12
 this continent	12
-<<<<<<< HEAD
 city ,	12
+<s> At	12
 means ``	12
 area of	12
-=======
-<s> At	12
-area of	12
-<s> 2	12
-the city	12
 <s> Australia	12
->>>>>>> origin/refactor_ngram_gen
 is named	11
 the Mediterranean	11
 was once	11
+city </s>	11
 this bay	11
 miles from	11
 the Gulf	11
 , lies	11
-'' The	11
 is this	11
 north of	11
 is on	11
@@ -169,36 +129,28 @@ located in	11
 Islands </s>	11
 This state	11
 capital is	11
-<<<<<<< HEAD
-this ,	10
-=======
 Lake </s>	11
->>>>>>> origin/refactor_ngram_gen
+this ,	10
 arm of	10
 island of	10
 In the	10
 its name	10
-<<<<<<< HEAD
+<s> Cape	10
 This river	10
 this desert	10
 the North	10
 This city	10
-=======
-<s> Cape	10
-this desert	10
-the North	10
 <s> You	10
 <s> These	10
-state is	10
 bay </s>	10
 <s> Of	10
 <s> South	10
->>>>>>> origin/refactor_ngram_gen
 mountain range	10
 this nation	10
 the city	10
 sea level	9
 the Atlantic	9
+. </s>	9
 <s> One	9
 One of	9
 is one	9
@@ -212,36 +164,24 @@ in these	9
 country in	9
 home to	9
 with the	9
-<<<<<<< HEAD
-=======
 Ocean </s>	9
-world largest	9
->>>>>>> origin/refactor_ngram_gen
 region of	9
 American country	9
 state is	9
 border with	9
 National Park	9
 North America	9
-<<<<<<< HEAD
+Canada </s>	9
+this </s>	9
 , one	9
 '' this	9
 point is	9
 Mt .	9
 largest island	9
 Bay of	9
-of )	9
-=======
-Canada </s>	9
-this peninsula	9
-this </s>	9
-longest river	9
-largest island	9
-Bay of	9
 <s> Greenland	9
 Greenland </s>	9
-Australia </s>	9
->>>>>>> origin/refactor_ngram_gen
+of )	9
 body of	8
 of water	8
 of its	8
@@ -251,16 +191,13 @@ the first	8
 's major	8
 it was	8
 by this	8
+<s> St.	8
 states </s>	8
 between the	8
-<<<<<<< HEAD
-country ,	8
-country This	8
-=======
 <s> Once	8
+country ,	8
 City </s>	8
 Columbia </s>	8
->>>>>>> origin/refactor_ngram_gen
 in area	8
 Alps </s>	8
 area </s>	8
@@ -268,7 +205,6 @@ the Mississippi	8
 the Pacific	8
 the site	8
 site of	8
-capital </s>	8
 Mexico </s>	8
 of Mexico	8
 nation </s>	8
@@ -278,12 +214,9 @@ Great Lake	8
 most populous	8
 with this	8
 is also	8
-<<<<<<< HEAD
-'s southernmost	8
-=======
 Dakota </s>	8
+'s southernmost	8
 Desert </s>	8
->>>>>>> origin/refactor_ngram_gen
 cities of	8
 this peninsula	8
 longest river	8
@@ -292,13 +225,11 @@ also known	8
 has the	8
 Canadian province	8
 flows into	8
-<<<<<<< HEAD
-=======
 <s> North	8
 <s> Africa	8
 Sound </s>	8
 <s> Gulf	8
->>>>>>> origin/refactor_ngram_gen
+Australia </s>	8
 lowest point	7
 point in	7
 island in	7
@@ -309,20 +240,14 @@ highest peak	7
 found in	7
 this gulf	7
 Island in	7
-<<<<<<< HEAD
 miles ,	7
-near the	7
-British Columbia	7
-area ,	7
-& a	7
-=======
-largest lake	7
 lake </s>	7
 <s> On	7
 near the	7
 British Columbia	7
+area ,	7
 continent </s>	7
->>>>>>> origin/refactor_ngram_gen
+& a	7
 1 of	7
 % of	7
 country is	7
@@ -332,41 +257,29 @@ the 2	7
 capital city	7
 The 2	7
 in Europe	7
-<<<<<<< HEAD
 , an	7
-=======
 <s> If	7
->>>>>>> origin/refactor_ngram_gen
 name with	7
 with a	7
 most of	7
 this range	7
 seat of	7
 these mountains	7
-<<<<<<< HEAD
+<s> India	7
 , but	7
 continent 's	7
-called the	7
-'s longest	7
-America 's	7
-=======
-<s> India	7
+<s> 2	7
 Brazil </s>	7
 called the	7
 Europe </s>	7
+'s longest	7
 province </s>	7
-the border	7
->>>>>>> origin/refactor_ngram_gen
+America 's	7
 Indian Ocean	7
-India </s>	7
 Mississippi </s>	7
 Mediterranean Sea	7
-<<<<<<< HEAD
 This island	6
 or ``	6
-=======
-Manitoba </s>	7
->>>>>>> origin/refactor_ngram_gen
 island group	6
 Atlantic </s>	6
 Persian Gulf	6
@@ -375,16 +288,12 @@ island is	6
 U.S .	6
 the 3	6
 parts of	6
-<<<<<<< HEAD
-peak ,	6
-, &	6
-=======
 <s> MUSIC	6
 MUSIC </s>	6
-capital was	6
+peak ,	6
+, &	6
 <s> Located	6
 west </s>	6
->>>>>>> origin/refactor_ngram_gen
 of these	6
 , New	6
 's ``	6
@@ -393,12 +302,9 @@ are the	6
 This mountain	6
 mountain system	6
 miles in	6
-<<<<<<< HEAD
 for ``	6
-=======
 desert </s>	6
-has been	6
->>>>>>> origin/refactor_ngram_gen
+capital </s>	6
 to its	6
 the area	6
 the ``	6
@@ -421,41 +327,31 @@ North Dakota	6
 This capital	6
 River ,	6
 southernmost point	6
-California </s>	6
 Michigan </s>	6
 of Africa	6
 coast of	6
-the </s>	6
 European country	6
 <s> To	6
 states that	6
-<<<<<<< HEAD
 's capital	6
-=======
 range </s>	6
-islands </s>	6
->>>>>>> origin/refactor_ngram_gen
 Great Lakes	6
-Texas </s>	6
 find the	6
 the Bay	6
 in New	6
-Argentina </s>	6
-Italy </s>	6
 North Carolina	6
 <s> Canada	6
 the Baltic	6
 Baltic Sea	6
-<<<<<<< HEAD
 feet ,	6
-( or	6
-=======
 Egypt </s>	6
+( or	6
 <s> Turkey	6
 Nile </s>	6
->>>>>>> origin/refactor_ngram_gen
 Rocky Mountains	6
 the Blue	6
+India </s>	6
+Manitoba </s>	6
 below sea	5
 this mountain	5
 `` the	5
@@ -482,7 +378,6 @@ as a	5
 Pacific Ocean	5
 empties into	5
 tallest peak	5
-world </s>	5
 to a	5
 's name	5
 land area	5
@@ -495,9 +390,7 @@ in a	5
 name means	5
 the western	5
 the Alps	5
-<s> 1	5
 the country	5
-here </s>	5
 city was	5
 named after	5
 If you	5
@@ -528,23 +421,17 @@ Rhode Island	5
 river is	5
 U.S. states	5
 Irish Sea	5
-<<<<<<< HEAD
 , you	5
-=======
-water </s>	5
->>>>>>> origin/refactor_ngram_gen
 This European	5
 name ,	5
 less than	5
 American countries	5
 Georgia </s>	5
 the Rio	5
-<<<<<<< HEAD
 U.S. state	5
-=======
 largest </s>	5
->>>>>>> origin/refactor_ngram_gen
 is now	5
+islands </s>	5
 Lakes </s>	5
 <s> Russia	5
 is only	5
@@ -554,72 +441,57 @@ port of	5
 <s> Norway	5
 Gibraltar </s>	5
 this Canadian	5
+Argentina </s>	5
 Rio Grande	5
-<<<<<<< HEAD
 the border	5
-=======
 Carolina </s>	5
->>>>>>> origin/refactor_ngram_gen
 The Great	5
 this one	5
 is known	5
 more than	5
-<<<<<<< HEAD
-Asia 's	5
-=======
 <s> Until	5
->>>>>>> origin/refactor_ngram_gen
+Asia 's	5
 Hudson River	5
 capital in	5
 <s> Peru	5
 <s> With	5
+Italy </s>	5
 The Gulf	5
 word for	5
 where the	5
+Texas </s>	5
 South Africa	5
-<<<<<<< HEAD
-=======
 Wales </s>	5
 Norway </s>	5
 <s> Finland	5
-Great Britain	5
 <s> California	5
 Japan </s>	5
->>>>>>> origin/refactor_ngram_gen
 New Jersey	5
 Salt Lake	5
 <s> Sri	5
 Dead Sea	5
 Sri Lanka	5
-<<<<<<< HEAD
-( 2	5
-New Zealand	5
-Sea the	5
-=======
 <s> Mt	5
 <s> Brazil	5
 <s> Michigan	5
 Sahara </s>	5
 Ontario </s>	5
+( 2	5
+California </s>	5
 <s> San	5
 New Zealand	5
 Zealand </s>	5
 <s> Black	5
 Turkey </s>	5
 Florida </s>	5
-<s> Great	5
 Colombia </s>	5
->>>>>>> origin/refactor_ngram_gen
 feet below	4
 the shore	4
 this body	4
 on its	4
 through this	4
-<<<<<<< HEAD
 , France	4
-=======
 France </s>	4
->>>>>>> origin/refactor_ngram_gen
 This region	4
 Arabian Sea	4
 the center	4
@@ -639,23 +511,17 @@ United States	4
 the Colorado	4
 Colorado River	4
 port on	4
-<<<<<<< HEAD
 's Cape	4
-=======
-Kingdom </s>	4
->>>>>>> origin/refactor_ngram_gen
 the name	4
 , not	4
 founded in	4
 Strait separates	4
 of Canada	4
-<<<<<<< HEAD
+<s> Germany	4
 Germany 's	4
 's tallest	4
+world </s>	4
 : the	4
-=======
-<s> Germany	4
->>>>>>> origin/refactor_ngram_gen
 a province	4
 is home	4
 divided into	4
@@ -664,27 +530,22 @@ You can	4
 's northernmost	4
 this name	4
 east of	4
-<<<<<<< HEAD
 's lowest	4
-=======
 <s> Since	4
->>>>>>> origin/refactor_ngram_gen
 cities in	4
 this former	4
 once known	4
 2 countries	4
-Chile </s>	4
 the eastern	4
-<<<<<<< HEAD
-`` great	4
-=======
 <s> Indiana	4
->>>>>>> origin/refactor_ngram_gen
+`` great	4
+<s> 1	4
 flow into	4
 that is	4
 the Sea	4
 formed by	4
 seen here	4
+here </s>	4
 colony ,	4
 is separated	4
 separated from	4
@@ -716,16 +577,12 @@ the U.S	4
 the native	4
 this strait	4
 of Russia	4
-<<<<<<< HEAD
+Russia </s>	4
 of U.S.	4
 along this	4
-'s a	4
-=======
-Russia </s>	4
-along this	4
 coast </s>	4
-province is	4
->>>>>>> origin/refactor_ngram_gen
+water </s>	4
+'s a	4
 These 2	4
 County ,	4
 are in	4
@@ -737,24 +594,16 @@ through the	4
 Mediterranean ,	4
 ; in	4
 this province	4
-<<<<<<< HEAD
 In ``	4
-=======
 <s> Most	4
->>>>>>> origin/refactor_ngram_gen
 Most of	4
 this South	4
 is divided	4
 of Europe	4
-<<<<<<< HEAD
+<s> Guyana	4
 you 're	4
 lie in	4
-=======
-<s> Guyana	4
-lie in	4
 China </s>	4
-as The	4
->>>>>>> origin/refactor_ngram_gen
 is connected	4
 <s> About	4
 North Sea	4
@@ -768,12 +617,8 @@ the port	4
 one </s>	4
 province of	4
 the Indian	4
-<<<<<<< HEAD
-=======
 <s> Asia	4
 <s> Fort	4
-point lies	4
->>>>>>> origin/refactor_ngram_gen
 The largest	4
 The highest	4
 African country	4
@@ -788,16 +633,12 @@ Sea &	4
 this capital	4
 peak in	4
 this larger	4
-<<<<<<< HEAD
-bay The	4
-, who	4
-Great Britain	4
-=======
 <s> An	4
+, who	4
 <s> Alabama	4
 Suriname </s>	4
+Great Britain	4
 <s> Irish	4
->>>>>>> origin/refactor_ngram_gen
 Lake Superior	4
 Puget Sound	4
 Puerto Rico	4
@@ -814,7 +655,6 @@ Chesapeake Bay	4
 Biscay </s>	4
 Minnesota </s>	4
 Finland </s>	4
-Lanka </s>	4
 <s> Chile	4
 <s> Sahara	4
 <s> Suriname	4
@@ -824,7 +664,6 @@ Ridge Mountains	4
 New Guinea	4
 Guinea </s>	4
 <s> Arkansas	4
-Arkansas </s>	4
 <s> Japan	4
 <s> Missouri	4
 <s> Switzerland	4
@@ -851,7 +690,6 @@ Antarctica </s>	4
 level at	3
 shore of	3
 border </s>	3
-fire </s>	3
 also called	3
 China 's	3
 base in	3
@@ -859,19 +697,12 @@ a strait	3
 that separates	3
 separates the	3
 ruled by	3
-<<<<<<< HEAD
+ports </s>	3
 's in	3
 's second	3
-city This	3
 most northerly	3
 , Canada	3
-=======
-in The	3
-ports </s>	3
-it in	3
-most northerly	3
 territory </s>	3
->>>>>>> origin/refactor_ngram_gen
 the sea	3
 major ports	3
 Spain &	3
@@ -882,18 +713,14 @@ cities on	3
 Martha 's	3
 's Vineyard	3
 this cape	3
-<s> John	3
 river include	3
 the northernmost	3
-<<<<<<< HEAD
-. The	3
 Louisiana 's	3
+States </s>	3
 Empire ,	3
 , part	3
-=======
-States </s>	3
->>>>>>> origin/refactor_ngram_gen
 United Kingdom	3
+Kingdom </s>	3
 is about	3
 of Bothnia	3
 Bothnia </s>	3
@@ -903,10 +730,7 @@ old name	3
 York City	3
 The westernmost	3
 prairie provinces	3
-<<<<<<< HEAD
 provinces ,	3
-=======
->>>>>>> origin/refactor_ngram_gen
 founded by	3
 on Earth	3
 northern &	3
@@ -930,29 +754,21 @@ Western Hemisphere	3
 republic </s>	3
 French Guiana	3
 border the	3
-<<<<<<< HEAD
-is ``	3
-=======
 oceans </s>	3
->>>>>>> origin/refactor_ngram_gen
+is ``	3
 country whose	3
 countries that	3
+Chile </s>	3
 you can	3
 one in	3
 great ''	3
 The city	3
 a major	3
-<<<<<<< HEAD
 '' in	3
-of about	3
-the White	3
-country The	3
-Mexico ,	3
-=======
 names </s>	3
 of about	3
 the White	3
->>>>>>> origin/refactor_ngram_gen
+Mexico ,	3
 2 land	3
 the northern	3
 sides of	3
@@ -972,35 +788,25 @@ the oldest	3
 million people	3
 30 miles	3
 Fort Worth	3
-<<<<<<< HEAD
-2 states	3
-=======
 Worth </s>	3
 Massachusetts </s>	3
+2 states	3
 park </s>	3
 Appalachians </s>	3
->>>>>>> origin/refactor_ngram_gen
 once called	3
 this famous	3
 called ``	3
 miles west	3
-<<<<<<< HEAD
-miles &	3
-=======
 Trail </s>	3
->>>>>>> origin/refactor_ngram_gen
+miles &	3
 this peak	3
 the Holy	3
 Austria </s>	3
 country include	3
 surrounded by	3
 as this	3
-<<<<<<< HEAD
 `` City	3
-=======
-this is	3
 Park </s>	3
->>>>>>> origin/refactor_ngram_gen
 The geographic	3
 geographic center	3
 that borders	3
@@ -1021,11 +827,8 @@ entrance to	3
 African nation	3
 state capital	3
 this Asian	3
-<<<<<<< HEAD
 's most	3
-=======
 county </s>	3
->>>>>>> origin/refactor_ngram_gen
 Lake is	3
 of St.	3
 call this	3
@@ -1035,13 +838,7 @@ highest mountain	3
 of Washington	3
 County </s>	3
 city that	3
-<<<<<<< HEAD
-Ocean This	3
-=======
-the river	3
-country capital	3
 <s> City	3
->>>>>>> origin/refactor_ngram_gen
 is not	3
 independence in	3
 in Africa	3
@@ -1058,37 +855,24 @@ down the	3
 to have	3
 the westernmost	3
 westernmost point	3
-<<<<<<< HEAD
-=======
 mainland </s>	3
-miles of	3
->>>>>>> origin/refactor_ngram_gen
 of Queensland	3
 was created	3
 it lies	3
 & its	3
 the Ohio	3
 Hong Kong	3
-<<<<<<< HEAD
-=======
 <s> London	3
->>>>>>> origin/refactor_ngram_gen
 as well	3
 la Plata	3
 Buenos Aires	3
 Island from	3
-<<<<<<< HEAD
 island ,	3
-city The	3
-'' &	3
-Nova Scotia	3
-=======
 countries </s>	3
+'' &	3
 <s> Nova	3
 Nova Scotia	3
 provinces </s>	3
-country highest	3
->>>>>>> origin/refactor_ngram_gen
 which rises	3
 lake in	3
 within this	3
@@ -1097,30 +881,20 @@ called it	3
 <s> Georgia	3
 the Canadian	3
 province that	3
-capital The	3
 can be	3
 <s> Over	3
 this northern	3
 Europe ,	3
 central part	3
-<<<<<<< HEAD
-lake This	3
 regions :	3
 's chief	3
-=======
->>>>>>> origin/refactor_ngram_gen
 forms the	3
 this longest	3
 river of	3
 begins in	3
-<<<<<<< HEAD
-was ``	3
-=======
 Istanbul </s>	3
 Valley </s>	3
-at this	3
-Europe largest	3
->>>>>>> origin/refactor_ngram_gen
+was ``	3
 located at	3
 largest in	3
 northwest of	3
@@ -1129,20 +903,13 @@ connected to	3
 island nation	3
 nation by	3
 the Philippines	3
-<<<<<<< HEAD
-=======
 Aberdeen </s>	3
-city it	3
 <s> Louisiana	3
->>>>>>> origin/refactor_ngram_gen
 above sea	3
 Strait of	3
 southwest of	3
-<<<<<<< HEAD
 second-largest city	3
-=======
 York </s>	3
->>>>>>> origin/refactor_ngram_gen
 this Central	3
 after the	3
 summit of	3
@@ -1154,44 +921,31 @@ Australia 's	3
 mainland point	3
 without a	3
 of Italy	3
-<<<<<<< HEAD
 Isle of	3
-State ''	3
-=======
-of Jordan	3
 Jordan </s>	3
-area it	3
->>>>>>> origin/refactor_ngram_gen
+State ''	3
 nation in	3
 of Indonesia	3
 2nd largest	3
 largest area	3
 Lake Tahoe	3
-<<<<<<< HEAD
+Nevada </s>	3
 's 2	3
 'd find	3
-Missouri 's	3
-=======
-Nevada </s>	3
-you find	3
 Portugal </s>	3
->>>>>>> origin/refactor_ngram_gen
+Missouri 's	3
 on a	3
 region 's	3
 This port	3
 as ``	3
 has 2	3
-<<<<<<< HEAD
 's deepest	3
+region </s>	3
 highest peaks	3
 the St.	3
 Union ,	3
-point lies	3
-=======
-region </s>	3
-highest peaks	3
 population </s>	3
->>>>>>> origin/refactor_ngram_gen
+point lies	3
 10 miles	3
 of ''	3
 nation 's	3
@@ -1203,11 +957,8 @@ area in	3
 largest state	3
 as an	3
 to form	3
-<<<<<<< HEAD
 , Brazil	3
-=======
 Grande </s>	3
->>>>>>> origin/refactor_ngram_gen
 residents of	3
 the Malay	3
 Malay Peninsula	3
@@ -1218,30 +969,21 @@ Mississippi River	3
 <s> Wales	3
 is at	3
 of Aden	3
-<<<<<<< HEAD
 Chile &	3
 the East	3
 & Europe	3
 the Soviet	3
 Soviet Union	3
 South Dakota	3
-Mexico &	3
-in which	3
-peak is	3
-=======
-the East	3
-Sea the	3
-the Soviet	3
-Soviet Union	3
-South Dakota	3
 <s> French	3
 <s> Known	3
 <s> Belize	3
+Mexico &	3
 in which	3
+peak is	3
 <s> Only	3
 group </s>	3
 nations </s>	3
->>>>>>> origin/refactor_ngram_gen
 The western	3
 of Wales	3
 the Gobi	3
@@ -1251,29 +993,21 @@ Michigan &	3
 New Hampshire	3
 City ''	3
 Prince of	3
-it </s>	3
 Utah </s>	3
 this inlet	3
 the Persian	3
 of Aqaba	3
-<<<<<<< HEAD
-'' of	3
-=======
-At feet	3
 <s> Idaho	3
->>>>>>> origin/refactor_ngram_gen
+'' of	3
 refers to	3
 capital &	3
 Mont Blanc	3
 the Missouri	3
 Missouri River	3
 a famous	3
-<<<<<<< HEAD
 California 's	3
 state ,	3
-=======
 <s> Long	3
->>>>>>> origin/refactor_ngram_gen
 of Fundy	3
 Morocco </s>	3
 major rivers	3
@@ -1299,6 +1033,7 @@ Cape Cod	3
 Cod </s>	3
 the Dead	3
 <s> Minnesota	3
+Lanka </s>	3
 <s> Alberta	3
 <s> Vietnam	3
 Vietnam </s>	3
@@ -1316,6 +1051,7 @@ Sinai </s>	3
 Caucasus </s>	3
 Indiana </s>	3
 <s> Oahu	3
+Arkansas </s>	3
 Urals </s>	3
 <s> Mediterranean	3
 Guyana </s>	3
@@ -1335,12 +1071,9 @@ Philippines </s>	3
 Adriatic </s>	3
 <s> Newfoundland	3
 The Netherlands	3
-<<<<<<< HEAD
-) the	3
-=======
 Potomac </s>	3
+<s> Great	3
 <s> Volga	3
->>>>>>> origin/refactor_ngram_gen
 El Salvador	3
 Thames </s>	3
 <s> Barcelona	3
@@ -1359,7 +1092,6 @@ Ohio River	3
 Everest </s>	3
 Iceland </s>	3
 Luxembourg </s>	3
-Beijing </s>	3
 Missouri </s>	3
 Lake Baikal	3
 Baikal </s>	3
@@ -1381,10 +1113,7 @@ the region	2
 meaning ``	2
 Land of	2
 of fire	2
-<<<<<<< HEAD
 fire ''	2
-=======
->>>>>>> origin/refactor_ngram_gen
 the South	2
 South Pacific	2
 Pacific is	2
@@ -1392,12 +1121,7 @@ A 7-mile	2
 7-mile tunnel	2
 tunnel through	2
 mountain peak	2
-<<<<<<< HEAD
 Chamonix ,	2
-France This	2
-=======
-Chamonix France	2
->>>>>>> origin/refactor_ngram_gen
 the northeast	2
 , also	2
 's best	2
@@ -1411,16 +1135,11 @@ once ruled	2
 Bank of	2
 Genoa </s>	2
 mentioned in	2
-'' In	2
 the Middle	2
 Middle Ages	2
 , these	2
 the continental	2
-<<<<<<< HEAD
 continental U.S	2
-=======
-continental </s>	2
->>>>>>> origin/refactor_ngram_gen
 name was	2
 was formerly	2
 England 's	2
@@ -1429,13 +1148,9 @@ Morris Jesup	2
 this territory	2
 bay include	2
 the Susquehanna	2
-<<<<<<< HEAD
 , James	2
 James ,	2
 , Spain	2
-sea This	2
-=======
->>>>>>> origin/refactor_ngram_gen
 region that	2
 the Asian	2
 only about	2
@@ -1457,11 +1172,7 @@ Sound separates	2
 separates Martha	2
 Vineyard from	2
 southernmost part	2
-<<<<<<< HEAD
-=======
 cape </s>	2
-the Father	2
->>>>>>> origin/refactor_ngram_gen
 bay that	2
 This Texas	2
 <s> Major	2
@@ -1477,11 +1188,6 @@ Angle ''	2
 northernmost point	2
 Thar Desert	2
 of Pakistan	2
-<<<<<<< HEAD
-lake In	2
-=======
-miles it	2
->>>>>>> origin/refactor_ngram_gen
 the 1850s	2
 , as	2
 , where	2
@@ -1505,11 +1211,7 @@ not a	2
 system stretches	2
 Island &	2
 largest of	2
-<<<<<<< HEAD
-=======
-the is	2
 Louisiana </s>	2
->>>>>>> origin/refactor_ngram_gen
 westernmost of	2
 's prairie	2
 , The	2
@@ -1517,7 +1219,6 @@ the smallest	2
 , Zugspitze	2
 Zugspitze ,	2
 these Alps	2
-'' It	2
 independent country	2
 are regions	2
 regions of	2
@@ -1537,13 +1238,7 @@ Cape Agulhas	2
 the Earth	2
 total land	2
 At about	2
-<<<<<<< HEAD
 's Europe	2
-country You	2
-=======
-it Europe	2
-Europe westernmost	2
->>>>>>> origin/refactor_ngram_gen
 head to	2
 port </s>	2
 runs from	2
@@ -1570,14 +1265,9 @@ are cities	2
 former Soviet	2
 Soviet republic	2
 country has	2
-<<<<<<< HEAD
-west These	2
 & smallest	2
-=======
->>>>>>> origin/refactor_ngram_gen
 closest to	2
 This historic	2
-Tibet </s>	2
 Russian island	2
 Hokkaido </s>	2
 this neighboring	2
@@ -1617,11 +1307,6 @@ of Scotland	2
 Scotland 's	2
 's Caledonian	2
 Caledonian Canal	2
-<<<<<<< HEAD
-here This	2
-=======
-Canal is	2
->>>>>>> origin/refactor_ngram_gen
 Connecticut city	2
 after a	2
 spanning the	2
@@ -1631,12 +1316,7 @@ an island	2
 do n't	2
 out for	2
 type of	2
-<<<<<<< HEAD
-=======
-state Upper	2
 <s> Albuquerque	2
-this long	2
->>>>>>> origin/refactor_ngram_gen
 in Egypt	2
 large peninsula	2
 oldest city	2
@@ -1653,40 +1333,27 @@ Mountain ,	2
 sea between	2
 the Bosporus	2
 with Georgia	2
-<<<<<<< HEAD
+<s> Galveston	2
 , Texas	2
 lie on	2
 the Romans	2
 Chicago 's	2
 's Great	2
 Lake &	2
-'s only	2
-=======
-<s> Galveston	2
-lie on	2
-the Romans	2
 <s> Europe	2
+'s only	2
 <s> Important	2
->>>>>>> origin/refactor_ngram_gen
 of Dallas	2
 was an	2
 an important	2
 important stop	2
-<<<<<<< HEAD
-Trail This	2
 This second-largest	2
-=======
->>>>>>> origin/refactor_ngram_gen
 island has	2
 like a	2
-<<<<<<< HEAD
 , islands	2
-Islands This	2
-Egypt 's	2
-=======
 <s> Monte	2
 <s> Kauai	2
->>>>>>> origin/refactor_ngram_gen
+Egypt 's	2
 largest desert	2
 Once the	2
 Holy Roman	2
@@ -1716,12 +1383,8 @@ makes up	2
 half of	2
 of Israel	2
 22 miles	2
-<<<<<<< HEAD
-'s Gulf	2
-sea It	2
-=======
 Inchon </s>	2
->>>>>>> origin/refactor_ngram_gen
+'s Gulf	2
 in Florida	2
 Florida ,	2
 state of	2
@@ -1729,32 +1392,20 @@ King George	2
 This peninsula	2
 Denmark 's	2
 countries on	2
-<<<<<<< HEAD
 `` B	2
 B ''	2
-area The	2
-=======
-with B	2
-B </s>	2
->>>>>>> origin/refactor_ngram_gen
 The Red	2
 Sea is	2
 crosses the	2
 western part	2
-<<<<<<< HEAD
 & in	2
+<s> We	2
 n't mean	2
 to ``	2
 country was	2
 the entrance	2
 , and	2
-=======
-<s> We	2
-point was	2
-as </s>	2
-the entrance	2
 <s> Part	2
->>>>>>> origin/refactor_ngram_gen
 Part of	2
 long mountain	2
 covers the	2
@@ -1765,12 +1416,7 @@ sea off	2
 desert ,	2
 of land	2
 miles north	2
-<<<<<<< HEAD
-county The	2
-=======
-country most	2
 <s> While	2
->>>>>>> origin/refactor_ngram_gen
 Klamath Lake	2
 <s> Austin	2
 the Alamo	2
@@ -1800,13 +1446,9 @@ western named	2
 <s> All	2
 is from	2
 Strait is	2
-<<<<<<< HEAD
 Europe &	2
 & Asia	2
-=======
-Europe Asia	2
 Asia </s>	2
->>>>>>> origin/refactor_ngram_gen
 Narragansett Bay	2
 Bay was	2
 renamed this	2
@@ -1822,11 +1464,7 @@ Atlantic Ocean	2
 Wellington </s>	2
 stands on	2
 ruins of	2
-<<<<<<< HEAD
-=======
 people </s>	2
-state longest	2
->>>>>>> origin/refactor_ngram_gen
 the Irish	2
 Germany </s>	2
 former British	2
@@ -1846,26 +1484,16 @@ have to	2
 In 1980	2
 peak was	2
 borders with	2
-<<<<<<< HEAD
 Israel ,	2
-south The	2
-=======
->>>>>>> origin/refactor_ngram_gen
 Republic of	2
 of China	2
 is that	2
 that of	2
 This South	2
 a former	2
-<<<<<<< HEAD
 There 's	2
 this U.S.	2
-peninsula Lake	2
-=======
-colony is	2
-There a	2
 possession </s>	2
->>>>>>> origin/refactor_ngram_gen
 dynasty in	2
 the early	2
 Puerto Vallarta	2
@@ -1878,13 +1506,9 @@ Mexico 's	2
 5 miles	2
 Seward peninsula	2
 between Iceland	2
-<<<<<<< HEAD
 Iceland &	2
 & has	2
-=======
 <s> Utah	2
-Range is	2
->>>>>>> origin/refactor_ngram_gen
 were named	2
 2 current	2
 city &	2
@@ -1896,30 +1520,16 @@ was first	2
 Panama Canal	2
 connects these	2
 2 oceans	2
-<<<<<<< HEAD
 of ``	2
-=======
-of The	2
->>>>>>> origin/refactor_ngram_gen
 official capital	2
 in Australia	2
 well as	2
 South Island	2
-<<<<<<< HEAD
 it is	2
-peninsula The	2
 of many	2
 is near	2
 of Rugby	2
-Canada This	2
-=======
-of many	2
-is near	2
-of Rugby	2
-Rugby in	2
->>>>>>> origin/refactor_ngram_gen
 perhaps because	2
-water This	2
 This seaport	2
 seaport is	2
 , perhaps	2
@@ -1927,11 +1537,8 @@ a volcanic	2
 what is	2
 this landlocked	2
 came under	2
-<<<<<<< HEAD
-'s panhandle	2
-=======
 Lithuania </s>	2
->>>>>>> origin/refactor_ngram_gen
+'s panhandle	2
 this arm	2
 larger bay	2
 all of	2
@@ -1952,11 +1559,7 @@ Park was	2
 Lena River	2
 lies within	2
 Sicilian volcano	2
-<<<<<<< HEAD
 volcano 's	2
-feet The	2
-=======
->>>>>>> origin/refactor_ngram_gen
 the bottom	2
 Triangle </s>	2
 the equator	2
@@ -1967,26 +1570,19 @@ when you	2
 strait </s>	2
 a population	2
 miles wide	2
-<<<<<<< HEAD
+Idaho </s>	2
 's easternmost	2
 , now	2
 now called	2
 city as	2
 Golden Gate	2
+Ukraine </s>	2
 longest ,	2
 , flows	2
-=======
-Idaho </s>	2
-now called	2
-city as	2
-Golden Gate	2
-Ukraine </s>	2
->>>>>>> origin/refactor_ngram_gen
 the cities	2
 Mount Elbrus	2
 Elbrus ,	2
 state to	2
-Boulevard </s>	2
 Canadian lake	2
 Arctic Circle	2
 Circle </s>	2
@@ -1998,36 +1594,24 @@ this Australian	2
 into 2	2
 Lake Burley	2
 Burley Griffin	2
-<<<<<<< HEAD
-=======
 Griffin </s>	2
-name this	2
->>>>>>> origin/refactor_ngram_gen
 this chief	2
 the USA	2
 USA 's	2
 a republic	2
 coastal plain	2
-<<<<<<< HEAD
+<s> America	2
 Rimini &	2
 sea ,	2
-Hills of	2
-'s first	2
-island The	2
-border ,	2
-, from	2
-state In	2
-=======
-<s> America	2
-sea an	2
 Mediterranean </s>	2
 Coast </s>	2
 Hills of	2
 <s> Cities	2
+'s first	2
 town </s>	2
-of Belgium	2
 Belgium </s>	2
->>>>>>> origin/refactor_ngram_gen
+border ,	2
+, from	2
 this British	2
 Pool ,	2
 the head	2
@@ -2043,27 +1627,17 @@ Saudi Arabia	2
 This Scottish	2
 level in	2
 feet above	2
-<<<<<<< HEAD
-mountains The	2
 crossing the	2
 of Gibraltar	2
 lowest points	2
 the second-largest	2
-province The	2
 Blue &	2
 at this	2
-=======
-lowest points	2
-population it	2
->>>>>>> origin/refactor_ngram_gen
 city where	2
 Darien </s>	2
 province was	2
-<<<<<<< HEAD
 's James	2
-=======
 I </s>	2
->>>>>>> origin/refactor_ngram_gen
 side of	2
 this area	2
 be reached	2
@@ -2078,10 +1652,7 @@ southernmost mainland	2
 state named	2
 more people	2
 Kansas City	2
-<<<<<<< HEAD
-=======
 combined </s>	2
->>>>>>> origin/refactor_ngram_gen
 a landlocked	2
 <s> Formerly	2
 landed in	2
@@ -2090,25 +1661,17 @@ The Connecticut	2
 Connecticut River	2
 claimed by	2
 British navy	2
-<<<<<<< HEAD
+navy </s>	2
 water ,	2
 , capital	2
-=======
-navy </s>	2
-water with	2
->>>>>>> origin/refactor_ngram_gen
 is still	2
 province in	2
 covers about	2
 & North	2
 Man lies	2
 people of	2
-<<<<<<< HEAD
 James &	2
-peninsula It	2
 of Jordan	2
-=======
->>>>>>> origin/refactor_ngram_gen
 the rest	2
 , Switzerland	2
 calls this	2
@@ -2117,11 +1680,7 @@ volcano the	2
 Alaska ,	2
 a city	2
 back to	2
-<<<<<<< HEAD
-=======
-language this	2
 mother </s>	2
->>>>>>> origin/refactor_ngram_gen
 In area	2
 largest country	2
 wholly within	2
@@ -2136,7 +1695,6 @@ like the	2
 3 countries	2
 Indonesia &	2
 island whose	2
-land </s>	2
 County is	2
 for Thomas	2
 A small	2
@@ -2164,7 +1722,6 @@ about 10	2
 the mainland	2
 from Libya	2
 of India	2
-'' At	2
 At one	2
 one point	2
 is less	2
@@ -2206,23 +1763,16 @@ In 1861	2
 became a	2
 on both	2
 country lies	2
-<<<<<<< HEAD
 's country	2
-=======
 <s> Explorer	2
->>>>>>> origin/refactor_ngram_gen
 to make	2
 the boundary	2
 Siberian lake	2
 feet from	2
 the residents	2
 southeast of	2
-<<<<<<< HEAD
-the river	2
-=======
 <s> During	2
-this estuary	2
->>>>>>> origin/refactor_ngram_gen
+the river	2
 Siberia is	2
 level ,	2
 island that	2
@@ -2233,12 +1783,8 @@ all the	2
 their home	2
 Olympics </s>	2
 range include	2
-<<<<<<< HEAD
 , Colorado	2
 Colorado &	2
-Columbia The	2
-=======
->>>>>>> origin/refactor_ngram_gen
 from an	2
 an Indian	2
 Indian word	2
@@ -2255,11 +1801,7 @@ established a	2
 an inlet	2
 inlet of	2
 China Sea	2
-<<<<<<< HEAD
 '' there	2
-=======
-<s> Lawrence	2
->>>>>>> origin/refactor_ngram_gen
 airport in	2
 world is	2
 the few	2
@@ -2268,7 +1810,6 @@ islands &	2
 during WWII	2
 It was	2
 the southern	2
-Egypt The	2
 are both	2
 both the	2
 Caribbean Sea	2
@@ -2281,49 +1822,28 @@ lying on	2
 Brooklyn Bridge	2
 borough </s>	2
 connects this	2
-<<<<<<< HEAD
 4 U.S.	2
-Sea This	2
-=======
-4 states	2
->>>>>>> origin/refactor_ngram_gen
 land regions	2
 consists of	2
 This southern	2
-<<<<<<< HEAD
 this is	2
 's main	2
-California &	2
-=======
-its shape	2
-this for	2
 Zaire </s>	2
-mine in	2
->>>>>>> origin/refactor_ngram_gen
+California &	2
 islands of	2
 Northwest Territories	2
 Belize &	2
 not border	2
-born </s>	2
 place </s>	2
-of </s>	2
 Northwest Passage	2
-<<<<<<< HEAD
 . McKinley	2
-=======
-Mt McKinley	2
 <s> Its	2
->>>>>>> origin/refactor_ngram_gen
 Mountains of	2
 of Egypt	2
 is called	2
 Islands are	2
 want to	2
-<<<<<<< HEAD
-) The	2
-=======
 <s> Lakes	2
->>>>>>> origin/refactor_ngram_gen
 this Alaskan	2
 this German	2
 '' it	2
@@ -2331,15 +1851,10 @@ peaks in	2
 that touches	2
 Shanghai </s>	2
 in Colorado	2
-<<<<<<< HEAD
 & empties	2
-Yugoslavia The	2
-=======
-of Yugoslavia	2
 Yugoslavia </s>	2
 <s> Many	2
 Angeles </s>	2
->>>>>>> origin/refactor_ngram_gen
 first to	2
 James Bay	2
 the main	2
@@ -2350,11 +1865,7 @@ Sudanese capital	2
 founded as	2
 Russia &	2
 stretch from	2
-<<<<<<< HEAD
-=======
-mountain </s>	2
 <s> Except	2
->>>>>>> origin/refactor_ngram_gen
 Except for	2
 its coast	2
 coast ,	2
@@ -2381,39 +1892,24 @@ The most	2
 of sand	2
 sand dunes	2
 dunes in	2
-<<<<<<< HEAD
-peak on	2
-=======
-cities is	2
 inlet </s>	2
-Peak in	2
 peak on	2
-world longest	2
 <s> Dutch	2
->>>>>>> origin/refactor_ngram_gen
 With a	2
 million square	2
 miles of	2
 & New	2
 New South	2
 South Wales	2
-<<<<<<< HEAD
 '' because	2
-there This	2
 West Germany	2
 was home	2
 the states	2
+Kentucky </s>	2
 chief seaport	2
 Trinidad &	2
 & Tobago	2
-=======
-West Germany	2
-was home	2
-Kentucky </s>	2
-chief seaport	2
-Trinidad Tobago	2
 Tobago </s>	2
->>>>>>> origin/refactor_ngram_gen
 entirely within	2
 <s> Mont	2
 France to	2
@@ -2445,49 +1941,30 @@ rivers ,	2
 & Argentina	2
 Lake Michigan	2
 Green Bay	2
-<<<<<<< HEAD
-Bay The	2
 capital ''	2
-=======
->>>>>>> origin/refactor_ngram_gen
 Canadian provinces	2
 Saskatchewan </s>	2
 the cultural	2
 cultural center	2
 from its	2
-<<<<<<< HEAD
-=======
-Mountains in	2
 <s> Called	2
->>>>>>> origin/refactor_ngram_gen
 borders of	2
 Illinois </s>	2
 Acadia National	2
-<<<<<<< HEAD
 Egypt &	2
-Sound The	2
-=======
 <s> Kuala	2
->>>>>>> origin/refactor_ngram_gen
 Kuala Lumpur	2
 larger sea	2
 many a	2
-<<<<<<< HEAD
+altitude </s>	2
 Spain 's	2
 father ,	2
-=======
-altitude </s>	2
->>>>>>> origin/refactor_ngram_gen
 king of	2
 this nearby	2
 populous city	2
 in India	2
 also the	2
-<<<<<<< HEAD
-=======
 Aires </s>	2
-Africa major	2
->>>>>>> origin/refactor_ngram_gen
 is dominated	2
 dominated by	2
 the Tropic	2
@@ -2495,14 +1972,8 @@ Tropic of	2
 Once known	2
 Mongolia </s>	2
 the Rhine	2
-<<<<<<< HEAD
 's eastern	2
 Ocean &	2
-Lake The	2
-=======
-was a	2
-Baltimore </s>	2
->>>>>>> origin/refactor_ngram_gen
 Tierra del	2
 del Fuego	2
 is shared	2
@@ -2519,25 +1990,18 @@ Great 's	2
 White Nile	2
 Great Smoky	2
 Smoky Mountains	2
-<<<<<<< HEAD
 Mountains ,	2
 Colombia &	2
+<s> Israel	2
 city near	2
+Washington </s>	2
 's southern	2
 & Colombia	2
+<s> Christmas	2
 Mauna Kea	2
 mountain ''	2
 `` A	2
 A ''	2
-Island This	2
-=======
-<s> Israel	2
-city near	2
-Washington </s>	2
-<s> Christmas	2
-Mauna Kea	2
-with A	2
->>>>>>> origin/refactor_ngram_gen
 the Black	2
 Winnipeg </s>	2
 the farthest	2
@@ -2561,14 +2025,8 @@ Sicily </s>	2
 Amsterdam </s>	2
 Alberta </s>	2
 Bavarian Alps	2
-<<<<<<< HEAD
-Chile (	2
-) Texas	2
-Florida &	2
-=======
 Vermont </s>	2
 Rhine </s>	2
-Lake Louise	2
 Louise </s>	2
 <s> Belarus	2
 Belarus </s>	2
@@ -2577,7 +2035,7 @@ Bhutan </s>	2
 <s> Sakhalin	2
 Sakhalin </s>	2
 Ireland </s>	2
->>>>>>> origin/refactor_ngram_gen
+Florida &	2
 Lake Erie	2
 <s> Vatican	2
 Vatican City	2
@@ -2596,11 +2054,6 @@ Kenya </s>	2
 <s> Pakistan	2
 Great Barrier	2
 Barrier Reef	2
-<<<<<<< HEAD
-Lake Ontario	2
-Yugoslavia ,	2
-, Bulgaria	2
-=======
 Reef </s>	2
 <s> Negev	2
 Negev </s>	2
@@ -2610,9 +2063,10 @@ Jutland </s>	2
 <s> Botswana	2
 Botswana </s>	2
 <s> Acadia	2
+Yugoslavia ,	2
+, Bulgaria	2
 <s> Afghanistan	2
 <s> Gibraltar	2
->>>>>>> origin/refactor_ngram_gen
 of Suez	2
 Aqaba </s>	2
 <s> Crimean	2
@@ -2647,18 +2101,14 @@ Bear Lake	2
 <s> Canberra	2
 Canberra </s>	2
 Lake Mead	2
-<<<<<<< HEAD
-Bosnia the	2
-Turkey the	2
-( Great	2
-Great )	2
-, North	2
-=======
 Mead </s>	2
 <s> Bosnia	2
 Bosnia </s>	2
 <s> Adriatic	2
 <s> Portugal	2
+( Great	2
+Great )	2
+, North	2
 <s> Thames	2
 <s> Houston	2
 Orleans </s>	2
@@ -2666,20 +2116,16 @@ Orleans </s>	2
 Buffalo </s>	2
 Scotia </s>	2
 <s> Pikes	2
->>>>>>> origin/refactor_ngram_gen
 Pikes Peak	2
 <s> Rhodesia	2
 Rhodesia </s>	2
 or Malvinas	2
-<<<<<<< HEAD
 Malvinas )	2
-=======
 Swamp </s>	2
 <s> Yucatan	2
 <s> Amman	2
 Amman </s>	2
 <s> Aberdeen	2
->>>>>>> origin/refactor_ngram_gen
 Colorado Springs	2
 Springs </s>	2
 McKinley </s>	2
@@ -2690,14 +2136,9 @@ Mount Everest	2
 Delaware </s>	2
 <s> Sierra	2
 Sierra Nevadas	2
-<<<<<<< HEAD
-Australia the	2
-Tigris &	2
-& Euphrates	2
-=======
 Nevadas </s>	2
 <s> Beijing	2
-Bombay </s>	2
+Beijing </s>	2
 <s> Amazon	2
 Amazon </s>	2
 <s> Phoenix	2
@@ -2706,10 +2147,10 @@ Phoenix </s>	2
 <s> Bonn	2
 Bonn </s>	2
 <s> Persian	2
-Tigris Euphrates	2
+Tigris &	2
+& Euphrates	2
 Euphrates </s>	2
 Alabama </s>	2
->>>>>>> origin/refactor_ngram_gen
 Mount Fuji	2
 Fuji </s>	2
 <s> Sardinia	2
@@ -2723,9 +2164,6 @@ Republic </s>	2
 Angola </s>	2
 Black Hills	2
 Hudson Bay	2
-<<<<<<< HEAD
-Mississippi Alaska	2
-=======
 <s> El	2
 Tahoe </s>	2
 <s> Memphis	2
@@ -2737,7 +2175,6 @@ Macedonia </s>	2
 <s> Mongolia	2
 Passage </s>	2
 <s> Yellowstone	2
->>>>>>> origin/refactor_ngram_gen
 Des Moines	2
 Moines </s>	2
 <s> Branson	2
@@ -2750,16 +2187,11 @@ Tripoli </s>	2
 Maui </s>	2
 the Yangtze	2
 the Urals	2
-<<<<<<< HEAD
-<s> The	1
-=======
 <s> Bolivia	2
-Brunei </s>	2
 <s> Winnipeg	2
 <s> Somalia	2
 Somalia </s>	2
 <s> Mauna	2
->>>>>>> origin/refactor_ngram_gen
 in Iran	1
 Iran is	1
 is 92	1
@@ -2829,13 +2261,8 @@ The Legend	1
 Legend of	1
 of Sleepy	1
 Sleepy Hollow	1
-<<<<<<< HEAD
 Hollow ''	1
 Ages ,	1
-=======
-Hollow </s>	1
-Ages these	1
->>>>>>> origin/refactor_ngram_gen
 2 seas	1
 seas were	1
 were the	1
@@ -2844,18 +2271,9 @@ trade between	1
 between Hanseatic	1
 Hanseatic League	1
 League ports	1
-<<<<<<< HEAD
-ports This	1
 U.S. commonwealth	1
 commonwealth outside	1
 outside the	1
-. One	1
-=======
-only commonwealth	1
-commonwealth outside	1
-outside the	1
-world best	1
->>>>>>> origin/refactor_ngram_gen
 best known	1
 known beaches	1
 beaches ;	1
@@ -2890,24 +2308,13 @@ Jesup in	1
 Arctic is	1
 northerly point	1
 Mount Logan	1
-<<<<<<< HEAD
 Logan ,	1
-territory Rivers	1
+<s> Rivers	1
 Rivers flowing	1
 flowing into	1
 Susquehanna ,	1
 & Rappahannock	1
-Rappahannock This	1
-=======
-Logan Canada	1
-Canada highest	1
-<s> Rivers	1
-Rivers flowing	1
-flowing into	1
-Susquehanna James	1
-James Rappahannock	1
 Rappahannock </s>	1
->>>>>>> origin/refactor_ngram_gen
 through Toledo	1
 Toledo ,	1
 Spain on	1
@@ -2924,27 +2331,17 @@ about 11	1
 people per	1
 per square	1
 square mile	1
-<<<<<<< HEAD
-mile Located	1
+mile </s>	1
 Danube ,	1
 , Linz	1
-=======
-mile </s>	1
-Danube Linz	1
->>>>>>> origin/refactor_ngram_gen
 Linz is	1
 <s> Capital	1
 Capital of	1
 of Malaysia	1
 a Chinese	1
-<<<<<<< HEAD
 Chinese tin-mining	1
 tin-mining camp	1
-camp This	1
-=======
-Chinese camp	1
 camp </s>	1
->>>>>>> origin/refactor_ngram_gen
 bay between	1
 & Brittany	1
 Brittany is	1
@@ -2962,14 +2359,9 @@ this in	1
 Principal port	1
 gulf include	1
 include Mobile	1
-<<<<<<< HEAD
 Mobile &	1
 & Tampa	1
-Tampa The	1
-=======
-Mobile Tampa	1
 Tampa </s>	1
->>>>>>> origin/refactor_ngram_gen
 The Chicago	1
 Chicago River	1
 flows out	1
@@ -2985,14 +2377,9 @@ fortress of	1
 of Masada	1
 Masada are	1
 found by	1
-<<<<<<< HEAD
 sea 's	1
 's shore	1
-shore The	1
-=======
-sea shore	1
 shore </s>	1
->>>>>>> origin/refactor_ngram_gen
 The Mother	1
 Mother &	1
 the Father	1
@@ -3007,13 +2394,8 @@ New Britain	1
 Britain Island	1
 the Bismarck	1
 Bismarck Archipelago	1
-<<<<<<< HEAD
-Archipelago St.	1
-John ,	1
-=======
 Archipelago </s>	1
-John New	1
->>>>>>> origin/refactor_ngram_gen
+John ,	1
 Brunswick lies	1
 's noted	1
 noted for	1
@@ -3032,17 +2414,11 @@ Balli </s>	1
 Bays in	1
 state include	1
 include Hingham	1
-<<<<<<< HEAD
 Hingham ,	1
 , Dorchester	1
 Dorchester &	1
 & Quincy	1
-Quincy Major	1
-=======
-Hingham Dorchester	1
-Dorchester Quincy	1
 Quincy </s>	1
->>>>>>> origin/refactor_ngram_gen
 Major tributaries	1
 this beautiful	1
 beautiful blue	1
@@ -3054,10 +2430,6 @@ the Tisza	1
 Tisza of	1
 of Hungary	1
 This Midwestern	1
-<<<<<<< HEAD
-=======
-Angle is	1
->>>>>>> origin/refactor_ngram_gen
 The Thar	1
 Desert occupies	1
 occupies a	1
@@ -3100,18 +2472,11 @@ once covered	1
 covered this	1
 desert between	1
 Sierra Nevada	1
-<<<<<<< HEAD
 Nevada &	1
-River Messina	1
+<s> Messina	1
 Messina ,	1
 where ``	1
 place ,	1
-=======
-Nevada the	1
-<s> Messina	1
-Messina where	1
-where Much	1
->>>>>>> origin/refactor_ngram_gen
 a port	1
 the Ottoman	1
 Ottoman Empire	1
@@ -3119,36 +2484,20 @@ became capital	1
 of Iraq	1
 Iraq in	1
 in 1921	1
-<<<<<<< HEAD
-1921 Gwynedd	1
+1921 </s>	1
+<s> Gwynedd	1
 Gwynedd &	1
 & Clwyd	1
 Clwyd are	1
 northernmost counties	1
 counties in	1
-Kingdom This	1
 island 's	1
-=======
-1921 </s>	1
-<s> Gwynedd	1
-Gwynedd Clwyd	1
-Clwyd are	1
-northernmost counties	1
-counties in	1
-country part	1
-island Cape	1
->>>>>>> origin/refactor_ngram_gen
 Jesup is	1
 about 500	1
 500 miles	1
 North Pole	1
-<<<<<<< HEAD
-Pole This	1
-'s Kemijoki	1
-=======
 Pole </s>	1
-country Kemijoki	1
->>>>>>> origin/refactor_ngram_gen
+'s Kemijoki	1
 Kemijoki River	1
 rises near	1
 the Russian	1
@@ -3159,12 +2508,7 @@ of Guyana	1
 Guyana 's	1
 also an	1
 for New	1
-<<<<<<< HEAD
-City It	1
 's paired	1
-=======
-It paired	1
->>>>>>> origin/refactor_ngram_gen
 paired with	1
 with Barbuda	1
 Barbuda in	1
@@ -3200,27 +2544,16 @@ channels in	1
 U.S. is	1
 the Bartholomew	1
 Bartholomew in	1
-<<<<<<< HEAD
 in N.	1
 N. Louisiana	1
-Louisiana The	1
 's bordered	1
-=======
-in Louisiana	1
-it bordered	1
->>>>>>> origin/refactor_ngram_gen
 bordered on	1
 west by	1
 by British	1
 <s> Less	1
 Less than	1
-<<<<<<< HEAD
 than 5,000	1
 5,000 square	1
-=======
-than square	1
-area The	1
->>>>>>> origin/refactor_ngram_gen
 The Gambia	1
 Gambia is	1
 smallest independent	1
@@ -3231,22 +2564,14 @@ of two	1
 two states	1
 states ending	1
 ending in	1
-<<<<<<< HEAD
 `` T	1
 T ''	1
 southernmost independent	1
-world M'zab	1
+<s> M'zab	1
 M'zab ,	1
 , Tanezrouft	1
 Tanezrouft &	1
 & Suf	1
-=======
-in T	1
-T </s>	1
-southernmost independent	1
-<s> Tanezrouft	1
-Tanezrouft Suf	1
->>>>>>> origin/refactor_ngram_gen
 Suf are	1
 in Algeria	1
 After entering	1
@@ -3317,14 +2642,9 @@ gave his	1
 his tomb	1
 tomb for	1
 for Jesus	1
-<<<<<<< HEAD
 Jesus '	1
 ' burial	1
-burial A	1
-=======
-Jesus burial	1
 burial </s>	1
->>>>>>> origin/refactor_ngram_gen
 A controversial	1
 controversial war	1
 war was	1
@@ -3338,22 +2658,13 @@ once divided	1
 into north	1
 & south	1
 south halves	1
-<<<<<<< HEAD
-halves This	1
-=======
 halves </s>	1
-river name	1
->>>>>>> origin/refactor_ngram_gen
 is Sanskrit	1
 Sanskrit for	1
 `` Son	1
 Son of	1
 of Brahma	1
-<<<<<<< HEAD
 Brahma ''	1
-=======
-Brahma </s>	1
->>>>>>> origin/refactor_ngram_gen
 The Atlantic	1
 Atlantic &	1
 & Indian	1
@@ -3368,15 +2679,9 @@ Agulhas on	1
 continent occupies	1
 occupies about	1
 about 30	1
-<<<<<<< HEAD
 30 %	1
 Earth 's	1
 's total	1
-area At	1
-=======
-30 of	1
-Earth total	1
->>>>>>> origin/refactor_ngram_gen
 about 175	1
 175 miles	1
 westernmost landlocked	1
@@ -3399,7 +2704,6 @@ branch of	1
 Appalachians runs	1
 from north	1
 central Penn	1
-<<<<<<< HEAD
 Penn .	1
 . through	1
 through MD.	1
@@ -3409,11 +2713,6 @@ VA. &	1
 & W.	1
 W. VA	1
 VA .	1
-=======
-Penn through	1
-through VA	1
-VA </s>	1
->>>>>>> origin/refactor_ngram_gen
 The border	1
 border formalized	1
 formalized between	1
@@ -3434,15 +2733,9 @@ one associated	1
 with Shakespeare	1
 Shakespeare rises	1
 in Northamptonshire	1
-<<<<<<< HEAD
-Northamptonshire This	1
+Northamptonshire </s>	1
 This N.C.	1
 N.C. peak	1
-=======
-Northamptonshire </s>	1
-This peak	1
-peak the	1
->>>>>>> origin/refactor_ngram_gen
 highest east	1
 the man	1
 man who	1
@@ -3460,12 +2753,7 @@ the New	1
 New York-Vermont	1
 York-Vermont border	1
 is Vermont	1
-<<<<<<< HEAD
-point Ulm	1
-=======
-Vermont lowest	1
 <s> Ulm	1
->>>>>>> origin/refactor_ngram_gen
 Ulm in	1
 the cathedral	1
 cathedral with	1
@@ -3508,14 +2796,9 @@ in &	1
 & around	1
 around this	1
 Texas capital	1
-<<<<<<< HEAD
-capital Minsk	1
+<s> Minsk	1
 Minsk &	1
 & Pinsk	1
-=======
-<s> Minsk	1
-Minsk Pinsk	1
->>>>>>> origin/refactor_ngram_gen
 Pinsk are	1
 has border	1
 border disputes	1
@@ -3534,12 +2817,7 @@ are associated	1
 area once	1
 `` Borscht	1
 Borscht Belt	1
-<<<<<<< HEAD
 Belt ''	1
-'' These	1
-=======
-Belt </s>	1
->>>>>>> origin/refactor_ngram_gen
 These 3	1
 3 nations	1
 nations each	1
@@ -3571,14 +2849,9 @@ subdued by	1
 by Clovis	1
 Clovis around	1
 around 500	1
-<<<<<<< HEAD
 500 A.D	1
 A.D .	1
-. King	1
-=======
-500 </s>	1
 <s> King	1
->>>>>>> origin/refactor_ngram_gen
 King Jigme	1
 Jigme Singye	1
 Singye Wangchuck	1
@@ -3588,14 +2861,10 @@ this Himalayan	1
 Himalayan country	1
 country between	1
 between India	1
-<<<<<<< HEAD
 India &	1
 & Tibet	1
-Tibet Paulistas	1
-=======
-India Tibet	1
+Tibet </s>	1
 <s> Paulistas	1
->>>>>>> origin/refactor_ngram_gen
 Paulistas live	1
 a large	1
 large city	1
@@ -3616,13 +2885,8 @@ temporarily even	1
 even better	1
 better than	1
 than Tara	1
-<<<<<<< HEAD
 Tara ''	1
-'' Karafuto	1
-=======
-Tara </s>	1
 <s> Karafuto	1
->>>>>>> origin/refactor_ngram_gen
 Karafuto is	1
 the Japanese	1
 Japanese name	1
@@ -3643,10 +2907,7 @@ forces invaded	1
 invaded this	1
 neighboring country	1
 of Tibet	1
-<<<<<<< HEAD
 Tibet ''	1
-=======
->>>>>>> origin/refactor_ngram_gen
 the larger	1
 larger of	1
 that occupy	1
@@ -3657,13 +2918,8 @@ other country	1
 in South	1
 America except	1
 except Ecuador	1
-<<<<<<< HEAD
 & Chile	1
-Chile Johns	1
-=======
-Ecuador Chile	1
 <s> Johns	1
->>>>>>> origin/refactor_ngram_gen
 Johns Hopkins	1
 Hopkins University	1
 University in	1
@@ -3682,39 +2938,22 @@ with 1	1
 1 foot	1
 foot in	1
 eastern hemisphere	1
-<<<<<<< HEAD
 hemisphere &	1
-western Indiana	1
-Indiana 's	1
-=======
-hemisphere one	1
 western </s>	1
-Indiana city	1
->>>>>>> origin/refactor_ngram_gen
+Indiana 's	1
 this stockade	1
 stockade built	1
 built in	1
 in 1794	1
-<<<<<<< HEAD
 1794 &	1
 `` mad	1
 mad ''	1
 '' general	1
-general A	1
+general </s>	1
 A ``	1
 pass &	1
 `` little	1
 little ''	1
-=======
-1794 named	1
-a mad	1
-mad general	1
-general </s>	1
-A great	1
-great pass	1
-pass a	1
-little pass	1
->>>>>>> origin/refactor_ngram_gen
 pass in	1
 are named	1
 saint </s>	1
@@ -3723,13 +2962,8 @@ El Paso	1
 Paso in	1
 major gateway	1
 gateway between	1
-<<<<<<< HEAD
 U.S. &	1
 & Mexico	1
-Mexico A	1
-=======
-the Mexico	1
->>>>>>> origin/refactor_ngram_gen
 A national	1
 national monument	1
 monument in	1
@@ -3744,26 +2978,16 @@ of 1798	1
 1798 </s>	1
 2 Australian	1
 Australian states	1
-<<<<<<< HEAD
 `` Australia	1
 Australia ''	1
-names This	1
-=======
-with Australia	1
-Australia in	1
->>>>>>> origin/refactor_ngram_gen
 This Central	1
 American national	1
 national capital	1
 city has	1
 a scant	1
 scant population	1
-<<<<<<< HEAD
 about 7,100	1
-7,100 In	1
-=======
-about </s>	1
->>>>>>> origin/refactor_ngram_gen
+7,100 </s>	1
 In Slovakia	1
 Slovakia the	1
 White Carpathians	1
@@ -3811,9 +3035,7 @@ form a	1
 a natural	1
 natural barrier	1
 barrier between	1
-<<<<<<< HEAD
 & France	1
-France Of	1
 the non-state	1
 non-state U.S.	1
 U.S. territories	1
@@ -3822,13 +3044,6 @@ territories ,	1
 areas &	1
 & districts	1
 districts ,	1
-=======
-Spain France	1
-the territories	1
-territories areas	1
-areas districts	1
-districts the	1
->>>>>>> origin/refactor_ngram_gen
 is larger	1
 larger in	1
 smallest state	1
@@ -3846,14 +3061,9 @@ an aimless	1
 aimless ,	1
 , circuitous	1
 circuitous way	1
-<<<<<<< HEAD
-way Alphabetically	1
-Alphabetically ,	1
-=======
 way </s>	1
 <s> Alphabetically	1
-Alphabetically the	1
->>>>>>> origin/refactor_ngram_gen
+Alphabetically ,	1
 the countries	1
 countries in	1
 Europe run	1
@@ -3867,8 +3077,7 @@ The Kamchatka	1
 Kamchatka Peninsula	1
 sea named	1
 a Dane	1
-<<<<<<< HEAD
-Dane Much	1
+Dane </s>	1
 Canal is	1
 by Loch	1
 Loch Lochy	1
@@ -3877,16 +3086,7 @@ other ``	1
 `` monstrous	1
 monstrous ''	1
 '' loch	1
-loch The	1
-=======
-Dane </s>	1
-by Loch	1
-Loch Lochy	1
-Lochy this	1
-other monstrous	1
-monstrous loch	1
 loch </s>	1
->>>>>>> origin/refactor_ngram_gen
 The London	1
 London traffic	1
 traffic junction	1
@@ -3916,26 +3116,16 @@ atop the	1
 the waterfall	1
 waterfall named	1
 for her	1
-<<<<<<< HEAD
-her Gilbertese	1
-Gilbertese ,	1
-=======
 her </s>	1
 <s> Gilbertese	1
-Gilbertese a	1
->>>>>>> origin/refactor_ngram_gen
+Gilbertese ,	1
 a Micronesian	1
 Micronesian language	1
 is widely	1
 widely spoken	1
 spoken in	1
 in Kiribati	1
-<<<<<<< HEAD
 Kiribati ,	1
-ocean If	1
-=======
-Kiribati an	1
->>>>>>> origin/refactor_ngram_gen
 you do	1
 n't make	1
 make your	1
@@ -3959,12 +3149,7 @@ Whitefish is	1
 a well-known	1
 well-known waterfall	1
 waterfall in	1
-<<<<<<< HEAD
-Peninsula Albuquerque	1
 Albuquerque ,	1
-=======
-Albuquerque New	1
->>>>>>> origin/refactor_ngram_gen
 Mexico lies	1
 this 1885-mile	1
 1885-mile long	1
@@ -4014,13 +3199,7 @@ Swamp covers	1
 covers nearly	1
 nearly 700	1
 700 square	1
-<<<<<<< HEAD
-states It	1
 's Africa	1
-=======
-It Africa	1
-Africa highest	1
->>>>>>> origin/refactor_ngram_gen
 highest mount	1
 mount that	1
 a country	1
@@ -4032,20 +3211,11 @@ its giant	1
 giant monitor	1
 monitor lizards	1
 lizards has	1
-<<<<<<< HEAD
-park South	1
 Carolina 's	1
 , Sassafras	1
 Sassafras Mountain	1
 rises 3,560	1
 3,560 feet	1
-Appalachians This	1
-=======
-Carolina highest	1
-point Sassafras	1
-Sassafras Mountain	1
-Mountain rises	1
->>>>>>> origin/refactor_ngram_gen
 the Dardanelles	1
 Dardanelles &	1
 Bosporus was	1
@@ -4060,11 +3230,7 @@ River literally	1
 literally means	1
 `` at	1
 the wharf	1
-<<<<<<< HEAD
 wharf ''	1
-=======
-wharf </s>	1
->>>>>>> origin/refactor_ngram_gen
 range on	1
 on Russia	1
 's border	1
@@ -4076,22 +3242,14 @@ fields ,	1
 including those	1
 those of	1
 of Baku	1
-<<<<<<< HEAD
 Baku &	1
 & Grozny	1
-Grozny Galveston	1
+Grozny </s>	1
 Galveston ,	1
 Texas &	1
 & Sarasota	1
 Sarasota ,	1
 , Florida	1
-=======
-Baku Grozny	1
-Grozny </s>	1
-Galveston Texas	1
-Texas Sarasota	1
-Sarasota Florida	1
->>>>>>> origin/refactor_ngram_gen
 Florida lie	1
 famous gulf	1
 <s> Channel	1
@@ -4103,34 +3261,18 @@ Romans called	1
 The Pillars	1
 Pillars of	1
 of Hercules	1
-<<<<<<< HEAD
 Hercules ''	1
-'' Name	1
-=======
-Hercules </s>	1
 <s> Name	1
->>>>>>> origin/refactor_ngram_gen
 Name shared	1
 by Chicago	1
 of Chicago	1
 major avenues	1
-<<<<<<< HEAD
-avenues Europe	1
+avenues </s>	1
 only wild	1
 wild monkeys	1
 monkeys live	1
 `` rock	1
 rock ''	1
-'' Important	1
-=======
-avenues </s>	1
-Europe only	1
-only wild	1
-wild monkeys	1
-monkeys live	1
-this rock	1
-rock </s>	1
->>>>>>> origin/refactor_ngram_gen
 Important dams	1
 dams on	1
 include Rock	1
@@ -4161,18 +3303,12 @@ the Moluccas	1
 Moluccas ,	1
 islands known	1
 for cloves	1
-<<<<<<< HEAD
 cloves ,	1
 , mace	1
 mace &	1
 & nutmeg	1
-nutmeg Around	1
-=======
-cloves mace	1
-mace nutmeg	1
 nutmeg </s>	1
 <s> Around	1
->>>>>>> origin/refactor_ngram_gen
 Around 1830	1
 1830 the	1
 first Catholic	1
@@ -4214,13 +3350,8 @@ Woods County	1
 County north	1
 the 49th	1
 49th parallel	1
-<<<<<<< HEAD
-parallel Egypt	1
-'s Qattara	1
-=======
 parallel </s>	1
-Egypt Qattara	1
->>>>>>> origin/refactor_ngram_gen
+'s Qattara	1
 Qattara depression	1
 depression is	1
 The preface	1
@@ -4240,11 +3371,7 @@ is n't	1
 a flat	1
 flat at	1
 at all	1
-<<<<<<< HEAD
 all ''	1
-=======
-all </s>	1
->>>>>>> origin/refactor_ngram_gen
 The Cinca	1
 Cinca River	1
 in northeastern	1
@@ -4287,15 +3414,10 @@ starfish ,	1
 which feed	1
 feed on	1
 on polyps	1
-<<<<<<< HEAD
-polyps Peoria	1
-Peoria ,	1
-, Illinois	1
-=======
 polyps </s>	1
 <s> Peoria	1
-Peoria Illinois	1
->>>>>>> origin/refactor_ngram_gen
+Peoria ,	1
+, Illinois	1
 Illinois is	1
 is surrounded	1
 by rich	1
@@ -4316,12 +3438,7 @@ called Yangcheng	1
 Yangcheng ,	1
 City of	1
 of Goats	1
-<<<<<<< HEAD
 Goats ''	1
-'' State	1
-=======
-Goats </s>	1
->>>>>>> origin/refactor_ngram_gen
 State where	1
 can visit	1
 visit Hot	1
@@ -4338,17 +3455,11 @@ State whose	1
 whose counties	1
 counties include	1
 include Crockett	1
-<<<<<<< HEAD
 Crockett ,	1
 , Zapata	1
 Zapata &	1
 & Pecos	1
-Pecos This	1
-=======
-Crockett Zapata	1
-Zapata Pecos	1
 Pecos </s>	1
->>>>>>> origin/refactor_ngram_gen
 desert makes	1
 up half	1
 find Livorno	1
@@ -4372,13 +3483,8 @@ Han River	1
 about 22	1
 miles east	1
 of Inchon	1
-<<<<<<< HEAD
-Inchon Libya	1
-Libya 's	1
-=======
 <s> Libya	1
-Libya Gulf	1
->>>>>>> origin/refactor_ngram_gen
+Libya 's	1
 of Sidra	1
 Sidra is	1
 this huge	1
@@ -4388,11 +3494,7 @@ Orange County	1
 County (	1
 ( in	1
 not California	1
-<<<<<<< HEAD
 California )	1
-) It	1
-=======
->>>>>>> origin/refactor_ngram_gen
 only Great	1
 Lake not	1
 not bordering	1
@@ -4479,16 +3581,11 @@ him in	1
 From 1889	1
 1889 until	1
 until 1961	1
-<<<<<<< HEAD
 1961 ,	1
 mountain 's	1
 point was	1
 as Kaiser-Wilhelm-Spitze	1
-Kaiser-Wilhelm-Spitze Lake	1
-=======
-1961 this	1
-mountain highest	1
->>>>>>> origin/refactor_ngram_gen
+Kaiser-Wilhelm-Spitze </s>	1
 Lake Avernus	1
 Avernus in	1
 in Campania	1
@@ -4506,12 +3603,7 @@ Cape of	1
 of Good	1
 Good Hope	1
 Hope is	1
-<<<<<<< HEAD
-point Now	1
-=======
-continent southernmost	1
 <s> Now	1
->>>>>>> origin/refactor_ngram_gen
 Now independent	1
 independent ,	1
 been ruled	1
@@ -4526,13 +3618,9 @@ Normans ,	1
 , French	1
 French ,	1
 and British	1
-<<<<<<< HEAD
-British Part	1
+British </s>	1
 this 3,000-mile	1
 3,000-mile long	1
-=======
-British </s>	1
->>>>>>> origin/refactor_ngram_gen
 system covers	1
 middle third	1
 of Colorado	1
@@ -4570,17 +3658,11 @@ land composing	1
 composing almost	1
 almost one	1
 one third	1
-<<<<<<< HEAD
-. Lagos	1
+<s> Lagos	1
 Lagos ,	1
 , Ibadan	1
 Ibadan &	1
 & Ogbomosho	1
-=======
-<s> Lagos	1
-Lagos Ibadan	1
-Ibadan Ogbomosho	1
->>>>>>> origin/refactor_ngram_gen
 Ogbomosho are	1
 this West	1
 West African	1
@@ -4610,12 +3692,7 @@ G-8 (	1
 ( Group	1
 Group of	1
 of Eight	1
-<<<<<<< HEAD
 Eight )	1
-) While	1
-=======
-Eight </s>	1
->>>>>>> origin/refactor_ngram_gen
 While Upper	1
 Upper Klamath	1
 in Oregon	1
@@ -4702,24 +3779,14 @@ Jungfrau peak	1
 gulfs which	1
 which border	1
 Sinai Peninsula	1
-<<<<<<< HEAD
-Peninsula Colorado	1
 Colorado 's	1
 's Mount	1
-=======
-Colorado Mount	1
->>>>>>> origin/refactor_ngram_gen
 Mount Elbert	1
 the Sawatch	1
 Sawatch range	1
 range is	1
-<<<<<<< HEAD
 system 's	1
-peak Ranchers	1
-=======
-system tallest	1
 <s> Ranchers	1
->>>>>>> origin/refactor_ngram_gen
 Ranchers formed	1
 formed the	1
 the territory	1
@@ -4736,13 +3803,8 @@ became this	1
 western panhandle	1
 panhandle </s>	1
 mountain in	1
-<<<<<<< HEAD
-Hemisphere This	1
-'s King	1
-=======
 Hemisphere </s>	1
-Washington King	1
->>>>>>> origin/refactor_ngram_gen
+'s King	1
 King County	1
 <s> Balaklava	1
 Balaklava lies	1
@@ -4801,12 +3863,8 @@ Plain </s>	1
 10 million	1
 almost bisected	1
 bisected by	1
-<<<<<<< HEAD
 the second-longest	1
 second-longest river	1
-Europe To	1
-=======
->>>>>>> origin/refactor_ngram_gen
 To remove	1
 remove the	1
 the skin	1
@@ -4917,11 +3975,7 @@ might be	1
 be this	1
 `` with	1
 with excitement	1
-<<<<<<< HEAD
 excitement ''	1
-=======
-excitement </s>	1
->>>>>>> origin/refactor_ngram_gen
 This land	1
 land ,	1
 , named	1
@@ -4938,12 +3992,7 @@ play --	1
 The Comedy	1
 Comedy of	1
 of Errors	1
-<<<<<<< HEAD
 Errors ''	1
-'' If	1
-=======
-Errors </s>	1
->>>>>>> origin/refactor_ngram_gen
 you wanted	1
 wanted to	1
 to hang	1
@@ -4968,12 +4017,8 @@ from 9677	1
 ' to	1
 to about	1
 about 8300	1
-<<<<<<< HEAD
 8300 '	1
-' This	1
-=======
-8300 </s>	1
->>>>>>> origin/refactor_ngram_gen
+' </s>	1
 populous province	1
 is Katowice	1
 Katowice in	1
@@ -4995,15 +4040,9 @@ a cooperative	1
 cooperative republic	1
 park on	1
 John in	1
-<<<<<<< HEAD
 U.S. possession	1
-possession The	1
 The 4-mile-wide	1
 4-mile-wide Perekop	1
-=======
-this possession	1
-The Perekop	1
->>>>>>> origin/refactor_ngram_gen
 Perekop Isthmus	1
 Isthmus connects	1
 the Ukranian	1
@@ -5064,14 +4103,9 @@ its own	1
 own parliament	1
 parliament ,	1
 the Lagting	1
-<<<<<<< HEAD
-Lagting Utah	1
+Lagting </s>	1
 Utah 's	1
 's Uinta	1
-=======
-Lagting </s>	1
-Utah Uinta	1
->>>>>>> origin/refactor_ngram_gen
 Uinta Range	1
 Range is	1
 only major	1
@@ -5103,11 +4137,8 @@ their independence	1
 century ,	1
 '60s and	1
 and one	1
-<<<<<<< HEAD
 the '70s	1
-'70s The	1
-=======
->>>>>>> origin/refactor_ngram_gen
+'70s </s>	1
 state lies	1
 in Wexford	1
 Wexford County	1
@@ -5216,15 +4247,9 @@ Edmonton are	1
 are larger	1
 larger </s>	1
 oldest state	1
-<<<<<<< HEAD
 Australia ,	1
-populous It	1
-'s across	1
-=======
-Australia as	1
 populous </s>	1
-It across	1
->>>>>>> origin/refactor_ngram_gen
+'s across	1
 across the	1
 Danube from	1
 from Pest	1
@@ -5241,12 +4266,7 @@ Colonia in	1
 Foveaux Strait	1
 separates Stewart	1
 Stewart Island	1
-<<<<<<< HEAD
 's South	1
-Island Though	1
-=======
-country South	1
->>>>>>> origin/refactor_ngram_gen
 Though Canada	1
 's Newfoundland	1
 Newfoundland province	1
@@ -5262,11 +4282,7 @@ settings in	1
 The Khyber	1
 Khyber Pass	1
 Pass connects	1
-<<<<<<< HEAD
-countries The	1
 Rugby ,	1
-=======
->>>>>>> origin/refactor_ngram_gen
 This pass	1
 pass through	1
 the Swiss	1
@@ -5276,13 +4292,8 @@ a 10-mile	1
 10-mile motor	1
 motor vehicle	1
 vehicle tunnel	1
-<<<<<<< HEAD
 tunnel ,	1
-largest Elvis	1
-=======
-tunnel one	1
 <s> Elvis	1
->>>>>>> origin/refactor_ngram_gen
 Elvis Presley	1
 Presley had	1
 had ``	1
@@ -5298,16 +4309,11 @@ Ursula Andress	1
 Andress --	1
 -- who	1
 who would	1
-<<<<<<< HEAD
 would n't	1
 n't ?	1
-? We	1
+? </s>	1
 We 're	1
 're counting	1
-=======
-would </s>	1
-We counting	1
->>>>>>> origin/refactor_ngram_gen
 counting on	1
 on your	1
 your knowing	1
@@ -5360,12 +4366,7 @@ the control	1
 control of	1
 of neighboring	1
 neighboring Lithuania	1
-<<<<<<< HEAD
-Lithuania Florida	1
 Florida 's	1
-=======
-Florida panhandle	1
->>>>>>> origin/refactor_ngram_gen
 panhandle borders	1
 borders these	1
 <s> Krk	1
@@ -5382,7 +4383,6 @@ Scottish strait	1
 strait ,	1
 , separates	1
 this group	1
-<<<<<<< HEAD
 group 's	1
 `` Inner	1
 Inner ''	1
@@ -5390,16 +4390,8 @@ Inner ''	1
 `` Outer	1
 Outer ''	1
 '' islands	1
-islands MUSIC	1
-MUSIC Nova	1
 Scotia 's	1
 's Cobequid	1
-=======
-group Inner	1
-Inner Outer	1
-Outer islands	1
-Scotia Cobequid	1
->>>>>>> origin/refactor_ngram_gen
 Cobequid Bay	1
 Bay is	1
 this much	1
@@ -5409,22 +4401,13 @@ occupies all	1
 peninsula known	1
 as Asia	1
 Asia Minor	1
-<<<<<<< HEAD
-Minor St.	1
+Minor </s>	1
 John &	1
 's are	1
 these ``	1
 `` New	1
 New ''	1
 '' provinces	1
-provinces This	1
-=======
-Minor </s>	1
-John John	1
-John are	1
-these New	1
-New provinces	1
->>>>>>> origin/refactor_ngram_gen
 is Vaalserberg	1
 Vaalserberg which	1
 rises 1,053	1
@@ -5458,13 +4441,8 @@ for Queen	1
 Victoria 's	1
 's fourth	1
 fourth daughter	1
-<<<<<<< HEAD
-daughter Russia	1
-'s Lena	1
-=======
 daughter </s>	1
-Russia Lena	1
->>>>>>> origin/refactor_ngram_gen
+'s Lena	1
 River lies	1
 large ,	1
 , cold	1
@@ -5498,18 +4476,12 @@ HQ 'd	1
 bottom in	1
 in household	1
 household income	1
-<<<<<<< HEAD
-income Raleigh	1
+income </s>	1
+<s> Raleigh	1
 Raleigh ,	1
 , Durham	1
 Durham &	1
 & Chapel	1
-=======
-income </s>	1
-<s> Raleigh	1
-Raleigh Durham	1
-Durham Chapel	1
->>>>>>> origin/refactor_ngram_gen
 Chapel Hill	1
 Hill are	1
 3 apexes	1
@@ -5530,15 +4502,10 @@ sail over	1
 over 100	1
 inland to	1
 to Washington	1
-<<<<<<< HEAD
 Washington ,	1
 , D.C.	1
 D.C. on	1
-river Country	1
-=======
-Washington on	1
 <s> Country	1
->>>>>>> origin/refactor_ngram_gen
 Country that	1
 's larger	1
 larger than	1
@@ -5568,15 +4535,10 @@ nation with	1
 population near	1
 near 175	1
 175 million	1
-<<<<<<< HEAD
-million Oman	1
-Oman &	1
-& Iran	1
-=======
 million </s>	1
 <s> Oman	1
-Oman Iran	1
->>>>>>> origin/refactor_ngram_gen
+Oman &	1
+& Iran	1
 Iran lie	1
 on opposite	1
 opposite sides	1
@@ -5605,14 +4567,8 @@ it Aorangi	1
 Aorangi ,	1
 `` cloud	1
 cloud piercer	1
-<<<<<<< HEAD
 piercer ''	1
-'' Georgia	1
 Georgia 's	1
-=======
-piercer </s>	1
-Georgia highest	1
->>>>>>> origin/refactor_ngram_gen
 is Brasstown	1
 Brasstown Bald	1
 Bald Mountain	1
@@ -5624,14 +4580,8 @@ easternmost point	1
 a short	1
 short drive	1
 drive from	1
-<<<<<<< HEAD
 from St.	1
 's ,	1
-province In	1
-=======
-from John	1
-John the	1
->>>>>>> origin/refactor_ngram_gen
 In 1923	1
 1923 Angora	1
 Angora ,	1
@@ -5670,25 +4620,15 @@ villages </s>	1
 The Humboldt	1
 Humboldt River	1
 of Winnemucca	1
-<<<<<<< HEAD
 Winnemucca &	1
 & Elko	1
-Elko This	1
+Elko </s>	1
 's provinces	1
 provinces include	1
 include Nabatiyeh	1
 Nabatiyeh &	1
 & Beqaa	1
-Beqaa Over	1
-=======
-Winnemucca Elko	1
-Elko </s>	1
-country provinces	1
-provinces include	1
-include Nabatiyeh	1
-Nabatiyeh Beqaa	1
 Beqaa </s>	1
->>>>>>> origin/refactor_ngram_gen
 Over 3	1
 3 dozen	1
 dozen mountains	1
@@ -5697,19 +4637,13 @@ York range	1
 range exceed	1
 exceed 4,000	1
 4,000 feet	1
-feet Mount	1
 a peak	1
 peak of	1
 westernmost state	1
 to border	1
 border any	1
 any of	1
-<<<<<<< HEAD
-Lakes In	1
 `` Free	1
-=======
-In Free	1
->>>>>>> origin/refactor_ngram_gen
 Free Fallin	1
 Fallin '	1
 ' ''	1
@@ -5729,19 +4663,11 @@ valley ,	1
 , move	1
 move west	1
 west down	1
-<<<<<<< HEAD
 down ''	1
 `` Boulevard	1
 Boulevard ''	1
 '' Canadian	1
 lake lies	1
-Circle The	1
-=======
-down this	1
-this Boulevard	1
-This great	1
-great Canadian	1
->>>>>>> origin/refactor_ngram_gen
 The lower	1
 lower valley	1
 Susquehanna &	1
@@ -5755,34 +4681,22 @@ Atlantic bay	1
 ' mountains	1
 mountains include	1
 include Weisshorn	1
-<<<<<<< HEAD
 Weisshorn ,	1
 , Taschhorn	1
 Taschhorn &	1
 & Finsteraarhorn	1
-Finsteraarhorn Mary	1
-Mary &	1
-& Martha	1
-=======
-Weisshorn Taschhorn	1
-Taschhorn Finsteraarhorn	1
 Finsteraarhorn </s>	1
 <s> Mary	1
-Mary Martha	1
->>>>>>> origin/refactor_ngram_gen
+Mary &	1
+& Martha	1
 Martha lived	1
 town &	1
 & so	1
 so did	1
 did Lazarus	1
-<<<<<<< HEAD
 Lazarus ,	1
 , sometimes	1
-sometimes Most	1
-=======
-Lazarus sometimes	1
 sometimes </s>	1
->>>>>>> origin/refactor_ngram_gen
 the 60	1
 60 to	1
 to 70	1
@@ -5809,15 +4723,10 @@ nicknamed the	1
 `` Yellow	1
 Yellow Rose	1
 Rose of	1
-<<<<<<< HEAD
 of Texas	1
 Texas ''	1
-'' Located	1
 largest man-made	1
 man-made lake	1
-=======
-USA largest	1
->>>>>>> origin/refactor_ngram_gen
 system in	1
 in NW	1
 NW Africa	1
@@ -5844,11 +4753,6 @@ inland forest	1
 forest &	1
 a coastal	1
 plain along	1
-<<<<<<< HEAD
-ocean America	1
-=======
-America chief	1
->>>>>>> origin/refactor_ngram_gen
 chief mountain	1
 system ,	1
 it forms	1
@@ -5886,18 +4790,11 @@ Valdai Hills	1
 Cities in	1
 nation include	1
 include Iskenderun	1
-<<<<<<< HEAD
 Iskenderun ,	1
 , Islahiye	1
 Islahiye &	1
 & Istanbul	1
-Istanbul If	1
 're out	1
-=======
-Iskenderun Islahiye	1
-Islahiye Istanbul	1
-you out	1
->>>>>>> origin/refactor_ngram_gen
 out in	1
 European mountain	1
 range you	1
@@ -5937,11 +4834,7 @@ Antwerp &	1
 & Ghent	1
 Ghent lie	1
 northern region	1
-<<<<<<< HEAD
 of Belgium	1
-Belgium These	1
-=======
->>>>>>> origin/refactor_ngram_gen
 mountains extend	1
 extend 270	1
 270 miles	1
@@ -5970,17 +4863,11 @@ near this	1
 26 states	1
 states include	1
 include Para	1
-<<<<<<< HEAD
 Para ,	1
 , Pernambuco	1
 Pernambuco &	1
 & Amazonas	1
-Amazonas In	1
-=======
-Para Pernambuco	1
-Pernambuco Amazonas	1
 Amazonas </s>	1
->>>>>>> origin/refactor_ngram_gen
 In 1997	1
 1997 this	1
 British crown	1
@@ -6023,14 +4910,9 @@ Stoke-on-Trent &	1
 Henley-on- this	1
 U.S. to	1
 have an	1
-<<<<<<< HEAD
 an African-American	1
 African-American mayor	1
-mayor It	1
-=======
-an mayor	1
 mayor </s>	1
->>>>>>> origin/refactor_ngram_gen
 of Catalonia	1
 Catalonia </s>	1
 <s> Historically	1
@@ -6070,24 +4952,13 @@ Luzon &	1
 Scottish river	1
 Sea at	1
 at Aberdeen	1
-<<<<<<< HEAD
-Aberdeen Norway	1
 Norway 's	1
 city ;	1
-=======
-Norway city	1
->>>>>>> origin/refactor_ngram_gen
 as Bjorgvin	1
 Bjorgvin ,	1
 `` hill	1
 hill pasture	1
-<<<<<<< HEAD
 pasture ''	1
-'' Louisiana	1
-=======
-pasture </s>	1
-Louisiana lowest	1
->>>>>>> origin/refactor_ngram_gen
 is 8	1
 8 feet	1
 <s> Communities	1
@@ -6125,20 +4996,12 @@ points ,	1
 lies 300	1
 300 miles	1
 miles southwest	1
-<<<<<<< HEAD
 's pyramids	1
-pyramids By	1
-By population	1
-York Appropriately	1
-Appropriately ,	1
-=======
-country pyramids	1
 pyramids </s>	1
 <s> By	1
 By population	1
 <s> Appropriately	1
-Appropriately New	1
->>>>>>> origin/refactor_ngram_gen
+Appropriately ,	1
 New Glasgow	1
 Glasgow is	1
 The Blue	1
@@ -6155,16 +5018,10 @@ Gordon met	1
 met death	1
 death </s>	1
 include Chiriqui	1
-<<<<<<< HEAD
 Chiriqui ,	1
 , Veraguas	1
 Veraguas &	1
 & Darien	1
-Darien This	1
-=======
-Chiriqui Veraguas	1
-Veraguas Darien	1
->>>>>>> origin/refactor_ngram_gen
 Canadian Maritime	1
 Maritime province	1
 native land	1
@@ -6223,14 +5080,9 @@ between this	1
 's Baja	1
 Baja California	1
 California Norte	1
-<<<<<<< HEAD
 Norte &	1
 & Sonora	1
-Sonora To	1
-=======
-Norte Sonora	1
 Sonora </s>	1
->>>>>>> origin/refactor_ngram_gen
 To evade	1
 evade French	1
 French defenders	1
@@ -6241,23 +5093,14 @@ attacked France	1
 France through	1
 both World	1
 World Wars	1
-<<<<<<< HEAD
-Wars The	1
+Wars </s>	1
 The Verrazano-Narrows	1
 Verrazano-Narrows Bridge	1
 Bridge links	1
 links this	1
 borough &	1
 & Staten	1
-Island Zambia	1
-=======
-Wars </s>	1
-The Bridge	1
-Bridge links	1
-links this	1
-borough Staten	1
 <s> Zambia	1
->>>>>>> origin/refactor_ngram_gen
 Zambia and	1
 and Zimbabwe	1
 Zimbabwe used	1
@@ -6265,11 +5108,6 @@ be Northern	1
 Northern &	1
 & Southern	1
 Southern this	1
-<<<<<<< HEAD
-this Australia	1
-=======
-Australia southernmost	1
->>>>>>> origin/refactor_ngram_gen
 is Wilson	1
 Wilson 's	1
 's Promontory	1
@@ -6286,11 +5124,7 @@ Topeka &	1
 City combined	1
 The geographical	1
 geographical center	1
-<<<<<<< HEAD
 Rugby in	1
-state While	1
-=======
->>>>>>> origin/refactor_ngram_gen
 While Libya	1
 Libya is	1
 , Liberia	1
@@ -6301,22 +5135,13 @@ of Darien	1
 <s> Other	1
 Other than	1
 than Antarctica	1
-<<<<<<< HEAD
 Antarctica ,	1
-=======
-Antarctica the	1
->>>>>>> origin/refactor_ngram_gen
 2 continents	1
 continents without	1
 Formerly Formosa	1
-<<<<<<< HEAD
-Formosa On	1
+Formosa </s>	1
 On 3/21/99	1
 3/21/99 Bertrand	1
-=======
-Formosa </s>	1
-On Bertrand	1
->>>>>>> origin/refactor_ngram_gen
 Bertrand Piccard	1
 Piccard &	1
 & Brian	1
@@ -6369,17 +5194,11 @@ is often	1
 often called	1
 this anatomical	1
 anatomical term	1
-<<<<<<< HEAD
 term ``	1
 `` of	1
 Italy ''	1
-'' Sure	1
-Sure ,	1
-=======
-term of	1
 <s> Sure	1
-Sure you	1
->>>>>>> origin/refactor_ngram_gen
+Sure ,	1
 you studied	1
 studied presidents	1
 presidents &	1
@@ -6401,14 +5220,9 @@ Till ''	1
 This province	1
 province has	1
 including water	1
-<<<<<<< HEAD
 , with	1
-States Cuzco	1
-Cuzco ,	1
-=======
 <s> Cuzco	1
-Cuzco capital	1
->>>>>>> origin/refactor_ngram_gen
+Cuzco ,	1
 the Incan	1
 Incan empire	1
 empire ,	1
@@ -6422,17 +5236,8 @@ swamp covers	1
 about 750	1
 750 square	1
 in Virginia	1
-<<<<<<< HEAD
 Virginia &	1
-Carolina The	1
 The Isle	1
-water Australia	1
-=======
-Virginia North	1
-The Isle	1
-Australia largest	1
-desert it	1
->>>>>>> origin/refactor_ngram_gen
 first crossed	1
 crossed in	1
 in 1875	1
@@ -6490,15 +5295,10 @@ seaport lies	1
 lies between	1
 the rivers	1
 rivers Dee	1
-<<<<<<< HEAD
 Dee &	1
 & Don	1
-Don Canada	1
-a federation	1
-=======
-Dee Don	1
 Don </s>	1
->>>>>>> origin/refactor_ngram_gen
+a federation	1
 federation of	1
 of 2	1
 2 territories	1
@@ -6514,13 +5314,8 @@ paired island	1
 island groups	1
 groups of	1
 of Turks	1
-<<<<<<< HEAD
 Turks &	1
-this Founded	1
-=======
-Turks this	1
 <s> Founded	1
->>>>>>> origin/refactor_ngram_gen
 Founded by	1
 by Swiss	1
 Swiss immigrants	1
@@ -6531,17 +5326,11 @@ Indiana lies	1
 lies across	1
 across from	1
 from Kentucky	1
-<<<<<<< HEAD
 Kentucky ,	1
 , along	1
-river Birnbaum	1
+<s> Birnbaum	1
 Birnbaum 's	1
 's Travel	1
-=======
-Kentucky along	1
-<s> Birnbaum	1
-Birnbaum Travel	1
->>>>>>> origin/refactor_ngram_gen
 Travel Guide	1
 Guide calls	1
 the terror	1
@@ -6612,16 +5401,10 @@ Battlefield are	1
 among this	1
 `` Treasure	1
 Treasure State	1
-<<<<<<< HEAD
 '' 's	1
 's treasures	1
-treasures Canada	1
-'s Mackenzie	1
-=======
-State treasures	1
 treasures </s>	1
-Canada Mackenzie	1
->>>>>>> origin/refactor_ngram_gen
+'s Mackenzie	1
 Mackenzie River	1
 To Tibetans	1
 Tibetans it	1
@@ -6636,11 +5419,8 @@ The Israeli	1
 Israeli town	1
 of Eilat	1
 Eilat is	1
-<<<<<<< HEAD
-gulf 1/3	1
+<s> 1/3	1
 1/3 the	1
-=======
->>>>>>> origin/refactor_ngram_gen
 the size	1
 size of	1
 this royal	1
@@ -6690,12 +5470,7 @@ A province	1
 former territory	1
 of Australia	1
 Australia share	1
-<<<<<<< HEAD
 's 2nd	1
-island Until	1
-=======
-world 2nd	1
->>>>>>> origin/refactor_ngram_gen
 Until 1972	1
 1972 this	1
 this was	1
@@ -6704,11 +5479,7 @@ whose current	1
 current name	1
 `` resplendent	1
 resplendent land	1
-<<<<<<< HEAD
 land ''	1
-'' Cape	1
-=======
->>>>>>> origin/refactor_ngram_gen
 Cape Mendocino	1
 Mendocino in	1
 in Humboldt	1
@@ -6724,11 +5495,7 @@ of 1.3	1
 million was	1
 after Catherine	1
 Catherine I	1
-<<<<<<< HEAD
-I It	1
 land named	1
-=======
->>>>>>> origin/refactor_ngram_gen
 Thomas West	1
 West ,	1
 , Lord	1
@@ -6743,19 +5510,12 @@ the Lake	1
 Tahoe area	1
 of Nevada	1
 through 3	1
-<<<<<<< HEAD
 3 state	1
 capitals :	1
 : Bismarck	1
 , Pierre	1
 Pierre &	1
 & Jefferson	1
-City The	1
-=======
-capitals Bismarck	1
-Bismarck Pierre	1
-Pierre Jefferson	1
->>>>>>> origin/refactor_ngram_gen
 The promotional	1
 promotional slogan	1
 slogan of	1
@@ -6764,13 +5524,7 @@ territory is	1
 Where America	1
 's Day	1
 Day Begins	1
-<<<<<<< HEAD
 Begins ''	1
-'' Asia	1
-=======
-Begins </s>	1
-Asia 2	1
->>>>>>> origin/refactor_ngram_gen
 2 smallest	1
 smallest mainland	1
 mainland nations	1
@@ -6782,12 +5536,8 @@ at 4,473	1
 country west	1
 of Syria	1
 Syria at	1
-<<<<<<< HEAD
 at 4,015	1
 4,015 square	1
-miles You	1
-=======
->>>>>>> origin/refactor_ngram_gen
 the Shrine	1
 Shrine of	1
 of Fatima	1
@@ -6819,31 +5569,20 @@ about 80	1
 from Lisbon	1
 Lisbon to	1
 to Abrantes	1
-<<<<<<< HEAD
 Abrantes ,	1
 , Portugal	1
-Portugal Chief	1
-=======
-Abrantes Portugal	1
 <s> Chief	1
->>>>>>> origin/refactor_ngram_gen
 Chief cities	1
 the banks	1
 banks of	1
 this Hudson	1
 River tributary	1
 include Rome	1
-<<<<<<< HEAD
 Rome ,	1
 , Utica	1
 Utica &	1
 & Schenectady	1
-Schenectady The	1
-=======
-Rome Utica	1
-Utica Schenectady	1
 Schenectady </s>	1
->>>>>>> origin/refactor_ngram_gen
 The British	1
 British looted	1
 looted this	1
@@ -6867,13 +5606,8 @@ Girardeau on	1
 was blasted	1
 blasted out	1
 of existence	1
-<<<<<<< HEAD
-existence In	1
-`` Pride	1
-=======
 existence </s>	1
-In Pride	1
->>>>>>> origin/refactor_ngram_gen
+`` Pride	1
 Pride and	1
 and Prejudice	1
 Prejudice ''	1
@@ -6885,24 +5619,14 @@ The country	1
 a vast	1
 vast deal	1
 deal pleasanter	1
-<<<<<<< HEAD
 pleasanter ''	1
 '' than	1
-city Point	1
-=======
-pleasanter than	1
 <s> Point	1
->>>>>>> origin/refactor_ngram_gen
 Point Tarifa	1
 Tarifa ,	1
 in Andalusia	1
 Andalusia in	1
 is Europe	1
-<<<<<<< HEAD
-point This	1
-=======
-Europe southernmost	1
->>>>>>> origin/refactor_ngram_gen
 This mount	1
 mount ``	1
 `` as	1
@@ -6930,15 +5654,10 @@ Indians who	1
 who wore	1
 wore large	1
 large boots	1
-<<<<<<< HEAD
-boots Come	1
-Come &	1
-& sit	1
-=======
 boots </s>	1
 <s> Come	1
-Come sit	1
->>>>>>> origin/refactor_ngram_gen
+Come &	1
+& sit	1
 sit for	1
 a spell	1
 spell at	1
@@ -6970,22 +5689,14 @@ central Asian	1
 Asian mountain	1
 The Gateway	1
 to India	1
-<<<<<<< HEAD
 India ''	1
-=======
->>>>>>> origin/refactor_ngram_gen
 The Austrian	1
 Austrian area	1
 mountains peaks	1
 peaks at	1
-<<<<<<< HEAD
 at 12,457-foot	1
 12,457-foot Grossglockner	1
-Grossglockner This	1
-=======
-at Grossglockner	1
 Grossglockner </s>	1
->>>>>>> origin/refactor_ngram_gen
 This largest	1
 Mexico has	1
 2 Qs	1
@@ -7028,8 +5739,7 @@ tributary of	1
 Rock out	1
 out on	1
 Australian landmark	1
-<<<<<<< HEAD
-landmark Peru	1
+landmark </s>	1
 Peru 's	1
 peaks ,	1
 , Huascaran	1
@@ -7039,13 +5749,6 @@ Yerupaja ,	1
 , lie	1
 This French-speaking	1
 French-speaking city	1
-=======
-landmark </s>	1
-Peru highest	1
-peaks Huascaran	1
-Huascaran Yerupaja	1
-Yerupaja lie	1
->>>>>>> origin/refactor_ngram_gen
 is 150	1
 150 miles	1
 miles down	1
@@ -7055,13 +5758,8 @@ Montreal ,	1
 , at	1
 the confluence	1
 confluence of	1
-<<<<<<< HEAD
 St. Charles	1
-Charles The	1
-=======
-the Charles	1
 Charles </s>	1
->>>>>>> origin/refactor_ngram_gen
 The 48th	1
 48th U.S.	1
 to join	1
@@ -7086,13 +5784,7 @@ This tiny	1
 tiny state	1
 on Block	1
 Block Island	1
-<<<<<<< HEAD
-mainland MUSIC	1
-MUSIC Sometimes	1
-=======
-Atlantic about	1
 <s> Sometimes	1
->>>>>>> origin/refactor_ngram_gen
 Sometimes called	1
 `` Tip	1
 Tip of	1
@@ -7114,12 +5806,8 @@ but has	1
 a heavy	1
 heavy saline	1
 saline content	1
-<<<<<<< HEAD
-content The	1
-The Libyan	1
-=======
 content </s>	1
->>>>>>> origin/refactor_ngram_gen
+The Libyan	1
 Libyan desert	1
 desert strays	1
 strays from	1
@@ -7135,42 +5823,26 @@ India called	1
 Pakistan ``	1
 `` King	1
 King River	1
-<<<<<<< HEAD
 River ''	1
 point this	1
-=======
->>>>>>> origin/refactor_ngram_gen
 than 2	1
 2 miles	1
 wide between	1
 between its	1
 its borders	1
 with Pennsylvania	1
-<<<<<<< HEAD
 & West	1
-Virginia On	1
-=======
-Pennsylvania West	1
 Virginia </s>	1
->>>>>>> origin/refactor_ngram_gen
 On this	1
 you 'll	1
 find Rimini	1
-<<<<<<< HEAD
 & Ravenna	1
 Ravenna ,	1
 Italy &	1
 & Rijeka	1
 Rijeka ,	1
 , Croatia	1
-Croatia The	1
-=======
-Rimini Ravenna	1
-Ravenna Italy	1
-Italy Rijeka	1
-Rijeka Croatia	1
 Croatia </s>	1
->>>>>>> origin/refactor_ngram_gen
 The Valley	1
 Valley of	1
 the Sun	1
@@ -7179,12 +5851,7 @@ the locale	1
 locale of	1
 <s> Honolulu	1
 Honolulu is	1
-<<<<<<< HEAD
-island In	1
 `` Daisy	1
-=======
-In Daisy	1
->>>>>>> origin/refactor_ngram_gen
 Daisy Miller	1
 Miller ''	1
 , Henry	1
@@ -7195,11 +5862,7 @@ the little	1
 little metropolis	1
 metropolis of	1
 of Calvinism	1
-<<<<<<< HEAD
 Calvinism ''	1
-=======
-Calvinism </s>	1
->>>>>>> origin/refactor_ngram_gen
 In 1995	1
 1995 this	1
 country marked	1
@@ -7211,14 +5874,9 @@ U.S. restored	1
 restored full	1
 full diplomatic	1
 diplomatic ties	1
-<<<<<<< HEAD
-ties In	1
+ties </s>	1
 the mid-19th	1
 mid-19th century	1
-=======
-ties </s>	1
-the century	1
->>>>>>> origin/refactor_ngram_gen
 century the	1
 the Sultan	1
 Sultan of	1
@@ -7233,15 +5891,10 @@ haven of	1
 <s> Lutzelburg	1
 Lutzelburg is	1
 this grand	1
-<<<<<<< HEAD
-duchy Ajman	1
-Ajman ,	1
-, Abu	1
-=======
 duchy </s>	1
 <s> Ajman	1
-Ajman Abu	1
->>>>>>> origin/refactor_ngram_gen
+Ajman ,	1
+, Abu	1
 are 3	1
 7 autonomous	1
 autonomous states	1
@@ -7322,23 +5975,12 @@ this Washington	1
 state mountain	1
 mountain for	1
 friend in	1
-<<<<<<< HEAD
-navy This	1
 Lake 's	1
 , 1330	1
-=======
-Lake deepest	1
-point 1330	1
->>>>>>> origin/refactor_ngram_gen
 1330 feet	1
 about 50	1
-<<<<<<< HEAD
 Michigan 's	1
-Peninsula Nordkapp	1
-=======
-Michigan Upper	1
 <s> Nordkapp	1
->>>>>>> origin/refactor_ngram_gen
 Nordkapp on	1
 's Mageroya	1
 Mageroya Island	1
@@ -7366,49 +6008,29 @@ continent creates	1
 creates more	1
 than 1/3	1
 its manufactures	1
-<<<<<<< HEAD
-manufactures It	1
+manufactures </s>	1
 lowest ,	1
 , flattest	1
 flattest &	1
 smallest continent	1
-continent It	1
 Kansas ;	1
 ; a	1
-=======
-manufactures </s>	1
-lowest flattest	1
-flattest smallest	1
-smallest continent	1
-Kansas a	1
->>>>>>> origin/refactor_ngram_gen
 a federal	1
 federal penitentiary	1
 penitentiary lies	1
 within the	1
 city limits	1
-<<<<<<< HEAD
-limits About	1
+limits </s>	1
 About 1/3	1
 's Pygmy	1
-=======
-limits </s>	1
-About of	1
-Africa Pygmy	1
->>>>>>> origin/refactor_ngram_gen
 Pygmy population	1
 population lives	1
 what was	1
 once Belgian	1
 Belgian Congo	1
-<<<<<<< HEAD
-Congo Kaliningrad	1
-Kaliningrad ,	1
-=======
 Congo </s>	1
 <s> Kaliningrad	1
-Kaliningrad a	1
->>>>>>> origin/refactor_ngram_gen
+Kaliningrad ,	1
 a small	1
 small piece	1
 piece of	1
@@ -7438,12 +6060,8 @@ Hemisphere ;	1
 the '80s	1
 '80s it	1
 was invaded	1
-<<<<<<< HEAD
-largest In	1
 this 9,300-square-mile	1
 9,300-square-mile island	1
-=======
->>>>>>> origin/refactor_ngram_gen
 island just	1
 just south	1
 of Corsica	1
@@ -7475,17 +6093,11 @@ the inland	1
 inland Aral	1
 Aral Sea	1
 Sea with	1
-<<<<<<< HEAD
 neighboring ``	1
 `` Stan	1
 Stan ''	1
 '' to	1
-north After	1
-=======
-neighboring Stan	1
-Stan to	1
 north </s>	1
->>>>>>> origin/refactor_ngram_gen
 After Alaska	1
 area without	1
 a Major	1
@@ -7507,6 +6119,7 @@ polders ,	1
 , land	1
 land reclaimed	1
 reclaimed from	1
+<s> John	1
 John Denver	1
 Denver 's	1
 country roads	1
@@ -7524,12 +6137,8 @@ Moscow marks	1
 marks the	1
 the source	1
 source of	1
-<<<<<<< HEAD
 this 2,000-mile-long	1
 2,000-mile-long river	1
-river In	1
-=======
->>>>>>> origin/refactor_ngram_gen
 In Ireland	1
 Ireland ,	1
 , Muckross	1
@@ -7573,10 +6182,6 @@ In population	1
 Grande is	1
 largest Mexican	1
 Mexican city	1
-<<<<<<< HEAD
-. This	1
-=======
->>>>>>> origin/refactor_ngram_gen
 This Chinese	1
 Chinese canal	1
 canal begins	1
@@ -7624,12 +6229,7 @@ economic center	1
 's basin	1
 basin is	1
 of Manaus	1
-<<<<<<< HEAD
 Manaus ,	1
-Brazil This	1
-=======
-Manaus Brazil	1
->>>>>>> origin/refactor_ngram_gen
 This Virginia	1
 Virginia stream	1
 stream was	1
@@ -7656,13 +6256,8 @@ the Europeans	1
 Europeans arrived	1
 arrived was	1
 was along	1
-<<<<<<< HEAD
-Grande Most	1
 island city-state	1
 city-state off	1
-=======
-island off	1
->>>>>>> origin/refactor_ngram_gen
 Peninsula are	1
 are Chinese	1
 Chinese </s>	1
@@ -7691,8 +6286,8 @@ the Jordan	1
 Jordan &	1
 & known	1
 its balm	1
-<<<<<<< HEAD
-balm Yes	1
+balm </s>	1
+<s> Yes	1
 Yes ,	1
 we have	1
 have piranhas	1
@@ -7701,17 +6296,7 @@ the Parana	1
 Parana ,	1
 this Uruguayan-Argentine	1
 Uruguayan-Argentine estuary	1
-estuary This	1
-=======
-balm </s>	1
-<s> Yes	1
-Yes we	1
-have piranhas	1
-piranhas in	1
-the Parana	1
-Parana the	1
 estuary </s>	1
->>>>>>> origin/refactor_ngram_gen
 This Icelandic	1
 Icelandic capital	1
 a bay	1
@@ -7724,16 +6309,11 @@ about 1,490	1
 1,490 ft.	1
 ft. above	1
 bottom over	1
-<<<<<<< HEAD
 over 5,300	1
 5,300 ft.	1
 ft. below	1
-below Picturesque	1
-=======
-over below	1
 below </s>	1
 <s> Picturesque	1
->>>>>>> origin/refactor_ngram_gen
 Picturesque Ionian	1
 Ionian island	1
 the birthplace	1
@@ -7758,15 +6338,9 @@ Tributaries of	1
 this Mississippi	1
 Mississippi tributary	1
 the Cheyenne	1
-<<<<<<< HEAD
 Cheyenne ,	1
 & Platte	1
-Platte Of	1
-=======
-Cheyenne James	1
-James Platte	1
 Platte </s>	1
->>>>>>> origin/refactor_ngram_gen
 Of Hawaii	1
 Hawaii 's	1
 's 8	1
@@ -7796,14 +6370,9 @@ This 2,194-mile	1
 is 748	1
 748 feet	1
 its source	1
-<<<<<<< HEAD
 source ,	1
 , 92	1
-mouth Of	1
-=======
-source 92	1
 mouth </s>	1
->>>>>>> origin/refactor_ngram_gen
 Of all	1
 with 2	1
 current NFL	1
@@ -7851,13 +6420,8 @@ ore-producing range	1
 range in	1
 in Minnesota	1
 Minnesota comes	1
-<<<<<<< HEAD
 `` giant	1
 giant ''	1
-=======
-for giant	1
-giant </s>	1
->>>>>>> origin/refactor_ngram_gen
 The piazza	1
 piazza where	1
 the young	1
@@ -7893,24 +6457,14 @@ Georgia swamp	1
 swamp as	1
 national wildlife	1
 wildlife refuge	1
-<<<<<<< HEAD
-refuge Lake	1
-Pontchartrain &	1
-=======
 refuge </s>	1
-Pontchartrain Bernard	1
->>>>>>> origin/refactor_ngram_gen
+Pontchartrain &	1
 Bernard Parish	1
 Parish form	1
 southern boundaries	1
-<<<<<<< HEAD
-boundaries Soloi	1
-Soloi ,	1
-=======
 boundaries </s>	1
 <s> Soloi	1
-Soloi a	1
->>>>>>> origin/refactor_ngram_gen
+Soloi ,	1
 a Greek	1
 Greek colony	1
 colony whose	1
@@ -7922,14 +6476,9 @@ good ,	1
 , gave	1
 an improper	1
 improper statement	1
-<<<<<<< HEAD
-statement Wales	1
+statement </s>	1
 Wales '	1
 ' smallest	1
-=======
-statement </s>	1
-Wales smallest	1
->>>>>>> origin/refactor_ngram_gen
 smallest city	1
 this patron	1
 saint who	1
@@ -7944,11 +6493,8 @@ the leading	1
 leading port	1
 gulf ,	1
 South China	1
-<<<<<<< HEAD
-Sea D.H.	1
+<s> D.H.	1
 D.H. Lawrence	1
-=======
->>>>>>> origin/refactor_ngram_gen
 Lawrence visited	1
 visited this	1
 in 1922	1
@@ -7957,16 +6503,10 @@ in 1922	1
 set his	1
 his 1923	1
 1923 novel	1
-<<<<<<< HEAD
 novel ``	1
 `` Kangaroo	1
 Kangaroo ''	1
-there Hispaniola	1
-=======
-novel Kangaroo	1
-Kangaroo there	1
 <s> Hispaniola	1
->>>>>>> origin/refactor_ngram_gen
 Hispaniola is	1
 island comprised	1
 comprised of	1
@@ -7982,15 +6522,10 @@ Honduran capital	1
 few capitals	1
 capitals in	1
 world without	1
-<<<<<<< HEAD
-railroad Coeur	1
-Coeur d'Alene	1
-d'Alene Lake	1
-=======
 railroad </s>	1
 <s> Coeur	1
-Coeur Lake	1
->>>>>>> origin/refactor_ngram_gen
+Coeur d'Alene	1
+d'Alene Lake	1
 Lake in	1
 the heart	1
 heart of	1
@@ -8034,13 +6569,8 @@ access to	1
 the 1952	1
 1952 winter	1
 winter Olympics	1
-<<<<<<< HEAD
-Olympics This	1
 This 113-mile	1
 113-mile sand	1
-=======
-This sand	1
->>>>>>> origin/refactor_ngram_gen
 sand bar	1
 bar along	1
 along Texas	1
@@ -8060,17 +6590,11 @@ DeKalb County	1
 Aden guards	1
 guards the	1
 southern entrance	1
-<<<<<<< HEAD
-sea Baharia	1
+<s> Baharia	1
 Baharia ,	1
 , Farafra	1
 Farafra &	1
 & Dakhla	1
-=======
-<s> Baharia	1
-Baharia Farafra	1
-Farafra Dakhla	1
->>>>>>> origin/refactor_ngram_gen
 Dakhla are	1
 are these	1
 these stopover	1
@@ -8089,13 +6613,8 @@ parts </s>	1
 Puerto Varas	1
 Varas is	1
 in Chile	1
-<<<<<<< HEAD
 & Puerto	1
-country Ticino	1
-=======
-Chile Puerto	1
 <s> Ticino	1
->>>>>>> origin/refactor_ngram_gen
 Ticino is	1
 southernmost canton	1
 canton </s>	1
@@ -8109,12 +6628,7 @@ Plain are	1
 are called	1
 `` Florida	1
 Florida Parishes	1
-<<<<<<< HEAD
 Parishes ''	1
-'' Once	1
-=======
-Parishes </s>	1
->>>>>>> origin/refactor_ngram_gen
 the Hittite	1
 Hittite Empire	1
 , Bogazkoy	1
@@ -8144,26 +6658,16 @@ was completed	1
 completed across	1
 across this	1
 river at	1
-<<<<<<< HEAD
 at St.	1
 St. Louis	1
-Louis This	1
-=======
-at Louis	1
 Louis </s>	1
->>>>>>> origin/refactor_ngram_gen
 the wife	1
 wife of	1
 King William	1
 William IV	1
-<<<<<<< HEAD
-IV Yuma	1
-Yuma ,	1
-=======
 IV </s>	1
 <s> Yuma	1
-Yuma Arizona	1
->>>>>>> origin/refactor_ngram_gen
+Yuma ,	1
 Arizona is	1
 city lying	1
 this 1450-mile-long	1
@@ -8177,13 +6681,8 @@ army post	1
 post on	1
 the Trinity	1
 Trinity River	1
-<<<<<<< HEAD
-River This	1
 historic wine-producing	1
 wine-producing region	1
-=======
-historic region	1
->>>>>>> origin/refactor_ngram_gen
 of France	1
 France has	1
 a kingdom	1
@@ -8191,16 +6690,10 @@ kingdom ,	1
 a duchy	1
 duchy ,	1
 a county	1
-<<<<<<< HEAD
 county &	1
-province NYC	1
+<s> NYC	1
 NYC 's	1
 's Brooklyn	1
-=======
-county a	1
-<s> NYC	1
-NYC Brooklyn	1
->>>>>>> origin/refactor_ngram_gen
 Bridge spans	1
 spans the	1
 East River	1
@@ -8310,15 +6803,9 @@ shores on	1
 the continents	1
 continents of	1
 of Asia	1
-<<<<<<< HEAD
 Asia ,	1
 , Africa	1
 Africa &	1
-Europe This	1
-=======
-Asia Africa	1
-Africa Europe	1
->>>>>>> origin/refactor_ngram_gen
 country consists	1
 a Muslim-Croat	1
 Muslim-Croat federation	1
@@ -8329,20 +6816,13 @@ southern Greek	1
 Greek peninsula	1
 peninsula was	1
 called Morea	1
-<<<<<<< HEAD
 Morea ,	1
 `` mulberry	1
 mulberry ''	1
 its mulberry-leaf	1
 mulberry-leaf shape	1
-shape Uruguayans	1
-=======
-Morea or	1
-or mulberry	1
-mulberry for	1
 shape </s>	1
 <s> Uruguayans	1
->>>>>>> origin/refactor_ngram_gen
 Uruguayans call	1
 call their	1
 their highlands	1
@@ -8372,12 +6852,7 @@ champion Auburn	1
 Auburn is	1
 <s> Hokkaido	1
 Hokkaido is	1
-<<<<<<< HEAD
-islands Wind	1
-=======
-country main	1
 <s> Wind	1
->>>>>>> origin/refactor_ngram_gen
 Wind Cave	1
 Cave National	1
 Park is	1
@@ -8391,20 +6866,13 @@ or its	1
 its inlets	1
 inlets include	1
 include Bordeaux	1
-<<<<<<< HEAD
 Bordeaux ,	1
 , Nantes	1
 Nantes &	1
 & Rochefort	1
-Rochefort Cabinda	1
-Cabinda ,	1
-=======
-Bordeaux Nantes	1
-Nantes Rochefort	1
 Rochefort </s>	1
 <s> Cabinda	1
-Cabinda an	1
->>>>>>> origin/refactor_ngram_gen
+Cabinda ,	1
 former Portuguese	1
 Portuguese colony	1
 rest of	1
@@ -8427,13 +6895,8 @@ morbid ,	1
 but it	1
 in California	1
 in all	1
-<<<<<<< HEAD
-. Perry	1
-Perry ,	1
-=======
 <s> Perry	1
-Perry the	1
->>>>>>> origin/refactor_ngram_gen
+Perry ,	1
 the barber	1
 barber turned	1
 turned singer	1
@@ -8456,12 +6919,12 @@ Dakota &	1
 Wyoming has	1
 largest gold	1
 gold mine	1
-<<<<<<< HEAD
 mine in	1
-. Watkins	1
+<s> Watkins	1
 Watkins Glen	1
 Glen International	1
-International Nastapoka	1
+International </s>	1
+<s> Nastapoka	1
 Nastapoka &	1
 & Hopewell	1
 Hopewell ,	1
@@ -8470,24 +6933,8 @@ Territories ,	1
 , hug	1
 hug the	1
 eastern shore	1
-bay Belize	1
 & parts	1
 & Guatemala	1
-=======
-<s> Watkins	1
-Watkins Glen	1
-Glen International	1
-International </s>	1
-<s> Nastapoka	1
-Nastapoka Hopewell	1
-Hopewell islands	1
-Canada Northwest	1
-Territories hug	1
-hug the	1
-eastern shore	1
-Belize parts	1
-Mexico Guatemala	1
->>>>>>> origin/refactor_ngram_gen
 Guatemala are	1
 only Central	1
 that does	1
@@ -8499,6 +6946,7 @@ Jose Napoleon	1
 Napoleon Duarte	1
 Duarte was	1
 was born	1
+born </s>	1
 <s> Tailless	1
 Tailless critters	1
 critters from	1
@@ -8527,7 +6975,7 @@ At an	1
 an altitude	1
 altitude of	1
 of 6,22	1
-6,22 The	1
+6,22 </s>	1
 The Grampians	1
 Grampians ,	1
 Great Dividing	1
@@ -8536,13 +6984,8 @@ Range ,	1
 by its	1
 its Aboriginal	1
 Aboriginal name	1
-<<<<<<< HEAD
 , Gariwerd	1
-Gariwerd Part	1
-=======
-name Gariwerd	1
 Gariwerd </s>	1
->>>>>>> origin/refactor_ngram_gen
 the Northwest	1
 Passage ,	1
 the Davis	1
@@ -8579,13 +7022,8 @@ there (	1
 ( he	1
 he did	1
 mean Elvis	1
-<<<<<<< HEAD
 Elvis )	1
-) Maracaibo	1
-=======
-Elvis </s>	1
 <s> Maracaibo	1
->>>>>>> origin/refactor_ngram_gen
 Maracaibo is	1
 `` where	1
 the wind	1
@@ -8593,11 +7031,7 @@ wind comes	1
 comes sweeping	1
 sweeping down	1
 the plain	1
-<<<<<<< HEAD
 plain ''	1
-=======
-plain </s>	1
->>>>>>> origin/refactor_ngram_gen
 The Arabic	1
 Arabic name	1
 this Muslim	1
@@ -8607,12 +7041,8 @@ northwest Africa	1
 Africa means	1
 The Western	1
 Western Kingdom	1
-<<<<<<< HEAD
 Kingdom ''	1
-'' Dracula	1
-=======
 <s> Dracula	1
->>>>>>> origin/refactor_ngram_gen
 Dracula could	1
 could tell	1
 tell you	1
@@ -8657,11 +7087,7 @@ state :	1
 : (	1
 ( Mount	1
 Mount Rushmore	1
-<<<<<<< HEAD
 Rushmore )	1
-=======
-Rushmore </s>	1
->>>>>>> origin/refactor_ngram_gen
 of Ob	1
 Ob in	1
 only free	1
@@ -8675,17 +7101,11 @@ year </s>	1
 Lakes in	1
 province include	1
 include Cedar	1
-<<<<<<< HEAD
 Cedar ,	1
 , Gods	1
 Gods &	1
 & Winnipegosis	1
-Winnipegosis The	1
-=======
-Cedar Gods	1
-Gods Winnipegosis	1
 Winnipegosis </s>	1
->>>>>>> origin/refactor_ngram_gen
 this Kansas	1
 Kansas town	1
 town inspired	1
@@ -8698,11 +7118,7 @@ Brooks '	1
 ' ``	1
 `` Blazing	1
 Blazing Saddles	1
-<<<<<<< HEAD
 Saddles ''	1
-=======
-Saddles </s>	1
->>>>>>> origin/refactor_ngram_gen
 largest number	1
 of active	1
 active volcanoes	1
@@ -8714,13 +7130,8 @@ Brocken is	1
 German mountain	1
 range known	1
 its canaries	1
-<<<<<<< HEAD
-canaries In	1
-`` Henry	1
-=======
 canaries </s>	1
-In Henry	1
->>>>>>> origin/refactor_ngram_gen
+`` Henry	1
 Henry VI	1
 VI ,	1
 , Part	1
@@ -8735,14 +7146,9 @@ Juliet ''	1
 a suitor	1
 suitor for	1
 for Juliet	1
-<<<<<<< HEAD
 Juliet 's	1
 's hand	1
-hand Major	1
-=======
-Juliet hand	1
 hand </s>	1
->>>>>>> origin/refactor_ngram_gen
 Major peaks	1
 include Mount	1
 Mount Sterling	1
@@ -8769,14 +7175,9 @@ connected by	1
 by highway	1
 highway to	1
 to Baghdad	1
-<<<<<<< HEAD
 Baghdad &	1
 & Damascus	1
-Damascus Known	1
-=======
-Baghdad Damascus	1
 Damascus </s>	1
->>>>>>> origin/refactor_ngram_gen
 Known as	1
 `` Father	1
 Father of	1
@@ -8785,26 +7186,16 @@ Waters ''	1
 river drains	1
 drains an	1
 of approx	1
-<<<<<<< HEAD
 approx .	1
 . 1,247,000	1
 1,247,000 square	1
-miles It	1
-=======
-approx square	1
->>>>>>> origin/refactor_ngram_gen
 touches 2	1
 the colorful	1
 colorful body	1
 water between	1
 between Korea	1
-<<<<<<< HEAD
 Korea &	1
 & Shanghai	1
-Shanghai This	1
-=======
-Korea Shanghai	1
->>>>>>> origin/refactor_ngram_gen
 This longest	1
 river on	1
 Earth flows	1
@@ -8825,13 +7216,8 @@ other nations	1
 river begins	1
 Mexico near	1
 near Brownsville	1
-<<<<<<< HEAD
 Brownsville ,	1
-Texas Igniting	1
-=======
-Brownsville Texas	1
 <s> Igniting	1
->>>>>>> origin/refactor_ngram_gen
 Igniting a	1
 a new	1
 new rush	1
@@ -8843,16 +7229,10 @@ Fipke discovered	1
 discovered diamonds	1
 diamonds in	1
 these barren	1
-<<<<<<< HEAD
 barren ``	1
 `` territories	1
 territories ''	1
-'' Skopje	1
-=======
-barren territories	1
-territories </s>	1
 <s> Skopje	1
->>>>>>> origin/refactor_ngram_gen
 Skopje is	1
 nation that	1
 once part	1
@@ -8866,11 +7246,7 @@ llano estacado	1
 estacado ,	1
 `` staked	1
 staked plains	1
-<<<<<<< HEAD
 plains ''	1
-=======
-plains </s>	1
->>>>>>> origin/refactor_ngram_gen
 The island	1
 of Anglesey	1
 Anglesey ,	1
@@ -8900,13 +7276,8 @@ inner and	1
 and outer	1
 outer regions	1
 regions are	1
-<<<<<<< HEAD
-Desert In	1
 In 1878-79	1
 1878-79 Baron	1
-=======
-In Baron	1
->>>>>>> origin/refactor_ngram_gen
 Baron Nordenskjold	1
 Nordenskjold became	1
 to traverse	1
@@ -8916,14 +7287,8 @@ route along	1
 along Europe	1
 's Arctic	1
 Arctic coast	1
-<<<<<<< HEAD
-coast Wyoming	1
-Wyoming 's	1
-=======
 <s> Wyoming	1
-Wyoming largest	1
-lake it	1
->>>>>>> origin/refactor_ngram_gen
+Wyoming 's	1
 lies right	1
 right in	1
 middle of	1
@@ -8937,13 +7302,8 @@ dry tablelands	1
 tablelands in	1
 Cape Mountains	1
 Mountains region	1
-<<<<<<< HEAD
-region James	1
-Bay ,	1
-=======
 <s> James	1
-Bay in	1
->>>>>>> origin/refactor_ngram_gen
+Bay ,	1
 in Ontario	1
 Ontario &	1
 & Quebec	1
@@ -8977,16 +7337,9 @@ gov't buildings	1
 buildings ,	1
 , Yamoussoukro	1
 Yamoussoukro is	1
-<<<<<<< HEAD
 's official	1
 tusk ,	1
-tusk The	1
-=======
-country official	1
-capital tusk	1
-tusk tusk	1
 tusk </s>	1
->>>>>>> origin/refactor_ngram_gen
 The New	1
 York state	1
 state barge	1
@@ -9015,14 +7368,9 @@ French names	1
 <s> Peninsulas	1
 Peninsulas in	1
 the Zamboanga	1
-<<<<<<< HEAD
 Zamboanga &	1
 & Bataan	1
-Bataan In	1
-=======
-Zamboanga Bataan	1
 Bataan </s>	1
->>>>>>> origin/refactor_ngram_gen
 In 1958	1
 1958 the	1
 the Communist	1
@@ -9052,15 +7400,10 @@ Venezuelan capital	1
 capital with	1
 of La	1
 La Guaira	1
-<<<<<<< HEAD
-Guaira The	1
+Guaira </s>	1
 The U.S.A.	1
 U.S.A. 's	1
 's strongest	1
-=======
-Guaira </s>	1
-The strongest	1
->>>>>>> origin/refactor_ngram_gen
 strongest surface	1
 surface wind	1
 wind ,	1
@@ -9070,30 +7413,20 @@ MPH ,	1
 was recorded	1
 recorded on	1
 Hampshire mountain	1
-mountain The	1
+mountain </s>	1
 the Quinnipiac	1
 Quinnipiac &	1
 & Saugatuck	1
 Saugatuck Rivers	1
 Rivers ,	1
 this sound	1
-<<<<<<< HEAD
-sound Except	1
-, Bangladesh	1
-=======
 sound </s>	1
-coast Bangladesh	1
->>>>>>> origin/refactor_ngram_gen
+, Bangladesh	1
 Bangladesh is	1
 almost entirely	1
 entirely surrounded	1
 have capitals	1
 capitals with	1
-<<<<<<< HEAD
-names Once	1
-=======
-with City	1
->>>>>>> origin/refactor_ngram_gen
 the French	1
 French Protectorate	1
 Protectorate of	1
@@ -9119,21 +7452,12 @@ pyramids ,	1
 Giza is	1
 a suburb	1
 suburb of	1
-<<<<<<< HEAD
-city Australia	1
 's National	1
-=======
-Australia National	1
->>>>>>> origin/refactor_ngram_gen
 National Library	1
 Library in	1
 city overlooks	1
 overlooks Lake	1
-<<<<<<< HEAD
-Griffin City	1
 City in	1
-=======
->>>>>>> origin/refactor_ngram_gen
 can see	1
 see the	1
 the following	1
@@ -9142,13 +7466,9 @@ view :	1
 : [	1
 [ Sugarloaf	1
 Sugarloaf Mountain	1
-<<<<<<< HEAD
 Mountain ]	1
-] Montego	1
-=======
-Mountain </s>	1
+] </s>	1
 <s> Montego	1
->>>>>>> origin/refactor_ngram_gen
 Montego Bay	1
 Bay has	1
 been called	1
@@ -9202,14 +7522,9 @@ has boroughs	1
 boroughs (	1
 or is	1
 is it	1
-<<<<<<< HEAD
 it brrr-oughs	1
 brrr-oughs ?	1
 ? )	1
-) This	1
-=======
-range a	1
->>>>>>> origin/refactor_ngram_gen
 a segment	1
 segment of	1
 the Rockies	1
@@ -9220,8 +7535,7 @@ southeastern Idaho	1
 Idaho to	1
 to north	1
 central Utah	1
-<<<<<<< HEAD
-Utah Staffordshire	1
+<s> Staffordshire	1
 Staffordshire 's	1
 chief river	1
 the Trent	1
@@ -9230,14 +7544,6 @@ is this-	1
 this- ''	1
 '' on-Trent	1
 on-Trent ''	1
-=======
-<s> Staffordshire	1
-Staffordshire chief	1
-chief river	1
-the Trent	1
-Trent its	1
-is </s>	1
->>>>>>> origin/refactor_ngram_gen
 main branches	1
 branches of	1
 inlet in	1
@@ -9253,18 +7559,9 @@ the live	1
 live music	1
 music show	1
 show capital	1
-<<<<<<< HEAD
 world ''	1
-'' Though	1
 Though 50	1
 inland from	1
-ports A	1
-=======
-Though 50	1
-inland from	1
-Mexico this	1
-nation major	1
->>>>>>> origin/refactor_ngram_gen
 A world	1
 world famous	1
 famous orchid	1
@@ -9288,29 +7585,20 @@ Syria ,	1
 then S.	1
 S. through	1
 through Palestine	1
-<<<<<<< HEAD
-Palestine Surtsey	1
-Surtsey ,	1
-=======
 Palestine </s>	1
 <s> Surtsey	1
-Surtsey a	1
->>>>>>> origin/refactor_ngram_gen
+Surtsey ,	1
 volcanic island	1
 for Surtur	1
 Surtur ,	1
 a mythical	1
 mythical god	1
 god of	1
+fire </s>	1
 2 northern	1
 northern extensions	1
 extensions of	1
-<<<<<<< HEAD
 Aqaba &	1
-gulf This	1
-=======
-Aqaba this	1
->>>>>>> origin/refactor_ngram_gen
 lowest in	1
 in elevation	1
 elevation &	1
@@ -9321,14 +7609,9 @@ Lagting is	1
 the local	1
 local parliament	1
 parliament in	1
-<<<<<<< HEAD
-group At	1
 At 7,339	1
 7,339 feet	1
 , Mount	1
-=======
-feet Mount	1
->>>>>>> origin/refactor_ngram_gen
 Mount Orohena	1
 Orohena on	1
 the Society	1
@@ -9339,13 +7622,8 @@ Coast province	1
 is third	1
 third largest	1
 both area	1
-<<<<<<< HEAD
 area &	1
 & population	1
-population The	1
-=======
-area population	1
->>>>>>> origin/refactor_ngram_gen
 The Sea	1
 of Galilee	1
 Galilee is	1
@@ -9355,34 +7633,19 @@ a broad	1
 broad basin	1
 basin of	1
 of Oporto	1
-<<<<<<< HEAD
-Oporto Idaho	1
+Oporto </s>	1
 capital ;	1
-well This	1
+well </s>	1
 `` gem	1
 gem ''	1
-=======
-Oporto </s>	1
-Idaho capital	1
-capital it	1
-well </s>	1
-This gem	1
-gem of	1
->>>>>>> origin/refactor_ngram_gen
 river becomes	1
 becomes a	1
 a 20-mile-wide	1
 20-mile-wide estuary	1
 estuary between	1
 between Hong	1
-<<<<<<< HEAD
 & Macao	1
-Macao Canada	1
-=======
-Kong Macao	1
 Macao </s>	1
-Canada James	1
->>>>>>> origin/refactor_ngram_gen
 Thomas James	1
 who explored	1
 explored it	1
@@ -9394,13 +7657,8 @@ passage </s>	1
 Turkey invaded	1
 invaded the	1
 in 1974	1
-<<<<<<< HEAD
-1974 Alabama	1
-'s general	1
-=======
 1974 </s>	1
-Alabama general	1
->>>>>>> origin/refactor_ngram_gen
+'s general	1
 general coastline	1
 , only	1
 only 53	1
@@ -9411,8 +7669,7 @@ Romans as	1
 as Numidia	1
 Numidia ,	1
 large African	1
-<<<<<<< HEAD
-Sea Saskatchewan	1
+<s> Saskatchewan	1
 Saskatchewan 's	1
 's third-largest	1
 third-largest city	1
@@ -9421,16 +7678,7 @@ like it	1
 for Bullwinkle	1
 Bullwinkle 's	1
 's mandible	1
-mandible The	1
-=======
-<s> Saskatchewan	1
-Saskatchewan city	1
-it sounds	1
-like it	1
-for Bullwinkle	1
-Bullwinkle mandible	1
 mandible </s>	1
->>>>>>> origin/refactor_ngram_gen
 most densely	1
 densely populated	1
 populated state	1
@@ -9443,14 +7691,9 @@ Atlantic state	1
 's 21	1
 21 counties	1
 counties has	1
-<<<<<<< HEAD
 50,000 people	1
-people The	1
 The 200,000-square-mile	1
 200,000-square-mile Libyan	1
-=======
-over people	1
->>>>>>> origin/refactor_ngram_gen
 Libyan Erg	1
 Erg is	1
 <s> Port	1
@@ -9465,12 +7708,7 @@ the Indonesian	1
 Indonesian province	1
 of Irian	1
 Irian Jaya	1
-<<<<<<< HEAD
 Jaya ,	1
-island Only	1
-=======
-Jaya is	1
->>>>>>> origin/refactor_ngram_gen
 Only Universal	1
 Universal Studios	1
 Studios '	1
@@ -9481,12 +7719,8 @@ effects &	1
 Moses could	1
 could part	1
 part it	1
-<<<<<<< HEAD
-it Africa	1
+it </s>	1
 's Rusizi	1
-=======
-Africa Rusizi	1
->>>>>>> origin/refactor_ngram_gen
 Rusizi is	1
 few rivers	1
 rivers that	1
@@ -9522,13 +7756,8 @@ common nickname	1
 nickname that	1
 that refers	1
 its size	1
-<<<<<<< HEAD
 size ,	1
-States Algonquin	1
-=======
-size this	1
 <s> Algonquin	1
->>>>>>> origin/refactor_ngram_gen
 Algonquin Peak	1
 Peak in	1
 as Mount	1
@@ -9551,26 +7780,16 @@ is over	1
 over 1	1
 1 million	1
 of steppe	1
-<<<<<<< HEAD
 steppe &	1
 & tundra	1
-tundra Large	1
-=======
-steppe tundra	1
 tundra </s>	1
->>>>>>> origin/refactor_ngram_gen
 Large aboriginal	1
 aboriginal populations	1
 populations live	1
 's states	1
 states of	1
-<<<<<<< HEAD
 Queensland &	1
-Wales Belgian	1
-=======
-Queensland New	1
 <s> Belgian	1
->>>>>>> origin/refactor_ngram_gen
 Belgian city	1
 city whose	1
 name has	1
@@ -9597,13 +7816,8 @@ near its	1
 its northwestern	1
 northwestern border	1
 with Norway	1
-<<<<<<< HEAD
-Norway Babylon	1
-Babylon ,	1
-=======
 <s> Babylon	1
-Babylon where	1
->>>>>>> origin/refactor_ngram_gen
+Babylon ,	1
 where Iraq	1
 Iraq is	1
 now ,	1
@@ -9642,11 +7856,7 @@ Ainu origin	1
 origin meaning	1
 `` everlasting	1
 everlasting life	1
-<<<<<<< HEAD
 life ''	1
-=======
-life </s>	1
->>>>>>> origin/refactor_ngram_gen
 The Calendar	1
 Calendar Islands	1
 Islands of	1
@@ -9675,20 +7885,12 @@ windy region	1
 Valdez Peninsula	1
 Cities on	1
 include Aliquippa	1
-<<<<<<< HEAD
 Aliquippa ,	1
 , Pennsylvania	1
 & Louisville	1
 Louisville ,	1
 , Kentucky	1
-Kentucky It	1
 & chief	1
-=======
-Aliquippa Pennsylvania	1
-Pennsylvania Louisville	1
-Louisville Kentucky	1
-capital chief	1
->>>>>>> origin/refactor_ngram_gen
 seaport of	1
 of Trinidad	1
 Until 1940	1
@@ -9699,18 +7901,10 @@ Ladoga ,	1
 largest entirely	1
 was shared	1
 by Russia	1
-<<<<<<< HEAD
-west Kuwait	1
+<s> Kuwait	1
 Kuwait 's	1
 , Bubiyan	1
 Bubiyan ,	1
-gulf Mont	1
-=======
-<s> Kuwait	1
-Kuwait largest	1
-island Bubiyan	1
-Bubiyan lies	1
->>>>>>> origin/refactor_ngram_gen
 Blanc is	1
 mountains that	1
 that stretch	1
@@ -9732,12 +7926,7 @@ shake Djibouti	1
 Djibouti ,	1
 you have	1
 be on	1
-<<<<<<< HEAD
-continent South	1
 's Andean	1
-=======
-America Andean	1
->>>>>>> origin/refactor_ngram_gen
 Andean coastal	1
 plain gets	1
 gets lots	1
@@ -9778,14 +7967,8 @@ of Abuja	1
 Abuja replaced	1
 replaced Lagos	1
 Lagos as	1
-<<<<<<< HEAD
-capital Finland	1
 Finland 's	1
-country Cadillac	1
-=======
-Finland northernmost	1
 <s> Cadillac	1
->>>>>>> origin/refactor_ngram_gen
 Cadillac Mountain	1
 the Eastern	1
 Eastern Seaboard	1
@@ -9808,14 +7991,9 @@ satellite launch	1
 launch complex	1
 complex at	1
 at Kourou	1
-<<<<<<< HEAD
-Kourou It	1
+Kourou </s>	1
 's one	1
 3 U.S.	1
-=======
-Kourou </s>	1
-It one	1
->>>>>>> origin/refactor_ngram_gen
 capitals found	1
 <s> Chappaquiddick	1
 Chappaquiddick Island	1
@@ -9846,27 +8024,15 @@ desert is	1
 the Orapa	1
 Orapa diamond	1
 diamond mine	1
-<<<<<<< HEAD
-largest You	1
 You 'd	1
-=======
-mine one	1
->>>>>>> origin/refactor_ngram_gen
 of Kotte	1
 Kotte 'n	1
 'n '	1
 ' Kandy	1
 Kandy on	1
-<<<<<<< HEAD
 `` Serendipitous	1
 Serendipitous ''	1
-island (	1
 ( Sofia	1
-=======
-this Serendipitous	1
-Serendipitous island	1
-<s> Sofia	1
->>>>>>> origin/refactor_ngram_gen
 Sofia of	1
 the Clue	1
 Clue Crew	1
@@ -9898,15 +8064,9 @@ Novgorod in	1
 in Russia	1
 famous Communist	1
 Communist writer	1
-<<<<<<< HEAD
-writer This	1
+writer </s>	1
 Union 's	1
 largest ,	1
-=======
-writer </s>	1
-Union second	1
-largest was	1
->>>>>>> origin/refactor_ngram_gen
 founded at	1
 the Neva	1
 Neva River	1
@@ -9932,16 +8092,10 @@ Irish port	1
 river Suir	1
 Suir famous	1
 its crystal	1
-<<<<<<< HEAD
-crystal Paramaribo	1
-Paramaribo ,	1
-, came	1
-=======
 crystal </s>	1
 <s> Paramaribo	1
-Paramaribo capital	1
-country came	1
->>>>>>> origin/refactor_ngram_gen
+Paramaribo ,	1
+, came	1
 under Dutch	1
 Dutch rule	1
 rule in	1
@@ -9954,44 +8108,26 @@ golly !	1
 Malawi is	1
 is traversed	1
 traversed by	1
-<<<<<<< HEAD
 '' valley	1
-valley With	1
-=======
-great valley	1
 valley </s>	1
->>>>>>> origin/refactor_ngram_gen
 of more	1
 than 190	1
 190 million	1
 million ,	1
 , Uttar	1
 Pradesh is	1
-<<<<<<< HEAD
-state Sherpas	1
+<s> Sherpas	1
 Sherpas &	1
 & gurkhas	1
-=======
-country largest	1
-<s> Sherpas	1
-Sherpas gurkhas	1
->>>>>>> origin/refactor_ngram_gen
 gurkhas lurka	1
 lurka in	1
 in Pokhara	1
 Pokhara in	1
-<<<<<<< HEAD
-country Moab	1
+<s> Moab	1
 Moab ,	1
 , Ruth	1
 Ruth 's	1
 home ,	1
-=======
-<s> Moab	1
-Moab Ruth	1
-Ruth home	1
-home sits	1
->>>>>>> origin/refactor_ngram_gen
 sits on	1
 east side	1
 's drainage	1
@@ -10027,18 +8163,10 @@ island which	1
 which was	1
 as Bourbon	1
 Bourbon Island	1
-<<<<<<< HEAD
-Island Asia	1
 's called	1
 `` China	1
 's fortune	1
 fortune ''	1
-=======
-it called	1
-called China	1
-China fortune	1
-fortune because	1
->>>>>>> origin/refactor_ngram_gen
 its fertile	1
 fertile soil	1
 soil &	1
@@ -10063,16 +8191,10 @@ world that	1
 that begin	1
 begin with	1
 the letter	1
-<<<<<<< HEAD
 letter ``	1
 `` J	1
 J ''	1
-'' Bhopal	1
-=======
-letter J	1
-J </s>	1
 <s> Bhopal	1
->>>>>>> origin/refactor_ngram_gen
 Bhopal is	1
 's Madhya	1
 Madhya Pradesh	1
@@ -10098,13 +8220,9 @@ Fujayrah &	1
 & Umm	1
 Umm Al	1
 Al Qaywayn	1
-<<<<<<< HEAD
-Qaywayn Col.	1
-Col. Thomas	1
-=======
 Qaywayn </s>	1
-<s> Thomas	1
->>>>>>> origin/refactor_ngram_gen
+<s> Col.	1
+Col. Thomas	1
 Thomas Baker	1
 Baker founded	1
 founded this	1
@@ -10128,15 +8246,9 @@ flows 2,734	1
 miles to	1
 to Lake	1
 Superior by	1
-<<<<<<< HEAD
 St. Mary	1
 Mary 's	1
 's River	1
-River Much	1
-=======
-the Mary	1
-Mary River	1
->>>>>>> origin/refactor_ngram_gen
 range that	1
 Arctic &	1
 & divides	1
@@ -10155,12 +8267,8 @@ Estonia 's	1
 area consists	1
 of islands	1
 islands in	1
-<<<<<<< HEAD
-sea 4,406-foot	1
+<s> 4,406-foot	1
 4,406-foot Ben	1
-=======
-<s> Ben	1
->>>>>>> origin/refactor_ngram_gen
 Ben Nevis	1
 Nevis is	1
 2 independent	1
@@ -10168,18 +8276,11 @@ independent South	1
 countries named	1
 after famous	1
 famous men	1
-<<<<<<< HEAD
-men The	1
+men </s>	1
 The redundant-sounding	1
 redundant-sounding Townsville	1
 Townsville ,	1
 's Queensland	1
-=======
-men </s>	1
-The Townsville	1
-Townsville in	1
-country Queensland	1
->>>>>>> origin/refactor_ngram_gen
 Queensland state	1
 for Robert	1
 Robert Towns	1
@@ -10192,11 +8293,6 @@ of Algeria	1
 Algeria is	1
 is covered	1
 covered by	1
-<<<<<<< HEAD
-desert Mount	1
-=======
-Elbrus Europe	1
->>>>>>> origin/refactor_ngram_gen
 point at	1
 at 18,510	1
 18,510 feet	1
@@ -10224,21 +8320,11 @@ Stevenson ,	1
 and Dan	1
 Dan Ryan	1
 Ryan expressways	1
-<<<<<<< HEAD
-expressways This	1
+expressways </s>	1
 `` canine	1
 canine ''	1
 '' state	1
 is Mexico	1
-area California	1
-=======
-expressways </s>	1
-This canine	1
-canine state	1
-is Mexico	1
-Mexico largest	1
-California 2	1
->>>>>>> origin/refactor_ngram_gen
 2 longest	1
 longest rivers	1
 the San	1
@@ -10272,11 +8358,6 @@ oysters found	1
 found primarily	1
 primarily in	1
 in Puget	1
-<<<<<<< HEAD
-Sound In	1
-=======
-area this	1
->>>>>>> origin/refactor_ngram_gen
 New England	1
 England state	1
 state roughly	1
@@ -10293,26 +8374,16 @@ In Spain	1
 Spain this	1
 this second-largest	1
 major port	1
-<<<<<<< HEAD
-Sea Callao	1
-Callao ,	1
-=======
 <s> Callao	1
-Callao the	1
->>>>>>> origin/refactor_ngram_gen
+Callao ,	1
 of Lima	1
 Lima ,	1
 , handles	1
 handles about	1
-<<<<<<< HEAD
 about 3/4	1
 3/4 of	1
 's imports	1
-imports This	1
-=======
-country imports	1
 imports </s>	1
->>>>>>> origin/refactor_ngram_gen
 This last	1
 last colony	1
 colony in	1
@@ -10328,12 +8399,7 @@ rivers shares	1
 this estuary	1
 estuary that	1
 separates Uruguay	1
-<<<<<<< HEAD
 Uruguay &	1
-Argentina This	1
-=======
-Uruguay Argentina	1
->>>>>>> origin/refactor_ngram_gen
 seaport was	1
 by Nikolai	1
 Nikolai Muravyov	1
@@ -10357,40 +8423,23 @@ northern capital	1
 state borders	1
 borders two	1
 two Canadian	1
-<<<<<<< HEAD
 provinces :	1
 : Manitoba	1
 Manitoba &	1
 & Saskatchewan	1
-Saskatchewan It	1
-=======
-provinces Manitoba	1
-Manitoba Saskatchewan	1
-It The	1
->>>>>>> origin/refactor_ngram_gen
 The Natural	1
 Natural State	1
 '' as	1
 The Land	1
 of Opportunity	1
-<<<<<<< HEAD
 Opportunity ''	1
-'' Moncton	1
-Moncton in	1
-the Acadians	1
-Acadians This	1
-port ,	1
-, Japan	1
-Japan 's	1
-=======
-Opportunity </s>	1
 <s> Moncton	1
 Moncton in	1
 the Acadians	1
 Acadians </s>	1
-port Japan	1
-Japan second	1
->>>>>>> origin/refactor_ngram_gen
+port ,	1
+, Japan	1
+Japan 's	1
 only 20	1
 20 miles	1
 from Tokyo	1
@@ -10406,7 +8455,6 @@ war over	1
 over these	1
 these South	1
 American islands	1
-islands This	1
 This grassy	1
 grassy plain	1
 plain covers	1
@@ -10417,11 +8465,7 @@ Ukraine east	1
 east to	1
 the Altai	1
 Altai Mountains	1
-<<<<<<< HEAD
 Mountains in	1
-Siberia Called	1
-=======
->>>>>>> origin/refactor_ngram_gen
 Called Sagarmatha	1
 Sagarmatha in	1
 in Nepali	1
@@ -10429,17 +8473,11 @@ Nepali ,	1
 's this	1
 peak to	1
 to us	1
-<<<<<<< HEAD
-us At	1
+us </s>	1
 At 14,433	1
 14,433 feet	1
 , Mt	1
 . Elbert	1
-=======
-us </s>	1
-feet Mt	1
-Mt Elbert	1
->>>>>>> origin/refactor_ngram_gen
 a real	1
 real Rocky	1
 Rocky Mountain	1
@@ -10509,14 +8547,9 @@ presidential visit	1
 visit to	1
 the Alaska	1
 Alaska Territory	1
-<<<<<<< HEAD
 Territory &	1
 & to	1
-nation Ancient	1
-=======
-Territory to	1
 <s> Ancient	1
->>>>>>> origin/refactor_ngram_gen
 Ancient village	1
 village in	1
 Mexico known	1
@@ -10541,12 +8574,7 @@ southern Thailand	1
 Thailand to	1
 the Johor	1
 Johor Strait	1
-<<<<<<< HEAD
-Strait This	1
 's Acadia	1
-=======
-state Acadia	1
->>>>>>> origin/refactor_ngram_gen
 Park includes	1
 includes parts	1
 of Isle	1
@@ -10564,12 +8592,8 @@ U.S. established	1
 a base	1
 this Ecuadoran	1
 Ecuadoran island	1
-<<<<<<< HEAD
-group It	1
 longest U.S.	1
 U.S. river	1
-=======
->>>>>>> origin/refactor_ngram_gen
 river east	1
 <s> Middle	1
 Middle Island	1
@@ -10582,13 +8606,8 @@ constitutes 1	1
 's 3	1
 3 administrative	1
 administrative regions	1
-<<<<<<< HEAD
-regions This	1
-'s Polyus	1
-=======
 regions </s>	1
-continent Polyus	1
->>>>>>> origin/refactor_ngram_gen
+'s Polyus	1
 Polyus Nedostupnosti	1
 Nedostupnosti ,	1
 the pole	1
@@ -10607,12 +8626,7 @@ some areas	1
 areas of	1
 desert are	1
 are below	1
-<<<<<<< HEAD
-level This	1
-=======
 level </s>	1
-state highest	1
->>>>>>> origin/refactor_ngram_gen
 is Mount	1
 Mount Frissell	1
 Frissell ;	1
@@ -10644,12 +8658,8 @@ I can	1
 can .	1
 . Play	1
 Play it	1
-<<<<<<< HEAD
 it !	1
 ! ''	1
-'' Kuala	1
-=======
->>>>>>> origin/refactor_ngram_gen
 Lumpur is	1
 this 5-letter	1
 5-letter peninsula	1
@@ -10659,15 +8669,10 @@ this Sicilian	1
 volcano is	1
 about 100	1
 in circumference	1
-<<<<<<< HEAD
-circumference At	1
+circumference </s>	1
 At 16,800	1
 16,800 feet	1
 , Vinson	1
-=======
-circumference </s>	1
-feet Vinson	1
->>>>>>> origin/refactor_ngram_gen
 Vinson Massif	1
 Massif is	1
 The Ionian	1
@@ -10714,16 +8719,10 @@ for 1,250	1
 1,250 miles	1
 & covers	1
 covers an	1
-<<<<<<< HEAD
 about 134,000	1
 134,000 sq	1
 sq .	1
 . miles	1
-miles The	1
-=======
-about sq	1
-sq miles	1
->>>>>>> origin/refactor_ngram_gen
 The Khitans	1
 Khitans ,	1
 who founded	1
@@ -10734,16 +8733,10 @@ in 907	1
 907 ,	1
 , called	1
 city Nanking	1
-<<<<<<< HEAD
-Nanking Hamlet	1
-Hamlet 's	1
-'s father	1
-=======
 Nanking </s>	1
 <s> Hamlet	1
-Hamlet father	1
-father the	1
->>>>>>> origin/refactor_ngram_gen
+Hamlet 's	1
+'s father	1
 the king	1
 Denmark ,	1
 , killed	1
@@ -10752,13 +8745,8 @@ Fortinbras '	1
 ' father	1
 , king	1
 nearby country	1
-<<<<<<< HEAD
-country Entoto	1
-Entoto ,	1
-=======
 <s> Entoto	1
-Entoto the	1
->>>>>>> origin/refactor_ngram_gen
+Entoto ,	1
 old capital	1
 was very	1
 very cold	1
@@ -10820,24 +8808,14 @@ drawn directly	1
 directly from	1
 from underground	1
 underground springs	1
-<<<<<<< HEAD
-springs Most	1
-=======
 springs </s>	1
-rivers including	1
->>>>>>> origin/refactor_ngram_gen
 including the	1
 the Congo	1
 Congo &	1
 the Niger	1
-<<<<<<< HEAD
 Niger ,	1
 , flow	1
-ocean Everybody	1
-=======
-Niger flow	1
 <s> Everybody	1
->>>>>>> origin/refactor_ngram_gen
 Everybody Hates	1
 Hates Chris	1
 Chris ,	1
@@ -10860,11 +8838,7 @@ their chops	1
 chops is	1
 <s> Carson	1
 Carson City	1
-<<<<<<< HEAD
 City ,	1
-=======
-City the	1
->>>>>>> origin/refactor_ngram_gen
 this western	1
 western state	1
 for Kit	1
@@ -10886,15 +8860,9 @@ Grand Peak	1
 Venezuela has	1
 2 tallest	1
 tallest waterfalls	1
-<<<<<<< HEAD
 waterfalls ,	1
 , Cuquenan	1
 Cuquenan &	1
-one This	1
-=======
-waterfalls Cuquenan	1
-Cuquenan this	1
->>>>>>> origin/refactor_ngram_gen
 small Mideastern	1
 Mideastern country	1
 's Bekaa	1
@@ -10952,13 +8920,8 @@ Rhine River	1
 River became	1
 became West	1
 in 1949	1
-<<<<<<< HEAD
-1949 New	1
-Jersey 's	1
-=======
 1949 </s>	1
-Jersey eastern	1
->>>>>>> origin/refactor_ngram_gen
+Jersey 's	1
 eastern border	1
 This word	1
 a love	1
@@ -10992,13 +8955,8 @@ Tonle Sap	1
 Sap ,	1
 , flooding	1
 flooding the	1
-<<<<<<< HEAD
-country Luckily	1
-Luckily ,	1
-=======
 <s> Luckily	1
-Luckily the	1
->>>>>>> origin/refactor_ngram_gen
+Luckily ,	1
 the 1947	1
 1947 Alan	1
 Alan Ladd	1
@@ -11008,13 +8966,8 @@ black hole	1
 hole ''	1
 in his	1
 his career	1
-<<<<<<< HEAD
-career Seoul	1
-Seoul 's	1
-=======
 career </s>	1
-Seoul chief	1
->>>>>>> origin/refactor_ngram_gen
+Seoul 's	1
 nearby city	1
 where MacArthur	1
 MacArthur 's	1
@@ -11025,15 +8978,9 @@ September 1950	1
 1950 </s>	1
 country contains	1
 contains South	1
-<<<<<<< HEAD
 highest &	1
 & lowest	1
-points First	1
-=======
-America highest	1
-highest lowest	1
 <s> First	1
->>>>>>> origin/refactor_ngram_gen
 First colony	1
 colony since	1
 since 1776	1
@@ -11051,11 +8998,6 @@ Continent with	1
 most square	1
 of dry	1
 dry desert	1
-<<<<<<< HEAD
-desert Russia	1
-=======
-Russia southernmost	1
->>>>>>> origin/refactor_ngram_gen
 in Dagestan	1
 Dagestan ,	1
 republic bordering	1
@@ -11100,13 +9042,8 @@ the Laurentian	1
 Laurentian Plateau	1
 Plateau is	1
 Canadian this	1
-<<<<<<< HEAD
-this About	1
 About 70,000	1
 70,000 now	1
-=======
-About now	1
->>>>>>> origin/refactor_ngram_gen
 now live	1
 this planned	1
 planned ``	1
@@ -11117,12 +9054,9 @@ town ''	1
 in 1967	1
 1967 between	1
 between Baltimore	1
-<<<<<<< HEAD
 Baltimore &	1
 & D.C	1
 D.C .	1
-=======
->>>>>>> origin/refactor_ngram_gen
 The ownership	1
 ownership of	1
 the islands	1
@@ -11139,14 +9073,9 @@ country forms	1
 the entire	1
 entire shoreline	1
 shoreline of	1
-<<<<<<< HEAD
-Marmara Virginia	1
+<s> Virginia	1
 Virginia 's	1
 's Rappahannock	1
-=======
-<s> Virginia	1
-Virginia Rappahannock	1
->>>>>>> origin/refactor_ngram_gen
 Rappahannock River	1
 western portion	1
 Baltic island	1
@@ -11161,8 +9090,7 @@ only papal	1
 papal state	1
 state left	1
 left in	1
-<<<<<<< HEAD
-world Abingdon	1
+<s> Abingdon	1
 Abingdon ,	1
 , Windsor	1
 Windsor ,	1
@@ -11171,17 +9099,8 @@ Gravesend &	1
 & Southend-On-Sea	1
 Southend-On-Sea are	1
 European river	1
-river Buffalo	1
 Buffalo &	1
 & Cleveland	1
-=======
-<s> Abingdon	1
-Abingdon Windsor	1
-Windsor Gravesend	1
-Gravesend are	1
-European river	1
-Buffalo Cleveland	1
->>>>>>> origin/refactor_ngram_gen
 Cleveland are	1
 are major	1
 ports on	1
@@ -11207,12 +9126,7 @@ third-most populous	1
 The Raritan	1
 Raritan is	1
 river wholly	1
-<<<<<<< HEAD
-state Over	1
 Over 1/3	1
-=======
-Over of	1
->>>>>>> origin/refactor_ngram_gen
 former whaling	1
 whaling port	1
 of Mass	1
@@ -11221,12 +9135,7 @@ Mass .	1
 are of	1
 of Portuguese	1
 Portuguese ancestry	1
-<<<<<<< HEAD
-ancestry Except	1
-=======
 ancestry </s>	1
-coast this	1
->>>>>>> origin/refactor_ngram_gen
 this sultanate	1
 sultanate is	1
 is completely	1
@@ -11280,14 +9189,9 @@ was designated	1
 designated the	1
 the sixth	1
 sixth Great	1
-<<<<<<< HEAD
-Lake Dragon	1
+<s> Dragon	1
 Dragon 's	1
 's Mouth	1
-=======
-<s> Dragon	1
-Dragon Mouth	1
->>>>>>> origin/refactor_ngram_gen
 Mouth is	1
 separates Venezuela	1
 Venezuela 's	1
@@ -11302,48 +9206,26 @@ fewest :	1
 : Kent	1
 Kent ,	1
 New Castle	1
-<<<<<<< HEAD
 Castle &	1
 & Sussex	1
-Sussex The	1
+Sussex </s>	1
 `` Kitai	1
 Kitai ''	1
 '' or	1
 `` Cathay	1
 Cathay ''	1
-'' South	1
-=======
-Castle Sussex	1
-Sussex </s>	1
-called Kitai	1
-Kitai or	1
-or Cathay	1
-Cathay </s>	1
-America Cape	1
->>>>>>> origin/refactor_ngram_gen
 Cape Horn	1
 Horn was	1
 of Hoorn	1
 Hoorn in	1
-<<<<<<< HEAD
-country Hippo	1
+<s> Hippo	1
 Hippo ,	1
 continent ,	1
 the diocesan	1
 diocesan seat	1
 St. Augustine	1
-Augustine If	1
-'re thinking	1
-=======
-<s> Hippo	1
-Hippo in	1
-continent was	1
-the diocesan	1
-diocesan seat	1
-of Augustine	1
 Augustine </s>	1
-you thinking	1
->>>>>>> origin/refactor_ngram_gen
+'re thinking	1
 thinking of	1
 one should	1
 should spring	1
@@ -11356,11 +9238,7 @@ famous canyon	1
 canyon on	1
 `` Garden	1
 Garden Isle	1
-<<<<<<< HEAD
 Isle ''	1
-Hawaii In	1
-=======
->>>>>>> origin/refactor_ngram_gen
 In 1884	1
 1884 it	1
 it lost	1
@@ -11369,12 +9247,7 @@ its Atacama	1
 Atacama province	1
 province to	1
 to Chile	1
-<<<<<<< HEAD
 & became	1
-country India	1
-=======
-Chile became	1
->>>>>>> origin/refactor_ngram_gen
 India is	1
 the 40-mile-wide	1
 40-mile-wide Palk	1
@@ -11398,14 +9271,9 @@ capital lies	1
 about halfway	1
 halfway between	1
 between Vancouver	1
-<<<<<<< HEAD
 Vancouver &	1
 & Montreal	1
-Montreal Lake	1
-=======
-Vancouver Montreal	1
 Montreal </s>	1
->>>>>>> origin/refactor_ngram_gen
 Lake Nicaragua	1
 Nicaragua is	1
 this smaller	1
@@ -11424,12 +9292,7 @@ Horn of	1
 Africa ,	1
 that continent	1
 easternmost extension	1
-<<<<<<< HEAD
-extension This	1
-=======
 extension </s>	1
-island a	1
->>>>>>> origin/refactor_ngram_gen
 a NYC	1
 NYC Borough	1
 Borough ,	1
@@ -11522,13 +9385,8 @@ were found	1
 Alaskan coastal	1
 coastal region	1
 region between	1
-<<<<<<< HEAD
 & Brooks	1
-Range Whidbey	1
-=======
-Ocean Brooks	1
 <s> Whidbey	1
->>>>>>> origin/refactor_ngram_gen
 Whidbey Island	1
 The Boston	1
 Boston Mountains	1
@@ -11552,12 +9410,9 @@ until 1901	1
 1901 ,	1
 York village	1
 village was	1
-<<<<<<< HEAD
 as Sing-Sing	1
-Sing-Sing Lilly	1
-=======
+Sing-Sing </s>	1
 <s> Lilly	1
->>>>>>> origin/refactor_ngram_gen
 Lilly Rush	1
 Rush of	1
 's P.D	1
@@ -11571,14 +9426,9 @@ of each	1
 each ``	1
 `` Cold	1
 Cold Case	1
-<<<<<<< HEAD
 Case ''	1
 's 2nd-highest	1
 2nd-highest peak	1
-=======
-Case </s>	1
-country peak	1
->>>>>>> origin/refactor_ngram_gen
 is Mt	1
 . Tasman	1
 Tasman on	1
@@ -11601,11 +9451,7 @@ of Tahiti	1
 Tahiti means	1
 `` first	1
 first born	1
-<<<<<<< HEAD
 born ''	1
-'' Formerly	1
-=======
->>>>>>> origin/refactor_ngram_gen
 Formerly Vila	1
 Vila De	1
 De Joao	1
@@ -11640,16 +9486,9 @@ fictional Pawnee	1
 Pawnee in	1
 this real	1
 real Midwestern	1
-<<<<<<< HEAD
-Nile The	1
 , there	1
 there 's	1
 's no	1
-=======
-Blue the	1
-Mountains there	1
-there no	1
->>>>>>> origin/refactor_ngram_gen
 no place	1
 place like	1
 like dome	1
@@ -11676,13 +9515,9 @@ come from	1
 `` River	1
 River of	1
 the Mounds	1
-<<<<<<< HEAD
 Mounds ''	1
 about 1,700	1
 1,700 square	1
-=======
-Mounds </s>	1
->>>>>>> origin/refactor_ngram_gen
 this saline	1
 saline lake	1
 largest lakes	1
@@ -11734,14 +9569,8 @@ Hills ,	1
 to upper	1
 upper class	1
 class villas	1
-<<<<<<< HEAD
-villas Idaho	1
-'s almost	1
-=======
 villas </s>	1
-Idaho largest	1
-it almost	1
->>>>>>> origin/refactor_ngram_gen
+'s almost	1
 almost 3	1
 3 times	1
 times as	1
@@ -11763,12 +9592,7 @@ Llanos in	1
 Venezuela are	1
 are drained	1
 drained by	1
-<<<<<<< HEAD
-river Israel	1
 Israel 's	1
-=======
-Israel northernmost	1
->>>>>>> origin/refactor_ngram_gen
 northernmost region	1
 region ;	1
 ; Jesus	1
@@ -11841,33 +9665,20 @@ Mendoza in	1
 in 1536	1
 1536 </s>	1
 the holiest	1
-<<<<<<< HEAD
 holiest &	1
 & third-longest	1
 third-longest river	1
-India This	1
-=======
-holiest river	1
->>>>>>> origin/refactor_ngram_gen
 This planned	1
 planned city	1
 was inaugurated	1
 inaugurated as	1
 India in	1
 in 1931	1
-<<<<<<< HEAD
-1931 This	1
+1931 </s>	1
 's coastline	1
 , on	1
 Aden &	1
 Ocean ,	1
-=======
-1931 </s>	1
-country coastline	1
-coastline on	1
-Aden the	1
-Ocean is	1
->>>>>>> origin/refactor_ngram_gen
 longest on	1
 the African	1
 African continent	1
@@ -11906,12 +9717,7 @@ The Lusatian	1
 Lusatian Mountains	1
 western Sudeten	1
 Sudeten range	1
-<<<<<<< HEAD
 , form	1
-countries A	1
-=======
-range form	1
->>>>>>> origin/refactor_ngram_gen
 through Mont	1
 Blanc connects	1
 connects Chamonix	1
@@ -11922,12 +9728,7 @@ disputed region	1
 India 's	1
 northernmost state	1
 is Jammu	1
-<<<<<<< HEAD
 Jammu &	1
-this These	1
-=======
-Jammu this	1
->>>>>>> origin/refactor_ngram_gen
 2 largest	1
 largest rivers	1
 rivers of	1
@@ -11964,26 +9765,15 @@ northward into	1
 in Venezuela	1
 Venezuela is	1
 this man	1
-<<<<<<< HEAD
 man ,	1
 's liberator	1
-liberator You	1
-=======
-man the	1
-country liberator	1
 liberator </s>	1
->>>>>>> origin/refactor_ngram_gen
 find this	1
 the Oregon	1
 Oregon border	1
 border in	1
 Washington Washington	1
-<<<<<<< HEAD
-Washington This	1
 second-largest Hawaiian	1
-=======
-This Hawaiian	1
->>>>>>> origin/refactor_ngram_gen
 located about	1
 about 70	1
 70 miles	1
@@ -11996,14 +9786,9 @@ communities ,	1
 was also	1
 have antipoverty	1
 antipoverty programs	1
-<<<<<<< HEAD
 programs ,	1
-1962 Bob	1
-=======
-programs in	1
 1962 </s>	1
 <s> Bob	1
->>>>>>> origin/refactor_ngram_gen
 Bob Jones	1
 Jones University	1
 University is	1
@@ -12038,28 +9823,17 @@ Baltic country	1
 major cities	1
 cities include	1
 include Kaunas	1
-<<<<<<< HEAD
 Kaunas ,	1
 , Klaipeda	1
 Klaipeda &	1
 & Vilnius	1
-Vilnius Bloemfontein	1
-Bloemfontein is	1
-the judicial	1
-judicial capital	1
-nation Lesbos	1
-Lesbos &	1
-=======
-Kaunas Klaipeda	1
-Klaipeda Vilnius	1
 Vilnius </s>	1
 <s> Bloemfontein	1
 Bloemfontein is	1
 the judicial	1
 judicial capital	1
 <s> Lesbos	1
-Lesbos the	1
->>>>>>> origin/refactor_ngram_gen
+Lesbos &	1
 the Cyclades	1
 Cyclades are	1
 find Suwannee	1
@@ -12071,15 +9845,10 @@ Appalachian system	1
 system lie	1
 <s> Peach	1
 Peach County	1
-<<<<<<< HEAD
 's peach-growing	1
 peach-growing belt	1
-belt La	1
-=======
-state belt	1
 belt </s>	1
 <s> La	1
->>>>>>> origin/refactor_ngram_gen
 La Guajira	1
 Guajira Peninsula	1
 by Colombia	1
@@ -12094,31 +9863,18 @@ feet comes	1
 comes partly	1
 partly from	1
 from matte	1
-<<<<<<< HEAD
 matte ,	1
 `` meadow	1
 meadow ''	1
-'' Rising	1
+<s> Rising	1
 Rising 33,480	1
 33,480 feet	1
-=======
-matte meadow	1
-meadow </s>	1
-<s> Rising	1
-Rising feet	1
->>>>>>> origin/refactor_ngram_gen
 its underwater	1
 underwater base	1
 base makes	1
 makes this	1
 Hawaiian volcano	1
-<<<<<<< HEAD
-peak This	1
 's delta	1
-=======
-world tallest	1
-river delta	1
->>>>>>> origin/refactor_ngram_gen
 delta covers	1
 covers 13,000	1
 13,000 square	1
@@ -12145,11 +9901,7 @@ Gebel-al-Tarik (	1
 ( Hill	1
 Hill of	1
 of Tarik	1
-<<<<<<< HEAD
 Tarik )	1
-=======
-Tarik </s>	1
->>>>>>> origin/refactor_ngram_gen
 The Mekong	1
 Mekong River	1
 provides transportation	1
@@ -12166,16 +9918,10 @@ this Missouri	1
 the trail	1
 trail 's	1
 eastern terminus	1
-<<<<<<< HEAD
-terminus Christmas	1
+terminus </s>	1
 Christmas ,	1
 , Easter	1
 Easter ,	1
-=======
-terminus </s>	1
-Christmas Easter	1
-Easter or	1
->>>>>>> origin/refactor_ngram_gen
 or Bermuda	1
 Bermuda ,	1
 for example	1
@@ -12219,13 +9965,8 @@ Napoleon 's	1
 death was	1
 for Constantine	1
 Constantine the	1
-<<<<<<< HEAD
 's mother	1
-mother Beersheba	1
-=======
-Great mother	1
 <s> Beersheba	1
->>>>>>> origin/refactor_ngram_gen
 Beersheba is	1
 main cities	1
 desert region	1
@@ -12237,15 +9978,9 @@ U.S. are	1
 both located	1
 <s> Tanjung	1
 Tanjung Piai	1
-<<<<<<< HEAD
 Piai ,	1
 , Asia	1
-peninsula Reverend	1
-=======
-Piai Asia	1
-Asia southernmost	1
 <s> Reverend	1
->>>>>>> origin/refactor_ngram_gen
 Reverend Green	1
 Green be	1
 be glad	1
@@ -12256,11 +9991,7 @@ you when	1
 're ``	1
 `` walking	1
 walking in	1
-<<<<<<< HEAD
 in ''	1
-town In	1
-=======
->>>>>>> origin/refactor_ngram_gen
 In Hawaii	1
 Hawaii ,	1
 , Mauna	1
@@ -12299,24 +10030,14 @@ ranges dividing	1
 dividing Europe	1
 from Asia	1
 Asia are	1
-<<<<<<< HEAD
 Caucasus &	1
-one It	1
-=======
-Caucasus this	1
->>>>>>> origin/refactor_ngram_gen
 only country	1
 name begins	1
 but does	1
 does n't	1
 n't end	1
 end with	1
-<<<<<<< HEAD
 's Queen	1
-=======
-A </s>	1
-country Queen	1
->>>>>>> origin/refactor_ngram_gen
 Queen Charlotte	1
 Charlotte Islands	1
 Islands lie	1
@@ -12327,13 +10048,8 @@ Indonesia 's	1
 major citites	1
 citites ,	1
 including Jakarta	1
-<<<<<<< HEAD
-Jakarta There	1
-There ’	1
-=======
 Jakarta </s>	1
-There s	1
->>>>>>> origin/refactor_ngram_gen
+There ’	1
 s a	1
 a museum	1
 museum dedicated	1
@@ -12349,14 +10065,9 @@ in Grenoble	1
 Grenoble ,	1
 , his	1
 his birthplace	1
-<<<<<<< HEAD
-birthplace On	1
+birthplace </s>	1
 On 11/27/00	1
 11/27/00 King	1
-=======
-birthplace </s>	1
-On King	1
->>>>>>> origin/refactor_ngram_gen
 King Harald	1
 Harald V	1
 V opened	1
@@ -12366,13 +10077,8 @@ Laerdal Highway	1
 Highway Tunnel	1
 Tunnel ,	1
 longest at	1
-<<<<<<< HEAD
 at 15.2	1
 15.2 miles	1
-miles Most	1
-=======
-at miles	1
->>>>>>> origin/refactor_ngram_gen
 rivers empty	1
 empty into	1
 but the	1
@@ -12389,14 +10095,9 @@ Graham Land	1
 Land ,	1
 British Antarctic	1
 Antarctic territory	1
-<<<<<<< HEAD
-territory Nome	1
+<s> Nome	1
 Nome ,	1
 , Alaska	1
-=======
-<s> Nome	1
-Nome Alaska	1
->>>>>>> origin/refactor_ngram_gen
 Alaska lies	1
 peninsula named	1
 a 19th	1
@@ -12404,25 +10105,15 @@ a 19th	1
 century Secretary	1
 Secretary of	1
 of State	1
-<<<<<<< HEAD
-State Frederiction	1
+State </s>	1
+<s> Frederiction	1
 Frederiction ,	1
 province ,	1
 a son	1
 son of	1
 George III	1
-III This	1
-province ’	1
-=======
-State </s>	1
-<s> Frederiction	1
-Frederiction the	1
-a son	1
-son of	1
-George III	1
 III </s>	1
-province s	1
->>>>>>> origin/refactor_ngram_gen
+province ’	1
 s largest	1
 is Lake	1
 Lake Winnipeg	1
@@ -12436,13 +10127,8 @@ the Merrimac	1
 Merrimac sounds	1
 a local	1
 local daily	1
-<<<<<<< HEAD
-daily This	1
-'s Lake	1
-=======
 daily </s>	1
-country Lake	1
->>>>>>> origin/refactor_ngram_gen
+'s Lake	1
 Lake Balaton	1
 Balaton ,	1
 , just	1
@@ -12465,43 +10151,25 @@ of Florida	1
 Florida belonged	1
 belonged to	1
 to Great	1
-<<<<<<< HEAD
-Britain It	1
 's both	1
-=======
-It both	1
->>>>>>> origin/refactor_ngram_gen
 farthest north	1
 farthest west	1
 sea provides	1
 provides most	1
 of Turkey	1
-<<<<<<< HEAD
 Turkey 's	1
-border Galesburg	1
+<s> Galesburg	1
 Galesburg ,	1
 , seat	1
 's Knox	1
 Knox County	1
 a Lincoln-Douglas	1
 Lincoln-Douglas debate	1
-debate Caspian	1
-Sea Tierra	1
-Fuego Easter	1
-=======
-Turkey northern	1
-<s> Galesburg	1
-Galesburg seat	1
-state Knox	1
-Knox County	1
-County was	1
-a debate	1
 debate </s>	1
 <s> Caspian	1
 <s> Tierra	1
 Fuego </s>	1
 <s> Easter	1
->>>>>>> origin/refactor_ngram_gen
 Easter Island	1
 Blanc </s>	1
 <s> Manchuria	1
@@ -12548,40 +10216,11 @@ if you	1
 're going	1
 going to	1
 this Simon	1
-<<<<<<< HEAD
 Simon &	1
 & Garfunkel	1
 Garfunkel ``	1
 `` Fair	1
 Fair ''	1
-'' Uruguay	1
-Uruguay Mojave	1
-Mojave Desert	1
-Desert Sicily	1
-Sicily Baghdad	1
-Baghdad Wales	1
-Wales Greenland	1
-Greenland Finland	1
-Finland New	1
-Amsterdam Antigua	1
-Antigua Sri	1
-Lanka Appalachians	1
-Appalachians Russia	1
-Russia Bayou	1
-Bayou Alberta	1
-Alberta Africa	1
-Africa Bavarian	1
-Alps (	1
-( 1	1
-) Connecticut	1
-Connecticut and	1
-and Vermont	1
-Vermont Chile	1
-( which	1
-=======
-Simon Garfunkel	1
-Garfunkel Fair	1
-Fair </s>	1
 <s> Mojave	1
 Mojave Desert	1
 <s> Baghdad	1
@@ -12592,10 +10231,12 @@ Antigua </s>	1
 <s> Bayou	1
 Bayou </s>	1
 <s> Bavarian	1
+( 1	1
+) Connecticut	1
 Connecticut and	1
 and Vermont	1
-Chile which	1
->>>>>>> origin/refactor_ngram_gen
+Chile (	1
+( which	1
 which goes	1
 goes down	1
 down around	1
@@ -12608,57 +10249,12 @@ sweeps a	1
 a little	1
 little south	1
 of Argentina	1
-<<<<<<< HEAD
 Argentina )	1
-) Sahara	1
 Sahara Desert	1
-Desert Rhine	1
-Rhine the	1
-Biscay New	1
-Amsterdam the	1
-Sea Chile	1
+<s> Rhine	1
 ( Lake	1
 Lake )	1
 ) Louise	1
-Louise Arimathea	1
-Arimathea Vietnam	1
-Vietnam the	1
-the Brahmaputra	1
-Brahmaputra Africa	1
-Africa Asia	1
-Asia Andorra	1
-Andorra Scotland	1
-Scotland Alleghenies	1
-Alleghenies the	1
-Desert Avon	1
-Avon Mt	1
-. Mitchell	1
-Mitchell Lake	1
-Champlain Germany	1
-Germany Manhattan	1
-Manhattan the	1
-Yukon River	1
-River Belfast	1
-Belfast Austin	1
-Austin Belarus	1
-Belarus Suriname	1
-Suriname Catskills	1
-Catskills Russia	1
-Russia ,	1
-States &	1
-& Canada	1
-Canada Africa	1
-Africa Brittany	1
-Brittany (	1
-( La	1
-La Bretagne	1
-Bretagne )	1
-) Bhutan	1
-Bhutan Brazil	1
-Brazil Gone	1
-=======
-Sahara Desert	1
-<s> Rhine	1
 <s> Arimathea	1
 Arimathea </s>	1
 the Brahmaputra	1
@@ -12669,7 +10265,7 @@ Andorra </s>	1
 Alleghenies </s>	1
 <s> Avon	1
 Avon </s>	1
-Mt Mitchell	1
+. Mitchell	1
 Mitchell </s>	1
 Yukon River	1
 <s> Belfast	1
@@ -12677,83 +10273,50 @@ Belfast </s>	1
 Austin </s>	1
 <s> Catskills	1
 Catskills </s>	1
-Russia the	1
-States Canada	1
+Russia ,	1
+States &	1
+& Canada	1
 <s> Brittany	1
-Brittany La	1
+Brittany (	1
+( La	1
 La Bretagne	1
-Bretagne </s>	1
+Bretagne )	1
 <s> Gone	1
->>>>>>> origin/refactor_ngram_gen
 Gone with	1
 the Wind	1
 Wind </s>	1
 <s> Burkina	1
 Burkina Faso	1
-<<<<<<< HEAD
-Faso Bhutan	1
-Bhutan Spain	1
-Spain Brazil	1
-Brazil Baltimore	1
-Baltimore Greenwich	1
-Greenwich ,	1
-, England	1
-England Fort	1
-Fort Wayne	1
-Wayne St.	1
-Bernard (	1
-( the	1
-=======
 Faso </s>	1
 <s> Baltimore	1
+Baltimore </s>	1
 <s> Greenwich	1
-Greenwich England	1
+Greenwich ,	1
+, England	1
 England </s>	1
 Fort Wayne	1
 Wayne </s>	1
-<s> Bernard	1
-Bernard the	1
->>>>>>> origin/refactor_ngram_gen
+Bernard (	1
+( the	1
 the patron	1
 saint of	1
 of mountain	1
 mountain climbing	1
-<<<<<<< HEAD
 climbing )	1
-Texas Ireland	1
-Ireland South	1
+<s> Ireland	1
 Australia (	1
 or Western	1
 Western Australia	1
 Australia )	1
-) Belmopan	1
-Belmopan Mountain	1
-Mountain range	1
-range Florida	1
-=======
-climbing </s>	1
-<s> Ireland	1
-Australia or	1
-or Western	1
-Western Australia	1
 <s> Belmopan	1
 Belmopan </s>	1
 Mountain range	1
-Florida the	1
->>>>>>> origin/refactor_ngram_gen
 the Yucatán	1
 Yucatán peninsula	1
 <s> to	1
 to meander	1
-<<<<<<< HEAD
-meander Vatican	1
-City the	1
-Sea Loch	1
-Ness Piccadilly	1
-=======
 meander </s>	1
 <s> Piccadilly	1
->>>>>>> origin/refactor_ngram_gen
 Piccadilly Circus	1
 Circus </s>	1
 <s> Bridgeport	1
@@ -12767,33 +10330,15 @@ man </s>	1
 Dallas </s>	1
 Green Mountains	1
 Mount Sinai	1
-<<<<<<< HEAD
-Sinai Florida	1
 & Georgia	1
-Georgia Kenya	1
-Kenya Komodo	1
-Komodo the	1
-Mountains Sea	1
-Marmara Antwerp	1
-Antwerp the	1
-Caucasus Gulf	1
-Mexico Strait	1
-Gibraltar Michigan	1
-Michigan (	1
-( rock	1
-rock of	1
-) Gibraltar	1
-Gibraltar the	1
-=======
-Florida Georgia	1
 <s> Komodo	1
 Komodo </s>	1
 <s> Sea	1
 <s> Antwerp	1
 Antwerp </s>	1
-<s> rock	1
+( rock	1
 rock of	1
->>>>>>> origin/refactor_ngram_gen
+) Gibraltar	1
 the Columbia	1
 Columbia River	1
 the Spice	1
@@ -12805,33 +10350,6 @@ the Sahara	1
 Vienna </s>	1
 <s> Tortilla	1
 Tortilla Flat	1
-<<<<<<< HEAD
-Flat Pyrenees	1
-Pyrenees Arkansas	1
-Arkansas Urals	1
-Urals Ecuador	1
-Ecuador Pakistan	1
-Pakistan the	1
-Reef coal	1
-coal Canton	1
-Canton Arkansas	1
-Arkansas North	1
-Dakota Fargo	1
-Fargo Texas	1
-Texas Negev	1
-Negev Tuscany	1
-Tuscany Seoul	1
-Seoul Mediterranean	1
-Sea Orlando	1
-Orlando Lake	1
-Ontario Guyana	1
-Guyana Jutland	1
-Jutland Botswana	1
-Botswana Brazzaville	1
-Brazzaville Lake	1
-Ontario Indian	1
-Ocean the	1
-=======
 Flat </s>	1
 <s> Urals	1
 <s> Ecuador	1
@@ -12849,7 +10367,6 @@ Tuscany </s>	1
 Orlando </s>	1
 <s> Brazzaville	1
 Brazzaville </s>	1
->>>>>>> origin/refactor_ngram_gen
 the Mojave	1
 Mojave </s>	1
 Acadia </s>	1
@@ -12858,20 +10375,12 @@ Kilimanjaro </s>	1
 <s> Malta	1
 Malta </s>	1
 the Rocky	1
-<<<<<<< HEAD
-Mountains (	1
 ) Yugoslavia	1
 , Turkey	1
 Turkey ,	1
 Bulgaria ,	1
 , Albania	1
-Albania the	1
-=======
-Yugoslavia Turkey	1
-Turkey Bulgaria	1
-Bulgaria Albania	1
 Albania </s>	1
->>>>>>> origin/refactor_ngram_gen
 the Sante	1
 Sante Fe	1
 Fe Trail	1
@@ -12879,27 +10388,10 @@ the Beaufort	1
 Beaufort Sea	1
 <s> forest	1
 forest land	1
-<<<<<<< HEAD
-land Nigeria	1
-Nigeria Concord	1
-Concord Afghanistan	1
-Afghanistan Hungary	1
-Hungary Japan	1
-Japan &	1
-Kingdom California	1
-California Travis	1
-Travis Harrisburg	1
-Harrisburg Boston	1
-Boston Brasilia	1
-Brasilia Gibraltar	1
-Gibraltar Missouri	1
-River Pacific	1
-Pacific Switzerland	1
-Switzerland the	1
-=======
+land </s>	1
 <s> Concord	1
 Concord </s>	1
-Japan the	1
+Japan &	1
 <s> Travis	1
 Travis </s>	1
 <s> Harrisburg	1
@@ -12908,7 +10400,6 @@ Harrisburg </s>	1
 Boston </s>	1
 <s> Brasilia	1
 Brasilia </s>	1
->>>>>>> origin/refactor_ngram_gen
 Suez and	1
 <s> Rockies	1
 Rockies </s>	1
@@ -12919,22 +10410,9 @@ Seattle </s>	1
 San Antonio	1
 Antonio </s>	1
 the Bavarian	1
-<<<<<<< HEAD
-Alps Narragansett	1
-Gobi Istanbul	1
-Istanbul Rhode	1
-Island St.	1
-St. Petersburg	1
-Petersburg Po	1
-Po Hungary	1
-Hungary pare	1
-pare 18	1
-18 New	1
-Zealand Mexico	1
-=======
 <s> Narragansett	1
 Gobi </s>	1
-<s> Petersburg	1
+St. Petersburg	1
 Petersburg </s>	1
 <s> Po	1
 Po </s>	1
@@ -12942,38 +10420,19 @@ Po </s>	1
 pare </s>	1
 <s> 18	1
 18 </s>	1
->>>>>>> origin/refactor_ngram_gen
 Mexico City	1
 Black Forest	1
-<<<<<<< HEAD
-Forest Manitoba	1
-Manitoba Nigeria	1
-Nigeria Dead	1
-Emirates Oklahoma	1
-Oklahoma agog	1
-agog America	1
-America Iraq	1
-Iraq Mt	1
-. St.	1
-St. Helens	1
-Helens Poland	1
-Poland the	1
-the Sudan	1
-Sudan Taiwan	1
-Taiwan Guyana	1
-Guyana U.S.	1
-U.S. Virgin	1
-=======
 Forest </s>	1
 <s> agog	1
 agog </s>	1
 <s> Iraq	1
 Iraq </s>	1
-Mt Helens	1
+. St.	1
+St. Helens	1
 Helens </s>	1
 the Sudan	1
-<s> Virgin	1
->>>>>>> origin/refactor_ngram_gen
+<s> U.S.	1
+U.S. Virgin	1
 Virgin Islands	1
 <s> Riyadh	1
 Riyadh </s>	1
@@ -12996,13 +10455,7 @@ the Labrador	1
 Labrador Peninsula	1
 Pakistan and	1
 and Afghanistan	1
-<<<<<<< HEAD
-Afghanistan North	1
-Dakota St.	1
 St. Gotthard	1
-=======
-<s> Gotthard	1
->>>>>>> origin/refactor_ngram_gen
 Gotthard Pass	1
 Pass </s>	1
 The Cascades	1
@@ -13016,56 +10469,30 @@ Georgia college	1
 college town	1
 town that	1
 that gave	1
-<<<<<<< HEAD
 us R.E.M	1
 R.E.M .	1
 . &	1
 the B-52	1
 B-52 's	1
-Fundy Turkey	1
-Turkey Newfoundland	1
+'s </s>	1
 Newfoundland &	1
-Brunswick The	1
-Netherlands Michigan	1
 & Superior	1
-Superior Greenland	1
-Greenland Mt	1
 . Shasta	1
-Shasta (	1
+Shasta </s>	1
+) the	1
 , Yugoslavia	1
 Bulgaria &	1
 & Hungary	1
-Hungary Lake	1
 Lake Louise	1
-Louise Siberia	1
-Siberia Etna	1
-Etna Arkansas	1
+<s> Etna	1
 Arkansas (	1
 ( Wal-Mart	1
 Wal-Mart )	1
-) North	1
-Carolina Europe	1
-Europe Potomac	1
-Potomac (	1
 ( People	1
 People 's	1
 's Republic	1
 ) China	1
-China Bering	1
-=======
-us the	1
-Newfoundland New	1
-Michigan Superior	1
-Mt Shasta	1
-Shasta </s>	1
-Union Yugoslavia	1
-Yugoslavia Bulgaria	1
-Bulgaria Hungary	1
-<s> Etna	1
-<s> People	1
-People Republic	1
 <s> Bering	1
->>>>>>> origin/refactor_ngram_gen
 Bering Strait	1
 of Hormuz	1
 Hormuz </s>	1
@@ -13073,6 +10500,7 @@ Hormuz </s>	1
 Kiev </s>	1
 <s> Ventura	1
 Ventura Boulevard	1
+Boulevard </s>	1
 <s> Bethany	1
 Bethany </s>	1
 <s> Pitcairn	1
@@ -13084,51 +10512,25 @@ Atlas Mountains	1
 the Riviera	1
 Riviera </s>	1
 Monte Carlo	1
-<<<<<<< HEAD
-Carlo Belize	1
-& El	1
-Salvador (	1
-) Britain	1
-Britain Flanders	1
-Flanders Pyrenees	1
-Pyrenees Kentucky	1
-Kentucky Kitty	1
-Kitty Hawk	1
-Hawk ,	1
-Carolina Brazil	1
-Brazil Hong	1
-Kong Congo	1
-Congo River	1
-River Paris	1
-Paris Puerto	1
-Rico Thames	1
-Thames Houston	1
-Houston (	1
-( Lee	1
-Lee Brown	1
-Brown )	1
-) Barcelona	1
-Barcelona Flint	1
-Flint a	1
-=======
 Carlo </s>	1
-Belize El	1
+& El	1
+) Britain	1
 <s> Flanders	1
 Flanders </s>	1
 <s> Kentucky	1
 <s> Kitty	1
 Kitty Hawk	1
-Hawk North	1
+Hawk ,	1
 <s> Hong	1
 Kong </s>	1
 <s> Congo	1
 Congo River	1
-Houston Lee	1
+Houston (	1
+( Lee	1
 Lee Brown	1
-Brown </s>	1
+Brown )	1
 <s> Flint	1
 Flint </s>	1
->>>>>>> origin/refactor_ngram_gen
 a frankfurter	1
 frankfurter </s>	1
 <s> Bahrain	1
@@ -13143,71 +10545,27 @@ Bergen </s>	1
 Panama </s>	1
 <s> Horse	1
 Horse Latitudes	1
-<<<<<<< HEAD
-Latitudes Patagonia	1
-Patagonia Pikes	1
-Peak New	1
-& Texas	1
-Texas Venezuela	1
-Venezuela Mexico	1
-Mexico Belgium	1
-Belgium Brooklyn	1
-Brooklyn Rhodesia	1
-Rhodesia Victoria	1
-Victoria Wichita	1
-Wichita North	1
-Dakota the	1
-Atlantic Colombia	1
-Australia &	1
-America Taiwan	1
-Taiwan Egypt	1
-Egypt the	1
-Nile Queen	1
-Victoria New	1
-Hampshire Falkland	1
-Falkland (	1
-) Islands	1
-Islands the	1
-=======
 Latitudes </s>	1
-Mexico Texas	1
+& Texas	1
 <s> Belgium	1
 <s> Wichita	1
 Wichita </s>	1
-Australia North	1
+Australia &	1
 <s> Queen	1
 <s> Falkland	1
-Falkland or	1
-Malvinas Islands	1
->>>>>>> origin/refactor_ngram_gen
+Falkland (	1
+) Islands	1
 the toe	1
 toe </s>	1
 Great Dismal	1
 Dismal Swamp	1
-<<<<<<< HEAD
-Swamp Irish	1
-Sea (	1
 ) Victoria	1
-Victoria Lake	1
-Superior Northfield	1
-Northfield Yucatan	1
-Yucatan Amman	1
-Amman Amman	1
-Amman Jutland	1
-Jutland Aberdeen	1
-Aberdeen 10	1
-10 Caicos	1
-Caicos the	1
-River Mount	1
-=======
-Great Victoria	1
 <s> Northfield	1
 Northfield </s>	1
 Yucatan </s>	1
 10 </s>	1
 <s> Caicos	1
 Caicos </s>	1
->>>>>>> origin/refactor_ngram_gen
 Mount Vesuvius	1
 Vesuvius </s>	1
 Arctic </s>	1
@@ -13223,36 +10581,21 @@ whose theme	1
 theme is	1
 is heard	1
 heard here	1
-<<<<<<< HEAD
 here :	1
-: Iceland	1
-Iceland Bight	1
-Bight (	1
+: </s>	1
+<s> Bight	1
+Bight </s>	1
 ) Belgium	1
 Belgium ,	1
 Netherlands ,	1
 , Luxembourg	1
-Luxembourg Aberdeen	1
-Aberdeen New	1
-Guinea Ceylon	1
+<s> Ceylon	1
 Ceylon (	1
 ( now	1
 now Sri	1
 Lanka )	1
-) California	1
-California Ekaterinburg	1
-Ekaterinburg the	1
-=======
-<s> Bight	1
-Bight </s>	1
-Belgium The	1
-Netherlands Luxembourg	1
-<s> Ceylon	1
-Ceylon now	1
-now Sri	1
 <s> Ekaterinburg	1
 Ekaterinburg </s>	1
->>>>>>> origin/refactor_ngram_gen
 the State	1
 State of	1
 of Delaware	1
@@ -13273,6 +10616,7 @@ Tonkin </s>	1
 <s> Hindu	1
 Hindu </s>	1
 <s> Bombay	1
+Bombay </s>	1
 Albuquerque </s>	1
 the Java	1
 Java Trench	1
@@ -13281,29 +10625,16 @@ Trench </s>	1
 Snake </s>	1
 <s> Ayers	1
 Ayers Rock	1
-<<<<<<< HEAD
 Rock (	1
 ( Uluru	1
 Uluru )	1
-) Andes	1
-Andes Quebec	1
-Quebec City	1
-City Arizona	1
-Arizona Amazon	1
-Amazon Suriname	1
-Suriname Rhode	1
-`` house	1
-=======
-Rock Uluru	1
-Uluru </s>	1
 <s> Andes	1
 Andes </s>	1
 <s> Quebec	1
 Quebec City	1
 <s> Arizona	1
 Arizona </s>	1
-This house	1
->>>>>>> origin/refactor_ngram_gen
+`` house	1
 house in	1
 Orleans ''	1
 '' has	1
@@ -13313,18 +10644,9 @@ the ruin	1
 ruin of	1
 a poor	1
 poor boy	1
-<<<<<<< HEAD
 boy ''	1
-'' Mount	1
 Mount McKinley	1
-McKinley the	1
-Lake Egypt	1
 & The	1
-=======
-boy </s>	1
-Mount McKinley	1
-Egypt The	1
->>>>>>> origin/refactor_ngram_gen
 The Sudan	1
 <s> Indus	1
 Indus </s>	1
@@ -13342,52 +10664,7 @@ the Potomac	1
 <s> Golden	1
 Gate </s>	1
 Persian Empire	1
-<<<<<<< HEAD
-Empire Mt	1
 . Rainier	1
-Rainier Lake	1
-Superior Norway	1
-Norway Brazil	1
-Brazil the	1
-the Tigris	1
-Euphrates Alabama	1
-Alabama North	1
-America Australia	1
-Australia Leavenworth	1
-Leavenworth Zaire	1
-Zaire the	1
-Sea Egypt	1
-Egypt Mount	1
-Fuji Grenada	1
-Grenada Sardinia	1
-Sardinia St.	1
-Lawrence Kazakhstan	1
-Kazakhstan Montana	1
-Montana Vancouver	1
-Vancouver Louisiana	1
-Louisiana and	1
-and Minnesota	1
-Minnesota The	1
-Netherlands (	1
-( Holland	1
-Holland )	1
-Mountains Volga	1
-Volga Killarney	1
-Killarney Mecca	1
-Mecca Mississippi	1
-Mississippi Juárez	1
-Juárez the	1
-the Grand	1
-Grand Canal	1
-Canal Lake	1
-Baikal Tanganyika	1
-Tanganyika &	1
-& Zanzibar	1
-Zanzibar Genoa	1
-Genoa Amazon	1
-Amazon Bull	1
-=======
-Mt Rainier	1
 Rainier </s>	1
 the Tigris	1
 <s> Leavenworth	1
@@ -13400,8 +10677,9 @@ Lawrence </s>	1
 Vancouver </s>	1
 Louisiana and	1
 and Minnesota	1
-Netherlands Holland	1
-Holland </s>	1
+Netherlands (	1
+( Holland	1
+Holland )	1
 <s> Killarney	1
 Killarney </s>	1
 <s> Mecca	1
@@ -13412,11 +10690,11 @@ the Grand	1
 Grand Canal	1
 Canal </s>	1
 <s> Tanganyika	1
-Tanganyika Zanzibar	1
+Tanganyika &	1
+& Zanzibar	1
 Zanzibar </s>	1
 <s> Genoa	1
 <s> Bull	1
->>>>>>> origin/refactor_ngram_gen
 Bull Run	1
 Run </s>	1
 <s> Singapore	1
@@ -13435,15 +10713,9 @@ Florence </s>	1
 the Thames	1
 <s> Okefenokee	1
 a solecism	1
-<<<<<<< HEAD
-solecism St.	1
-St. David	1
-David Gulf	1
-=======
 solecism </s>	1
-<s> David	1
+St. David	1
 David </s>	1
->>>>>>> origin/refactor_ngram_gen
 of Thailand	1
 Thailand </s>	1
 the Dominican	1
@@ -13465,51 +10737,18 @@ Atlanta </s>	1
 <s> oases	1
 oases </s>	1
 Arabian Peninsula	1
-<<<<<<< HEAD
-Peninsula Colombia	1
-Colombia Mississippi	1
-River Adelaide	1
-Adelaide the	1
-Colorado Fort	1
-Worth Burgundy	1
-Burgundy Manhattan	1
-Manhattan Biloxi	1
-Biloxi Buffalo	1
-Buffalo British	1
-Columbia (	1
-( any	1
-any 2	1
-Texas ,	1
-Arizona ,	1
-, California	1
-California the	1
-Lake Massachusetts	1
-Massachusetts New	1
-Jersey Newfoundland	1
-Newfoundland Antarctica	1
-Antarctica Gulf	1
-Aden Luxembourg	1
-Luxembourg Mediterranean	1
-Sea Bosnia	1
-the Peloponnesus	1
-Peloponnesus knife	1
-knife Russia	1
-Russia Berlin	1
-Berlin Alabama	1
-Alabama Japan	1
-Japan the	1
-Hills Punk	1
-=======
 <s> Adelaide	1
 Adelaide </s>	1
 <s> Burgundy	1
 Burgundy </s>	1
 <s> Biloxi	1
 Biloxi </s>	1
-<s> any	1
+( any	1
 any 2	1
-Texas New	1
-Arizona California	1
+) Texas	1
+Texas ,	1
+Arizona ,	1
+, California	1
 Aden </s>	1
 the Peloponnesus	1
 Peloponnesus </s>	1
@@ -13518,7 +10757,6 @@ knife </s>	1
 <s> Berlin	1
 Berlin </s>	1
 <s> Punk	1
->>>>>>> origin/refactor_ngram_gen
 Punk precursors	1
 precursors The	1
 The MC5	1
@@ -13555,24 +10793,11 @@ Aleutian Islands	1
 Hartz Mountains	1
 <s> Iguazu	1
 Iguazu Falls	1
-<<<<<<< HEAD
-Falls Beirut	1
-Beirut the	1
-the Yellow	1
-Yellow Sea	1
-Nile the	1
-Sea Rio	1
-Grande Northwest	1
-Territories Macedonia	1
-Macedonia Texas	1
-Texas Irish	1
-Sea San	1
-=======
 <s> Beirut	1
 Beirut </s>	1
+the Yellow	1
 Yellow Sea	1
 Territories </s>	1
->>>>>>> origin/refactor_ngram_gen
 San Fernando	1
 Fernando Valley	1
 the Northeast	1
@@ -13584,62 +10809,34 @@ Soweto </s>	1
 Athens </s>	1
 <s> Ivory	1
 Ivory Coast	1
-<<<<<<< HEAD
-Coast Hudson	1
-River New	1
-Guinea Khartoum	1
-Khartoum Detroit	1
+<s> Detroit	1
 Detroit &	1
 & Des	1
-Philippines Matsu	1
-Matsu Kazakhstan	1
-Kazakhstan Caracas	1
-Caracas Mount	1
+<s> Matsu	1
+Matsu </s>	1
+<s> Caracas	1
+Caracas </s>	1
 Mount Washington	1
-Washington Long	1
-Sound India	1
-India Missouri	1
 Missouri ,	1
 , Nevada	1
 Nevada ,	1
 , Oklahoma	1
 Oklahoma &	1
 & Utah	1
-Utah Djibouti	1
-Djibouti the	1
-=======
-<s> Detroit	1
-Detroit Des	1
-<s> Matsu	1
-Matsu </s>	1
-<s> Caracas	1
-Caracas </s>	1
-Mount Washington	1
-Missouri Nevada	1
-Nevada Oklahoma	1
-Oklahoma Utah	1
 <s> Djibouti	1
 Djibouti </s>	1
->>>>>>> origin/refactor_ngram_gen
 the Bermuda	1
 Bermuda Triangle	1
 <s> Cairo	1
 Cairo </s>	1
 de Janeiro	1
-<<<<<<< HEAD
-Janeiro Jamaica	1
-Jamaica Thebes	1
-Thebes 16	1
-% The	1
-=======
 Janeiro </s>	1
 <s> Jamaica	1
 Jamaica </s>	1
 <s> Thebes	1
 Thebes </s>	1
 <s> 16	1
-16 </s>	1
->>>>>>> origin/refactor_ngram_gen
+% </s>	1
 The Alps	1
 <s> Wasatch	1
 Wasatch </s>	1
@@ -13666,31 +10863,6 @@ Jaw </s>	1
 Lake Tanganyika	1
 Tanganyika </s>	1
 Dutch Guiana	1
-<<<<<<< HEAD
-Guiana Pennsylvania	1
-Pennsylvania Nebraska	1
-Nebraska Hawaii	1
-Hawaii New	1
-York the	1
-Nile Siberia	1
-Siberia Australia	1
-Australia Waterloo	1
-Waterloo Hamburg	1
-Hamburg Finland	1
-Finland Lions	1
-Lions '	1
-' Den	1
-Den Everest	1
-Colorado Bavaria	1
-Bavaria Mount	1
-Fuji Maine	1
-Maine Patagonia	1
-Patagonia the	1
-River Port-of-Spain	1
-Port-of-Spain Finland	1
-Finland Persian	1
-Gulf the	1
-=======
 <s> Pennsylvania	1
 Pennsylvania </s>	1
 <s> Nebraska	1
@@ -13698,36 +10870,24 @@ Nebraska </s>	1
 <s> Waterloo	1
 Waterloo </s>	1
 <s> Lions	1
-Lions Den	1
+Lions '	1
+' Den	1
 Den </s>	1
 <s> Everest	1
 <s> Bavaria	1
 Bavaria </s>	1
-<s> </s>	1
->>>>>>> origin/refactor_ngram_gen
+<s> Port-of-Spain	1
+Port-of-Spain </s>	1
 the Thar	1
 the Oswego	1
 Oswego </s>	1
 of Bengal	1
-<<<<<<< HEAD
-Bengal French	1
-Guiana Bismarck	1
-Dakota Martha	1
-Vineyard El	1
-Salvador Chile	1
-Chile Kalahari	1
-Kalahari Sri	1
-Peninsula New	1
-Hampshire the	1
-=======
 Bengal </s>	1
 <s> Bismarck	1
-Bismarck North	1
 <s> Martha	1
 Vineyard </s>	1
 <s> Kalahari	1
 Kalahari </s>	1
->>>>>>> origin/refactor_ngram_gen
 the Narragansett	1
 Narragansett </s>	1
 <s> Gorky	1
@@ -13737,44 +10897,17 @@ Leningrad </s>	1
 <s> Waterford	1
 Waterford </s>	1
 Great Rift	1
-<<<<<<< HEAD
-Rift India	1
-India Nepal	1
-Nepal Dead	1
-Sea Mississippi	1
-Mississippi Long	1
-Sound Maui	1
-Maui Reunion	1
-Reunion the	1
-Yangtze French	1
-Guiana (	1
-) Jordan	1
-Jordan ,	1
-, Jamaica	1
-Jamaica ,	1
-& Japan	1
-Japan India	1
-India Ontario	1
-Ontario Florida	1
-Florida Unired	1
-Unired Arab	1
-Emirates Bakersfield	1
-Bakersfield the	1
-Philippines Lake	1
-Baikal Huron	1
-Huron the	1
-Urals Baltic	1
-Sea Great	1
-Britain Bolivia	1
-=======
 Rift </s>	1
 <s> Nepal	1
 Nepal </s>	1
 <s> Reunion	1
 Reunion </s>	1
 Yangtze </s>	1
-Jordan Jamaica	1
-Jamaica Japan	1
+) Jordan	1
+Jordan ,	1
+, Jamaica	1
+Jamaica ,	1
+& Japan	1
 <s> Unired	1
 Unired Arab	1
 <s> Bakersfield	1
@@ -13782,7 +10915,6 @@ Bakersfield </s>	1
 <s> Huron	1
 Huron </s>	1
 <s> Baltic	1
->>>>>>> origin/refactor_ngram_gen
 Bolivia and	1
 and Colombia	1
 <s> Chicago	1
@@ -13798,13 +10930,7 @@ Vladivostok </s>	1
 <s> Yokohama	1
 Yokohama </s>	1
 the Falklands	1
-<<<<<<< HEAD
 Falklands (	1
-) a	1
-=======
-Falklands or	1
-Malvinas </s>	1
->>>>>>> origin/refactor_ngram_gen
 a steppe	1
 steppe </s>	1
 <s> Catalina	1
@@ -13824,69 +10950,34 @@ Casablanca </s>	1
 <s> Malay	1
 Malay </s>	1
 Mount Etna	1
-<<<<<<< HEAD
-Etna Antarctica	1
-Antarctica the	1
-the gopher	1
-gopher Antarctica	1
-Antarctica Sierra	1
-Nevadas the	1
-Reef Peking	1
-Peking (	1
-or Beijing	1
-Beijing )	1
-) Norway	1
-Norway Addis	1
-=======
 the gopher	1
 gopher </s>	1
 <s> Peking	1
-Peking or	1
+Peking (	1
 or Beijing	1
+Beijing )	1
 <s> Addis	1
->>>>>>> origin/refactor_ngram_gen
 Addis Ababa	1
 Ababa </s>	1
 <s> Georgetown	1
 Georgetown </s>	1
 Galveston Bay	1
-<<<<<<< HEAD
-Bay Mumbai	1
+<s> Mumbai	1
 Mumbai (	1
 ( Bombay	1
 Bombay )	1
-) Argentina	1
-Argentina Reykjavik	1
 Reykjavik ,	1
 , Iceland	1
-Iceland Atlantic	1
-Atlantic Brooklyn	1
-Brooklyn Lake	1
+<s> Atlantic	1
 Lake Manitoba	1
-Manitoba ANWR	1
+<s> ANWR	1
 ANWR (	1
 ( Arctic	1
 Arctic National	1
 National Wildlife	1
 Wildlife Refuge	1
 Refuge )	1
-) Nevada	1
-Nevada Pikes	1
-Peak Angel	1
-=======
-<s> Mumbai	1
-Mumbai Bombay	1
-Reykjavik Iceland	1
-<s> Atlantic	1
-Lake Manitoba	1
-<s> ANWR	1
-ANWR Arctic	1
-Arctic National	1
-National Wildlife	1
-Wildlife Refuge	1
-Refuge </s>	1
 <s> Angel	1
->>>>>>> origin/refactor_ngram_gen
 Angel Falls	1
 <s> Okinawa	1
 Okinawa </s>	1
@@ -13913,103 +11004,49 @@ Grotto </s>	1
 <s> Jordan	1
 Jordan River	1
 Canadian Shield	1
-<<<<<<< HEAD
-Shield Columbia	1
-Columbia Chile	1
-Argentina Yellowstone	1
-Yellowstone Turkey	1
-Turkey Chesapeake	1
-Bay Poland	1
-Poland Vatican	1
-City Thames	1
-Thames Erie	1
-Erie Scotland	1
-Scotland Giza	1
-Giza New	1
-Jersey New	1
-=======
 Shield </s>	1
 <s> Columbia	1
-Chile Argentina	1
 Yellowstone </s>	1
 <s> Erie	1
 <s> Giza	1
 Giza </s>	1
->>>>>>> origin/refactor_ngram_gen
 New Bedford	1
 Bedford </s>	1
 <s> Brunei	1
+Brunei </s>	1
 <s> Hellespont	1
 Hellespont </s>	1
 Christmas Island	1
-<<<<<<< HEAD
-Island Manitoba	1
-Manitoba Lake	1
-Champlain Trinidad	1
-Tobago Delaware	1
-Delaware China	1
-China Holland/The	1
+<s> Trinidad	1
+<s> Delaware	1
+<s> China	1
+<s> Holland/The	1
 Holland/The Netherlands	1
-Netherlands Africa	1
-Africa Colorado	1
-Springs Kauai	1
-Kauai Bolivia	1
-Bolivia Sri	1
+Kauai </s>	1
+Bolivia </s>	1
 Blue Nile	1
 Nile &	1
-Nile Winnipeg	1
 Winnipeg (	1
 ( ,	1
 , Manitoba	1
 Manitoba )	1
-) Lake	1
-Lake Managua	1
-Managua Phoenix	1
-Phoenix Somalia	1
-Somalia Staten	1
-Island Barbuda	1
-Barbuda (	1
-) Ecuador	1
-Ecuador ,	1
-Brazil ,	1
-Colombia Kansas	1
-City British	1
-Columbia Vermont	1
-Vermont Macedonia	1
-Macedonia Borneo	1
-Borneo (	1
-( Malaysia	1
-, Indonesia	1
-& Brunei	1
-Brunei )	1
-) Brooklyn	1
-Bridge the	1
-=======
-<s> Trinidad	1
-<s> Delaware	1
-<s> China	1
-<s> Netherlands	1
-Kauai </s>	1
-Bolivia </s>	1
-Blue Nile	1
-Nile the	1
-Winnipeg Manitoba	1
 Lake Managua	1
 Managua </s>	1
 <s> Staten	1
 <s> Barbuda	1
 Barbuda </s>	1
-of Ecuador	1
-Ecuador Brazil	1
-Brazil Colombia	1
+) Ecuador	1
+Ecuador ,	1
+Brazil ,	1
 <s> Kansas	1
 <s> Vermont	1
 <s> Borneo	1
-Borneo Malaysia	1
-Malaysia Indonesia	1
-Indonesia Brunei	1
+Borneo (	1
+( Malaysia	1
+, Indonesia	1
+& Brunei	1
+Brunei )	1
 Bridge </s>	1
->>>>>>> origin/refactor_ngram_gen
 the Four	1
 Four Corners	1
 Corners </s>	1
@@ -14025,24 +11062,12 @@ Philadelphia </s>	1
 Ellis Island	1
 <s> Bora	1
 Bora Bora	1
-<<<<<<< HEAD
-Bora Mozambique	1
-Mozambique California	1
-California Indiana	1
-Indiana Khartoum	1
-Khartoum Clingman	1
-Clingman 's	1
-'s Dome	1
-Dome the	1
-Sea Branson	1
-Branson Des	1
-=======
 Bora </s>	1
 <s> Clingman	1
-Clingman Dome	1
+Clingman 's	1
+'s Dome	1
 Dome </s>	1
 <s> Des	1
->>>>>>> origin/refactor_ngram_gen
 the Salt	1
 <s> Yugoslavia	1
 The Painted	1
@@ -14051,31 +11076,17 @@ Painted Desert	1
 Palatine Hill	1
 Hill </s>	1
 the Orinoco	1
-<<<<<<< HEAD
-Orinoco Galilee	1
-Galilee Florida	1
-Florida Greenland	1
-Greenland Sri	1
-Lanka (	1
-( Ceylon	1
-Ceylon )	1
-) Bikini	1
-Bikini Honshu	1
-Honshu Great	1
-Lake Buenos	1
-Aires the	1
-=======
 Orinoco </s>	1
 <s> Galilee	1
 Galilee </s>	1
-Lanka Ceylon	1
-Ceylon </s>	1
+Lanka (	1
+( Ceylon	1
+Ceylon )	1
 <s> Bikini	1
 Bikini </s>	1
 <s> Honshu	1
 Honshu </s>	1
 <s> Buenos	1
->>>>>>> origin/refactor_ngram_gen
 the Ganges	1
 Ganges </s>	1
 New Delhi	1
@@ -14116,48 +11127,24 @@ Independence </s>	1
 Sweden </s>	1
 The Fresh	1
 Fresh Prince	1
-<<<<<<< HEAD
 of Bel-Air	1
-Bel-Air Black	1
-Sea Polynesia	1
-Polynesia St.	1
-St. Helena	1
-Helena Negev	1
-Negev Alaska	1
-Peninsula Memphis	1
-Memphis Mauna	1
-=======
+Bel-Air </s>	1
 <s> Polynesia	1
 Polynesia </s>	1
-<s> Helena	1
+St. Helena	1
 Helena </s>	1
->>>>>>> origin/refactor_ngram_gen
 Mauna Loa	1
 Loa </s>	1
 Alberta or	1
 or Saskatchewan	1
-<<<<<<< HEAD
-Saskatchewan the	1
-Urals Afghanistan	1
-Afghanistan Canada	1
-Canada Java	1
-Java Stendhal	1
-Stendhal Norway	1
-Norway the	1
-Ocean Belize	1
-Belize Argentina	1
-Argentina (	1
-or Chile	1
-Chile )	1
-=======
 <s> Java	1
 Java </s>	1
 <s> Stendhal	1
 Stendhal </s>	1
 Belize </s>	1
-Argentina or	1
+Argentina (	1
 or Chile	1
->>>>>>> origin/refactor_ngram_gen
+Chile )	1
 the Seward	1
 <s> Newport	1
 Newport News	1
