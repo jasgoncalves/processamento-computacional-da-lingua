@@ -37,46 +37,46 @@ __music_bigram = None
 __science_bigram = None
 
 
-def ngram_load_data(file_name: str) -> Tuple[dict, dict, dict, dict, dict]:
+def ngram_load_data(file_name: str, count_folder : str) -> Tuple[dict, dict, dict, dict, dict]:
     return \
-        import_dataset_as_set(file_name, Label.GEOGRAPHY.name), \
-        import_dataset_as_set(file_name, Label.HISTORY.name), \
-        import_dataset_as_set(file_name, Label.LITERATURE.name), \
-        import_dataset_as_set(file_name, Label.MUSIC.name), \
-        import_dataset_as_set(file_name, Label.SCIENCE.name)
+        import_dataset_as_set(f'{count_folder}/{file_name}', Label.GEOGRAPHY.name), \
+        import_dataset_as_set(f'{count_folder}/{file_name}', Label.HISTORY.name), \
+        import_dataset_as_set(f'{count_folder}/{file_name}', Label.LITERATURE.name), \
+        import_dataset_as_set(f'{count_folder}/{file_name}', Label.MUSIC.name), \
+        import_dataset_as_set(f'{count_folder}/{file_name}', Label.SCIENCE.name)
 
 
 def import_dataset_as_set(file_name: str, label: Label):
-    df = import_dataset(f'{args.counts_folder}/{file_name}{label}{EXTENSION}', COLUMNS)
+    df = import_dataset(f'{file_name}{label}{EXTENSION}', COLUMNS)
     return {row[0]: row[1] for row in df.values.tolist()}
 
 
-def ngram_classification(sentence: str, ngram: Ngram, vocabulary_size: int = 0) -> str:
+def ngram_classification(sentence: str, ngram: Ngram, vocabulary_size: int = 0, normalize : bool = False) -> str:
     value, label, new_value = \
-        get_calculation(sentence, Label.GEOGRAPHY, ngram, vocabulary_size), \
+        get_calculation(sentence, Label.GEOGRAPHY, ngram, vocabulary_size, normalize), \
         Label.GEOGRAPHY.name, \
-        get_calculation(sentence, Label.HISTORY, ngram, vocabulary_size)
+        get_calculation(sentence, Label.HISTORY, ngram, vocabulary_size, normalize)
     if new_value > value:
         value, label = new_value, Label.HISTORY.name
-    new_value = get_calculation(sentence, Label.LITERATURE, ngram, vocabulary_size)
+    new_value = get_calculation(sentence, Label.LITERATURE, ngram, vocabulary_size, normalize)
     if new_value > value:
         value, label = new_value, Label.LITERATURE.name
-    new_value = get_calculation(sentence, Label.MUSIC, ngram, vocabulary_size)
+    new_value = get_calculation(sentence, Label.MUSIC, ngram, vocabulary_size, normalize)
     if new_value > value:
         value, label = new_value, Label.MUSIC.name
-    new_value = get_calculation(sentence, Label.SCIENCE, ngram, vocabulary_size)
+    new_value = get_calculation(sentence, Label.SCIENCE, ngram, vocabulary_size, normalize)
     if new_value > value:
         value, label = new_value, Label.SCIENCE.name
     return label
 
 
-def get_calculation(sentence: str, label: Label, ngram: Ngram, vocabulary_size: int = 0):
+def get_calculation(sentence: str, label: Label, ngram: Ngram, vocabulary_size: int = 0, normalize : bool = False):
     if ngram == ngram.UNIGRAM:
-        return unigram_calculation(sentence, label)
+        return unigram_calculation(sentence, label, normalize)
     elif ngram == ngram.BIGRAM:
-        return bigram_calculation(sentence, label)
+        return bigram_calculation(sentence, label, normalize)
     elif ngram == ngram.BIGRAM_SMOOTHING:
-        return bigram_calculation(sentence, label, True, vocabulary_size)
+        return bigram_calculation(sentence, label, True, vocabulary_size, normalize)
     else:
         raise ArgumentError(f"Invalid argument value {ngram.name}")
 
@@ -133,16 +133,15 @@ def bigram_likelihood(unigram_count: int, bigram_count: int, smooth: bool, vocab
     return value
 
 def transform_sentence(sentence: List[str]) -> List[str]:
-    for index, word in enumerate(sentence):
-        sentence[index] = apply_transform_functions(word)
+    sentence = apply_transform_functions(sentence)
     return sentence
 
 
-def unigram_calculation(sentence: str, label: Label) -> float:
+def unigram_calculation(sentence: str, label: Label, normalize : bool = False) -> float:
     unigram_dataframe = get_set(label, Ngram.UNIGRAM)
     calculation = 0
     tokenized_sentence = word_tokenize(sentence, language='english')
-    if args.counts_folder == "counts2":
+    if normalize:
         tokenized_sentence = transform_sentence(tokenized_sentence)
     for word in tokenized_sentence:
         word_count = unigram_dataframe.get(word, 0)
@@ -150,13 +149,13 @@ def unigram_calculation(sentence: str, label: Label) -> float:
     return calculation
 
 
-def bigram_calculation(sentence: str, label: Label, smooth: bool = False, vocabulary_size: int = 0) -> float:
+def bigram_calculation(sentence: str, label: Label, smooth: bool = False, vocabulary_size: int = 0, normalize : bool = False) -> float:
     unigram_dataframe = get_set(label, Ngram.UNIGRAM)
     bigram_dataframe = get_set(label, Ngram.BIGRAM)
     vocabulary = vocabulary_size if smooth else len(unigram_dataframe)
     calculation = 0
     tokenized_sentence = word_tokenize(sentence, language='english')
-    if args.counts_folder == "counts2":
+    if normalize:
         tokenized_sentence = transform_sentence(tokenized_sentence)
     for bigram in nltk_ngrams(tokenized_sentence, 2):
         unigram_count = unigram_dataframe.get(bigram[0], 0)
@@ -174,25 +173,25 @@ def get_vocabulary_size():
     return len(unigram_dict)
 
 
-def unigram_load_data() -> Tuple[dict, dict, dict, dict, dict]:
-    return ngram_load_data(UNIGRAM_FILE_NAME)
+def unigram_load_data(count_folder : str):
+    return ngram_load_data(UNIGRAM_FILE_NAME, count_folder)
 
 
-def bigram_load_data() -> Tuple[dict, dict, dict, dict, dict]:
-    return ngram_load_data(BIGRAM_FILE_NAME)
+def bigram_load_data(count_folder : str):
+    return ngram_load_data(BIGRAM_FILE_NAME, count_folder)
 
 
 if __name__ == "__main__":
-    PARSER = argparse.ArgumentParser(description="Bla bla bla bla ...")
-    PARSER.add_argument("classification_type", default=Ngram.UNIGRAM, help="UNIGRAM, BIGRAM, BIGRAM_SMOOTHING")
-    PARSER.add_argument('counts_folder', help='Counts files folder')
-    PARSER.add_argument('test_file', help='Test dataset file')
-    args = PARSER.parse_args()
+    # PARSER = argparse.ArgumentParser(description="Bla bla bla bla ...")
+    # PARSER.add_argument("classification_type", default=Ngram.UNIGRAM, help="UNIGRAM, BIGRAM, BIGRAM_SMOOTHING")
+    # PARSER.add_argument('counts_folder', help='Counts files folder')
+    # PARSER.add_argument('test_file', help='Test dataset file')
+    # args = PARSER.parse_args()
 
-    __geography_unigram, __history_unigram, __literature_unigram, __music_unigram, __science_unigram = unigram_load_data()
-    __geography_bigram, __history_bigram, __literature_bigram, __music_bigram, __science_bigram = bigram_load_data()
+    __geography_unigram, __history_unigram, __literature_unigram, __music_unigram, __science_unigram = unigram_load_data(args.counts_folder)
+    __geography_bigram, __history_bigram, __literature_bigram, __music_bigram, __science_bigram = bigram_load_data(args.counts_folder)
     vocabulary_size = get_vocabulary_size()
 
     evaluation_dataframe = import_dataset(f'{DATA_PATH}{args.test_file}', DATA_COLUMNS)
     evaluation_dataframe.questions.apply(
-        lambda question: print(ngram_classification(question, Ngram[args.classification_type], vocabulary_size)))
+        lambda question: print(ngram_classification(question, Ngram[args.classification_type], vocabulary_size, True if args.counts_folder == 'count2' else False)))
