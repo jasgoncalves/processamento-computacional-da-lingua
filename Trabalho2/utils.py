@@ -1,9 +1,9 @@
 import os
 from typing import List
-
 import nltk
 import chardet
 import pandas as pd
+import enum
 
 PROJECT_PATH = os.path.dirname("Trabalho2")
 DATA_PATH = os.path.join(PROJECT_PATH, "data/")
@@ -17,12 +17,20 @@ TRAIN_FILE_NAME = "train"
 UNIGRAM_FILE_NAME = 'unigrams_'
 BIGRAM_FILE_NAME = 'bigrams_'
 
+class Ngram(enum.Enum):
+    UNIGRAM = 0,
+    BIGRAM = 1,
+    BIGRAM_SMOOTHING = 2
+
 def to_lemma(word : str) -> str: 
     lemmatizer = nltk.WordNetLemmatizer()
     return lemmatizer.lemmatize(word, pos='v')
 
-def to_lower(word: str) -> str: return word.lower()
-def to_year(word: str) -> str: return "_YEAR_" if word.isnumeric() and len(word) == 4 else word
+def to_lower(word: str) -> str: 
+    return word.lower()
+
+def to_year(word: str) -> str: 
+    return "_YEAR_" if word.isnumeric() and len(word) == 4 else word
 
 
 MAPPER_FUNCTIONS = [to_lower, to_year, to_lemma]
@@ -35,8 +43,8 @@ def import_dataset(path: str, columns: str) -> pd.DataFrame:
 
 
 def nltk_ngrams(tokens_list: List[str], ngram_order: int):
-    return nltk.ngrams(tokens_list, ngram_order, pad_left=True, pad_right=True, left_pad_symbol='<s>',
-                       right_pad_symbol='</s>')
+    return nltk.ngrams(tokens_list, ngram_order)
+    # , pad_left=True, pad_right=True, left_pad_symbol='<s>', right_pad_symbol='</s>')
 
 
 def apply_transform_functions(word: str) -> str:

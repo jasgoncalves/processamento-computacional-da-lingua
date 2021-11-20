@@ -1,17 +1,14 @@
-from typing import List, Dict, Any
-
 import nltk
 from pandas import DataFrame
-
 from utils import DELIMITER, OUTPUT_PATH_TASK1, DATA_PATH, INITIAL_COLUMNS, EXTENSION, TRAIN_FILE_NAME, \
     UNIGRAM_FILE_NAME, BIGRAM_FILE_NAME, import_dataset, nltk_ngrams
 
-nltk.download('punkt')
+try:
+    nltk.data.find('tokenizers\punkt')
+except:
+    nltk.download('punkt')
 
-def clean_words(words: list[str]) -> list[str]:
-    return [word for word in words if word.isalnum()]
-
-def get_words_by_label(df: DataFrame) -> dict[Any, list]:
+def get_words_by_label(df: DataFrame) -> dict:
     label_words = dict()
     unique_labels = df.labels.unique()
 
@@ -22,12 +19,12 @@ def get_words_by_label(df: DataFrame) -> dict[Any, list]:
             question_words = nltk.word_tokenize(question, language='english')
             label_words[label].extend(question_words)
         for answer in label_lines.answers:
-            answer_words = nltk.word_tokenize(clean_words(answer), language='english')
+            answer_words = nltk.word_tokenize(answer, language='english')
             label_words[label].extend(answer_words)
 
     return label_words
 
-def generate_ngrams(words_dict: dict[Any, list], ngram_order: int, output_path: str = OUTPUT_PATH_TASK1):
+def generate_ngrams(words_dict: dict, ngram_order: int, output_path: str = OUTPUT_PATH_TASK1):
     if ngram_order == 1:
         output_file = UNIGRAM_FILE_NAME
     elif ngram_order == 2:

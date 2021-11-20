@@ -7,7 +7,7 @@ from numpy import log10
 from nltk import word_tokenize, download
 
 from utils import BIGRAM_FILE_NAME, UNIGRAM_FILE_NAME, EXTENSION, \
-    import_dataset, nltk_ngrams, DATA_COLUMNS, DATA_PATH, apply_transform_functions
+    import_dataset, nltk_ngrams, DATA_COLUMNS, DATA_PATH, apply_transform_functions, Ngram
 
 download('punkt')
 
@@ -18,12 +18,6 @@ class Label(enum.Enum):
     LITERATURE = 2,
     MUSIC = 3,
     SCIENCE = 4
-
-
-class Ngram(enum.Enum):
-    UNIGRAM = 0,
-    BIGRAM = 1,
-    BIGRAM_SMOOTHING = 2
 
 
 COLUMNS = ['word', 'freq']
@@ -137,7 +131,6 @@ def bigram_likelihood(unigram_count: int, bigram_count: int, smooth: bool, vocab
         ((bigram_count + 1) / (unigram_count + vocabulary) if unigram_count + vocabulary != 0 else 0) if smooth else
         (bigram_count / unigram_count if unigram_count != 0 else 0))
     return value
-
 
 def transform_sentence(sentence: List[str]) -> List[str]:
     for index, word in enumerate(sentence):
