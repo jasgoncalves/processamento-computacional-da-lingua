@@ -1,10 +1,9 @@
-from typing import List, Dict, Any
+from typing import Dict, Any
 
 from nltk import download, word_tokenize, FreqDist
-from nltk.lm.preprocessing import pad_both_ends, flatten
-from nltk.util import ngrams
-import pandas as pd
-from pandas import DataFrame
+from nltk.lm.preprocessing import flatten
+
+from pandas import DataFrame, isna
 from utils import DELIMITER, OUTPUT_PATH_TASK1, DATA_PATH, INITIAL_COLUMNS, EXTENSION, TRAIN_FILE_NAME, \
     UNIGRAM_FILE_NAME, BIGRAM_FILE_NAME, import_dataset, nltk_ngrams, EVAL_FILE_NAME
 
@@ -19,11 +18,11 @@ def get_words_by_label(df: DataFrame) -> Dict[Any, list]:
         label_words[label] = []
         label_lines = df[df.labels == label]
         for question in label_lines.questions:
-            if not pd.isna(question):
+            if not isna(question):
                 question_words = word_tokenize(question, language='english')
                 label_words[label].append(question_words)
         for answer in label_lines.answers:
-            if not pd.isna(answer):
+            if not isna(answer):
                 answer_words = word_tokenize(answer, language='english')
                 label_words[label].append(answer_words)
 
