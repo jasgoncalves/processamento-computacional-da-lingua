@@ -66,4 +66,3 @@ if __name__ == "__main__":
     df_grammar = read_grammar(GRAMMAR_PATH)
     lexical_grammar = create_lexical_grammar(df_grammar)
     syntactic_grammar = create_syntactic_grammar(df_grammar, lexical_grammar)
-    print(abc)
