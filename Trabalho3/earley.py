@@ -1,4 +1,9 @@
 import os
+
+from constituent import Constituent
+from rule import Rule
+from state import State
+from chart import Chart
 from grammar import Grammar
 
 
@@ -11,9 +16,21 @@ TERMINALS = ["Art", "Noun", "Prep", "Verb", "Adj"]
 class Early:
     def __init__(self, grammar: Grammar):
         self.grammar = grammar
+        self.charts = []
+        self.charts.append(Chart())
+
+    def parse(self):
+        self.create_initial_state()
+
+    def create_initial_state(self):
+        initial_rule = Rule(Constituent("ROOT", True), [Constituent("S", False)])
+        initial_state = State(initial_rule, (0, 0))
+        self.charts[0].enqueue_state(initial_state)
 
 
 if __name__ == "__main__":
     grammar = Grammar(GRAMMAR_PATH, TERMINALS, NON_TERMINALS)
     grammar.create_lexical_grammar()
     grammar.generate_syntactic_grammar()
+
+

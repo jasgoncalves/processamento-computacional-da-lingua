@@ -16,7 +16,8 @@ def read_grammar(path: str) -> pd.DataFrame:
 
 
 class Grammar:
-    def __init__(self, grammar_path: str, terminals: List[str], non_terminals: List[str], rules: List[Rule] = None, lexical_rules: List[Constituent] = None):
+    def __init__(self, grammar_path: str, terminals: List[str], non_terminals: List[str], rules: List[Rule] = None,
+                 lexical_rules: List[Constituent] = None):
         self.non_terminals = non_terminals
         self.terminals = terminals
         if rules is None:
