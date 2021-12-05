@@ -13,8 +13,9 @@ NON_TERMINALS = ["S", "NP", "VP", "PP"]
 TERMINALS = ["Art", "Noun", "Prep", "Verb", "Adj"]
 
 
-class Early:
-    def __init__(self, grammar: Grammar):
+class Earley:
+    def __init__(self, sentence: str, grammar: Grammar):
+        self.sentence = sentence.split(" ")
         self.grammar = grammar
         self.charts = []
         self.charts.append(Chart())
@@ -32,5 +33,5 @@ if __name__ == "__main__":
     grammar = Grammar(GRAMMAR_PATH, TERMINALS, NON_TERMINALS)
     grammar.create_lexical_grammar()
     grammar.generate_syntactic_grammar()
-
-
+    earley = Earley("A infalibilidade papal é um dogma", grammar)
+    earley.parse()
