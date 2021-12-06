@@ -15,3 +15,6 @@ class Chart:
 
     def advance_state(self):
         self.current_state = self.current_state + 1
+
+    def is_chart_completed(self):
+        return self.current_state > len(self.states) - 1

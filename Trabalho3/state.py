@@ -12,3 +12,9 @@ class State:
         self.rule = rule
         self.position = position
         self.backpointer = backpointer
+
+    def is_complete(self):
+        return self.rule.has_terminated()
+
+    def next_constituent(self):
+        return self.rule.get_current_constituent()

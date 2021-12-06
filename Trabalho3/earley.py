@@ -17,16 +17,34 @@ class Earley:
     def __init__(self, sentence: str, grammar: Grammar):
         self.sentence = sentence.split(" ")
         self.grammar = grammar
-        self.charts = []
-        self.charts.append(Chart())
+        self.charts = [Chart() for _ in self.sentence]
 
     def parse(self):
         self.create_initial_state()
+
+        for index, value in enumerate(self.sentence):
+            for state in self.charts[index].states:
+                if not state.is_complete():
+                    if not state.next_constituent().is_terminal:
+                        self.predictor(state, index, grammar)
+                    else:
+                        self.scanner(state, index)
+                else:
+                    self.completer(state, index)
 
     def create_initial_state(self):
         initial_rule = Rule(Constituent("ROOT", True), [Constituent("S", False)])
         initial_state = State(initial_rule, (0, 0))
         self.charts[0].enqueue_state(initial_state)
+
+    def predictor(self, state: State, index: int, grammar: Grammar):
+        pass
+
+    def scanner(self, state: State, index: int):
+        pass
+
+    def completer(self, state: State, index: int):
+        pass
 
 
 if __name__ == "__main__":
