@@ -38,7 +38,13 @@ class Earley:
         self.charts[0].enqueue_state(initial_state)
 
     def predictor(self, state: State, index: int, grammar: Grammar):
-        pass
+        chart = self.charts[index]
+        next_constituent = state.next_constituent()
+        rules = grammar.get_syntactic_rules_by_constituent(next_constituent)
+        for rule in rules:
+            if not chart.has_rule(rule):
+                new_state = State(rule, (index, index))
+                chart.enqueue_state(new_state)
 
     def scanner(self, state: State, index: int):
         pass
