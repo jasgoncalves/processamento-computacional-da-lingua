@@ -1,3 +1,4 @@
+import copy
 import os
 
 from constituent import Constituent
@@ -47,16 +48,26 @@ class Earley:
                 chart.enqueue_state(new_state)
 
     def scanner(self, state: State, index: int):
-        chart = self.charts[index + 1]
+        next_chart = self.charts[index + 1]
         next_constituent = state.next_constituent()
         if self.sentence[index] in next_constituent.words:
             word_constituent = Constituent(self.sentence[index], True)
             new_rule = Rule(next_constituent, [word_constituent], 1)
             new_state = State(new_rule, (index, index + 1))
-            chart.enqueue_state(new_state)
+            next_chart.enqueue_state(new_state)
 
     def completer(self, state: State, index: int):
-        pass
+        prev_chart = self.charts[state.position[0]]
+        curr_chart = self.charts[index]
+        final_constituent = state.final_constituent()
+        for state in prev_chart.states:
+            if state.is_awaiting_constituent(final_constituent):
+                old_rule = state.rule
+                new_rule = Rule(old_rule.left_hs, old_rule.right_hs, old_rule.current_state + 1)
+                new_backpointer = copy.deepcopy(state.backpointer)
+                new_backpointer.append(state)
+                new_state = State(new_rule, (state.position[0], index), new_backpointer)
+                curr_chart.enqueue_state(new_state)
 
 
 if __name__ == "__main__":
