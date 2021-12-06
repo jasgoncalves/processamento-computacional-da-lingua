@@ -1,21 +1,21 @@
 S	.	NP	VP
-NP	.	N
+NP	.	Noun
 NP	.	NP	PP
-NP	.	Art	N
-NP	.	Art	Adj	N
-NP	.	Art	N	Adj
-VP	.	V	NP
+NP	.	Art	Noun
+NP	.	Art	Adj	Noun
+NP	.	Art	Noun	Adj
+VP	.	Verb	NP
 PP	.	Prep	NP
 Art	.	os
 Art	.	um
 Art	.	a
-N	.	autores
-N	.	desejo
-N	.	acórdão
-N	.	infalibilidade
-N	.	dogma
+Noun	.	autores
+Noun	.	desejo
+Noun	.	acórdão
+Noun	.	infalibilidade
+Noun	.	dogma
 Prep	.	do
-V	.	revelam
-V	.	é
+Verb	.	revelam
+Verb	.	é
 Adj	.	louvável
 Adj	.	papal
