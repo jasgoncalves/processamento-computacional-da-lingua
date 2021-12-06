@@ -47,7 +47,13 @@ class Earley:
                 chart.enqueue_state(new_state)
 
     def scanner(self, state: State, index: int):
-        pass
+        chart = self.charts[index + 1]
+        next_constituent = state.next_constituent()
+        if self.sentence[index] in next_constituent.words:
+            word_constituent = Constituent(self.sentence[index], True)
+            new_rule = Rule(next_constituent, [word_constituent], 1)
+            new_state = State(new_rule, (index, index + 1))
+            chart.enqueue_state(new_state)
 
     def completer(self, state: State, index: int):
         pass
