@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from typing import List
 
 
@@ -8,3 +10,6 @@ class Constituent:
         self.representation = representation
         self.is_terminal = is_terminal
         self.words = words
+
+    def __eq__(self, other: Constituent):
+        return self.representation.__eq__(other.representation) and self.is_terminal == other.is_terminal

@@ -1,5 +1,6 @@
 from typing import List
 
+from rule import Rule
 from state import State
 
 
@@ -18,3 +19,9 @@ class Chart:
 
     def is_chart_completed(self):
         return self.current_state > len(self.states) - 1
+
+    def has_rule(self, rule: Rule) -> bool:
+        for state in self.states:
+            if state.rule.__eq__(rule):
+                return True
+        return False

@@ -57,3 +57,11 @@ class Grammar:
                         rhs_const.append(curr_const)
 
                 self.rules.append(Rule(lhs_const, rhs_const))
+
+    def get_syntactic_rules_by_constituent(self, const: Constituent) -> List[Rule]:
+        const_rules = []
+        for rule in self.rules:
+            if rule.left_hs.__eq__(const):
+                const_rules.append(rule)
+
+        return const_rules
