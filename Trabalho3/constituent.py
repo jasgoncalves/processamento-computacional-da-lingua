@@ -13,3 +13,6 @@ class Constituent:
 
     def __eq__(self, other: Constituent):
         return self.representation.__eq__(other.representation) and self.is_terminal == other.is_terminal
+
+    def __str__(self):
+        return self.representation

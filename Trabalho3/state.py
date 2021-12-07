@@ -25,3 +25,6 @@ class State:
 
     def final_constituent(self) -> Constituent:
         return self.rule.left_hs
+
+    def __str__(self):
+        return self.rule.__str__() + " " + self.position.__str__()

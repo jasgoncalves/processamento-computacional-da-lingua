@@ -34,8 +34,6 @@ class Earley:
                 else:
                     self.completer(state, index)
 
-        print("abc")
-
     def create_initial_state(self):
         initial_rule = Rule(Constituent("ROOT", True), [Constituent("S", False)])
         initial_state = State(initial_rule, (0, 0))
