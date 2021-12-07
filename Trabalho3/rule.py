@@ -29,3 +29,7 @@ class Rule:
             right_hs_eq = right_hs_eq and (const.__eq__(other.right_hs[index]))
 
         return self.left_hs.__eq__(other.left_hs) and right_hs_eq and self.current_state == other.current_state
+
+    def __str__(self):
+
+        return self.left_hs.__str__() + " -> " + " ".join([const.__str__() for const in self.right_hs])
