@@ -21,7 +21,7 @@ class State:
         return self.rule.get_current_constituent()
 
     def is_awaiting_constituent(self, const: Constituent) -> bool:
-        return self.rule.get_current_constituent().__eq__(const)
+        return (not self.rule.has_terminated()) and self.rule.get_current_constituent().__eq__(const)
 
     def final_constituent(self) -> Constituent:
         return self.rule.left_hs
