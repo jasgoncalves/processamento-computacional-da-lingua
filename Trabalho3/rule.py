@@ -20,6 +20,9 @@ class Rule:
     def has_terminated(self) -> bool:
         return self.current_state > len(self.right_hs) - 1
 
+    def is_awaiting_constituent(self, const: Constituent):
+        return
+
     def __eq__(self, other: Rule):
         right_hs_eq = True
         for index, const in enumerate(self.right_hs):

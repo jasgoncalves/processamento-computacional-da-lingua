@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from typing import Tuple, List
 
+from constituent import Constituent
 from rule import Rule
 
 
@@ -13,8 +14,14 @@ class State:
         self.position = position
         self.backpointer = backpointer
 
-    def is_complete(self):
+    def is_complete(self) -> bool:
         return self.rule.has_terminated()
 
-    def next_constituent(self):
+    def next_constituent(self) -> Constituent:
         return self.rule.get_current_constituent()
+
+    def is_awaiting_constituent(self, const: Constituent) -> bool:
+        return (not self.rule.has_terminated()) and self.rule.get_current_constituent().__eq__(const)
+
+    def final_constituent(self) -> Constituent:
+        return self.rule.left_hs
