@@ -3,7 +3,7 @@ from typing import List
 import chardet
 import pandas as pd
 
-from Trabalho3.constituent import Constituent
+from constituent import Constituent
 from rule import Rule
 
 COLUMNS = ["lhs", "sep", "param0", "param1", "param2"]
