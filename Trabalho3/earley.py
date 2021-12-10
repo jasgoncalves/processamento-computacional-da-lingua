@@ -8,8 +8,7 @@ from chart import Chart
 from grammar import Grammar
 
 
-# PROJECT_PATH = os.path.dirname("Trabalho3")
-PROJECT_PATH = "Trabalho3"
+PROJECT_PATH = os.path.dirname("Trabalho3")
 GRAMMAR_PATH = os.path.join(PROJECT_PATH, "grammar.txt")
 NON_TERMINALS = ["S", "NP", "VP", "PP"]
 TERMINALS = ["Art", "Noun", "Prep", "Verb", "Adj"]
