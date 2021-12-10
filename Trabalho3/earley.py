@@ -7,8 +7,7 @@ from state import State
 from chart import Chart
 from grammar import Grammar
 
-
-PROJECT_PATH = os.path.dirname("Trabalho3")
+PROJECT_PATH = "Trabalho3"
 GRAMMAR_PATH = os.path.join(PROJECT_PATH, "grammar.txt")
 NON_TERMINALS = ["S", "NP", "VP", "PP"]
 TERMINALS = ["Art", "Noun", "Prep", "Verb", "Adj"]
@@ -23,9 +22,10 @@ class Earley:
 
     def parse(self):
         self.create_initial_state()
-
-        for index in range(0, len(self.charts) - 1):
+        i = 0 
+        for index in range(0, len(self.charts)):
             for state in self.charts[index].states:
+                print(f'state: S{i} rule: {state} position:{index} back pointer:{[(str(state_bp.rule), state_bp.position) for state_bp in state.backpointer]}')
                 if not state.is_complete():
                     if not state.next_constituent().is_terminal:
                         self.predictor(state, index, grammar)
@@ -33,6 +33,7 @@ class Earley:
                         self.scanner(state, index)
                 else:
                     self.completer(state, index)
+                i += 1
 
     def create_initial_state(self):
         initial_rule = Rule(Constituent("ROOT", True), [Constituent("S", False)])
@@ -49,14 +50,15 @@ class Earley:
                 chart.enqueue_state(new_state)
 
     def scanner(self, state: State, index: int):
-        next_chart = self.charts[index + 1]
-        next_constituent = state.next_constituent()
-        if self.sentence[index] in next_constituent.words:
-            word_constituent = Constituent(self.sentence[index], True)
-            new_rule = Rule(next_constituent, [word_constituent], 1)
-            new_state = State(new_rule, (index, index + 1))
-            if not next_chart.has_rule(new_rule):
-                next_chart.enqueue_state(new_state)
+        if(index < len(self.charts) - 1):
+            next_chart = self.charts[index + 1]
+            next_constituent = state.next_constituent()
+            if self.sentence[index] in next_constituent.words:
+                word_constituent = Constituent(self.sentence[index], True)
+                new_rule = Rule(next_constituent, [word_constituent], 1)
+                new_state = State(new_rule, (index, index + 1))
+                if not next_chart.has_rule(new_rule):
+                    next_chart.enqueue_state(new_state)
 
     def completer(self, state: State, index: int):
         prev_chart = self.charts[state.position[0]]
