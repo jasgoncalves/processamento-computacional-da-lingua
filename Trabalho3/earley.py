@@ -25,7 +25,7 @@ class Earley:
     def parse(self):
         self.create_initial_state()
 
-        for index in range(0, len(self.sentence)):
+        for index in range(0, len(self.charts)):
             for state in self.charts[index].states:
                 if not state.is_complete():
                     if not state.next_constituent().is_terminal:
